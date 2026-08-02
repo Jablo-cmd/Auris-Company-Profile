@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(touch:*)",
+      "Bash(wc:*)",
+      "Bash(tree:*)",
+      "Read(//workspaces/Auris-Company-Profile/**)",
+      "Edit(//workspaces/Auris-Company-Profile/**)",
+      "Write(//workspaces/Auris-Company-Profile/**)"
+    ]
+  }
+}
