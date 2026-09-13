@@ -5,7 +5,7 @@ part: "Four — Technical Capabilities"
 pages: [63]
 archetype: C
 words_target: 420
-words_actual: 411
+words_actual: 178
 figures: []
 tables: []
 icons: ["fa-drafting-compass"]

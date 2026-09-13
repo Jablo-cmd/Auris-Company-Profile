@@ -5,7 +5,7 @@ part: "Four — Technical Capabilities"
 pages: [72]
 archetype: G
 words_target: 160
-words_actual: 149
+words_actual: 89
 figures: []
 tables: ["tbl-4.1-capability-maturity", "tbl-4.2-technology-selection-criteria"]
 icons: ["fa-table-list"]

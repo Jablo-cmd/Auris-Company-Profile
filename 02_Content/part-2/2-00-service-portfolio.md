@@ -5,7 +5,7 @@ part: "Two — Services"
 pages: [24, 25]
 archetype: F
 words_target: 380
-words_actual: 384
+words_actual: 229
 figures: ["fig-2.0-service-taxonomy"]
 tables: []
 icons: ["fa-grid-2-plus"]

@@ -5,7 +5,7 @@ part: "Two — Services"
 pages: [36, 37]
 archetype: H
 words_target: 660
-words_actual: 638
+words_actual: 457
 figures: []
 tables: []
 icons: ["fa-mobile-screen"]

@@ -5,7 +5,7 @@ part: "Four — Technical Capabilities"
 pages: [66]
 archetype: C
 words_target: 420
-words_actual: 405
+words_actual: 148
 figures: []
 tables: []
 icons: ["fa-infinity"]

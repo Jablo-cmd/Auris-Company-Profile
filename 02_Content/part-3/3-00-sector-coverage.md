@@ -5,7 +5,7 @@ part: "Three — Industries"
 pages: [44, 45]
 archetype: F
 words_target: 380
-words_actual: 371
+words_actual: 221
 figures: ["fig-3.0-sector-service-matrix"]
 tables: []
 icons: ["fa-layer-group"]

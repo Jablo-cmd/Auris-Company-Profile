@@ -5,7 +5,7 @@ part: "Two — Services"
 pages: [38, 39]
 archetype: H
 words_target: 660
-words_actual: 634
+words_actual: 494
 figures: []
 tables: []
 icons: ["fa-pen-ruler"]

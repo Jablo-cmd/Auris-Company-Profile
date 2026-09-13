@@ -5,7 +5,7 @@ part: "Three — Industries"
 pages: [58]
 archetype: G
 words_target: 160
-words_actual: 152
+words_actual: 96
 figures: []
 tables: ["tbl-3.1-procurement-routes"]
 icons: ["fa-file-signature"]

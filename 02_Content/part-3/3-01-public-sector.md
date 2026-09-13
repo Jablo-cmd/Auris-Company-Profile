@@ -5,7 +5,7 @@ part: "Three — Industries"
 pages: [46, 47]
 archetype: D
 words_target: 800
-words_actual: 792
+words_actual: 414
 figures: []
 tables: []
 icons: ["fa-landmark", "fa-city", "fa-building-flag"]

@@ -5,7 +5,7 @@ part: "Three — Industries"
 pages: [50, 51]
 archetype: D
 words_target: 800
-words_actual: 758
+words_actual: 365
 figures: []
 tables: []
 icons: ["fa-building-columns", "fa-umbrella"]

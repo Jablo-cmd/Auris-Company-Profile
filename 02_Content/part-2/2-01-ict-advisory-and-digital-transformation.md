@@ -5,7 +5,7 @@ part: "Two — Services"
 pages: [26, 27]
 archetype: H
 words_target: 660
-words_actual: 668
+words_actual: 570
 figures: []
 tables: []
 icons: ["fa-compass-drafting"]

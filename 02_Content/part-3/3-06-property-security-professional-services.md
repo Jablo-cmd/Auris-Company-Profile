@@ -5,7 +5,7 @@ part: "Three — Industries"
 pages: [56, 57]
 archetype: D
 words_target: 800
-words_actual: 779
+words_actual: 490
 figures: []
 tables: []
 icons: ["fa-house-chimney", "fa-user-shield", "fa-briefcase", "fa-store"]

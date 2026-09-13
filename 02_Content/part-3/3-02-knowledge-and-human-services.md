@@ -5,7 +5,7 @@ part: "Three — Industries"
 pages: [48, 49]
 archetype: D
 words_target: 800
-words_actual: 761
+words_actual: 359
 figures: []
 tables: []
 icons: ["fa-graduation-cap", "fa-hospital"]

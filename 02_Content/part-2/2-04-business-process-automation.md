@@ -5,7 +5,7 @@ part: "Two — Services"
 pages: [32, 33]
 archetype: H
 words_target: 660
-words_actual: 647
+words_actual: 464
 figures: []
 tables: []
 icons: ["fa-gears"]

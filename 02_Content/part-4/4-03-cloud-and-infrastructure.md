@@ -5,7 +5,7 @@ part: "Four — Technical Capabilities"
 pages: [64]
 archetype: C
 words_target: 420
-words_actual: 408
+words_actual: 174
 figures: []
 tables: []
 icons: ["fa-cloud"]

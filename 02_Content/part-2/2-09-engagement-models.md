@@ -5,7 +5,7 @@ part: "Two — Services"
 pages: [42]
 archetype: G
 words_target: 160
-words_actual: 158
+words_actual: 115
 figures: []
 tables: ["tbl-2.1-engagement-models"]
 icons: ["fa-handshake"]

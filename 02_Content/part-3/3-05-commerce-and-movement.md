@@ -5,7 +5,7 @@ part: "Three — Industries"
 pages: [54, 55]
 archetype: D
 words_target: 800
-words_actual: 748
+words_actual: 343
 figures: []
 tables: []
 icons: ["fa-cart-shopping", "fa-truck-fast", "fa-route"]

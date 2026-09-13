@@ -5,7 +5,7 @@ part: "Four — Technical Capabilities"
 pages: [69]
 archetype: C
 words_target: 420
-words_actual: 396
+words_actual: 143
 figures: []
 tables: []
 icons: ["fa-gears"]

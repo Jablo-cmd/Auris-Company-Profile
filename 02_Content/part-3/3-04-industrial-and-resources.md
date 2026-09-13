@@ -5,7 +5,7 @@ part: "Three — Industries"
 pages: [52, 53]
 archetype: D
 words_target: 800
-words_actual: 774
+words_actual: 441
 figures: []
 tables: []
 icons: ["fa-gem", "fa-industry", "fa-helmet-safety"]

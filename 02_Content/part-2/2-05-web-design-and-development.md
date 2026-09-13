@@ -5,12 +5,12 @@ part: "Two — Services"
 pages: [34, 35]
 archetype: H
 words_target: 660
-words_actual: 642
+words_actual: 537
 figures: []
 tables: []
 icons: ["fa-globe"]
 images: ["img-p034-web-development"]
-tokens: ["[[TECH_STACK_WEB]]", "[[PROOF_WEB]]"]
+tokens: ["[[TECH_STACK_WEB]]"]
 status: draft
 ---
 
@@ -112,10 +112,25 @@ universal requirement rather than a sector-specific one.
 
 ---
 
+## Fact callout (lower recto)
+
+> **Pro Energy Solutions** — a corporate website built with the same discipline described on this
+> page: responsive across device sizes, a technical SEO foundation (structured metadata, XML sitemap,
+> robots directives), and performance measures including lazy-loaded imagery and explicit image
+> dimensions. Completed and live. Full account in 7.10.
+
+---
+
 ## Production notes
 
-- **Fact callout, lower recto:** [[PROOF_WEB]] — real delivered example, per Fact Register **C2**
-  (🔴 critical, unresolved). Left open.
+- **Fact callout, lower recto — resolved 2026-09-13, Stage 8A.** Previously an open
+  `[[PROOF_WEB]]` token pending Fact Register **C2**. Resolved using evidence already established for
+  7.10 Case studies (Pro Energy Solutions — CVR-038, naming consent CVR-040), not new client input —
+  this is a legitimate partial resolution of C2 for this one service line, not a placeholder. Jo
+  Jackson Dance Company (also evidenced and consented) is a second, equally valid example and could
+  replace or accompany this one at layout; only one is used here to keep the callout box concise.
+  No project value, duration, outcome or testimonial is stated, consistent with the consent basis for
+  both projects (Fact Register F2).
 - Image: development or design review in progress, screens showing genuine work in progress, not a
   generic "person typing on laptop" stock image.
 - Keep SEO framed as integral to the build, not a bolt-on — this is the section's specific argument

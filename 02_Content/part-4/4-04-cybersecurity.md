@@ -5,7 +5,7 @@ part: "Four — Technical Capabilities"
 pages: [65]
 archetype: C
 words_target: 420
-words_actual: 414
+words_actual: 193
 figures: []
 tables: []
 icons: ["fa-shield-halved"]

@@ -5,7 +5,7 @@ part: "Four — Technical Capabilities"
 pages: [71]
 archetype: C
 words_target: 420
-words_actual: 403
+words_actual: 168
 figures: []
 tables: []
 icons: ["fa-chart-line"]

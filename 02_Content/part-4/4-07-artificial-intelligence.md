@@ -5,7 +5,7 @@ part: "Four — Technical Capabilities"
 pages: [68]
 archetype: C
 words_target: 420
-words_actual: 419
+words_actual: 204
 figures: []
 tables: []
 icons: ["fa-brain"]

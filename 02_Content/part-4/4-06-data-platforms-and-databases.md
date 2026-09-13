@@ -5,12 +5,12 @@ part: "Four — Technical Capabilities"
 pages: [67]
 archetype: C
 words_target: 420
-words_actual: 402
+words_actual: 219
 figures: []
 tables: []
 icons: ["fa-database"]
 images: []
-tokens: ["[[TECH_CURRENT_DATA]]", "[[TECH_CAPABLE_DATA]]", "[[TECH_PLANNED_DATA]]"]
+tokens: ["[[TECH_CAPABLE_DATA]]", "[[TECH_PLANNED_DATA]]"]
 status: draft
 ---
 
@@ -38,7 +38,12 @@ well-modelled schema on a lesser database avoids, because the model is what ever
 to work with or around. We treat modelling as a deliverable reviewed on its own merits, not an
 implicit byproduct of development.
 
-**Technologies currently used:** [[TECH_CURRENT_DATA]]
+**Technologies currently used:** demonstrated implementation experience with PostgreSQL as the primary
+relational data store, accessed through Supabase — which in the same evidenced systems also provides
+authentication (session and identity handling), file storage, and serverless functions running on
+Deno. This reflects genuine, source-inspectable implementation experience across multiple
+Auris-developed systems; it does not evidence a specific managed-hosting arrangement, an uptime
+commitment, or a database engine choice for any particular client engagement.
 **Capable of supporting:** [[TECH_CAPABLE_DATA]]
 **Planned / future roadmap:** [[TECH_PLANNED_DATA]]
 
@@ -46,8 +51,11 @@ implicit byproduct of development.
 
 ## Production notes
 
-- Per Fact Register **C3**/**C4**, no specific database engine or warehousing platform is named until
-  confirmed.
+- **Corrected 2026-09-13, Stage 8A.** Fact Register **C3** is now partially resolved for this domain
+  by direct source-code and database-migration inspection (PostgreSQL via Supabase, including Auth,
+  Storage and Deno-based Edge Functions) — see the correction note against C3 and Claim Verification
+  Register CVR-045. **C4** (technologies *not* worked in) remains open; no warehousing/lakehouse
+  platform is evidenced either way, and `[[TECH_CAPABLE_DATA]]`/`[[TECH_PLANNED_DATA]]` remain open.
 - Cross-reference to 4.10 (BI, analytics and reporting) as a live `REF` field — this page covers where
   data is stored and modelled; 4.10 covers how it is reported on. Keep the boundary clean.
 - POPIA data-handling obligations are addressed in 6.4, not here — this page is architectural, not

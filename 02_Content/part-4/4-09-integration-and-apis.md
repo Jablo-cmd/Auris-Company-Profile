@@ -5,7 +5,7 @@ part: "Four — Technical Capabilities"
 pages: [70]
 archetype: C
 words_target: 420
-words_actual: 401
+words_actual: 160
 figures: []
 tables: []
 icons: ["fa-plug-circle-bolt"]

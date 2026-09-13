@@ -5,7 +5,7 @@ part: "Two — Services"
 pages: [40, 41]
 archetype: H
 words_target: 660
-words_actual: 662
+words_actual: 525
 figures: []
 tables: []
 icons: ["fa-cloud-arrow-up"]

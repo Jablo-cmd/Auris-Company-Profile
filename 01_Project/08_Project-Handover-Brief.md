@@ -64,16 +64,18 @@ reading better without them.
 | 1 | Planning | — | ✅ Completed, approved |
 | 2 | Brand identity, design language, typography, colour system, components, grid, spacing, production rules | ~20 000 words | ✅ Completed, approved and frozen |
 | 3 | Part One — The Company | ~7 700 words | ✅ Draft complete. Strategic items intentionally held |
-| 4 | Part Two — Services | ~5 700 words | ✅ No fabricated client examples; all proof points tokenized |
-| 5 | Part Three — Industries | ~5 100 words | ✅ Sector knowledge only; no false delivery claims; delivered-sector claims tokenized |
-| 6 | Part Four — Technical Capabilities | ~4 600 words | ✅ Three-tier Current/Capable/Planned model applied; no certifications, cloud partnerships or technology claims invented; Fact Register items C8–C13 added |
+| 4 | Part Two — Services | ~4 400 words (corrected 2026-09-13, Stage 8A; previously misstated as ~5 700 — see README.md ‡ note) | ✅ No fabricated client examples; all proof points tokenized |
+| 5 | Part Three — Industries | ~2 700 words (corrected 2026-09-13, Stage 8A; previously misstated as ~5 100) | ✅ Sector knowledge only; no false delivery claims; delivered-sector claims tokenized |
+| 6 | Part Four — Technical Capabilities | ~2 000 words (corrected 2026-09-13, Stage 8A; previously misstated as ~4 600) | ✅ Three-tier Current/Capable/Planned model applied; no certifications, cloud partnerships or technology claims invented; Fact Register items C8–C13 added |
 | 7 | Part Five — Project Delivery | ~1 700 words (corrected 2026-09-13; previously misstated as ~3 600 — see below) | ✅ Lifecycle, discovery, planning, architecture, development, testing, deployment, support, continuous improvement, governance, SLA framework. No PMO/ITIL/DevSecOps/ISO system implied; every operational metric tokenized; SLA table intentionally unpopulated |
 
 **Quality improvement introduced this stage:** the Claim Verification Register was created. Its audit
 depth differs by part and this brief states it precisely, because the two are not interchangeable:
 **Part Five was audited claim-by-claim at drafting time** (every section reviewed as it was written);
-**Parts One–Four received only a targeted pass**, focused on claims not already carried by an open
-token — a full line-by-line audit of Parts Two–Four remains open and must close before Stage 12.
+Parts One–Four originally received only a targeted pass. **Corrected 2026-09-13, Stage 8A: Parts Two,
+Three and Four have since each been read and audited line-by-line in full** — see the Stage 8A note
+below and the Claim Verification Register's own §5 coverage table for the detail. No part of the
+document remains on a targeted-only pass as of this correction.
 
 **2026-09-13 Stage 7 re-audit.** This project's own rule — never treat the previous audit as
 self-certifying — was applied against the register itself. Part One was re-read line-by-line in full
@@ -105,12 +107,48 @@ None of these four items required inventing a fact — each was closed by tokeni
 assertion or by adding a missing register row, consistent with this project's evidence-first method.
 **The underlying facts themselves remain unresolved; only the disclosure in the copy was corrected.**
 
-**Current word count:** approximately **22 700** words drafted — revised down from the previously
-stated ~24 500 at this re-audit. Part Five's per-section `words_actual` front matter was found to be
-overstated in every file (roughly double the true prose count in most sections); corrected in each
-file and in `README.md`. See `06_Production-Conventions.md` for the related open item: several
-Part Five sections now measure below their archetype's binding word band, expected to close as
-Group D tokens resolve rather than by padding.
+**2026-09-13, Stage 8A — line-by-line audit of Parts Two–Four completed.** Every file in Parts Two
+(2.0–2.9), Three (3.0–3.7) and Four (4.0–4.11) was read in full against the Claim Verification
+Register, closing the item flagged in the paragraph above. Findings:
+
+1. **Part Three: no new gap.** Every claim in all eight files is sector-general context, already
+   covered by the blanket `[[SECTORS_DELIVERED]]` gate (CVR-013/CVR-014). No specific delivery claim
+   was found outside that gate.
+2. **Part Four: no new gap**, beyond the technology-evidence resolution addressed separately below.
+   Every claim in all twelve files sits within the existing current/capable/planned token structure
+   (CVR-015/016/017).
+3. **Part Two: two claims found outside the existing per-service fact-callout gate (CVR-010)** — added
+   as **CVR-041** (2.1, "an independent advisory voice — not tied to downstream build revenue") and
+   **CVR-042** (2.8, "continued accountability... rather than a handover to an unfamiliar support
+   desk"). Both are Unverified, Medium risk — ordinary business-benefit claims of the same kind as the
+   pre-existing CVR-006/007/009, not evidenced and not yet tokenized.
+4. **Technology evidence populated for 2 of 10 Part Four domains.** Fact Register **C3** — previously
+   entirely open — is now partially resolved for **4.1 Software engineering** and **4.6 Data platforms
+   and databases** by direct source-code, config-file and database-migration inspection across the
+   Sebetsa and Funda360 repositories (React 18/TypeScript/Vite/Vitest/Playwright for 4.1; PostgreSQL via
+   Supabase, including Auth, Storage and Deno Edge Functions, for 4.6). Recorded as **CVR-043** through
+   **CVR-045**, all Verified. This evidences demonstrated implementation experience only — not
+   commercial delivery volume, certification, or partner-tier status, none of which is claimed. **C4**
+   and the remaining eight domains remain entirely open.
+5. **`[[PROOF_WEB]]` resolved for 2.5 Web Design and Development only.** Using evidence already
+   established for 7.10 Case studies (Pro Energy Solutions), not new client input. This closes Fact
+   Register **C2** for this one service line; C2 remains open for the other seven.
+6. **Logistics App added to 7.10 as a fifth case study**, on owner-confirmed evidence (Fact Register
+   **F10**) — a different, lower evidentiary tier than the direct source-inspection evidence behind the
+   other four entries, used deliberately narrowly (existence and authorship only). A cross-document
+   consistency risk between this entry and the public website's "LOGIOS OS" portfolio page is tracked
+   at **CVR-046** and remains open.
+
+None of these six items required inventing a fact. The Claim Verification Register now stands at
+**42 rows: 11 Verified, 15 Gated, 16 Unverified, 0 Rejected** — see §8 below, which restates the
+verification-completeness assessment against these corrected figures.
+
+**Current word count:** approximately **16 900** words drafted — revised down twice since the
+original ~24 500 figure: first to ~23 200 (Part Five's word-count correction, plus the 7.10 addition),
+then to ~16 900 at Stage 8A once the same bookkeeping error was confirmed and corrected across all 30
+files in Parts Two, Three and Four. See `README.md`'s †/‡ notes and `06_Production-Conventions.md` for
+the related open item: most sections in Parts Two–Five now measure below their archetype's binding
+word band, expected to close as Group C/D tokens resolve rather than by padding.
 
 ---
 
@@ -182,27 +220,41 @@ Verification Register with no gaps remaining as of this re-audit. The register i
 Register, this brief and `06_Production-Conventions.md` are cross-consistent after the corrections
 listed in §3 above.
 
-**B. Claim verification completeness — INCOMPLETE, and not close.** Of 30 rows in the Claim
-Verification Register: 2 Verified, 15 Gated (openly disclosed as unresolved via a Fact Register
-token), 13 Unverified (stated as fact in the copy, no token, no evidence yet). Zero Rejected. The
-highest-risk open items — none of which may be presented to an evaluator as settled — are:
+**B. Claim verification completeness — INCOMPLETE, and not close.** *(Figures below corrected
+2026-09-13, Stage 8A — the original re-audit figures immediately below this note read "Of 30 rows...
+2 Verified... 13 Unverified"; that was superseded first by the same-day addition of CVR-035–040
+[36 rows, 8 Verified] and now by the Stage 8A line-by-line audit of Parts Two–Four.)* Of **42 rows** in
+the Claim Verification Register: **11 Verified**, **15 Gated** (openly disclosed as unresolved via a
+Fact Register token), **16 Unverified** (stated as fact in the copy, no token, no evidence yet). Zero
+Rejected. The highest-risk open items — none of which may be presented to an evaluator as settled —
+are unchanged in substance from the original re-audit and remain:
 
 - **CVR-011 (High)** — the HR/school platform operating-model claim (six locations).
 - **CVR-023 (High)** — "security testing is a mandatory gate before deployment."
-- **CVR-010, CVR-014, CVR-015, CVR-016, CVR-017, CVR-026, CVR-028 (all High)** — per-service proof
-  points, sector delivery experience, technology inventory, cloud partner-tier status, security
-  certifications, support model, and SLA figures — all Gated on Fact Register items not yet supplied.
+- **CVR-010 (High)** — per-service proof points — now partially resolved for 2.5 only (Pro Energy
+  Solutions); the other seven services remain fully Gated.
+- **CVR-014, CVR-016, CVR-017, CVR-026, CVR-028 (all High)** — sector delivery experience, cloud
+  partner-tier status, security certifications, support model, and SLA figures — all Gated on Fact
+  Register items not yet supplied.
+- **CVR-015 (High)** — technology inventory — now partially resolved for the "currently used" state in
+  2 of 10 domains (4.1, 4.6 — see CVR-043–045); "capable of supporting," "planned," and all of Fact
+  Register **C4** remain fully open, as does "currently used" for the remaining eight domains.
 - **CVR-003/004/005 (High)** — tax compliance and SARS registration — Gated, not fabricated, but
   unresolved.
 - **CVR-020, CVR-027, CVR-030 (Medium, but structurally significant)** — the independent-governance-
   layer claim repeated in 5.2, 5.4 and 5.8, all tracing to the Operating Capability Structure (1.10),
   which is under Strategic Identity Hold and not approved.
+- **CVR-041, CVR-042 (Medium, new at Stage 8A)** — two business-benefit claims in 2.1 and 2.8 found
+  during the Part Two line-by-line audit, not previously carried by any register row.
+- **CVR-046 (Medium, new at Stage 8A)** — an unresolved naming discrepancy between this profile's
+  Logistics App case study and "LOGIOS OS" as named on the public Auris Nexus Technologies website.
 
 **C. Overall profile readiness for procurement/evaluator use — NOT READY.** The Strategic Identity
-Hold (rule 4 above) alone means Part One cannot be frozen, and the 13 Unverified and 15 Gated claims
-above mean the document as it stands must not be represented to a client, bank or tender panel as a
-finished, evidenced account of the company. It is ready as a **structured draft awaiting fact input**
-— exactly what Stages 1–7 were scoped to produce — not as a submission-ready credential.
+Hold (rule 4 above) alone means Part One cannot be frozen, and the 16 Unverified and 15 Gated claims
+above (corrected 2026-09-13, Stage 8A) mean the document as it stands must not be represented to a
+client, bank or tender panel as a finished, evidenced account of the company. It is ready as a
+**structured draft awaiting fact input** — exactly what Stages 1–7 were scoped to produce — not as a
+submission-ready credential.
 
 **Do not, under any circumstance before these close:** state that Auris holds a specific B-BBEE
 level, tax compliance status, security or quality certification, cloud partner tier, or SLA
