@@ -67,14 +67,50 @@ reading better without them.
 | 4 | Part Two — Services | ~5 700 words | ✅ No fabricated client examples; all proof points tokenized |
 | 5 | Part Three — Industries | ~5 100 words | ✅ Sector knowledge only; no false delivery claims; delivered-sector claims tokenized |
 | 6 | Part Four — Technical Capabilities | ~4 600 words | ✅ Three-tier Current/Capable/Planned model applied; no certifications, cloud partnerships or technology claims invented; Fact Register items C8–C13 added |
-| 7 | Part Five — Project Delivery | ~3 600 words | ✅ Lifecycle, discovery, planning, architecture, development, testing, deployment, support, continuous improvement, governance, SLA framework. No PMO/ITIL/DevSecOps/ISO system implied; every operational metric tokenized; SLA table intentionally unpopulated |
+| 7 | Part Five — Project Delivery | ~1 700 words (corrected 2026-09-13; previously misstated as ~3 600 — see below) | ✅ Lifecycle, discovery, planning, architecture, development, testing, deployment, support, continuous improvement, governance, SLA framework. No PMO/ITIL/DevSecOps/ISO system implied; every operational metric tokenized; SLA table intentionally unpopulated |
 
-**Quality improvement introduced this stage:** the Claim Verification Register was created. A
-targeted audit of Parts One–Five has begun and already identified and corrected one unsupported
-claim (tax-compliance wording in 1.1/1.2 — see Fact Register **E6** correction note). Future stages
-continue auditing as drafting proceeds, per `07_Claim-Verification-Register.md` §7.
+**Quality improvement introduced this stage:** the Claim Verification Register was created. Its audit
+depth differs by part and this brief states it precisely, because the two are not interchangeable:
+**Part Five was audited claim-by-claim at drafting time** (every section reviewed as it was written);
+**Parts One–Four received only a targeted pass**, focused on claims not already carried by an open
+token — a full line-by-line audit of Parts Two–Four remains open and must close before Stage 12.
 
-**Current word count:** approximately 24 500+ words drafted.
+**2026-09-13 Stage 7 re-audit.** This project's own rule — never treat the previous audit as
+self-certifying — was applied against the register itself. Part One was re-read line-by-line in full
+(upgrading its coverage from targeted to full). The original tax-compliance fix was confirmed still
+correct and complete; beyond that, one further unsupported claim and two register/documentation gaps
+were found and corrected:
+
+1. **Tax compliance (original finding, confirmed still correctly fixed).** 1.1 and 1.2 originally
+   stated tax compliance as established fact; both are `[[TAX_COMPLIANCE_STATUS]]`-gated. Re-checked
+   across the whole repository at this re-audit — no duplicate or contradictory assertion remains
+   anywhere else.
+2. **"We operate our own HR/school platforms" (new finding).** This claim was stated as fact, with no
+   token, in six locations (MD message, 1.1, 1.3, 1.8, 1.9, 2.3) — see Claim Verification Register
+   **CVR-011**. The only resolved fact behind it, Fact Register **C1**, confirms these are two of the
+   thirteen *offered services*; it does not evidence that Auris self-operates them as ongoing
+   products. All six locations now carry `[[PLATFORM_OPERATING_MODEL]]` (Fact Register **C14**). This
+   is the register's second-highest-risk open item after the SLA and security-certification tokens.
+3. **1.10 Our operating model carried no strategic-hold marking.** It is Strategic Identity Hold item
+   7 per §2 rule 4 below, yet — unlike the other six hold items — its file had no `[[TOKEN]]`/⚠
+   warning disclosing that it is an unapproved proposal. Corrected: it now carries
+   `[[OPERATING_MODEL_APPROVED]]` and the same warning treatment as 1.4/1.5/1.7. This matters because
+   5.2, 5.4 (Phase 9) and 5.8 all state an "independent governance layer" as a structural fact that
+   traces back to this same unapproved page — see CVR-020, CVR-027, CVR-030.
+4. **Two Part Five sections had no Claim Verification Register row** (5.4 Phase 9's independent-review
+   claim, and 5.7's service-review claim) despite the coverage table describing Part Five as fully
+   audited. Added as CVR-030 and CVR-029. Part Five's coverage is now genuinely complete.
+
+None of these four items required inventing a fact — each was closed by tokenizing an unsupported
+assertion or by adding a missing register row, consistent with this project's evidence-first method.
+**The underlying facts themselves remain unresolved; only the disclosure in the copy was corrected.**
+
+**Current word count:** approximately **22 700** words drafted — revised down from the previously
+stated ~24 500 at this re-audit. Part Five's per-section `words_actual` front matter was found to be
+overstated in every file (roughly double the true prose count in most sections); corrected in each
+file and in `README.md`. See `06_Production-Conventions.md` for the related open item: several
+Part Five sections now measure below their archetype's binding word band, expected to close as
+Group D tokens resolve rather than by padding.
 
 ---
 
@@ -131,3 +167,45 @@ current statement of the remaining sequence, and `06_Production-Conventions.md` 
 cross-reference note to this section rather than a rewritten table. Confirm before Stage 11 whether
 Word Production and Final Print Production should formally become distinct Word-master gates, or
 whether this is descriptive shorthand for the same Stage 11 Assembly work.
+
+---
+
+## 8. Stage 7 verification status (2026-09-13 re-audit)
+
+Three separate questions are easy to collapse into one and must not be: whether the Stage 7
+*documents* are complete, whether the *claims* in the profile are verified, and whether the profile as
+a whole is ready to hand to a procurement evaluator. They are answered separately here.
+
+**A. Stage 7 documentation completeness — COMPLETE.** All ten Part Five sections (5.0–5.9) exist,
+are internally consistent (numbering, cross-references, front matter), and are covered by the Claim
+Verification Register with no gaps remaining as of this re-audit. The register itself, the Fact
+Register, this brief and `06_Production-Conventions.md` are cross-consistent after the corrections
+listed in §3 above.
+
+**B. Claim verification completeness — INCOMPLETE, and not close.** Of 30 rows in the Claim
+Verification Register: 2 Verified, 15 Gated (openly disclosed as unresolved via a Fact Register
+token), 13 Unverified (stated as fact in the copy, no token, no evidence yet). Zero Rejected. The
+highest-risk open items — none of which may be presented to an evaluator as settled — are:
+
+- **CVR-011 (High)** — the HR/school platform operating-model claim (six locations).
+- **CVR-023 (High)** — "security testing is a mandatory gate before deployment."
+- **CVR-010, CVR-014, CVR-015, CVR-016, CVR-017, CVR-026, CVR-028 (all High)** — per-service proof
+  points, sector delivery experience, technology inventory, cloud partner-tier status, security
+  certifications, support model, and SLA figures — all Gated on Fact Register items not yet supplied.
+- **CVR-003/004/005 (High)** — tax compliance and SARS registration — Gated, not fabricated, but
+  unresolved.
+- **CVR-020, CVR-027, CVR-030 (Medium, but structurally significant)** — the independent-governance-
+  layer claim repeated in 5.2, 5.4 and 5.8, all tracing to the Operating Capability Structure (1.10),
+  which is under Strategic Identity Hold and not approved.
+
+**C. Overall profile readiness for procurement/evaluator use — NOT READY.** The Strategic Identity
+Hold (rule 4 above) alone means Part One cannot be frozen, and the 13 Unverified and 15 Gated claims
+above mean the document as it stands must not be represented to a client, bank or tender panel as a
+finished, evidenced account of the company. It is ready as a **structured draft awaiting fact input**
+— exactly what Stages 1–7 were scoped to produce — not as a submission-ready credential.
+
+**Do not, under any circumstance before these close:** state that Auris holds a specific B-BBEE
+level, tax compliance status, security or quality certification, cloud partner tier, or SLA
+commitment; state that any named sector has genuine prior delivery experience; state that the HR/school
+platforms are self-operated products rather than offered services; or state that the operating model,
+vision, mission, values, brand promise, founding story or milestones are approved rather than proposed.

@@ -91,6 +91,7 @@ valid and useful answer, and it changes how the section is written rather than l
 | C11 | Security testing regime and incident response process | `[[SECURITY_TESTING_REGIME]]` `[[INCIDENT_RESPONSE_PROCESS]]` | 🟠 | Stage 6 |
 | C12 | AI responsible-use / governance policy, if formally documented | `[[AI_GOVERNANCE_POLICY]]` | 🟡 | Stage 6 |
 | C13 | Genuine, differentiated self-assessment of capability maturity per technical domain (4.1–4.10) — **not uniformly favourable ratings** | `[[CAPABILITY_MATURITY_RATINGS]]` | 🟡 | Stage 6 |
+| C14 | Operating model for HR & Employee Management and School Management Systems — does Auris self-operate these as its own ongoing multi-tenant/product platforms, or build and hand them over per client engagement? | `[[PLATFORM_OPERATING_MODEL]]` | 🔴 | Stage 4 (retrospective) |
 
 > **On C4 and C7.** These two negative-space questions do more for the document's credibility than
 > any other input. A profile that distinguishes what the company has done from what it can do reads
@@ -145,6 +146,15 @@ eligibility, and each must be transcribed from the source document rather than r
 > only the PIN itself tokenized — asserting the underlying compliance status ahead of E6 resolving.
 > Both were corrected to `[[TAX_COMPLIANCE_STATUS]]`, gating the qualitative claim as well as the PIN.
 > See Claim Verification Register, `01_Project/07_Claim-Verification-Register.md`, CVR-003/CVR-004.
+
+> **Correction (2026-09-13, Stage 7 re-audit against item C14).** The same failure mode recurred: six
+> sections (front matter MD message, 1.1, 1.3, 1.8 §2, 1.9 §2, 2.3) stated as established fact that
+> Auris "operates" or "runs" its own HR and school management platforms, distinct from client-
+> commissioned, one-off builds. The only resolved fact behind this (Fact Register **C1**) confirms
+> these are two of the thirteen *offered services* — it does not evidence a self-operated product
+> business model. No case study, deployment record or platform register exists in this repository to
+> support the stronger claim. All six locations were corrected to carry `[[PLATFORM_OPERATING_MODEL]]`
+> inline. See Claim Verification Register CVR-011.
 | E7 | B-BBEE level, verification agency, certificate number, expiry | `[[BBBEE_LEVEL]]` | Stage 9 |
 | E8 | Black ownership and black female ownership percentages | `[[OWNERSHIP_PCT]]` | Stage 9 |
 | E9 | EME / QSE status | `[[ENTERPRISE_SIZE]]` | Stage 9 |

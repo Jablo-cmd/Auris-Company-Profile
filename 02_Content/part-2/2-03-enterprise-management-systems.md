@@ -10,7 +10,7 @@ figures: []
 tables: []
 icons: ["fa-building-user"]
 images: ["img-p030-platform-operations"]
-tokens: ["[[TECH_STACK_EMS]]", "[[PROOF_EMS]]", "[[PLATFORM_DEPLOYMENTS]]"]
+tokens: ["[[TECH_STACK_EMS]]", "[[PROOF_EMS]]", "[[PLATFORM_DEPLOYMENTS]]", "[[PLATFORM_OPERATING_MODEL]]"]
 status: draft
 ---
 
@@ -42,7 +42,7 @@ leave, performance, payroll-adjacent processes and the reporting a regulator or 
 School Management Systems cover the equivalent core for an academic institution — learner records,
 registration, academic administration and the reporting a department of education will ask for. Both
 are built and maintained as our own platforms, configured to each client's structure rather than
-built from a blank page per engagement.
+built from a blank page per engagement. [[PLATFORM_OPERATING_MODEL]]
 
 Operating these platforms ourselves — not just having built them once — means we carry the same
 consequence our clients do when something breaks: a payroll-adjacent process failing is not an
@@ -128,6 +128,11 @@ number of organisations currently running each platform is not yet confirmed and
   (🔴 critical, unresolved). Left open.
 - **`[[PLATFORM_DEPLOYMENTS]]`** also appears in 1.1 and 1.8 with the same status — resolving it once
   updates all three per the content reuse map, `02_Information-Architecture.md` §6.
+- **`[[PLATFORM_OPERATING_MODEL]]`** — added at Stage 7 audit. This is the source spread for the
+  "we operate, not just built once" claim repeated at 0-06, 1.1, 1.3, 1.8 and 1.9. The confirmed
+  service list (Fact Register **C1**) evidences these as offered services, not that Auris self-operates
+  them as ongoing products — see Fact Register **C14**, Claim Verification Register CVR-011. Do not
+  resolve this spread's standfirst or Description as settled fact ahead of that evidence.
 - Image: platform operations or support desk, showing the platform in genuine use, not a generic
   office stock image.
 - This is the only service spread describing our own products rather than client-commissioned work —

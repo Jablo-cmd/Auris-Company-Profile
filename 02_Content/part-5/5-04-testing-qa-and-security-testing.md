@@ -5,7 +5,7 @@ part: "Five — Project Delivery"
 pages: [79]
 archetype: C
 words_target: 420
-words_actual: 413
+words_actual: 172
 figures: []
 tables: []
 icons: ["fa-vial-circle-check"]

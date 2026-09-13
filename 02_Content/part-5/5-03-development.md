@@ -5,7 +5,7 @@ part: "Five — Project Delivery"
 pages: [78]
 archetype: C
 words_target: 420
-words_actual: 402
+words_actual: 178
 figures: []
 tables: []
 icons: ["fa-code-branch"]

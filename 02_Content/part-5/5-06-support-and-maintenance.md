@@ -5,7 +5,7 @@ part: "Five — Project Delivery"
 pages: [81]
 archetype: C
 words_target: 420
-words_actual: 407
+words_actual: 160
 figures: []
 tables: []
 icons: ["fa-headset"]

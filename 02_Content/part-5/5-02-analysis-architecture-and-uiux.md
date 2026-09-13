@@ -5,7 +5,7 @@ part: "Five — Project Delivery"
 pages: [77]
 archetype: C
 words_target: 420
-words_actual: 405
+words_actual: 190
 figures: []
 tables: []
 icons: ["fa-pen-ruler"]

@@ -70,15 +70,39 @@ nonetheless unverified.
 
 | Part | Coverage | Notes |
 |---|---|---|
-| Front matter / Part One | Partial — targeted audit | Focused on claims not already carried by an open token; found and corrected one gap (tax compliance, CVR-003/004) |
+| Front matter / Part One | **Full — re-audited line-by-line at Stage 7 (2026-09-13)** | Original pass was targeted; this session read every Part One file in full against this register. Found and corrected two gaps beyond the original tax-compliance fix: (1) the "we operate our own HR/school platforms" claim, asserted as fact with no token across six locations — see CVR-011; (2) 1.10 Our operating model (Strategic Identity Hold item 7) carried no `[[TOKEN]]`/⚠ warning despite being an unapproved proposal, unlike the other six hold items — now corrected |
 | Part Two — Services | Partial — targeted audit | Focused on the "fact callout" and outcome claims |
 | Part Three — Industries | Partial — targeted audit | Focused on claims outside the blanket `[[SECTORS_DELIVERED]]` gate |
 | Part Four — Technical Capabilities | Partial — targeted audit | Focused on claims outside the current/capable/planned token structure |
-| Part Five — Project Delivery | Full — drafted and audited together | Every section reviewed at drafting time |
+| Part Five — Project Delivery | **Full — drafted and audited together; two coverage gaps closed at the Stage 7 re-audit (2026-09-13)** | Every section was reviewed at drafting time, but 5.4 Phase 9 and 5.7 had no register row despite that — added as CVR-030 and CVR-029. Coverage is now genuinely complete for this Part |
 | Parts Six, Seven, Closing | Not yet drafted | Will be audited at drafting time, per Stage 7's working method going forward |
 
-A full line-by-line audit of Parts One–Four remains an open task, distinct from targeted sampling.
+A full line-by-line audit of Parts Two–Four remains an open task, distinct from targeted sampling.
 It is not required before Stage 8 opens, but must close before Stage 12 (quality audit) sign-off.
+Part One and Part Five are now both fully audited line-by-line (the latter since drafting, the former
+since the Stage 7 re-audit); this does not mean every claim within them is *verified* — most remain
+**Gated** or **Unverified** pending evidence — only that coverage of the copy against this register is
+complete for those two parts.
+
+### Register tally (as of 2026-09-13, Stage 7 re-audit)
+
+| Status | Count | Rows |
+|---|---|---|
+| Verified | 2 | CVR-002, CVR-013 |
+| Gated (open Fact Register token) | 15 | CVR-001, 003, 004, 005, 010, 011, 014, 015, 016, 017, 018, 022, 024, 026, 028 |
+| Unverified (no evidence, no gating token) | 13 | CVR-006, 007, 008, 009, 012, 019, 020, 021, 023, 025, 027, 029, 030 |
+| Rejected | 0 | — |
+| **Total** | **30** | CVR-001 through CVR-030 |
+
+**Read this tally carefully: "Gated" is not "safe" and "Unverified" is not "worse than Gated" in
+severity — both mean the underlying fact is not yet evidenced.** The distinction is only about
+whether the copy already discloses that (Gated, via a visible token) or currently reads as settled
+fact with nothing on the page to signal otherwise (Unverified). Every High-risk row in either category
+— CVR-003/004/005 (tax and SARS registration), CVR-010 (per-service proof points), CVR-011 (platform
+operating model), CVR-014 (sector delivery), CVR-015/016/017 (technology, cloud partner, certifications),
+CVR-023 (mandatory security gate), CVR-026 (support model), CVR-028 (SLA figures) — must be resolved
+with genuine evidence before this document is presented as procurement-ready. None of them may be
+closed by drafting judgement alone.
 
 ---
 
@@ -96,7 +120,7 @@ It is not required before Stage 8 opens, but must close before Stage 12 (quality
 | CVR-008 | 1.8 Why Auris Nexus | "We are directly reachable, locally accountable and in the same time zone" | Organisational structure confirming no offshore approval layer | Auris Nexus Technologies | Unverified | Low | — |
 | CVR-009 | 1.9 Competitive advantages #4 | "We forgo the cost advantage of offshore delivery" | Delivery location/staffing record | Auris Nexus Technologies | Unverified | Low | — |
 | CVR-010 | 2.1–2.8 (all service spreads) | "Fact callout" proof point per service | A real, named or anonymised delivered example per service | Delivery leadership | Gated ([[PROOF_*]] per service, Fact Register C2) | High | — |
-| CVR-011 | 2.3 Enterprise Management Systems | "We operate our own HR and school management platforms" | Evidence the platforms exist and are in active operation (screenshot, deployment record) | Product/platform owner | Unverified | High | — |
+| CVR-011 | Front matter (MD message); 1.1; 1.3; 1.8 §2; 1.9 §2; **2.3 Enterprise Management Systems** (source spread) | "We operate our own HR and school management platforms" / "platforms we operate ourselves, not products we shipped and moved on from" — recurs in six locations, none previously tokenized | Evidence Auris independently operates and maintains at least one live HR or school-management platform instance as of a stated date (admin-console record, deployment/hosting register, or a consented case study) — distinguished from evidence that these are merely *offered* as buildable services | Product/platform owner | **Gated** (`[[PLATFORM_OPERATING_MODEL]]`, Fact Register **C14**) — corrected from Unverified at the 2026-09-13 Stage 7 re-audit, same failure mode as CVR-003/004: Fact Register **C1** confirms these are 2 of the 13 offered services, not that Auris self-operates them as ongoing products. **Not to be marked Verified merely because C1 is resolved** — C1 does not evidence the operating-model claim. Wording should remain as drafted (it reads as intent/positioning once tokenized) rather than being deleted; do not restate as settled fact anywhere else pending C14 | High | — |
 | CVR-012 | 2.9 Engagement models | Five named commercial models genuinely offered | Sample contracts or rate cards evidencing each of the five models in actual use | Commercial/finance | Unverified | Medium | — |
 | CVR-013 | 3.0–3.6 (all industry sections) | Sector challenge/solution/value narrative, general | None required — written as domain knowledge, not a delivery claim | — | Verified as non-claim | Low | 2026-08-02 |
 | CVR-014 | 3.1–3.6 (all industry sections) | Blanket delivery-experience gate | Client references or case studies per sector, once consented | Delivery leadership | Gated ([[SECTORS_DELIVERED]], Fact Register C7) | High | — |
@@ -105,14 +129,16 @@ It is not required before Stage 8 opens, but must close before Stage 12 (quality
 | CVR-017 | 4.4 Cybersecurity | Security certifications held | Certificate and current validity | Engineering/compliance leadership | Gated ([[CERTS_HELD]], Fact Register C13/E13) | High | — |
 | CVR-018 | 5.0 Delivery lifecycle | Methodology applied per engagement (agile/waterfall/hybrid) | Sample project plans evidencing methodology variance across engagements | Delivery leadership | Gated ([[DELIVERY_METHODOLOGY]], Fact Register D1) | Medium | — |
 | CVR-019 | 5.1 Discovery | "We engage the people who will use the system, not only the people who commissioned it" | A discovery report or workshop attendee list from a real engagement | Delivery leadership | Unverified | Medium | — |
-| CVR-020 | 5.2 Analysis, architecture, UI/UX | Architecture reviewed by a governance layer independent of the authoring team | Governance/review sign-off record from a real engagement | Delivery leadership | Unverified | Medium | — |
+| CVR-020 | 5.2 Analysis, architecture, UI/UX | Architecture reviewed by a governance layer independent of the authoring team | Governance/review sign-off record from a real engagement | Delivery leadership | Unverified — **also depends on Operating Capability Structure** (Strategic Identity Hold item 7, `02_Content/part-1/1-10-operating-model.md`); same underlying independence claim as CVR-027 and CVR-030. Do not mark Verified while 1.10 remains an unapproved proposal | Medium | — |
 | CVR-021 | 5.3 Development | Iterative delivery as the default approach | Sprint or iteration record from a real engagement | Delivery leadership | Unverified | Medium | — |
 | CVR-022 | 5.3 Development | Project management framework / certifications held by staff | Certificate register per named staff member | HR / delivery leadership | Gated ([[PM_FRAMEWORK_CERTS]], Fact Register D2) | Medium | — |
 | CVR-023 | 5.4 Testing, QA, security testing | "Security testing is a mandatory gate before deployment" | Deployment checklist or gate-sign-off template showing the gate as mandatory | Engineering leadership | Unverified | High | — |
 | CVR-024 | 5.4 Testing, QA, security testing | Test pyramid detail and coverage targets | Test coverage report or CI configuration | Engineering leadership | Gated ([[TEST_PYRAMID_DETAIL]]) | Medium | — |
+| CVR-030 | 5.4 Testing, QA, security testing — Phase 9 | "Independent review, distinct from the development team per the governance principle in 1.10" | Governance/review sign-off record from a real engagement | Delivery leadership | Unverified — **also depends on Operating Capability Structure** (Strategic Identity Hold item 7); same underlying claim as CVR-020 and CVR-027. Added at the 2026-09-13 Stage 7 re-audit — this claim had no register entry despite Part Five's "Full" coverage status | Medium | — |
 | CVR-025 | 5.5 Deployment and training | Deployment planned with explicit rollback path | Deployment runbook template showing rollback procedure | Engineering leadership | Unverified | Medium | — |
 | CVR-026 | 5.6 Support and maintenance | Support model, hours of cover, escalation path | Support policy document or SLA schedule | Support leadership | Gated ([[SUPPORT_MODEL]] etc., Fact Register D3) | High | — |
-| CVR-027 | 5.8 Delivery governance | "Every engagement carries a governance layer distinct from the delivery team executing it" | Organisational chart or governance policy showing independent reporting line | Auris Nexus Technologies leadership | Unverified — also depends on Operating Capability Structure (strategic hold, item 7) | Medium | — |
+| CVR-029 | 5.7 Continuous improvement | "Periodic service review examines what the system is actually doing in production... usage patterns, support ticket themes, performance against the service level framework" as an established practice | A service-review report or template from a real engagement | Delivery leadership | Unverified. **Added at the 2026-09-13 Stage 7 re-audit — this section had no register entry despite the Part Five coverage table describing "every section reviewed at drafting time."** | Medium | — |
+| CVR-027 | 5.8 Delivery governance | "Every engagement carries a governance layer distinct from the delivery team executing it" | Organisational chart or governance policy showing independent reporting line | Auris Nexus Technologies leadership | **Unverified — depends on Operating Capability Structure**, `02_Content/part-1/1-10-operating-model.md`, Strategic Identity Hold item 7 (client direction 2026-08-02; not approved, drafted for collaborative development). **Re-checked at the 2026-09-13 Stage 7 re-audit: the dependency is correctly represented but was previously under-evidenced — 1.10 itself carried no `[[TOKEN]]`/⚠ warning marking it unapproved, unlike the other six hold items.** This has been corrected (1.10 now carries `[[OPERATING_MODEL_APPROVED]]` and an explicit hold notice). **This claim remains Unverified and must not be marked Verified until both (a) the Operating Capability Structure is approved at the Brand Strategy Workshop and (b) documentary evidence of the independent reporting line is produced** — approval of the structure alone evidences intent, not the review record itself. Same underlying claim as CVR-020 and CVR-030 | Medium | — |
 | CVR-028 | 5.9 Service level framework | Severity, response, restoration, availability targets | Standard SLA schedule or sample signed SLA | Commercial/support leadership | Gated ([[SLA_*]] tokens, Fact Register D4) | High | — |
 
 ---

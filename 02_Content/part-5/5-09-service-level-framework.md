@@ -5,7 +5,7 @@ part: "Five — Project Delivery"
 pages: [84]
 archetype: G
 words_target: 160
-words_actual: 154
+words_actual: 87
 figures: []
 tables: ["tbl-5.1-service-level-framework"]
 icons: ["fa-stopwatch"]

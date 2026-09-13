@@ -10,7 +10,7 @@ figures: []
 tables: []
 icons: ["fa-file-lines"]
 images: []
-tokens: ["[[FOUNDED_YEAR]]", "[[HEADCOUNT]]", "[[BBBEE_LEVEL]]", "[[TAX_COMPLIANCE_STATUS]]"]
+tokens: ["[[FOUNDED_YEAR]]", "[[HEADCOUNT]]", "[[BBBEE_LEVEL]]", "[[TAX_COMPLIANCE_STATUS]]", "[[PLATFORM_OPERATING_MODEL]]"]
 status: draft
 ---
 
@@ -38,7 +38,7 @@ organisation that recommended an approach is the organisation answerable for whe
 
 Alongside client engineering we develop our own platforms — **HR and employee management** and
 **school management systems** — which places us in the position of operating software that other
-organisations rely on daily. That responsibility informs how we build everything else: more
+organisations rely on daily. [[PLATFORM_OPERATING_MODEL]] That responsibility informs how we build everything else: more
 conservatively about complexity, more carefully about failure modes, and more honestly about what a
 timeline actually contains.
 
@@ -74,3 +74,7 @@ Credentials section from page 95 will answer you directly.
 - The "unusual at our scale" claim in paragraph two is defensible from the confirmed service list and
   is the document's central differentiation. It recurs in 1.8 and 1.9 and must stay consistent in all
   three.
+- **`[[PLATFORM_OPERATING_MODEL]]`** — added at Stage 7 audit. The confirmed service list evidences
+  that HR/employee management and school management systems are offered services; it does not
+  evidence that Auris self-operates them as its own ongoing platforms distinct from client-commissioned
+  builds. See Fact Register **C14**, Claim Verification Register CVR-011.

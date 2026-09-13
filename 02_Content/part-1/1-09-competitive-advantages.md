@@ -10,7 +10,7 @@ figures: []
 tables: []
 icons: ["fa-layer-group", "fa-cubes", "fa-user-tie", "fa-location-dot", "fa-file-contract", "fa-arrows-rotate"]
 images: []
-tokens: []
+tokens: ["[[PLATFORM_OPERATING_MODEL]]"]
 status: draft
 ---
 
@@ -62,6 +62,7 @@ reversing it means rebuilding a business.
 `fa-cubes`
 
 **What.** We operate our own HR and school management platforms alongside client engineering.
+[[PLATFORM_OPERATING_MODEL]]
 
 **Why it holds.** Building a production platform takes years and a body of operational scar tissue
 that cannot be hired in. A services firm cannot acquire it by announcing a product.
@@ -142,3 +143,5 @@ rather you evaluate them with the costs visible.
 - Advantage 3 ("arithmetic, not policy") and advantage 4 both concede that larger competitors are not
   doing anything wrong. This is deliberate: attacking competitors reads as insecurity to
   institutional buyers, while explaining a structural difference reads as understanding your market.
+- **`[[PLATFORM_OPERATING_MODEL]]`** — added at Stage 7 audit. Advantage 2's claim is unevidenced
+  beyond the confirmed service list — see Fact Register **C14**, CVR-011.

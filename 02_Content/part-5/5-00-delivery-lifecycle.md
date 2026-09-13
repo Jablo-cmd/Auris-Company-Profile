@@ -5,7 +5,7 @@ part: "Five — Project Delivery"
 pages: [74, 75]
 archetype: F
 words_target: 400
-words_actual: 388
+words_actual: 247
 figures: ["fig-5.1-delivery-lifecycle"]
 tables: []
 icons: ["fa-diagram-project"]

@@ -5,7 +5,7 @@ part: "Five — Project Delivery"
 pages: [80]
 archetype: C
 words_target: 420
-words_actual: 398
+words_actual: 178
 figures: []
 tables: []
 icons: ["fa-rocket"]

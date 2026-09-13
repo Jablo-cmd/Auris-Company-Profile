@@ -5,7 +5,7 @@ part: "Five — Project Delivery"
 pages: [76]
 archetype: C
 words_target: 420
-words_actual: 411
+words_actual: 189
 figures: []
 tables: []
 icons: ["fa-magnifying-glass-chart"]

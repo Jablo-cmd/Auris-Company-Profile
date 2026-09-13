@@ -10,7 +10,7 @@ figures: ["fig-1.4-accountability-comparison"]
 tables: []
 icons: ["fa-circle-check"]
 images: ["img-p018-working-session"]
-tokens: ["[[SECTORS_DELIVERED]]", "[[PLATFORM_DEPLOYMENTS]]"]
+tokens: ["[[SECTORS_DELIVERED]]", "[[PLATFORM_DEPLOYMENTS]]", "[[PLATFORM_OPERATING_MODEL]]"]
 status: draft
 ---
 
@@ -56,7 +56,7 @@ answerable for whether it worked.
 
 Our HR and employee management and school management systems place us in the position of running
 software that other organisations depend on daily — where a fault is not a defect ticket but a
-disrupted payroll or a school unable to register learners.
+disrupted payroll or a school unable to register learners. [[PLATFORM_OPERATING_MODEL]]
 
 This is a different discipline from project delivery, and it changes how a company builds. It makes
 you conservative about complexity, rigorous about failure modes, and materially more honest about
@@ -137,6 +137,8 @@ Both are verifiable before you appoint anyone. We would encourage you to verify 
 - **`[[SECTORS_DELIVERED]]`** — the delivered-versus-targeted split (Fact Register **C7**). Until it
   resolves, §4 makes no claim of prior delivery in named sectors. Do not fill this with the primary
   markets list; those are markets served, which is a different claim.
+- **`[[PLATFORM_OPERATING_MODEL]]`** — added at Stage 7 audit. §2's claim of currently operating these
+  platforms is unevidenced beyond the confirmed service list — see Fact Register **C14**, CVR-011.
 - Image: unposed working session, full-bleed band across the gutter foot, navy scrim composited in
   Photoshop if type overlaps.
 - Layer 1 of the reading model is carried by the six numbered headings alone. Verify they still read

@@ -10,7 +10,7 @@ figures: []
 tables: []
 icons: ["fa-quote-left"]
 images: ["img-p006-md-portrait"]
-tokens: ["[[MD_NAME]]", "[[MD_ROLE]]", "[[FOUNDED_YEAR]]"]
+tokens: ["[[MD_NAME]]", "[[MD_ROLE]]", "[[FOUNDED_YEAR]]", "[[PLATFORM_OPERATING_MODEL]]"]
 status: draft
 ---
 
@@ -46,8 +46,8 @@ Tuesday.
 > **A system that works in a demonstration and fails in production has not been delivered. It has
 > been described.**
 
-This is also why we chose to develop our own platforms alongside our client engineering. Operating
-software that other organisations depend on daily — where an outage is not an inconvenience but a
+This is also why we chose to develop our own platforms alongside our client engineering.
+[[PLATFORM_OPERATING_MODEL]] Operating software that other organisations depend on daily — where an outage is not an inconvenience but a
 disrupted payroll or a school unable to register its learners — teaches a discipline that project
 work alone does not. It has made us more careful, more conservative about complexity, and
 considerably more honest in our estimates.
@@ -100,5 +100,10 @@ Auris Nexus Technologies
 - `[[MD_ROLE]]` — confirm whether "Managing Director", "Chief Executive Officer" or "Founder". The
   running head and contents entry follow from this.
 - The reference to developing "our own platforms" is supported by the confirmed service list
-  (HR & Employee Management Systems, School Management Systems). Any claim about **deployments,
-  client counts or uptime** requires `[[PLATFORM_DEPLOYMENTS]]` and is deliberately absent here.
+  (HR & Employee Management Systems, School Management Systems). **Correction (Stage 7 audit,
+  2026-09-13):** the confirmed service list evidences that these are offered services, not that
+  Auris self-operates them as ongoing products distinct from client-commissioned builds — that
+  stronger claim is unevidenced and now carried as `[[PLATFORM_OPERATING_MODEL]]`, Fact Register
+  **C14**. Any claim about **deployments, client counts or uptime** additionally requires
+  `[[PLATFORM_DEPLOYMENTS]]` and is deliberately absent here. See Claim Verification Register
+  CVR-011.

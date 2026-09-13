@@ -102,6 +102,15 @@ profiles end up with three-quarters-empty pages next to overset ones.
 
 **Total drafted extent: approximately 34 000 words.**
 
+> **Known gap, found at the Stage 7 re-audit (2026-09-13).** Part Five's `words_actual` front matter
+> was overstated in every one of its ten files — roughly double the true prose count, a bookkeeping
+> error rather than a content problem; corrected in each file and in `README.md`. The corrected counts
+> also reveal a real, separate issue: sections 5.1–5.7 (archetype C, 380–450-word band) now measure
+> 160–190 words, well outside the ±10% binding tolerance stated above. This is expected at this stage
+> — most of that shortfall is unresolved Group D tokens (methodology, support model, SLA detail, etc.)
+> that will add genuine words once resolved — but it is an open item to close before Stage 11 assembly,
+> not to be padded with invented detail in the meantime.
+
 ---
 
 ## 4. Terminology register

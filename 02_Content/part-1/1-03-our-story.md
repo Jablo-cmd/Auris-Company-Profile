@@ -10,7 +10,7 @@ figures: ["fig-1.1-milestone-timeline"]
 tables: []
 icons: ["fa-timeline"]
 images: ["img-p012-establishing"]
-tokens: ["[[FOUNDED_YEAR]]", "[[FOUNDING_CIRCUMSTANCES]]", "[[MILESTONES]]", "[[PLATFORM_ORIGIN]]"]
+tokens: ["[[FOUNDED_YEAR]]", "[[FOUNDING_CIRCUMSTANCES]]", "[[MILESTONES]]", "[[PLATFORM_ORIGIN]]", "[[PLATFORM_OPERATING_MODEL]]"]
 status: draft — awaiting B1, B2, B5
 ---
 
@@ -42,7 +42,7 @@ costs revenue.
 **Building our own products changed how we build everything else.**
 
 The decision to develop platforms of our own — for human resources and employee management, and for
-school administration — was made for commercial reasons. Its most valuable effect was not commercial.
+school administration — was made for commercial reasons. [[PLATFORM_OPERATING_MODEL]] Its most valuable effect was not commercial.
 Operating a system that other organisations depend on daily, where a fault is not a defect report but
 a disrupted payroll or a school unable to register learners, imposes a discipline that client project
 work does not. It taught us to be conservative about complexity, rigorous about failure modes, and
@@ -74,6 +74,9 @@ the people doing the work, and accountability that does not dissipate across a d
   fail when they are abstract; they persuade when they are specific about a person and a moment.
 - **`[[PLATFORM_ORIGIN]]`** — was the HR or school system built for a specific client and then
   productised, or built speculatively? The first is a much stronger story and is worth stating if true.
+- **`[[PLATFORM_OPERATING_MODEL]]`** — added at Stage 7 audit. Do not let "Building our own products"
+  read as an established, currently-operating platform business until confirmed — see Fact Register
+  **C14**, CVR-011.
 - The final paragraph deliberately concedes scale. Per Charter principle **P1**, a document that
   concedes nothing is believed on nothing — and every evaluator already knows the company's size from
   the credentials section. Conceding it here converts a weakness into evidence of candour.

@@ -84,16 +84,24 @@ tenders, procurement, enterprise sales, investor and partner engagement.
 | [4-09-integration-and-apis.md](02_Content/part-4/4-09-integration-and-apis.md) | 4.9 Integration and APIs | 401 |
 | [4-10-bi-analytics-and-reporting.md](02_Content/part-4/4-10-bi-analytics-and-reporting.md) | 4.10 BI, analytics and reporting | 403 |
 | [4-11-capability-and-technology-comparison.md](02_Content/part-4/4-11-capability-and-technology-comparison.md) | 4.11 Capability and technology comparison | 149 |
-| [5-00-delivery-lifecycle.md](02_Content/part-5/5-00-delivery-lifecycle.md) | 5.0 The delivery lifecycle | 388 |
-| [5-01-discovery-requirements-and-planning.md](02_Content/part-5/5-01-discovery-requirements-and-planning.md) | 5.1 Discovery, requirements and planning | 411 |
-| [5-02-analysis-architecture-and-uiux.md](02_Content/part-5/5-02-analysis-architecture-and-uiux.md) | 5.2 Analysis, architecture and UI/UX | 405 |
-| [5-03-development.md](02_Content/part-5/5-03-development.md) | 5.3 Development | 402 |
-| [5-04-testing-qa-and-security-testing.md](02_Content/part-5/5-04-testing-qa-and-security-testing.md) | 5.4 Testing, QA and security testing | 413 |
-| [5-05-deployment-and-training.md](02_Content/part-5/5-05-deployment-and-training.md) | 5.5 Deployment and training | 398 |
-| [5-06-support-and-maintenance.md](02_Content/part-5/5-06-support-and-maintenance.md) | 5.6 Support and maintenance | 407 |
-| [5-07-continuous-improvement.md](02_Content/part-5/5-07-continuous-improvement.md) | 5.7 Continuous improvement | 389 |
-| [5-08-delivery-governance-and-assurance.md](02_Content/part-5/5-08-delivery-governance-and-assurance.md) | 5.8 Delivery governance and assurance | 251 |
-| [5-09-service-level-framework.md](02_Content/part-5/5-09-service-level-framework.md) | 5.9 Service level framework | 154 |
+| [5-00-delivery-lifecycle.md](02_Content/part-5/5-00-delivery-lifecycle.md) | 5.0 The delivery lifecycle | 247† |
+| [5-01-discovery-requirements-and-planning.md](02_Content/part-5/5-01-discovery-requirements-and-planning.md) | 5.1 Discovery, requirements and planning | 189† |
+| [5-02-analysis-architecture-and-uiux.md](02_Content/part-5/5-02-analysis-architecture-and-uiux.md) | 5.2 Analysis, architecture and UI/UX | 190† |
+| [5-03-development.md](02_Content/part-5/5-03-development.md) | 5.3 Development | 178† |
+| [5-04-testing-qa-and-security-testing.md](02_Content/part-5/5-04-testing-qa-and-security-testing.md) | 5.4 Testing, QA and security testing | 172† |
+| [5-05-deployment-and-training.md](02_Content/part-5/5-05-deployment-and-training.md) | 5.5 Deployment and training | 178† |
+| [5-06-support-and-maintenance.md](02_Content/part-5/5-06-support-and-maintenance.md) | 5.6 Support and maintenance | 160† |
+| [5-07-continuous-improvement.md](02_Content/part-5/5-07-continuous-improvement.md) | 5.7 Continuous improvement | 166† |
+| [5-08-delivery-governance-and-assurance.md](02_Content/part-5/5-08-delivery-governance-and-assurance.md) | 5.8 Delivery governance and assurance | 167† |
+| [5-09-service-level-framework.md](02_Content/part-5/5-09-service-level-framework.md) | 5.9 Service level framework | 87† |
+
+† **Corrected 2026-09-13.** Part Five's declared `words_actual` front matter was found at the Stage 7
+re-audit to be roughly double the true prose count in every section (a bookkeeping error, not a
+content problem). Figures above are recounted directly from each file's Standfirst and Copy text.
+Sections 5.1–5.7 (archetype C, 380–450-word budget) now measure 160–190 words — well under the
+±10%-binding budget in `01_Project/06_Production-Conventions.md` §3 — because most of their content
+is still open Fact Register tokens (Group D); expansion is expected once those resolve, not fabricated
+now. This is a genuine open item for Stage 8+, not a silent error.
 
 ### Design system — [07_Branding/](07_Branding/)
 
@@ -127,7 +135,7 @@ tenders, procurement, enterprise sales, investor and partner engagement.
 | Governing angle | 3 : 5 (31°) — measured from the logo apex |
 | Type | Saira · Source Sans 3 · Source Serif 4 |
 | Components | 24 |
-| Drafted extent | ~34 000 words · **~24 550 written** (Parts One–Five) |
+| Drafted extent | ~34 000 words · **~22 700 written** (Parts One–Five, recounted 2026-09-13 — see † note in the Content table above) |
 | Diagrams | 14, all editable |
 | Tables | 21, all editable |
 | Photography | 16 positions |
@@ -215,9 +223,13 @@ each remains an open token pending **D1–D10**, four of which (D7–D10) were a
 A **Claim Verification Register** — [07_Claim-Verification-Register.md](01_Project/07_Claim-Verification-Register.md)
 — was introduced at Stage 7. It tracks every statement in the drafted copy that a procurement
 committee, auditor or evaluator could challenge, whether or not it is already tokenized, through to
-documentary evidence. Part Five is fully audited; Parts One–Four have a targeted pass only, with a
-full line-by-line audit still owed before Stage 12. The first pass already caught and corrected one
-real gap: 1.1 and 1.2 stated tax compliance as established fact with no token — see Fact Register
-**E6**'s correction note.
+documentary evidence. Part One and Part Five are now fully audited (Part One since a 2026-09-13
+re-audit); Parts Two–Four have a targeted pass only, with a full line-by-line audit still owed before
+Stage 12. Audits to date have caught and corrected two real gaps of the same kind — a sentence stated
+as established fact with no token: 1.1 and 1.2 originally stated tax compliance as fact (Fact Register
+**E6**'s correction note), and six sections (MD message, 1.1, 1.3, 1.8, 1.9, 2.3) stated that Auris
+operates its own HR/school-management platforms as ongoing products (Fact Register **C14**'s
+correction note; Claim Verification Register **CVR-011**). The register currently stands at 30 rows:
+2 Verified, 15 Gated, 13 Unverified, 0 Rejected — see its §5 tally for the full breakdown.
 
 Full register: [05_Fact-Register.md § Minimum viable input](01_Project/05_Fact-Register.md).

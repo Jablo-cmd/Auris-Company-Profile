@@ -29,7 +29,7 @@ Continuous integration and deployment, infrastructure as code, and observability
 apply to reduce the risk and effort of shipping change, not tooling adopted for its own sake. A
 release pipeline that reliably runs the same way every time — tested, repeatable, reversible — is what
 allows an engagement to ship frequently without accumulating deployment risk, which matters
-particularly for the platforms we operate ourselves under section 2.3.
+particularly for the platforms described in section 2.3.
 
 Infrastructure as code extends the same discipline to environments themselves: an environment is
 reproducible from version-controlled definition, not assembled by hand and then guarded as

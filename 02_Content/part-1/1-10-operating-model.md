@@ -10,11 +10,20 @@ figures: ["fig-1.5-operating-model"]
 tables: []
 icons: ["fa-diagram-project"]
 images: []
-tokens: ["[[TEAM_STRUCTURE]]", "[[HEADCOUNT]]", "[[PARTNERS]]"]
-status: draft
+tokens: ["[[TEAM_STRUCTURE]]", "[[HEADCOUNT]]", "[[PARTNERS]]", "[[OPERATING_MODEL_APPROVED]]"]
+status: draft — operating structure PROPOSED, awaiting approval
 ---
 
 # 1.10 Our operating model
+
+> ⚠ **PROPOSED, not recorded.** This is item 7 of the Strategic Identity Hold (client direction,
+> 2026-08-02; see `README.md` § Outstanding input and `01_Project/08_Project-Handover-Brief.md` §2,
+> rule 4). The three-layer structure below — capability units, delivery teams, governance, partner
+> network — is drafted as a proposal for collaborative development, not a confirmed organisational
+> fact. It must not be read, quoted or presented as an approved operating structure until
+> `[[OPERATING_MODEL_APPROVED]]` resolves. Every downstream section that treats this page's governance
+> or structural claims as settled (including 5.2, 5.4 and 5.8) inherits this hold — see
+> `01_Project/07_Claim-Verification-Register.md`, CVR-020/CVR-027/CVR-030.
 
 **Standfirst**
 
@@ -89,3 +98,7 @@ Three practical consequences, and they are the reason this page exists:
   than implying a network. See Charter principle **P2**.
 - This page closes Part One and is the last thing read before the Services divider. It should leave
   the reader with structure, not sentiment — no closing flourish.
+- **On approval:** delete the warning block once `[[OPERATING_MODEL_APPROVED]]` resolves. Until then,
+  do not let 5.2, 5.4, 5.8 or any other section state the governance-independence claim as settled
+  fact — each cross-references this page rather than asserting it independently, per the content
+  reuse map, so the hold applies wherever those references appear.

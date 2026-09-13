@@ -5,7 +5,7 @@ part: "Five — Project Delivery"
 pages: [83]
 archetype: F
 words_target: 260
-words_actual: 251
+words_actual: 167
 figures: ["fig-5.2-governance-raci"]
 tables: []
 icons: ["fa-scale-balanced"]
