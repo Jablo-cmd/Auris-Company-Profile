@@ -5,12 +5,12 @@ part: "Two — Services"
 pages: [30, 31]
 archetype: H
 words_target: 660
-words_actual: 561
+words_actual: 619
 figures: []
 tables: []
 icons: ["fa-building-user"]
 images: ["img-p030-platform-operations"]
-tokens: ["[[TECH_STACK_EMS]]", "[[PROOF_EMS]]", "[[PLATFORM_DEPLOYMENTS]]", "[[PLATFORM_OPERATING_MODEL]]"]
+tokens: ["[[TECH_STACK_EMS]]", "[[PLATFORM_DEPLOYMENTS]]", "[[PLATFORM_OPERATING_MODEL]]"]
 status: draft
 ---
 
@@ -122,10 +122,28 @@ number of organisations currently running each platform is not yet confirmed and
 
 ---
 
+## Fact callout (lower recto)
+
+> **Funda360** — a school management platform Auris Nexus has built, covering admissions, learner and
+> staff records, attendance, homework, report cards, a parent portal and fee administration. Built and
+> verified in local development, with a defined pilot-deployment process prepared for a real school —
+> that pilot has not yet been executed, and no school is currently running it. Full account in 7.10.
+
+---
+
 ## Production notes
 
-- **Fact callout, lower recto:** [[PROOF_EMS]] — real deployment example, per Fact Register **C2**
-  (🔴 critical, unresolved). Left open.
+- **Fact callout, lower recto — resolved 2026-09-13, Stage 8B, for the school-management half of this
+  service only.** Previously an open `[[PROOF_EMS]]` token pending Fact Register **C2**. Resolved using
+  evidence already established for 7.10 Case studies (Funda360 — Claim Verification Register CVR-036),
+  not new client input. **This callout does not, and must not be read to, resolve `[[PLATFORM_OPERATING_MODEL]]`
+  or `[[PLATFORM_DEPLOYMENTS]]`** — it states plainly, consistent with 7.10, that Funda360 is built but
+  not yet operating for any real school, which is evidence *against* the "we operate this platform"
+  claim being currently true, not evidence toward it (see Fact Register C14 addendum, CVR-011). The
+  "HR & employee management systems" half of this service remains unresolved: Sebetsa (also in 7.10)
+  demonstrates related employee/workforce administration capability but is scoped to multi-tenant
+  contract-labour deployment across client sites, not general single-employer HR administration, and is
+  not used here to avoid overstating the fit.
 - **`[[PLATFORM_DEPLOYMENTS]]`** also appears in 1.1 and 1.8 with the same status — resolving it once
   updates all three per the content reuse map, `02_Information-Architecture.md` §6.
 - **`[[PLATFORM_OPERATING_MODEL]]`** — added at Stage 7 audit. This is the source spread for the

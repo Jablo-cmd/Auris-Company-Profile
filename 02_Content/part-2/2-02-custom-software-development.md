@@ -5,12 +5,12 @@ part: "Two — Services"
 pages: [28, 29]
 archetype: H
 words_target: 660
-words_actual: 510
+words_actual: 582
 figures: []
 tables: []
 icons: ["fa-code"]
 images: ["img-p028-development-session"]
-tokens: ["[[TECH_STACK_CUSTOM_DEV]]", "[[PROOF_CUSTOM_DEV]]"]
+tokens: ["[[TECH_STACK_CUSTOM_DEV]]"]
 status: draft
 ---
 
@@ -117,10 +117,28 @@ manufacturing and logistics and transport, where process-specific systems are mo
 
 ---
 
+## Fact callout (lower recto)
+
+> **A workforce administration system**, built for a South African organisation whose staff are
+> deployed across multiple client operational sites. The system covers employee records, attendance,
+> leave requests and approvals, multi-site posting and deployment management, contracts, HR request
+> workflows, reporting and a full audit trail — a bespoke build to that organisation's specific
+> operating structure, not a configurable off-the-shelf product. The commissioning organisation is not
+> named, consistent with the absence of a written release permitting that.
+
+---
+
 ## Production notes
 
-- **Fact callout, lower recto:** [[PROOF_CUSTOM_DEV]] — real delivered example, per Fact Register
-  **C2** (🔴 critical, unresolved). Left open rather than invented.
+- **Fact callout, lower recto — resolved 2026-09-13, Stage 8B.** Previously an open
+  `[[PROOF_CUSTOM_DEV]]` token pending Fact Register **C2**. Resolved using a fully anonymised
+  description of the real system inspected for Fact Register **F8** ("CIT LMS") — Claim Verification
+  Register **CVR-047**. The commissioning organisation and its own client names (confidential, found in
+  the same repository's seed data) are never stated here or anywhere in this profile; only the generic
+  capability description above is used, consistent with the client-naming consent rule already applied
+  to 7.10 (Fact Register F2) — the difference here is that no name is used at all, so no naming consent
+  is required. No financial value, user count, deployment date or commercial outcome is stated, because
+  none is evidenced for a public reference of this kind.
 - Image: development or code-review session, screens visible but not staged as a stock photograph.
 - Distinguish clearly from 2.3 (Enterprise Management Systems) in layout review — 2.3 covers our own
   productised platforms; this page covers bespoke, single-client builds. The distinction is

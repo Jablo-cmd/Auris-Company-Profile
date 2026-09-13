@@ -64,9 +64,9 @@ reading better without them.
 | 1 | Planning | — | ✅ Completed, approved |
 | 2 | Brand identity, design language, typography, colour system, components, grid, spacing, production rules | ~20 000 words | ✅ Completed, approved and frozen |
 | 3 | Part One — The Company | ~7 700 words | ✅ Draft complete. Strategic items intentionally held |
-| 4 | Part Two — Services | ~4 400 words (corrected 2026-09-13, Stage 8A; previously misstated as ~5 700 — see README.md ‡ note) | ✅ No fabricated client examples; all proof points tokenized |
+| 4 | Part Two — Services | ~4 600 words (corrected 2026-09-13, Stage 8A, from a misstated ~5 700; grew to ~4 600 at Stage 8B with the 2.2/2.3 evidence-backed fact callouts — see README.md ‡/§ notes) | ✅ No fabricated client examples; three of eight services now have a resolved, evidence-scoped proof point; the rest remain tokenized |
 | 5 | Part Three — Industries | ~2 700 words (corrected 2026-09-13, Stage 8A; previously misstated as ~5 100) | ✅ Sector knowledge only; no false delivery claims; delivered-sector claims tokenized |
-| 6 | Part Four — Technical Capabilities | ~2 000 words (corrected 2026-09-13, Stage 8A; previously misstated as ~4 600) | ✅ Three-tier Current/Capable/Planned model applied; no certifications, cloud partnerships or technology claims invented; Fact Register items C8–C13 added |
+| 6 | Part Four — Technical Capabilities | ~2 400 words (corrected 2026-09-13, Stage 8A, from a misstated ~4 600; grew to ~2 400 at Stage 8B when 4.1/4.6 were corrected for accuracy and expanded evidence) | ✅ Three-tier Current/Capable/Planned model applied; no certifications, cloud partnerships or technology claims invented; Fact Register items C8–C13 added |
 | 7 | Part Five — Project Delivery | ~1 700 words (corrected 2026-09-13; previously misstated as ~3 600 — see below) | ✅ Lifecycle, discovery, planning, architecture, development, testing, deployment, support, continuous improvement, governance, SLA framework. No PMO/ITIL/DevSecOps/ISO system implied; every operational metric tokenized; SLA table intentionally unpopulated |
 
 **Quality improvement introduced this stage:** the Claim Verification Register was created. Its audit
@@ -139,16 +139,54 @@ Register, closing the item flagged in the paragraph above. Findings:
    consistency risk between this entry and the public website's "LOGIOS OS" portfolio page is tracked
    at **CVR-046** and remains open.
 
-None of these six items required inventing a fact. The Claim Verification Register now stands at
-**42 rows: 11 Verified, 15 Gated, 16 Unverified, 0 Rejected** — see §8 below, which restates the
-verification-completeness assessment against these corrected figures.
+None of these six items required inventing a fact. The Claim Verification Register stood at
+**42 rows: 11 Verified, 15 Gated, 16 Unverified, 0 Rejected** at the close of Stage 8A — see the Stage
+8B note immediately below for the current figures.
 
-**Current word count:** approximately **16 900** words drafted — revised down twice since the
+**2026-09-13, Stage 8B — evidence-closure and reconciliation pass.** With direct filesystem access to
+all four case-study source repositories plus the CIT/HMRS repository investigated for Fact Register
+F8 (not available at Stage 8A, which relied on a prior session's findings), every currently Gated and
+Unverified Claim Verification Register row was reviewed against that access. Findings:
+
+1. **One accuracy correction to Stage 8A's own work.** 4.1's "Technologies currently used" and "Code
+   quality regime" wording attributed React 18, Playwright and ESLint uniformly to all three referenced
+   systems (Sebetsa, Funda360, and a confidentially-held third system). Direct re-inspection found the
+   third system actually runs React 19, TypeScript 6 and Vite 8 — a newer major-version generation —
+   with Oxlint in place of ESLint and no Playwright/e2e suite at all. Corrected in 4.1's copy and in
+   CVR-043/CVR-044. This is a genuine finding, not a reversal of Stage 8A's method — the underlying
+   evidence-first approach was sound; one specific factual generalisation was too broad and is now
+   precise. 4.6 was extended on the same basis: the third system independently confirms PostgreSQL via
+   Supabase with Auth and Storage, but no Deno Edge Functions were found in it, so that claim is now
+   correctly scoped to the two systems that evidence it (CVR-045).
+2. **Two further `[[PROOF_*]]` tokens closed using evidence already available.** 2.2 Custom Software
+   Development's fact callout is resolved with a fully anonymised description of the real system
+   investigated for Fact Register F8 — no client name or identifying detail is used, so no naming
+   consent is required (CVR-047). 2.3 Enterprise Management Systems's fact callout is resolved, for the
+   school-management half only, using Funda360 (already evidenced at CVR-036); this explicitly does not
+   resolve the separate, still-open Platform Operating Model claim (CVR-011) — Funda360's own evidence
+   argues against that claim being currently true, not toward it (CVR-048).
+3. **CVR-046 (Logistics App vs. "LOGIOS OS") reconciled, not closed.** A repository-wide check confirmed
+   this profile's own copy uses only "Logistics App," never "LOGIOS"/"LOGIOS OS" — this profile's side
+   of the risk is clean. The row stays open because the residual action is external: correcting the
+   public Auris Nexus Technologies website, which this task does not authorise touching.
+4. **Every other Gated and Unverified row was reviewed and correctly remains open** — no additional
+   evidence was found to close any of them, and none was manufactured. See the Claim Verification
+   Register's own §5/§6 for the row-by-row basis.
+
+The Claim Verification Register now stands at **44 rows: 13 Verified, 15 Gated, 16 Unverified,
+0 Rejected** — see §8 below, which restates the verification-completeness assessment against these
+figures.
+
+**Current word count:** approximately **17 400** words drafted — revised three times since the
 original ~24 500 figure: first to ~23 200 (Part Five's word-count correction, plus the 7.10 addition),
 then to ~16 900 at Stage 8A once the same bookkeeping error was confirmed and corrected across all 30
-files in Parts Two, Three and Four. See `README.md`'s †/‡ notes and `06_Production-Conventions.md` for
-the related open item: most sections in Parts Two–Five now measure below their archetype's binding
-word band, expected to close as Group C/D tokens resolve rather than by padding.
+files in Parts Two, Three and Four, and now to ~17 400 at Stage 8B once four files (2.2, 2.3, 4.1, 4.6)
+grew with the newly-added, evidence-backed content above **and** a README table/front-matter sync bug
+was found and fixed (the README table for 4.1/4.6 had not been updated after Stage 8A's own content
+additions to those two files — see README.md's § note). See `README.md`'s †/‡/§ notes and
+`06_Production-Conventions.md` for the related open item: most sections in Parts Two–Five now measure
+below their archetype's binding word band, expected to close as Group C/D tokens resolve rather than by
+padding.
 
 ---
 
@@ -221,37 +259,43 @@ Register, this brief and `06_Production-Conventions.md` are cross-consistent aft
 listed in §3 above.
 
 **B. Claim verification completeness — INCOMPLETE, and not close.** *(Figures below corrected
-2026-09-13, Stage 8A — the original re-audit figures immediately below this note read "Of 30 rows...
-2 Verified... 13 Unverified"; that was superseded first by the same-day addition of CVR-035–040
-[36 rows, 8 Verified] and now by the Stage 8A line-by-line audit of Parts Two–Four.)* Of **42 rows** in
-the Claim Verification Register: **11 Verified**, **15 Gated** (openly disclosed as unresolved via a
-Fact Register token), **16 Unverified** (stated as fact in the copy, no token, no evidence yet). Zero
-Rejected. The highest-risk open items — none of which may be presented to an evaluator as settled —
-are unchanged in substance from the original re-audit and remain:
+2026-09-13, Stage 8B — the tally has moved three times: 30 rows/2 Verified at the original re-audit;
+36 rows/8 Verified the same day, on adding CVR-035–040; 42 rows/11 Verified at Stage 8A; now 44
+rows/13 Verified at Stage 8B.)* Of **44 rows** in the Claim Verification Register: **13 Verified**,
+**15 Gated** (openly disclosed as unresolved via a Fact Register token), **16 Unverified** (stated as
+fact in the copy, no token, no evidence yet). Zero Rejected. The highest-risk open items — none of
+which may be presented to an evaluator as settled — remain:
 
-- **CVR-011 (High)** — the HR/school platform operating-model claim (six locations).
+- **CVR-011 (High)** — the HR/school platform operating-model claim (six locations). Stage 8B's 2.3
+  fact callout (Funda360) deliberately does not touch this — it argues against the claim, not for it.
 - **CVR-023 (High)** — "security testing is a mandatory gate before deployment."
-- **CVR-010 (High)** — per-service proof points — now partially resolved for 2.5 only (Pro Energy
-  Solutions); the other seven services remain fully Gated.
+- **CVR-010 (High)** — per-service proof points — now partially resolved for **3 of 8 services**: 2.5
+  (Pro Energy Solutions, Stage 8A), 2.2 (anonymised, Stage 8B), and 2.3's school-management half
+  (Funda360, Stage 8B). The remaining five services, plus 2.3's HR & employee-management half, stay
+  fully Gated.
 - **CVR-014, CVR-016, CVR-017, CVR-026, CVR-028 (all High)** — sector delivery experience, cloud
   partner-tier status, security certifications, support model, and SLA figures — all Gated on Fact
   Register items not yet supplied.
-- **CVR-015 (High)** — technology inventory — now partially resolved for the "currently used" state in
-  2 of 10 domains (4.1, 4.6 — see CVR-043–045); "capable of supporting," "planned," and all of Fact
-  Register **C4** remain fully open, as does "currently used" for the remaining eight domains.
+- **CVR-015 (High)** — technology inventory — partially resolved for the "currently used" state in 2 of
+  10 domains (4.1, 4.6 — see CVR-043–045, corrected for accuracy at Stage 8B); "capable of supporting,"
+  "planned," and all of Fact Register **C4** remain fully open, as does "currently used" for the
+  remaining eight domains.
 - **CVR-003/004/005 (High)** — tax compliance and SARS registration — Gated, not fabricated, but
   unresolved.
 - **CVR-020, CVR-027, CVR-030 (Medium, but structurally significant)** — the independent-governance-
   layer claim repeated in 5.2, 5.4 and 5.8, all tracing to the Operating Capability Structure (1.10),
   which is under Strategic Identity Hold and not approved.
-- **CVR-041, CVR-042 (Medium, new at Stage 8A)** — two business-benefit claims in 2.1 and 2.8 found
-  during the Part Two line-by-line audit, not previously carried by any register row.
-- **CVR-046 (Medium, new at Stage 8A)** — an unresolved naming discrepancy between this profile's
+- **CVR-041, CVR-042 (Medium, added at Stage 8A)** — two business-benefit claims in 2.1 and 2.8 found
+  during the Part Two line-by-line audit, not previously carried by any register row. Reviewed again at
+  Stage 8B; no new evidence exists for either, correctly still open.
+- **CVR-046 (Medium, added at Stage 8A)** — an unresolved naming discrepancy between this profile's
   Logistics App case study and "LOGIOS OS" as named on the public Auris Nexus Technologies website.
+  Reconciled, not closed, at Stage 8B: this profile's own copy is confirmed clean; the residual action
+  is a correction to the public website, outside this task's scope.
 
 **C. Overall profile readiness for procurement/evaluator use — NOT READY.** The Strategic Identity
 Hold (rule 4 above) alone means Part One cannot be frozen, and the 16 Unverified and 15 Gated claims
-above (corrected 2026-09-13, Stage 8A) mean the document as it stands must not be represented to a
+above (current as of 2026-09-13, Stage 8B) mean the document as it stands must not be represented to a
 client, bank or tender panel as a finished, evidenced account of the company. It is ready as a
 **structured draft awaiting fact input** — exactly what Stages 1–7 were scoped to produce — not as a
 submission-ready credential.

@@ -5,7 +5,7 @@ part: "Four — Technical Capabilities"
 pages: [67]
 archetype: C
 words_target: 420
-words_actual: 219
+words_actual: 290
 figures: []
 tables: []
 icons: ["fa-database"]
@@ -39,11 +39,14 @@ to work with or around. We treat modelling as a deliverable reviewed on its own 
 implicit byproduct of development.
 
 **Technologies currently used:** demonstrated implementation experience with PostgreSQL as the primary
-relational data store, accessed through Supabase — which in the same evidenced systems also provides
-authentication (session and identity handling), file storage, and serverless functions running on
-Deno. This reflects genuine, source-inspectable implementation experience across multiple
-Auris-developed systems; it does not evidence a specific managed-hosting arrangement, an uptime
-commitment, or a database engine choice for any particular client engagement.
+relational data store, accessed through Supabase, evidenced independently across three Auris-developed
+systems. Two of them (Sebetsa, Funda360) additionally evidence Supabase-based authentication (session
+and identity handling), file storage, and serverless Edge Functions running on Deno. A third,
+confidentially-held system evidences PostgreSQL, Supabase authentication and Supabase file storage, but
+no Edge Functions were found in its source — its serverless-function usage is not claimed. This reflects
+genuine, source-inspectable implementation experience across multiple Auris-developed systems; it does
+not evidence a specific managed-hosting arrangement, an uptime commitment, or a database engine choice
+for any particular client engagement.
 **Capable of supporting:** [[TECH_CAPABLE_DATA]]
 **Planned / future roadmap:** [[TECH_PLANNED_DATA]]
 
@@ -51,11 +54,15 @@ commitment, or a database engine choice for any particular client engagement.
 
 ## Production notes
 
-- **Corrected 2026-09-13, Stage 8A.** Fact Register **C3** is now partially resolved for this domain
-  by direct source-code and database-migration inspection (PostgreSQL via Supabase, including Auth,
-  Storage and Deno-based Edge Functions) — see the correction note against C3 and Claim Verification
-  Register CVR-045. **C4** (technologies *not* worked in) remains open; no warehousing/lakehouse
-  platform is evidenced either way, and `[[TECH_CAPABLE_DATA]]`/`[[TECH_PLANNED_DATA]]` remain open.
+- **Corrected 2026-09-13, Stage 8A; extended 2026-09-13, Stage 8B.** Fact Register **C3** is now
+  partially resolved for this domain by direct source-code and database-migration inspection
+  (PostgreSQL via Supabase). Stage 8A evidenced this in Sebetsa and Funda360, including Auth, Storage
+  and Deno-based Edge Functions. Stage 8B extended the same inspection to the confidentially-held third
+  system referenced in 4.1 — it independently confirms PostgreSQL via Supabase with Auth and Storage,
+  but no Edge Functions were found in its source, so Deno usage is claimed only for the two systems
+  that evidence it. See the correction note against C3 and Claim Verification Register CVR-045. **C4**
+  (technologies *not* worked in) remains open; no warehousing/lakehouse platform is evidenced either
+  way, and `[[TECH_CAPABLE_DATA]]`/`[[TECH_PLANNED_DATA]]` remain open.
 - Cross-reference to 4.10 (BI, analytics and reporting) as a live `REF` field — this page covers where
   data is stored and modelled; 4.10 covers how it is reported on. Keep the boundary clean.
 - POPIA data-handling obligations are addressed in 6.4, not here — this page is architectural, not

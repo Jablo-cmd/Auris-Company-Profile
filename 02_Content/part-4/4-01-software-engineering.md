@@ -5,7 +5,7 @@ part: "Four — Technical Capabilities"
 pages: [62]
 archetype: C
 words_target: 420
-words_actual: 297
+words_actual: 401
 figures: []
 tables: []
 icons: ["fa-code"]
@@ -39,28 +39,38 @@ plainly is our resistance to unnecessary technical novelty: a well-understood, w
 technology chosen for its fit to the problem outperforms a fashionable one chosen for its resume
 value, and we design engagements around the former.
 
-**Technologies currently used:** demonstrated implementation experience with React 18, TypeScript and
-Vite for front-end application development, evidenced directly in the source code of multiple
-Auris-developed systems (Sebetsa, Funda360, and a further Auris-built system held confidentially
-pending client naming consent). This is genuine, inspectable implementation experience — it is not, by
-itself, evidence of commercial client-delivery volume, a specific years-of-experience figure, or a
-vendor certification, none of which is claimed here.
+**Technologies currently used:** demonstrated implementation experience with React, TypeScript and
+Vite for front-end application development, evidenced independently in three Auris-developed systems —
+React 18, TypeScript 5.6 and Vite 5.4 in Sebetsa and Funda360, and React 19, TypeScript 6 and Vite 8 in
+a further Auris-built system held confidentially pending client naming consent. This shows continued
+use of the same core stack across a newer major version, not a single static toolchain frozen in time.
+This is genuine, inspectable implementation experience — it is not, by itself, evidence of commercial
+client-delivery volume, a specific years-of-experience figure, or a vendor certification, none of which
+is claimed here.
 **Capable of supporting:** [[TECH_CAPABLE_ENGINEERING]]
 **Planned / future roadmap:** [[TECH_PLANNED_ENGINEERING]]
 
 **Code quality regime:** automated testing is a genuine, evidenced practice rather than an assumed
-norm — unit and component testing via Vitest, and end-to-end browser testing via Playwright, both
-confirmed directly in the same systems referenced above, alongside ESLint and Prettier for static
-analysis and formatting. Specific coverage-threshold policy and merge review-gate configuration are
-not evidenced and remain unconfirmed.
+norm. Sebetsa and Funda360 both evidence unit and component testing via Vitest, end-to-end browser
+testing via Playwright, and static analysis via ESLint and Prettier. The confidentially-held third
+system evidences a different, newer toolchain for the same quality functions — Vitest with React
+Testing Library for automated tests, and Oxlint in place of ESLint — the same engineering discipline
+maintained across a different tool generation, not identical tooling in all three. Specific
+coverage-threshold policy and merge review-gate configuration are not evidenced in any of the three and
+remain unconfirmed.
 
 ---
 
 ## Production notes
 
-- **Corrected 2026-09-13, Stage 8A.** Fact Register **C3** is now partially resolved for this domain
-  by direct source-code inspection (React 18, TypeScript, Vite; Vitest and Playwright for testing) —
-  see the correction note against C3 and Claim Verification Register CVR-043/CVR-044. **C4** (technologies
+- **Corrected 2026-09-13, Stage 8A; refined 2026-09-13, Stage 8B.** Fact Register **C3** is now
+  partially resolved for this domain by direct source-code inspection. The Stage 8A wording attributed
+  "React 18" and "Playwright/ESLint" uniformly to all three referenced systems; re-inspection at Stage
+  8B (with direct filesystem access to all three repositories, not available at Stage 8A) found the
+  confidentially-held third system actually runs React 19, TypeScript 6 and Vite 8, with Oxlint in
+  place of ESLint and no Playwright/e2e suite at all — a different, newer toolchain, not the same one.
+  The copy above is corrected to state this precisely rather than implying uniform tooling. See the
+  correction note against C3 and Claim Verification Register CVR-043/CVR-044. **C4** (technologies
   *not* worked in) remains entirely open — this page names only what is evidenced, not a complete or
   exclusive list, and `[[TECH_CAPABLE_ENGINEERING]]`/`[[TECH_PLANNED_ENGINEERING]]` remain open tokens.
 - Do not read "currently used" here as commercial delivery evidence — it is demonstrated implementation

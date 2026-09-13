@@ -79,7 +79,7 @@ valid and useful answer, and it changes how the section is written rather than l
 | # | Item | Token | Priority | Needed by |
 |---|---|---|---|---|
 | C1 | **Confirmed service list** | ✅ **13 services, organised into 8 families** — see `02_Information-Architecture.md` §4 | — | Resolved |
-| C2 | For each service: what it actually delivers, and one real example | ✅ **Partially resolved 2026-09-13, Stage 8A, for 2.5 Web Design and Development only** — see correction note below | 🔴 | Stage 4 |
+| C2 | For each service: what it actually delivers, and one real example | ✅ **Partially resolved for 3 of 8 Part Two services** — 2.2 (Stage 8B), 2.3 (Stage 8B, school-management half only), 2.5 (Stage 8A) — see correction notes below | 🔴 | Stage 4 |
 | C3 | Technologies genuinely worked in — languages, frameworks, platforms, clouds, databases | ✅ **Partially resolved 2026-09-13, Stage 8A, for 2 of 10 Part Four domains** — see correction note below | 🔴 | Stage 6 |
 | C4 | Technologies **not** worked in, so the document does not overclaim | — | 🟠 | Stage 6 |
 | C5 | Engagement models offered — fixed price, T&M, managed service, retainer | — | 🟠 | Stage 4 |
@@ -100,8 +100,21 @@ valid and useful answer, and it changes how the section is written rather than l
 > **Correction (2026-09-13, Stage 8A — C2, section 2.5 only).** The `[[PROOF_WEB]]` fact-callout
 > token in 2.5 Web Design and Development is resolved using evidence already established for 7.10
 > Case studies — Pro Energy Solutions (Claim Verification Register CVR-038, naming consent CVR-040) —
-> not new client input. This closes C2 for this one service line only; C2 remains open for the other
-> seven services in Part Two, each of which still carries its own open `[[PROOF_*]]` token.
+> not new client input. This closes C2 for this one service line only.
+>
+> **Correction (2026-09-13, Stage 8B — C2, sections 2.2 and 2.3).** Two further `[[PROOF_*]]` tokens
+> were resolved during Stage 8B's evidence-closure pass. **2.2 Custom Software Development**'s
+> `[[PROOF_CUSTOM_DEV]]` token is resolved using a fully anonymised description of the real system
+> investigated for Fact Register **F8** ("CIT LMS") — no client name or identifying detail is used, so
+> the naming-consent question that keeps F8 excluded as a *named* case study does not arise for this
+> anonymised reference; see Claim Verification Register **CVR-047**. **2.3 Enterprise Management
+> Systems**'s `[[PROOF_EMS]]` token is resolved, for the school-management half of that service only,
+> using evidence already established for 7.10 Case studies (Funda360 — CVR-036); see **CVR-048**. That
+> resolution explicitly does **not** touch `[[PLATFORM_OPERATING_MODEL]]` or `[[PLATFORM_DEPLOYMENTS]]`
+> — Funda360's own evidence is that it is built but not yet operating for any real school, which argues
+> against the "we operate this platform" claim, not toward it. C2 now remains open for five of eight
+> Part Two services: 2.1, 2.4, 2.6, 2.7, 2.8 (the HR & employee management half of 2.3 also remains
+> open), each with its own unresolved `[[PROOF_*]]` token.
 
 > **On C3, per client direction (2026-08-02).** Every technology and capability claim in Part Four is
 > to be split into three explicit states, not resolved as one undifferentiated stack: **Technologies
@@ -110,17 +123,27 @@ valid and useful answer, and it changes how the section is written rather than l
 > C3/C4 resolve, all three remain open tokens per technical domain — see `02_Content/part-4/`.
 
 > **Correction (2026-09-13, Stage 8A).** "Currently used" is resolved directly by evidence, not by
-> client statement, for two domains: **4.1 Software engineering** (React 18, TypeScript, Vite; Vitest
-> and Playwright for testing) and **4.6 Data platforms and databases** (PostgreSQL via Supabase,
-> including Auth, Storage and Deno-based Edge Functions). Each technology was individually confirmed
-> by direct inspection of `package.json` dependencies, config files (`vite.config.ts`,
-> `tailwind.config.ts`, `playwright.config.ts`, `vitest.config.ts`), database migrations, and
-> in-code usage (e.g. `supabase.storage.from()`, `auth.uid()`) across multiple real Auris-developed
-> systems — not inferred from "commonly used together" association. This evidences **demonstrated
-> implementation experience only**: it does not evidence commercial delivery volume, years of
-> experience, a vendor certification, or a partner-tier status, none of which is claimed. The
-> remaining eight domains (4.0 overview excepted, which cross-references these two), and **C4** in
-> full, remain open. See Claim Verification Register CVR-043 through CVR-045.
+> client statement, for two domains: **4.1 Software engineering** (React, TypeScript, Vite; Vitest and
+> Playwright for testing) and **4.6 Data platforms and databases** (PostgreSQL via Supabase, including
+> Auth, Storage and Deno-based Edge Functions). Each technology was individually confirmed by direct
+> inspection of `package.json` dependencies, config files, database migrations, and in-code usage
+> across multiple real Auris-developed systems — not inferred from "commonly used together"
+> association. This evidences **demonstrated implementation experience only**: it does not evidence
+> commercial delivery volume, years of experience, a vendor certification, or a partner-tier status,
+> none of which is claimed. The remaining eight domains (4.0 overview excepted, which cross-references
+> these two), and **C4** in full, remain open. See Claim Verification Register CVR-043 through
+> CVR-045.
+>
+> **Refinement (2026-09-13, Stage 8B).** Stage 8A's wording implied uniform tooling across all three
+> referenced systems (Sebetsa, Funda360, and a confidentially-held third system). Stage 8B re-inspected
+> all three directly (filesystem access to the source repositories, not available at Stage 8A) and
+> found the third system runs a materially different, newer toolchain: **React 19** (not 18),
+> **TypeScript 6** (not 5.6), **Vite 8** (not 5.4), **Oxlint** in place of ESLint, and **no
+> Playwright/e2e suite** at all — though it does independently confirm PostgreSQL via Supabase with
+> Auth and Storage (no Edge Functions found in its source). 4.1 and 4.6 are corrected to attribute each
+> specific technology to the specific system(s) that actually evidence it, rather than to "the same
+> systems" collectively. This is a genuine accuracy correction, not new resolution scope — C3 remains
+> "partially resolved for 2 of 10 domains," now stated more precisely within those two.
 
 ---
 
@@ -206,7 +229,7 @@ eligibility, and each must be transcribed from the source document rather than r
 | F5 | Executive team — 4 to 6. Name, role, qualifications, tenure, short biography | `[[EXEC_TEAM]]` | 🟠 | Stage 9 |
 | F6 | Reference clients contactable by prospective buyers | — | 🟡 | Stage 9 |
 | F7 | Verifiable statistics — projects delivered, uptime achieved, clients retained. **Measured figures only** | `[[STATISTICS]]` | 🟠 | Stage 9 |
-| F8 | **CIT LMS** — investigated as a candidate case study, 2026-09-13 | Excluded. A real, substantially-built HR/workforce system exists in the source repository, but it is built for a real, named third-party client and its own seed/reference data names that client's own clients in turn. No evidence of written consent to reference either the commissioning client or its clients exists anywhere in that repository. Do not add to the profile without a specific, written release covering exactly what may be named | 🔴 | Stage 9 |
+| F8 | **CIT LMS** — investigated as a candidate case study, 2026-09-13; re-inspected 2026-09-13, Stage 8B | **Excluded as a named case study, unchanged.** A real, substantially-built HR/workforce system exists in the source repository (re-confirmed at Stage 8B: employee records, attendance, leave, HR-request workflows, multi-site posting/deployment, contracts, reporting and an audit trail), but it is built for a real, named third-party client and its own seed/reference data names that client's own clients in turn. No evidence of written consent to reference either the commissioning client or its clients exists anywhere in that repository. Do not add to the profile as a *named* case study without a specific, written release covering exactly what may be named. **Stage 8B addition: a fully anonymised capability description — no client name, no sub-client name, no sector-identifying detail — was added to 2.2 Custom Software Development, on the reasoning that a naming-consent requirement governs *identification*, not the fact that Auris does this kind of work at all; see Claim Verification Register CVR-047** | 🔴 | Stage 9 |
 | F9 | **"LOGIOS" / "LOGIOS OS"** — the name used on the public Auris website's portfolio page for a fourth case study, investigated 2026-09-13 | Excluded, still. No project by this exact name was found in any repository accessible to this review; the `Logistics-App` GitHub repository contains only a one-line placeholder README. **Not verified in inspected repository** — this is not the same statement as "does not exist." The owner has since confirmed a related, real product ("Logistics App," see F10); do not assume the two are the same product, and do not silently rename one to the other, until the local source or its documentation explicitly confirms "LOGIOS"/"LOGIOS OS" as an official or historical name for it | 🔴 | Stage 9 |
 | F10 | **Logistics App** — an Auris Nexus-developed product, owner-confirmed 2026-09-13 | ✅ **Existence and authorship owner-confirmed.** The owner has explicitly confirmed: the Logistics App exists, was built by Auris Nexus Technologies, its source currently exists locally (not yet pushed to `Jablo-cmd/Logistics-App`, whose remote is currently near-empty), and it is intended to be published there. Per this project's evidence-priority rules, owner-confirmed information is legitimate evidence for *existence and authorship* — it is not evidence for any specific technical feature, architecture, deployment status, user count or commercial outcome, none of which is claimed. Detailed capability verification is pending the source being pushed to GitHub | 🟡 | Stage 9 |
 

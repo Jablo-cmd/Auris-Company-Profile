@@ -30,6 +30,20 @@ tenders, procurement, enterprise sales, investor and partner engagement.
 > deliberately excluded — see Fact Register **F8/F9/F10**. Logistics App's addition does not resolve or
 > verify the "LOGIOS"/"LOGIOS OS" name used on the public website — see Claim Verification Register
 > **CVR-046**. No other Part Seven or Part Six section exists yet.
+>
+> **Note on Stage 8B (2026-09-13) — evidence closure and reconciliation.** With direct filesystem
+> access to all case-study source repositories, every Gated and Unverified Claim Verification Register
+> row was re-reviewed. One accuracy correction was made to Stage 8A's own 4.1/4.6 wording (the
+> confidentially-held third system evidences React 19/TypeScript 6/Vite 8 and Oxlint, not the React
+> 18/ESLint/Playwright toolchain Stage 8A attributed to it collectively). Two further `[[PROOF_*]]`
+> tokens were closed using evidence already available: **2.2 Custom Software Development**, with a
+> fully anonymised description of the real system behind Fact Register **F8** (no client name or
+> identifying detail used), and **2.3 Enterprise Management Systems**'s school-management half, with
+> Funda360 (reusing CVR-036's evidence; this does **not** resolve the separate Platform Operating Model
+> question, CVR-011). **CVR-046** was reconciled, not closed: this profile's own copy already uses only
+> "Logistics App," confirmed clean by a repository-wide check; the residual action is a correction to
+> the public website, which this task does not touch. See Claim Verification Register **CVR-043**
+> through **CVR-048**.
 
 ---
 
@@ -66,8 +80,8 @@ tenders, procurement, enterprise sales, investor and partner engagement.
 | [1-10-operating-model.md](02_Content/part-1/1-10-operating-model.md) | 1.10 Our operating model | 376 |
 | [2-00-service-portfolio.md](02_Content/part-2/2-00-service-portfolio.md) | 2.0 Service portfolio and taxonomy | 229‡ |
 | [2-01-ict-advisory-and-digital-transformation.md](02_Content/part-2/2-01-ict-advisory-and-digital-transformation.md) | 2.1 ICT Advisory and Digital Transformation | 570‡ |
-| [2-02-custom-software-development.md](02_Content/part-2/2-02-custom-software-development.md) | 2.2 Custom Software Development | 510‡ |
-| [2-03-enterprise-management-systems.md](02_Content/part-2/2-03-enterprise-management-systems.md) | 2.3 Enterprise Management Systems | 561‡ |
+| [2-02-custom-software-development.md](02_Content/part-2/2-02-custom-software-development.md) | 2.2 Custom Software Development | 582‡§ |
+| [2-03-enterprise-management-systems.md](02_Content/part-2/2-03-enterprise-management-systems.md) | 2.3 Enterprise Management Systems | 619‡§ |
 | [2-04-business-process-automation.md](02_Content/part-2/2-04-business-process-automation.md) | 2.4 Business Process Automation | 464‡ |
 | [2-05-web-design-and-development.md](02_Content/part-2/2-05-web-design-and-development.md) | 2.5 Web Design and Development | 486‡ |
 | [2-06-mobile-application-development.md](02_Content/part-2/2-06-mobile-application-development.md) | 2.6 Mobile Application Development | 457‡ |
@@ -83,12 +97,12 @@ tenders, procurement, enterprise sales, investor and partner engagement.
 | [3-06-property-security-professional-services.md](02_Content/part-3/3-06-property-security-professional-services.md) | 3.6 Property, security and professional services | 490‡ |
 | [3-07-sector-engagement-and-procurement-routes.md](02_Content/part-3/3-07-sector-engagement-and-procurement-routes.md) | 3.7 Sector engagement and procurement routes | 96‡ |
 | [4-00-technology-stack.md](02_Content/part-4/4-00-technology-stack.md) | 4.0 Technology stack | 214‡ |
-| [4-01-software-engineering.md](02_Content/part-4/4-01-software-engineering.md) | 4.1 Software engineering | 198‡ |
+| [4-01-software-engineering.md](02_Content/part-4/4-01-software-engineering.md) | 4.1 Software engineering | 401‡§ |
 | [4-02-solution-and-enterprise-architecture.md](02_Content/part-4/4-02-solution-and-enterprise-architecture.md) | 4.2 Solution and enterprise architecture | 178‡ |
 | [4-03-cloud-and-infrastructure.md](02_Content/part-4/4-03-cloud-and-infrastructure.md) | 4.3 Cloud and infrastructure | 174‡ |
 | [4-04-cybersecurity.md](02_Content/part-4/4-04-cybersecurity.md) | 4.4 Cybersecurity | 193‡ |
 | [4-05-devops-and-platform-engineering.md](02_Content/part-4/4-05-devops-and-platform-engineering.md) | 4.5 DevOps and platform engineering | 148‡ |
-| [4-06-data-platforms-and-databases.md](02_Content/part-4/4-06-data-platforms-and-databases.md) | 4.6 Data platforms and databases | 153‡ |
+| [4-06-data-platforms-and-databases.md](02_Content/part-4/4-06-data-platforms-and-databases.md) | 4.6 Data platforms and databases | 290‡§ |
 | [4-07-artificial-intelligence.md](02_Content/part-4/4-07-artificial-intelligence.md) | 4.7 Artificial intelligence | 204‡ |
 | [4-08-automation.md](02_Content/part-4/4-08-automation.md) | 4.8 Automation | 143‡ |
 | [4-09-integration-and-apis.md](02_Content/part-4/4-09-integration-and-apis.md) | 4.9 Integration and APIs | 160‡ |
@@ -127,6 +141,18 @@ is expected to grow once those resolve. This is an open item for Stage 8+, not f
 a sign the drafted prose itself is deficient — it reads as complete at its current length; the word
 count is a production-layout concern, not a content-quality one.
 
+§ **Corrected 2026-09-13, Stage 8B.** Two things happened to the four ‡§-marked figures above (2.2,
+2.3, 4.1, 4.6). First, a genuine content addition: each file's evidence-scoped Fact Register token
+(`[[PROOF_CUSTOM_DEV]]`, `[[PROOF_EMS]]`, and the `[[TECH_CURRENT_*]]` accuracy correction in 4.1/4.6)
+was resolved using evidence already available, adding real prose rather than padding — see Claim
+Verification Register CVR-043 through CVR-048. Second, an unrelated bug found during this same
+reconciliation pass: this table's declared figures for 4.1 (198) and 4.6 (153) had not been updated to
+match the front matter after Stage 8A's own content additions to those two files (which had already
+moved them to 297 and 219 respectively) — a copy-forward omission in the README table, not a further
+front-matter miscount. Both files' front matter was independently re-verified correct at Stage 8B
+before this table was brought back into agreement with it. All four figures above are the current,
+verified front-matter values.
+
 ### Design system — [07_Branding/](07_Branding/)
 
 | File | Contents |
@@ -159,7 +185,7 @@ count is a production-layout concern, not a content-quality one.
 | Governing angle | 3 : 5 (31°) — measured from the logo apex |
 | Type | Saira · Source Sans 3 · Source Serif 4 |
 | Components | 24 |
-| Drafted extent | ~34 000 words · **~16 900 written** (Parts One–Five plus 7.10, recounted 2026-09-13 — see †/‡ notes in the Content table above; revised down from ~23 200 at Stage 8A once Parts Two–Four's word counts were corrected on top of Part Five's) |
+| Drafted extent | ~34 000 words · **~17 400 written** (Parts One–Five plus 7.10, recounted 2026-09-13 — see †/‡/§ notes in the Content table above; revised down from ~23 200 at Stage 8A once Parts Two–Four's word counts were corrected on top of Part Five's, then up to ~17 400 at Stage 8B once four files' evidence-scoped content additions were made and a README/front-matter sync bug was fixed) |
 | Diagrams | 14, all editable |
 | Tables | 21, all editable |
 | Photography | 16 positions |
@@ -248,21 +274,27 @@ A **Claim Verification Register** — [07_Claim-Verification-Register.md](01_Pro
 — was introduced at Stage 7. It tracks every statement in the drafted copy that a procurement
 committee, auditor or evaluator could challenge, whether or not it is already tokenized, through to
 documentary evidence. **Parts One through Five are now all fully audited line-by-line** (Part One and
-Parts Two–Four since a 2026-09-13 Stage 8A pass; Part Five since drafting). Audits to date have caught
-and corrected two real gaps of the same kind — a sentence stated as established fact with no token:
-1.1 and 1.2 originally stated tax compliance as fact (Fact Register **E6**'s correction note), and six
-sections (MD message, 1.1, 1.3, 1.8, 1.9, 2.3) stated that Auris operates its own HR/school-management
-platforms as ongoing products (Fact Register **C14**'s correction note; Claim Verification Register
-**CVR-011**), plus two narrower claims found in the Stage 8A line-by-line pass of Part Two (**CVR-041**,
-**CVR-042**). The register currently stands at 42 rows: 11 Verified, 15 Gated, 16 Unverified,
-0 Rejected — see its §5 tally for the full breakdown. Of the eleven Verified rows, four (CVR-035–038)
-came from direct source-code inspection for the early-drafted 7.10 Case studies section, two more
-(CVR-039–040, added 2026-09-13) record the client's personal confirmation that written consent exists
-to name Jo Jackson Dance Company and Pro Energy Solutions in that section — the consent document itself
-is not held in this repository — and three more (CVR-043–045, added at Stage 8A) came from direct
-source-code inspection confirming the "technologies currently used" claims newly populated in 4.1 and
-4.6. A further row (**CVR-046**) flags an unresolved naming discrepancy between this profile's Logistics
-App case study and the public website's "LOGIOS OS" portfolio entry — see the Fact Register **F9/F10**
-correction notes.
+Parts Two–Four since a 2026-09-13 Stage 8A pass; Part Five since drafting), and **every Gated and
+Unverified row was re-reviewed for closeable evidence at a Stage 8B pass the same day**. Audits to date
+have caught and corrected two real gaps of the same kind — a sentence stated as established fact with
+no token: 1.1 and 1.2 originally stated tax compliance as fact (Fact Register **E6**'s correction
+note), and six sections (MD message, 1.1, 1.3, 1.8, 1.9, 2.3) stated that Auris operates its own
+HR/school-management platforms as ongoing products (Fact Register **C14**'s correction note; Claim
+Verification Register **CVR-011**), plus two narrower claims found in the Stage 8A line-by-line pass of
+Part Two (**CVR-041**, **CVR-042**). The register currently stands at **44 rows: 13 Verified, 15
+Gated, 16 Unverified, 0 Rejected** — see its §5 tally for the full breakdown. Of the thirteen Verified
+rows: four (CVR-035–038) came from direct source-code inspection for the early-drafted 7.10 Case
+studies section; two (CVR-039–040) record the client's personal confirmation that written consent
+exists to name Jo Jackson Dance Company and Pro Energy Solutions in that section — the consent document
+itself is not held in this repository; three (CVR-043–045) came from direct source-code inspection
+confirming the "technologies currently used" claims in 4.1 and 4.6, **corrected for accuracy at Stage
+8B** after re-inspection found a confidentially-held third system runs a different, newer toolchain
+than Stage 8A's wording implied; and two more (**CVR-047–048**, added at Stage 8B) resolve fact
+callouts in 2.2 (a fully anonymised description of the real system behind Fact Register **F8**) and
+2.3 (Funda360, reusing CVR-036's evidence, without resolving the separate Platform Operating Model
+question). A further row (**CVR-046**) flags an unresolved naming discrepancy between this profile's
+Logistics App case study and the public website's "LOGIOS OS" portfolio entry — reconciled at Stage 8B
+to confirm this profile's own copy is clean; the residual action is external — see the Fact Register
+**F9/F10** correction notes.
 
 Full register: [05_Fact-Register.md § Minimum viable input](01_Project/05_Fact-Register.md).
