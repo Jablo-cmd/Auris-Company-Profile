@@ -140,6 +140,16 @@ eligibility, and each must be transcribed from the source document rather than r
 | E4 | Income tax reference number | `[[TAX_NO]]` | Stage 9 |
 | E5 | VAT registration number, if registered | `[[VAT_NO]]` | Stage 9 |
 | E6 | Tax Compliance Status PIN and validity period | `[[TCS_PIN]]` | Stage 9 |
+| E7 | B-BBEE level, verification agency, certificate number, expiry | `[[BBBEE_LEVEL]]` | Stage 9 |
+| E8 | Black ownership and black female ownership percentages | `[[OWNERSHIP_PCT]]` | Stage 9 |
+| E9 | EME / QSE status | `[[ENTERPRISE_SIZE]]` | Stage 9 |
+| E10 | CSD (Central Supplier Database) registration number | `[[CSD_NO]]` | Stage 9 |
+| E11 | UIF and COIDA registration and letter of good standing | `[[COIDA_NO]]` | Stage 9 |
+| E12 | Professional memberships — body, number, status | `[[MEMBERSHIPS]]` | Stage 9 |
+| E13 | Certifications **currently held** — ISO, CMMI, vendor | `[[CERTS_HELD]]` | Stage 9 |
+| E14 | Certifications **targeted**, with realistic dates | `[[CERTS_PLANNED]]` | Stage 9 |
+| E15 | Vendor and technology partnerships, with the tier actually held | `[[PARTNERS]]` | Stage 9 |
+| E16 | Professional indemnity and public liability cover, with values | `[[INSURANCE]]` | Stage 9 |
 
 > **Correction (2026-08-02, Claim Verification audit).** Sections 1.1 and 1.2 originally stated
 > "registered and tax compliant" / "holds a valid Tax Compliance Status" as established fact, with
@@ -155,16 +165,6 @@ eligibility, and each must be transcribed from the source document rather than r
 > business model. No case study, deployment record or platform register exists in this repository to
 > support the stronger claim. All six locations were corrected to carry `[[PLATFORM_OPERATING_MODEL]]`
 > inline. See Claim Verification Register CVR-011.
-| E7 | B-BBEE level, verification agency, certificate number, expiry | `[[BBBEE_LEVEL]]` | Stage 9 |
-| E8 | Black ownership and black female ownership percentages | `[[OWNERSHIP_PCT]]` | Stage 9 |
-| E9 | EME / QSE status | `[[ENTERPRISE_SIZE]]` | Stage 9 |
-| E10 | CSD (Central Supplier Database) registration number | `[[CSD_NO]]` | Stage 9 |
-| E11 | UIF and COIDA registration and letter of good standing | `[[COIDA_NO]]` | Stage 9 |
-| E12 | Professional memberships — body, number, status | `[[MEMBERSHIPS]]` | Stage 9 |
-| E13 | Certifications **currently held** — ISO, CMMI, vendor | `[[CERTS_HELD]]` | Stage 9 |
-| E14 | Certifications **targeted**, with realistic dates | `[[CERTS_PLANNED]]` | Stage 9 |
-| E15 | Vendor and technology partnerships, with the tier actually held | `[[PARTNERS]]` | Stage 9 |
-| E16 | Professional indemnity and public liability cover, with values | `[[INSURANCE]]` | Stage 9 |
 
 ---
 
