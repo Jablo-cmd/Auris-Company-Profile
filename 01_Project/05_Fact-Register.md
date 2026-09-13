@@ -165,6 +165,14 @@ eligibility, and each must be transcribed from the source document rather than r
 > business model. No case study, deployment record or platform register exists in this repository to
 > support the stronger claim. All six locations were corrected to carry `[[PLATFORM_OPERATING_MODEL]]`
 > inline. See Claim Verification Register CVR-011.
+>
+> **Addendum (2026-09-13, same day, following portfolio research for 7.10).** Direct inspection of the
+> `funda360` source repository (a real, substantially-built school-management platform — see 7.10) found
+> a pilot-deployment checklist that is entirely unexecuted, and no evidence anywhere of the platform
+> running for any actual school. This evidences the "build" half of the operating-model question — Auris
+> has built such a platform — but positively evidences that the "operate" half is **not yet true**: there
+> is no organisation currently depending on it daily. **C14 remains open; this is not new evidence toward
+> Verified, it is confirmation the claim is still premature as worded.**
 
 ---
 
@@ -172,13 +180,38 @@ eligibility, and each must be transcribed from the source document rather than r
 
 | # | Item | Token | Priority | Needed by |
 |---|---|---|---|---|
-| F1 | Case studies — 2 or 3. Context, challenge, approach, measured outcome | `[[CASE_STUDIES]]` | 🟠 | Stage 9 |
-| F2 | For each case study: is the client named with **written** permission, or anonymised? | — | 🔴 | Stage 9 |
+| F1 | Case studies — 2 or 3. Context, challenge, approach, measured outcome | ✅ **Partially resolved, early-drafted at Stage 7** — see below | 🟠 | Stage 9 |
+| F2 | For each case study: is the client named with **written** permission, or anonymised? | ✅ **Resolved for the two case studies currently named** (Jo Jackson Dance Company, Pro Energy Solutions) — see correction note below. Remains open for any case study added later | 🔴 | Stage 9 |
 | F3 | Testimonials — full text, with name, role, organisation and consent | `[[TESTIMONIALS]]` | 🟡 | Stage 9 |
 | F4 | Awards or recognition, with awarding body and year | `[[AWARDS]]` | 🟡 | Stage 9 |
 | F5 | Executive team — 4 to 6. Name, role, qualifications, tenure, short biography | `[[EXEC_TEAM]]` | 🟠 | Stage 9 |
 | F6 | Reference clients contactable by prospective buyers | — | 🟡 | Stage 9 |
 | F7 | Verifiable statistics — projects delivered, uptime achieved, clients retained. **Measured figures only** | `[[STATISTICS]]` | 🟠 | Stage 9 |
+| F8 | **CIT LMS** — investigated as a candidate case study, 2026-09-13 | Excluded. A real, substantially-built HR/workforce system exists in the source repository, but it is built for a real, named third-party client and its own seed/reference data names that client's own clients in turn. No evidence of written consent to reference either the commissioning client or its clients exists anywhere in that repository. Do not add to the profile without a specific, written release covering exactly what may be named | 🔴 | Stage 9 |
+| F9 | **LOGIOS** — investigated as a candidate case study, 2026-09-13 | Excluded. No project by this name was found in any repository accessible to this review. The nearest similarly-named repository (`Logistics-App`) contains only a one-line placeholder README and no implementation. Do not reference LOGIOS anywhere in the profile until real, inspectable evidence exists | 🔴 | Stage 9 |
+
+> **On F1, 2026-09-13.** Four case studies (Sebetsa, Funda360, Jo Jackson Dance Company, Pro Energy
+> Solutions) were drafted early, in `02_Content/part-7/7-10-case-studies.md`, directly against each
+> project's own source repository — code, database schema, test suites and release documentation, not
+> marketing copy. No measured outcome (a user count, a performance figure, a completion date) is
+> stated for any of them, because none is evidenced; each entry instead states, precisely, what was
+> built and how far it has travelled toward commercial deployment. This is a genuine, partial
+> resolution of F1 — not a placeholder — but it is not the final word: confirm at Stage 9 that
+> deployment status hasn't changed. See Claim Verification Register CVR-035 through CVR-040.
+
+> **Correction (2026-09-13, later the same day — F2).** The naming-consent gate on Jo Jackson Dance
+> Company and Pro Energy Solutions is now resolved. **User-confirmed external evidence: the client
+> (acting for Auris Nexus Technologies in this session) has personally confirmed that written consent
+> exists, for both businesses, to name the client and describe the work performed.** That consent
+> document is not held in this repository, and no filename, date, signatory or wording for it is
+> recorded here or anywhere else in this project — inventing any of those details would itself be
+> exactly the failure mode this register exists to prevent. The absence of the document *in this
+> repository* is not treated as absence of consent; it is treated as an external fact supplied by the
+> client, the same evidentiary status this register already gives to every other client-supplied fact
+> (compare **A1**, **A3**, **C1**). This resolves the *naming* dimension only. It does **not** evidence
+> financial values, project duration, client size, business outcomes, quantified results, contractual
+> status or testimonials for either project — none of those is claimed in 7.10, and none should be
+> added without separate evidence. See Claim Verification Register CVR-039/CVR-040.
 
 ---
 

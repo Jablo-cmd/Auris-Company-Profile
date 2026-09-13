@@ -197,7 +197,7 @@ addressed in full.
 | 103 | 7.7 Company statistics | I | Statistics panel — only measured figures | `fa-chart-simple` |
 | 104–105 | 7.8 Executive team | J | 4–6 leaders: portrait, role, qualifications, tenure, 40-word biography | `fa-user-tie` |
 | 106 | 7.9 Partners and alliances | J | Partner logos with tier stated; no implied relationships | `fa-handshake` |
-| 107 | 7.10 Case studies | K | 2–3 studies: context → challenge → approach → outcome. Anonymised where consent absent | `fa-folder-open` |
+| 107 | 7.10 Case studies | K | 4 studies (drafted 2026-09-13, see `02_Content/part-7/7-10-case-studies.md`): what was built and how far it has reached toward commercial use. Client naming confirmed by user-supplied external consent, recorded in the Fact and Claim Verification Registers | `fa-folder-open` |
 | 108 | 7.11 Client recognition | C | Testimonials (attributed or omitted) and awards. Placeholder-marked until supplied | `fa-comment-dots` |
 
 ### Closing — pp. 109–112

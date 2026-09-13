@@ -75,7 +75,8 @@ nonetheless unverified.
 | Part Three — Industries | Partial — targeted audit | Focused on claims outside the blanket `[[SECTORS_DELIVERED]]` gate |
 | Part Four — Technical Capabilities | Partial — targeted audit | Focused on claims outside the current/capable/planned token structure |
 | Part Five — Project Delivery | **Full — drafted and audited together; two coverage gaps closed at the Stage 7 re-audit (2026-09-13)** | Every section was reviewed at drafting time, but 5.4 Phase 9 and 5.7 had no register row despite that — added as CVR-030 and CVR-029. Coverage is now genuinely complete for this Part |
-| Parts Six, Seven, Closing | Not yet drafted | Will be audited at drafting time, per Stage 7's working method going forward |
+| Part Six, Closing | Not yet drafted | Will be audited at drafting time, per Stage 7's working method going forward |
+| Part Seven — Credentials | Not yet drafted, **except 7.10 Case studies (early-drafted and audited together, 2026-09-13)** | Every other Part Seven section remains open; 7.10 was drafted ahead of schedule against verified evidence — see Fact Register F1 note |
 
 A full line-by-line audit of Parts Two–Four remains an open task, distinct from targeted sampling.
 It is not required before Stage 8 opens, but must close before Stage 12 (quality audit) sign-off.
@@ -88,11 +89,26 @@ complete for those two parts.
 
 | Status | Count | Rows |
 |---|---|---|
-| Verified | 2 | CVR-002, CVR-013 |
+| Verified | 8 | CVR-002, 013, 035, 036, 037, 038, 039, 040 |
 | Gated (open Fact Register token) | 15 | CVR-001, 003, 004, 005, 010, 011, 014, 015, 016, 017, 018, 022, 024, 026, 028 |
 | Unverified (no evidence, no gating token) | 13 | CVR-006, 007, 008, 009, 012, 019, 020, 021, 023, 025, 027, 029, 030 |
 | Rejected | 0 | — |
-| **Total** | **30** | CVR-001 through CVR-030 |
+| **Total** | **36** | CVR-001 through CVR-030 (30 rows), plus CVR-035 through CVR-040 (6 rows; IDs 031–034 not used) |
+
+**On the four source-inspection Verified rows (CVR-035–038, added 2026-09-13).** These are verified
+by a different route than CVR-002/013: not because a Fact Register item resolved, but because this
+reviewer directly inspected the primary source (the actual code, database schema, tests and release
+documentation of each named project) and confirmed the drafted claim text does not exceed what that
+inspection showed. This is evidence, not drafting judgement — but it is evidence of a build's current
+state, which can change; re-verify before Stage 12 if either Sebetsa or Funda360's deployment status
+has moved on.
+
+**On the two client-naming Verified rows (CVR-039–040, added 2026-09-13, same day).** These are
+verified by a third, distinct route: neither an inspected document nor an open token resolving, but a
+direct confirmation from the client that written consent exists, recorded per Fact Register F2's
+correction note without inventing the underlying document's details. This verifies *naming permission
+only* — it does not, and must not be read to, verify any commercial outcome, duration, financial value
+or testimonial for either project, none of which is claimed in the copy.
 
 **Read this tally carefully: "Gated" is not "safe" and "Unverified" is not "worse than Gated" in
 severity — both mean the underlying fact is not yet evidenced.** The distinction is only about
@@ -102,7 +118,8 @@ fact with nothing on the page to signal otherwise (Unverified). Every High-risk 
 operating model), CVR-014 (sector delivery), CVR-015/016/017 (technology, cloud partner, certifications),
 CVR-023 (mandatory security gate), CVR-026 (support model), CVR-028 (SLA figures) — must be resolved
 with genuine evidence before this document is presented as procurement-ready. None of them may be
-closed by drafting judgement alone.
+closed by drafting judgement alone. (CVR-039/040, client-naming consent for the two named case-study
+businesses, closed 2026-09-13 on user-confirmed external evidence — see above.)
 
 ---
 
@@ -140,6 +157,12 @@ closed by drafting judgement alone.
 | CVR-029 | 5.7 Continuous improvement | "Periodic service review examines what the system is actually doing in production... usage patterns, support ticket themes, performance against the service level framework" as an established practice | A service-review report or template from a real engagement | Delivery leadership | Unverified. **Added at the 2026-09-13 Stage 7 re-audit — this section had no register entry despite the Part Five coverage table describing "every section reviewed at drafting time."** | Medium | — |
 | CVR-027 | 5.8 Delivery governance | "Every engagement carries a governance layer distinct from the delivery team executing it" | Organisational chart or governance policy showing independent reporting line | Auris Nexus Technologies leadership | **Unverified — depends on Operating Capability Structure**, `02_Content/part-1/1-10-operating-model.md`, Strategic Identity Hold item 7 (client direction 2026-08-02; not approved, drafted for collaborative development). **Re-checked at the 2026-09-13 Stage 7 re-audit: the dependency is correctly represented but was previously under-evidenced — 1.10 itself carried no `[[TOKEN]]`/⚠ warning marking it unapproved, unlike the other six hold items.** This has been corrected (1.10 now carries `[[OPERATING_MODEL_APPROVED]]` and an explicit hold notice). **This claim remains Unverified and must not be marked Verified until both (a) the Operating Capability Structure is approved at the Brand Strategy Workshop and (b) documentary evidence of the independent reporting line is produced** — approval of the structure alone evidences intent, not the review record itself. Same underlying claim as CVR-020 and CVR-030 | Medium | — |
 | CVR-028 | 5.9 Service level framework | Severity, response, restoration, availability targets | Standard SLA schedule or sample signed SLA | Commercial/support leadership | Gated ([[SLA_*]] tokens, Fact Register D4) | High | — |
+| CVR-035 | 7.10 Case studies — Sebetsa | Feature list (org hierarchy, sites/clients/contracts, scheduling, availability, leave, attendance, RBAC, tenant-scoped audit log) and "in active development... not yet in commercial deployment" | Direct inspection of `github.com/Jablo-cmd/sebetsa` — source code, 46 database migrations, RLS policies, audit-log implementation, 54 e2e test specs | Delivery leadership | **Verified against source repository** — every listed feature corresponds to an existing table/migration/feature folder inspected 2026-09-13; no commercial-deployment claim is made, consistent with the evidence (no client/tenant data beyond an unbuilt planning TODO) | Medium | 2026-09-13 |
+| CVR-036 | 7.10 Case studies — Funda360 | Feature list (admissions, learner/staff records, attendance, homework, report cards, parent portal, fees) and "built and verified in local development... pilot has not yet been executed" | Direct inspection of `github.com/Jablo-cmd/funda360`, specifically `docs/product/FUNDA360-CURRENT-STATE.md` (2026-08-28, verified-baseline audit) and `docs/FUNDA360_PILOT_DEPLOYMENT_CHECKLIST.md` (entirely unchecked) | Delivery leadership | **Verified against source repository.** Note: the repository's own ~19 elaborate "PRD/BRS/SDD"-style documents are explicitly flagged by its own current-state audit as aspirational LLM-generated output describing features that do not exist — none of those documents were used as evidence here, only the code, schema, tests and the current-state audit itself | Medium | 2026-09-13 |
+| CVR-037 | 7.10 Case studies — Jo Jackson Dance Company | "feature-complete and production-ready, live at the studio's own domain, with final photography still pending" | Direct inspection of `github.com/Jablo-cmd/jjdcmain-01`, specifically `RELEASE-REPORT-v1.0.0.md` (live Playwright smoke test, axe-core WCAG scan, Lighthouse audit across 9 pages) and `docs/CLIENT-CHECKLIST.md` | Delivery leadership | **Verified against source repository** | Medium | 2026-09-13 |
+| CVR-038 | 7.10 Case studies — Pro Energy Solutions | "eleven-page site... responsive... technical SEO foundation... performance-conscious build practices... completed and live" | Direct inspection of `github.com/Jablo-cmd/pro-energy-soltuions` — 11 HTML pages, 10 CSS `@media` blocks, viewport meta tag, sitemap.xml/robots.txt, Open Graph/Twitter Card tags, `loading="lazy"` and explicit width/height on images | Delivery leadership | **Verified against source repository.** "Live" is evidenced by a working Netlify deployment referenced in its own sitemap; a custom domain is configured (`CNAME`) but not independently confirmed as the serving domain | Medium | 2026-09-13 |
+| CVR-039 | 7.10 Case studies — client naming (Jo Jackson Dance Company) | The business is named directly in the profile | A written release permitting the *company profile* specifically to name the client | Auris Nexus Technologies (commercial/legal) | **Verified — user-confirmed external evidence.** Corrected 2026-09-13: the client has personally confirmed written consent exists for naming and describing the work. The consent document itself is not held in this repository and no filename/date/signatory is recorded — see Fact Register F2 correction note. This verifies *naming permission only*, not any outcome, duration or financial claim (none is made) | High | 2026-09-13 |
+| CVR-040 | 7.10 Case studies — client naming (Pro Energy Solutions) | The business is named directly in the profile | A written release permitting the *company profile* specifically to name the client | Auris Nexus Technologies (commercial/legal) | **Verified — user-confirmed external evidence.** Same basis and same-day correction as CVR-039 — see Fact Register F2 correction note. Verifies *naming permission only* | High | 2026-09-13 |
 
 ---
 

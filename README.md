@@ -20,6 +20,13 @@ tenders, procurement, enterprise sales, investor and partner engagement.
 > gate logic, not a claimed methodology — agile/waterfall/hybrid, PM certifications, support model and
 > every SLA figure remain open tokens (Fact Register **D1–D10**). A **Claim Verification Register**
 > was introduced this stage — see below.
+>
+> **Note on 7.10 Case studies (2026-09-13).** One Part Seven section — 7.10, normally Stage 9 —
+> was drafted early, against directly-inspected source evidence rather than client-supplied fact, per
+> the same parallel-drafting rule as Stages 4–7. It covers four projects (Sebetsa, Funda360, Jo Jackson
+> Dance Company, Pro Energy Solutions); two candidates (CIT LMS, LOGIOS) were investigated and
+> deliberately excluded — see Fact Register **F8/F9**. No other Part Seven or Part Six section exists
+> yet.
 
 ---
 
@@ -94,6 +101,7 @@ tenders, procurement, enterprise sales, investor and partner engagement.
 | [5-07-continuous-improvement.md](02_Content/part-5/5-07-continuous-improvement.md) | 5.7 Continuous improvement | 166† |
 | [5-08-delivery-governance-and-assurance.md](02_Content/part-5/5-08-delivery-governance-and-assurance.md) | 5.8 Delivery governance and assurance | 167† |
 | [5-09-service-level-framework.md](02_Content/part-5/5-09-service-level-framework.md) | 5.9 Service level framework | 87† |
+| [7-10-case-studies.md](02_Content/part-7/7-10-case-studies.md) | 7.10 Case studies — **early-drafted 2026-09-13**, see note above | 455 |
 
 † **Corrected 2026-09-13.** Part Five's declared `words_actual` front matter was found at the Stage 7
 re-audit to be roughly double the true prose count in every section (a bookkeeping error, not a
@@ -135,7 +143,7 @@ now. This is a genuine open item for Stage 8+, not a silent error.
 | Governing angle | 3 : 5 (31°) — measured from the logo apex |
 | Type | Saira · Source Sans 3 · Source Serif 4 |
 | Components | 24 |
-| Drafted extent | ~34 000 words · **~22 700 written** (Parts One–Five, recounted 2026-09-13 — see † note in the Content table above) |
+| Drafted extent | ~34 000 words · **~23 200 written** (Parts One–Five plus 7.10, recounted 2026-09-13 — see † note in the Content table above) |
 | Diagrams | 14, all editable |
 | Tables | 21, all editable |
 | Photography | 16 positions |
@@ -148,7 +156,7 @@ now. This is a genuine open item for Stage 8+, not a silent error.
 | Folder | Contents | Populated at |
 |---|---|---|
 | [01_Project/](01_Project/) | Charter, strategy, IA, page plan, fact register, conventions | Stage 1 ✅ |
-| [02_Content/](02_Content/) | Written copy, one file per section | Stages 3–9 · **Parts One–Five ✅** |
+| [02_Content/](02_Content/) | Written copy, one file per section | Stages 3–9 · **Parts One–Five ✅**, Part Seven §7.10 early-drafted |
 | [03_Images/](03_Images/) | Art direction, shot lists, licensed and commissioned assets | Stage 10 |
 | [04_Icons/](04_Icons/) | Icon register and SVG assets | Stages 2, 10 |
 | [05_Diagrams/](05_Diagrams/) | Diagram specifications and editable sources | Stages 6, 7, 10 |
@@ -229,7 +237,11 @@ Stage 12. Audits to date have caught and corrected two real gaps of the same kin
 as established fact with no token: 1.1 and 1.2 originally stated tax compliance as fact (Fact Register
 **E6**'s correction note), and six sections (MD message, 1.1, 1.3, 1.8, 1.9, 2.3) stated that Auris
 operates its own HR/school-management platforms as ongoing products (Fact Register **C14**'s
-correction note; Claim Verification Register **CVR-011**). The register currently stands at 30 rows:
-2 Verified, 15 Gated, 13 Unverified, 0 Rejected — see its §5 tally for the full breakdown.
+correction note; Claim Verification Register **CVR-011**). The register currently stands at 36 rows:
+8 Verified, 15 Gated, 13 Unverified, 0 Rejected — see its §5 tally for the full breakdown. Of the eight
+Verified rows, four (CVR-035–038) came from direct source-code inspection for the early-drafted 7.10
+Case studies section, and two more (CVR-039–040, added 2026-09-13) record the client's personal
+confirmation that written consent exists to name Jo Jackson Dance Company and Pro Energy Solutions in
+that section — the consent document itself is not held in this repository.
 
 Full register: [05_Fact-Register.md § Minimum viable input](01_Project/05_Fact-Register.md).
