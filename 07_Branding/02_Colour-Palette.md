@@ -18,9 +18,20 @@ because gradient areas give a range rather than a value:
 |---|---|---|
 | `AURIS` wordmark — the largest flat area in the mark | 3 541 | **Nexus Navy** `#001A48` |
 | `NEXUS` wordmark | 17 | **Auris Cyan** `#098FB4` |
-| `IMPACT.` in the tagline, and the orbit peak | 3 | **Signal Cyan** `#00B3BF` |
+| `IMPACT.` in the former tagline (retired Stage 10, see below), and the orbit peak | 3 | **Signal Cyan** `#00B3BF` |
 | Orbit gradient, midpoint | — | **Orbit Blue** `#0B5E9A` |
 | Orbit gradient, shoulder | — | **Orbit Deep** `#06488B` |
+
+> **Stage 10 note.** The tagline "Connecting innovation. Delivering impact." — and with it the
+> specific word `IMPACT.` sampled above — was retired by owner confirmation in favour of
+> "Transforming Businesses Through Technology" (Fact Register A3, CVR-043). Signal Cyan `#00B3BF`
+> itself is unaffected: it was cross-sampled from two independent sources in the artwork, the
+> tagline word and the orbit peak, and the orbit-peak sample alone still supports the same value.
+> No letter- or word-specific accent treatment is assigned within the new tagline here — that was a
+> property read directly off existing artwork for the old wording, and no artwork exists yet for the
+> new one (`08_Logo-and-Identity.md` gap G8). Assigning an accent word now, with nothing sampled to
+> base it on, would be inventing a design decision rather than recording one; that choice belongs to
+> whoever produces the new tagline-bearing lockup.
 
 Nexus Navy accounts for **41% of all non-white pixels** in the mark. It is unambiguously the primary.
 

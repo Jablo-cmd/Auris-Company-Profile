@@ -46,7 +46,7 @@ valid and useful answer, and it changes how the section is written rather than l
 |---|---|---|---|---|
 | A1 | Full registered name | ✅ **Auris Nexus Technologies** | — | Resolved |
 | A2 | Trading name, if different | `[[TRADING_NAME]]` | 🟡 | Stage 3 |
-| A3 | Tagline / descriptor line | ✅ **Connecting Innovation. Delivering Impact.** | — | Resolved |
+| A3 | Tagline / descriptor line | ✅ **Transforming Businesses Through Technology** (Stage 10, 2026-09-14) — owner-confirmed directly by Loyiso Ngcala, founder and Managing Director, superseding the tagline previously recorded here. **Former tagline (retired, no longer current):** "Connecting Innovation. Delivering Impact." (resolved Stage 9A and earlier; do not present as current anywhere in the profile or brand system — see CVR-043 and `01_Project/09_Stage10-Production-Methodology.md` §6 for the full change record). The brand promise, "Technology built around the way your organisation works" (§1.7), is a separate, unchanged fact and is not affected by this row. | — | Resolved |
 | A4 | Meaning intended by "Auris Nexus" — confirm or correct the *listen / connect* derivation used in §1.7 | `[[NAME_MEANING]]` | 🟠 | Stage 3 |
 | A5 | Does a brand or identity manual exist? | — | 🟠 | Stage 2 |
 | A6 | Logo files (SVG or AI preferred) and existing brand colour values | `[[BRAND_COLOURS]]` | 🔴 | Stage 2 |

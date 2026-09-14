@@ -212,3 +212,49 @@ corresponding content files is present, uniquely represented, and in the correct
 the generated document (see the Stage 10 build QA log) — not that each file's *content*
 currently lands on the specific physical page number the outline assigns, which depends on
 final typesetting decisions outside this script's scope.
+
+---
+
+## 6. Tagline change (2026-09-14)
+
+**Owner confirmation.** Loyiso Ngcala, founder and Managing Director, explicitly confirmed the
+current Auris Nexus Technologies tagline as **"Transforming Businesses Through Technology"**,
+retiring the previously recorded **"Connecting Innovation. Delivering Impact."** (Fact Register
+A3; Claim Verification Register CVR-043). The brand promise, "Technology built around the way
+your organisation works" (1.7), is a separate claim and was not changed.
+
+**What was propagated:**
+- Fact Register A3 (current tagline, former tagline, owner authority, date).
+- CVR-043 (new entry — the tagline claim was not previously represented as its own row).
+- Content: `02_Content/part-1/1-07-corporate-identity-and-brand-promise.md` ("The tagline"
+  section and its explanatory prose, rewritten to avoid claiming market leadership, scale, or
+  customer impact merely because the new wording contains "Transforming") and
+  `02_Content/part-1/0-06-md-message.md` (the MD message's tagline reference).
+- Brand system documentation: `07_Branding/08_Logo-and-Identity.md` (measurement/analysis
+  sections reframed as historical, a new gap **G8** added), `07_Branding/02_Colour-Palette.md`
+  (the `IMPACT.`-sampling note reframed as historical; Signal Cyan itself is unaffected, being
+  independently corroborated by the orbit-peak sample), `07_Branding/09_Components.md` (the C01
+  front-cover and C20 back-cover mockups' live-type tagline text), and
+  `07_Branding/01_Design-Language.md` (a design-rationale sentence that cited the old tagline as
+  corroborating evidence, reframed to stand on the company name alone).
+- The Stage 10 generator (`scripts/generate-docx.js`) and its output,
+  `08_Word/Auris-Nexus-Company-Profile-Stage10-Draft.docx`.
+
+**What was NOT changed — an honest limitation, not an oversight.** The only held logo artwork,
+`03_Images/aurilogo.png`, has the former tagline baked into its raster pixels ("CONNECTING
+INNOVATION. DELIVERING IMPACT.", bottom text band). It was **not edited or redrawn**. A derived
+file, `03_Images/aurilogo-no-tagline.png`, was created by cropping that band off — a mechanical
+trim of existing pixels, nothing added or redesigned — approximating the brand system's own
+already-documented "Standard stacked, no tagline" lockup variant. It is used on the Stage 10
+DOCX cover with the current tagline set as separate live text beside it, the same pattern the
+brand system already uses on the back cover. **No artwork exists anywhere with the new tagline
+rendered into it.** Producing one requires actual design work (see Logo-and-Identity.md gap G8,
+folded into the existing recommended vector-rebuild scope) — this pass did not commission or
+fabricate that artwork, consistent with the instruction not to invent a new logo asset.
+
+**Colour/typography.** No colour values changed. Signal Cyan `#00B3BF` was originally sampled
+from two independent sources — the word "IMPACT." in the old tagline, and the orbit-peak
+gradient — and remains valid on the orbit-peak sample alone. No letter- or word-specific accent
+was assigned within the new tagline: that was a property read directly off existing artwork for
+the old wording, and inventing an equivalent for the new one with no artwork to sample from
+would be a design decision, not a documented fact.

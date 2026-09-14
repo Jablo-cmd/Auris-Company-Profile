@@ -17,7 +17,9 @@ status: draft — Stage 9A: MD name/role resolved to Loyiso Ngcala, Founder and 
   see CVR-011) and "documentation... treated as contractual deliverables" (no contract evidence on
   file — see CVR-029). Also de-pluralized "the people who will do the work" to match the founder-led,
   1-employee reality (Fact Register B9) and the singular "the person accountable" later in the same
-  paragraph, which was previously inconsistent with it.
+  paragraph, which was previously inconsistent with it. Stage 10: tagline reference updated to
+  "Transforming Businesses Through Technology" (owner-confirmed by Loyiso Ngcala, Fact Register A3,
+  CVR-043), replacing "Connecting innovation, then delivering impact."
 ---
 
 # Managing Director's message
@@ -70,9 +72,9 @@ imprecision in this work is borne by people who never chose the software.
 That understanding is what our name is meant to carry. *Auris* is the ear — the discipline of
 listening before responding. *Nexus* is the connection — the act of binding things that were
 separate into something that holds. Our work sits at the join between what an organisation needs and
-what technology can honestly provide, and our tagline states the sequence plainly: connecting
-innovation, then delivering impact. In that order. Innovation that does not reach production is not
-innovation; it is an expense.
+what technology can honestly provide, and our tagline states that plainly: transforming businesses
+through technology. Not technology for its own sake — transformation measured in how an organisation
+actually operates once a system is live, not in how sophisticated it was to build.
 
 We are a South African company, based in Johannesburg, and we are direct about what that means
 commercially. Our clients speak directly to the person who will do the work. Decisions do not travel

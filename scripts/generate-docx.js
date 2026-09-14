@@ -13,7 +13,12 @@ const {
 
 const REPO = path.resolve(__dirname, "..");
 const CONTENT_DIR = path.join(REPO, "02_Content");
-const LOGO_PATH = path.join(REPO, "03_Images", "aurilogo.png");
+// The full logo raster (aurilogo.png) still has the retired tagline baked into its pixels
+// (Fact Register A3, CVR-043). This cropped derivative removes only that text band — no
+// artwork was added or redrawn — and is used here with the current tagline set as separate
+// live type, matching the brand system's own "Standard stacked, no tagline" lockup variant
+// (07_Branding/08_Logo-and-Identity.md §2). See 09_Stage10-Production-Methodology.md §6.
+const LOGO_PATH = path.join(REPO, "03_Images", "aurilogo-no-tagline.png");
 const OUT_PATH = path.join(REPO, "08_Word", "Auris-Nexus-Company-Profile-Stage10-Draft.docx");
 
 // ---- Brand constants (from 07_Branding/02_Colour-Palette.md, 03_Typography.md, 04_Grid-and-Spacing.md) ----
@@ -347,13 +352,13 @@ const elements = [];
 // --- Cover page ---
 const logoBuf = fs.readFileSync(LOGO_PATH);
 elements.push(new Paragraph({ spacing: { before: 1800 }, alignment: AlignmentType.CENTER, children: [
-  new ImageRun({ data: logoBuf, transformation: { width: 160, height: 107 }, type: "png" }),
+  new ImageRun({ data: logoBuf, transformation: { width: 160, height: 93 }, type: "png" }),
 ]}));
 elements.push(new Paragraph({ spacing: { before: 600, after: 100 }, alignment: AlignmentType.CENTER, children: [
   new TextRun({ text: "AURIS NEXUS TECHNOLOGIES", font: FONT.display, bold: true, size: 56, color: COLOR.navy }),
 ]}));
 elements.push(new Paragraph({ spacing: { after: 100 }, alignment: AlignmentType.CENTER, children: [
-  new TextRun({ text: "Connecting Innovation. Delivering Impact.", font: FONT.editorial, italics: true, size: 24, color: COLOR.orbitDeep }),
+  new TextRun({ text: "Transforming Businesses Through Technology", font: FONT.editorial, italics: true, size: 24, color: COLOR.orbitDeep }),
 ]}));
 elements.push(new Paragraph({ spacing: { before: 800 }, alignment: AlignmentType.CENTER, children: [
   new TextRun({ text: "CORPORATE PROFILE — STAGE 10 PRODUCTION DRAFT", font: FONT.display, size: 18, color: COLOR.slate, characterSpacing: 40 }),

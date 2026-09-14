@@ -20,9 +20,12 @@ It is the *ascent*: capability, rigour, upward trajectory. In the system it beco
 the angle that governs section markers, bullets, card corners, thumb tabs and diagram geometry.
 
 **The orbit** — an arc sweeping around the apex, cyan resolving into navy. It is the *nexus*: the
-connective act that binds things together, which is the company's name and its tagline
-("Connecting innovation. Delivering impact."). In the system it becomes **navigation** — the colour
-ramp that runs across the seven parts, and the single arc device that appears on covers and dividers.
+connective act that binds things together, which is the company's name itself (Stage 10 note: this
+reading previously also cited the tagline as corroboration — "Connecting innovation. Delivering
+impact." — which has since been retired in favour of "Transforming Businesses Through Technology";
+the name-based reading does not depend on either tagline and is unaffected). In the system it becomes
+**navigation** — the colour ramp that runs across the seven parts, and the single arc device that
+appears on covers and dividers.
 
 The two ideas resolve into one working principle: **quiet surfaces, precise connections.** The pages
 are calm and generous; the marks that carry meaning are exact.

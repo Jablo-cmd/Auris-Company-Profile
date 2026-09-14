@@ -77,8 +77,8 @@ Full-bleed Nexus Navy. The single most scrutinised surface in the document.
 │                                       │
 │  CORPORATE PROFILE                    │ ← Saira SemiBold 48 pt, white
 │                                       │   baseline 196 mm, flush left col 1
-│  Connecting innovation.               │ ← Saira Regular 13 pt, +80
-│  Delivering impact.                   │   Signal Cyan, UPPER
+│  Transforming Businesses              │ ← Saira Regular 13 pt, +80
+│  Through Technology                   │   Signal Cyan, UPPER
 │                                       │
 │                                       │
 │  EDITION 1 · 2026                     │ ← Saira Medium 9 pt, +120, Mist
@@ -89,10 +89,10 @@ Full-bleed Nexus Navy. The single most scrutinised surface in the document.
 |---|---|
 | Ground | Nexus Navy `#001A48`, full bleed 3 mm |
 | Apex motif | Apex silhouette, Apex Field `#002C56` (solid), 40% page height, anchored lower right, bleeding right and bottom edges |
-| Logo | Primary stacked, **reversed**, 72 mm wide, horizontally centred, top edge at 74 mm |
+| Logo | Primary stacked, **reversed**, 72 mm wide, horizontally centred, top edge at 74 mm — **the only held copy of this version still shows the retired tagline baked in; see `08_Logo-and-Identity.md` gap G8** |
 | Arc | Single segment, 1.5 pt Signal Cyan, radius 180 mm, spanning columns 1–12, at 168 mm |
 | Title | `CORPORATE PROFILE` — Saira SemiBold 48 pt, white, tracking −15, flush left to column 1 |
-| Descriptor | The tagline, Saira Regular 13 pt, tracking +80, UPPER, Signal Cyan |
+| Descriptor | The current tagline ("Transforming Businesses Through Technology", Fact Register A3), Saira Regular 13 pt, tracking +80, UPPER, Signal Cyan — set as live type, independent of the logo artwork |
 | Edition | Saira Medium 9 pt, tracking +120, Mist, baseline 272 mm |
 | Folio | Suppressed |
 
@@ -578,8 +578,8 @@ word-processor default, not a design decision.
 │                                       │
 │  ─────────────────────────────────    │  1.5 pt Signal Cyan arc
 │                                       │
-│  Connecting innovation.               │  Saira Regular 13 pt +80
-│  Delivering impact.                   │  UPPER, Signal Cyan
+│  Transforming Businesses              │  Saira Regular 13 pt +80
+│  Through Technology                   │  UPPER, Signal Cyan
 │                                       │
 │                                       │
 │  Auris Nexus Technologies (Pty) Ltd   │  Source Sans 3 8.5 pt, Mist

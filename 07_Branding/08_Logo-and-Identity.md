@@ -6,6 +6,15 @@
 **Status:** Draft for approval · **authoritative source for all brand decisions**
 **Source asset:** `03_Images/aurilogo.png` — 1536 × 1024 px, RGB, no alpha channel
 
+> **Stage 10 note (2026-09-14).** The tagline baked into this raster —
+> "Connecting innovation. Delivering impact." — was retired by explicit owner confirmation
+> (Loyiso Ngcala); the current tagline is **"Transforming Businesses Through Technology"**
+> (Fact Register A3, CVR-043). `aurilogo.png` itself was not edited and still shows the former
+> tagline in its pixels. A cropped derivative, `03_Images/aurilogo-no-tagline.png`, removes only
+> that text band — nothing was added or redrawn — and approximates the **Standard stacked, no
+> tagline** version already specified in §2 below. No artwork carrying the new tagline exists;
+> see the new gap **G8** in §8.
+
 ---
 
 ## 1. Analysis of the supplied mark
@@ -24,7 +33,7 @@ The lockup is a **stacked, five-element vertical composition**:
 | `AURIS` — primary wordmark | 547 – 690 | 143 px | 3.0 u |
 | `NEXUS` — secondary wordmark, rule-flanked | 737 – 784 | 47 px | **1.0 u (the base unit)** |
 | `TECHNOLOGIES` — descriptor | 824 – 854 | 30 px | 0.64 u |
-| `Connecting innovation. Delivering impact.` — tagline | 897 – 916 | 19 px | 0.40 u |
+| `Connecting innovation. Delivering impact.` — **former tagline, retired Stage 10 (§1.4)** | 897 – 916 | 19 px | 0.40 u |
 
 Total ink area: **981 × 858 px**, aspect ratio **1.143 : 1** — near-square, marginally landscape.
 
@@ -70,13 +79,17 @@ the authoritative brand values. Full analysis in `02_Colour-Palette.md`.
 
 ### 1.4 Verbal identity found in the mark
 
-The supplied file resolves an item that was open in the Fact Register:
+The supplied file's tagline band reads:
 
-> **Tagline: "Connecting innovation. Delivering impact."**
+> **Former tagline (retired, Stage 10): "Connecting innovation. Delivering impact."**
 
-This closes Fact Register item **A3** and is adopted as the official descriptor line. It also
-confirms the *nexus / connection* reading assumed at Stage 1 (item **A4**), which the orbit motif
-independently supports — the arc is a connective device binding the apex.
+This is a measurement of what the raster currently shows, not a statement of current brand fact. It
+originally closed Fact Register item **A3**, at Stage 2, from this same file. That resolution has
+since been superseded: the current tagline is **"Transforming Businesses Through Technology"**,
+owner-confirmed at Stage 10 (Fact Register A3, CVR-043) — no artwork sampling exists for it, because
+no artwork containing it exists yet (§8, gap **G8**). The *nexus / connection* reading assumed at
+Stage 1 (item **A4**) is unaffected — it is confirmed by the orbit motif itself, independent of
+either tagline.
 
 ---
 
@@ -87,8 +100,8 @@ produced before Stage 11 (see §8).
 
 | # | Version | Composition | Use |
 |---|---|---|---|
-| **1** | **Primary stacked** | Symbol + AURIS + NEXUS + TECHNOLOGIES + tagline | Front cover, back cover, capability statement |
-| **2** | **Standard stacked** | Symbol + AURIS + NEXUS + TECHNOLOGIES, no tagline | Part dividers, section openers, letterhead |
+| **1** | **Primary stacked** | Symbol + AURIS + NEXUS + TECHNOLOGIES + tagline | Front cover, back cover, capability statement — **the only held copy of this version carries the retired tagline (§1.4); not usable as-is until re-rendered with the current tagline (G8)** |
+| **2** | **Standard stacked** | Symbol + AURIS + NEXUS + TECHNOLOGIES, no tagline | Part dividers, section openers, letterhead — **`03_Images/aurilogo-no-tagline.png` is a cropped-only derivative of the held raster approximating this version; not a produced/vector version of it** |
 | **3** | **Horizontal lockup** | Symbol left, wordmark stack right | Document headers, footers, email signature, narrow formats |
 | **4** | **Symbol only** | Apex mark alone | Favicon, watermark, folio mark, thumb tabs, social avatar |
 | **5** | **Wordmark only** | AURIS NEXUS TECHNOLOGIES, no symbol | Partner walls, co-branded lockups, tight horizontal spaces |
@@ -227,13 +240,17 @@ them blocks Stage 2 design work.
 | **G5** | **No horizontal lockup** | Required for the running footer | 🟠 High |
 | **G6** | **Gradient banding risk.** A cyan-to-blue gradient across a 72 mm cover placement will band on offset press unless supplied as vector with a properly stepped blend | Visible stepping on the cover — the most scrutinised surface in the document | 🟠 High |
 | **G7** | **Slight off-white ground.** Background samples at `#FEFEFE`, not pure white | Produces a faint visible panel edge when placed on a pure-white page | 🟡 Standard |
+| **G8** | **Tagline baked into the raster is now retired.** The only held lockup with a tagline (§2, version 1) shows "Connecting innovation. Delivering impact.", superseded Stage 10 by "Transforming Businesses Through Technology" (Fact Register A3, CVR-043). No artwork exists with the current tagline; the interim `aurilogo-no-tagline.png` (§1.4, §2) only removes the outdated text, it does not add the new one | Version 1 of the lockup cannot be used on the cover or back cover until re-rendered; every other placement uses version 2 (no tagline) or the symbol/wordmark alone, which this gap does not affect | 🔴 Critical |
 
 ### Recommended resolution
 
 Commission a **vector rebuild** of the mark — one designer, roughly half a day. It resolves G1
 through G7 in a single pass and yields all five versions in §2 and all five colour variants in §3.
 The measurements in §1 of this document are the specification for that rebuild: the 3 : 5 apex
-slope, the 1 u modular spacing, and the five sampled colour values.
+slope, the 1 u modular spacing, and the five sampled colour values. **G8 rides along with this
+rebuild** — the brief to the designer must specify the current tagline, "Transforming Businesses
+Through Technology", for the tagline-bearing version (§2, version 1), not the retired wording
+measured in §1.1/§1.4.
 
 Until the rebuild is delivered, Stage 2 design proceeds against these measurements, and the raster is
 used for internal drafts only.

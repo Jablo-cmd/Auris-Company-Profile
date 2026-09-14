@@ -15,7 +15,9 @@ status: draft — Stage 9A: brand promise replaced with owner-supplied wording (
   owner-confirmed), no longer AI-proposed. Downstream sections (5.6, 5.9, 6.1) were written to
   substantiate the previous ("works in production, not demonstration") promise — check and re-point
   their framing against the new promise before Stage 12; not corrected in this pass, scope was
-  Part One.
+  Part One. Stage 10: tagline updated to "Transforming Businesses Through Technology" (owner-confirmed
+  by Loyiso Ngcala, Fact Register A3, CVR-043), replacing "Connecting Innovation. Delivering Impact.";
+  the brand promise above was not touched by this change.
 ---
 
 # 1.7 Corporate identity and brand promise
@@ -58,11 +60,13 @@ mark's own gradient, expressed at book scale.
 
 ### The tagline
 
-> **Connecting Innovation. Delivering Impact.**
+> **Transforming Businesses Through Technology**
 
-Stated as a sequence, deliberately. Innovation that does not reach production is not innovation; it
-is an expense. The connection has to be made before impact can be claimed, and most technology
-failures occur in the gap between the two.
+The claim is about the client's business, not the size of ours: technology earns its place only when
+it changes how an organisation actually operates — removing friction its people work around daily, or
+a step nobody should still be doing by hand. That is the standard each engagement is measured against,
+not an assertion about Auris Nexus's own scale, market position or track record, which the rest of
+this document is deliberately careful not to overstate.
 
 ### Our brand promise
 
