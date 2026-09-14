@@ -1,0 +1,12 @@
+{
+  "name": "auris-profile-docx-build",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Stage 10 production build: generates the Auris Nexus Technologies corporate profile .docx from 02_Content/*.md",
+  "scripts": {
+    "build": "node generate-docx.js"
+  },
+  "dependencies": {
+    "docx": "^9.0.0"
+  }
+}

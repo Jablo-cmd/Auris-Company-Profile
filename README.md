@@ -3,7 +3,19 @@
 Production repository for the flagship corporate publication: a 112-page A4 company profile for
 tenders, procurement, enterprise sales, investor and partner engagement.
 
-**Current stage:** 7 — Project Delivery · *drafted, awaiting approval*
+**Current stage:** 10 — Production Preparation and Document Generation · *first production
+draft, not final, not approved*
+
+> **Stage history.** Stage 7 (Project Delivery, drafted) and Stage 9A (final owner-input
+> reconciliation — incorporation date, tax/TCS distinction, VAT, footprint, B-BBEE, CSD,
+> UIF/COIDA, EME/QSE, Funda360/Sebetsa origin) are both complete and committed. There was no
+> Stage 8: every "Stage 8" reference elsewhere in this repository (Fact Register Group G,
+> item D5) is a forward-looking label for future governance/policy work — Information
+> Security Policy, POPIA/Information Officer, business continuity, health & safety,
+> environmental, CSR, skills development, risk management, code of conduct — none of which
+> has been done yet. See `01_Project/09_Stage10-Production-Methodology.md` for what Stage 10
+> has produced so far: a generated `.docx` production draft, its word-count methodology, and
+> its evidence-token handling policy.
 
 > **Note on sequencing.** Per the client's standing rule (confirmed 2026-08-02): the Stage 3 approval
 > gate remains open **only** for the seven strategic identity items (see below) — it does not block
@@ -38,6 +50,7 @@ tenders, procurement, enterprise sales, investor and partner engagement.
 | [06_Production-Conventions.md](01_Project/06_Production-Conventions.md) | Stage gates, naming, word budgets, terminology, Word and PDF standards |
 | [07_Claim-Verification-Register.md](01_Project/07_Claim-Verification-Register.md) | **Introduced Stage 7** — every challengeable claim in the copy, traced to required evidence, owner, status and risk rating |
 | [08_Project-Handover-Brief.md](01_Project/08_Project-Handover-Brief.md) | **Client-issued checkpoint** — non-negotiable rules, progress to date, remaining stages and quality target in one self-contained brief |
+| [09_Stage10-Production-Methodology.md](01_Project/09_Stage10-Production-Methodology.md) | **Introduced Stage 10** — the `.docx` generation pipeline, authoritative word-count methodology, and evidence-token handling policy for the production draft |
 
 ### Content — [02_Content/](02_Content/)
 
