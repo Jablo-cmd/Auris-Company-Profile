@@ -5,7 +5,7 @@ part: "One — The Company"
 pages: [20, 21]
 archetype: E
 words_target: 560
-words_actual: 571
+words_actual: 611
 figures: []
 tables: []
 icons: ["fa-layer-group", "fa-cubes", "fa-user-tie", "fa-location-dot", "fa-file-contract", "fa-arrows-rotate"]
@@ -71,16 +71,17 @@ that cannot be hired in. A services firm cannot acquire it by announcing a produ
 
 ---
 
-**3. Senior-only engagement**
+**3. Founder-led engagement**
 `fa-user-tie`
 
-**What.** The people who attend your discovery session are the people who do your work.
+**What.** The founder personally attends discovery and personally does the work, on every engagement.
 
-**Why it holds.** This is arithmetic, not policy. Firms above a certain size cannot staff engagements
-this way — their model depends on leveraging junior time against senior rates, and abandoning that
-changes their economics fundamentally.
+**Why it holds.** This is arithmetic, not policy — a direct consequence of being a one-person company
+today. Firms leveraging junior time against senior rates cannot offer this by choice; we cannot
+abandon it, because there is no one else to hand an engagement to.
 
-**What it costs us.** We cannot scale by adding inexperienced capacity, which caps how fast we grow.
+**What it costs us.** Concurrent capacity is limited until the company adds people, which would change
+this advantage. We accept that trade-off now rather than overstate current capacity.
 
 ---
 
@@ -145,3 +146,8 @@ rather you evaluate them with the costs visible.
   institutional buyers, while explaining a structural difference reads as understanding your market.
 - **`[[PLATFORM_OPERATING_MODEL]]`** — added at Stage 7 audit. Advantage 2's claim is unevidenced
   beyond the confirmed service list — see Fact Register **C14**, CVR-011.
+- **Corrected 2026-09-13, Stage 9.** Advantage 3 was "Senior-only engagement," framed as a staffing
+  policy a larger firm could not match. With headcount confirmed at 1 employee (Fact Register B9), the
+  accurate framing is "Founder-led engagement" — not a policy choice among staffing options, but a
+  direct description of current company size. Renamed and reworded accordingly; do not restore the
+  "senior/junior staffing" framing, which implies a workforce that does not yet exist.

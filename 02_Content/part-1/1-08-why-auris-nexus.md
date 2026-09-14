@@ -5,7 +5,7 @@ part: "One — The Company"
 pages: [18, 19]
 archetype: D
 words_target: 820
-words_actual: 838
+words_actual: 824
 figures: ["fig-1.4-accountability-comparison"]
 tables: []
 icons: ["fa-circle-check"]
@@ -68,14 +68,14 @@ what a timeline contains, because you are the one who will be carrying the conse
 ### 3. Our clients speak to the people doing the work
 
 We are directly reachable, locally accountable and in the same time zone. Decisions are not referred
-elsewhere for approval, and the senior people who attend the pitch are the senior people who do the
-engagement.
+elsewhere for approval, and the person who attends the pitch is the person who does the engagement —
+at present, the founder, in every case.
 
 This is a genuine consequence of our size rather than a policy we could abandon, which is what makes
 it durable. Large integrators cannot offer it; that is not a criticism of them, it is arithmetic.
 
 > **The mechanism:** ask who will attend the discovery workshop, by name and role, and require that
-> those names appear in the contract. Note which suppliers resist.
+> name appears in the contract. Note which suppliers resist.
 
 ### 4. We work in regulated, load-bearing environments
 

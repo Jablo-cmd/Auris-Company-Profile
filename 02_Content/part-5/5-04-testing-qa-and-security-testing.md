@@ -19,8 +19,8 @@ status: draft
 **Standfirst**
 
 > Phases 8–10 of the lifecycle in 5.0. A system is not complete when it satisfies its specification —
-> it is complete when it has been shown to survive contact with real conditions, per the brand promise
-> stated in 1.7.
+> it is complete when it has been shown to survive contact with real conditions, which is what "built
+> around the way your organisation works," the brand promise stated in 1.7, has to mean in practice.
 
 ---
 
@@ -31,9 +31,10 @@ requirements baseline from 5.1, structured as a test pyramid — proportionally 
 integration tests than manual end-to-end tests, because the former catch regressions continuously and
 the latter cannot scale to do so. The gate is functional acceptance against the agreed criteria.
 
-**Phase 9 — Quality assurance.** Independent review, distinct from the development team per the
-governance principle in 1.10, checks the system against non-functional requirements — performance,
-usability, accessibility — not only functional correctness.
+**Phase 9 — Quality assurance.** A dedicated review, run as its own explicit phase rather than folded
+into functional testing, checks the system against non-functional requirements — performance,
+usability, accessibility — not only functional correctness. At the company's current size this is a
+distinct phase in the same process, not a handover to a separate reviewer; see 1.10.
 
 **Phase 10 — Security testing.** Security testing is a mandatory gate before deployment, not an
 optional hardening step applied if time permits, consistent with the design discipline described in
@@ -56,3 +57,6 @@ without a measured basis
   is *mandatory as a gate*, which is a policy statement, not a claim about tooling maturity.
 - `[[SECURITY_TESTING_REGIME]]` must resolve identically here and in 4.4 — one owner, cross-referenced,
   per the content reuse map.
+- **Corrected 2026-09-13, Stage 9.** Phase 9 no longer claims an independent reviewer distinct from
+  the development team — see 1.10's correction note (confirmed headcount of 1 employee contradicts
+  that claim) and Claim Verification Register CVR-030.

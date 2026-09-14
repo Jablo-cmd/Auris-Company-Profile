@@ -5,12 +5,12 @@ part: "Front matter"
 pages: [6, 7]
 archetype: K
 words_target: 600
-words_actual: 604
+words_actual: 647
 figures: []
 tables: []
 icons: ["fa-quote-left"]
 images: ["img-p006-md-portrait"]
-tokens: ["[[MD_NAME]]", "[[MD_ROLE]]", "[[FOUNDED_YEAR]]", "[[PLATFORM_OPERATING_MODEL]]"]
+tokens: ["[[PLATFORM_OPERATING_MODEL]]"]
 status: draft
 ---
 
@@ -83,8 +83,8 @@ from ambitions, and where we are still building something, we say so.
 
 We would welcome the opportunity to be measured against it.
 
-**[[MD_NAME]]**
-[[MD_ROLE]]
+**Loyiso Ngcala**
+Founder & Managing Director
 Auris Nexus Technologies
 
 ---
@@ -97,8 +97,9 @@ Auris Nexus Technologies
   behind a desk with folded arms. See `07_Branding/06_Photography-and-Illustration.md` §3.
 - **Signature:** scan at 1200 dpi minimum, convert to vector, place at 100 K. A signature rendered as
   a low-resolution greyscale bitmap is a recognisable production tell.
-- `[[MD_ROLE]]` — confirm whether "Managing Director", "Chief Executive Officer" or "Founder". The
-  running head and contents entry follow from this.
+- **Resolved 2026-09-13, Stage 9.** Signatory confirmed as Loyiso Ngcala, Founder & Managing Director
+  — owner-confirmed, Fact Register F5/leadership note. The running head and contents entry follow this
+  role title.
 - The reference to developing "our own platforms" is supported by the confirmed service list
   (HR & Employee Management Systems, School Management Systems). **Correction (Stage 7 audit,
   2026-09-13):** the confirmed service list evidences that these are offered services, not that

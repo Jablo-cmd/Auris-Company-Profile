@@ -32,8 +32,9 @@ sufficient to design against.
 
 **Phase 5 — Architecture definition.** Solution and, where relevant, enterprise architecture are
 defined per the discipline in 4.2 — decisions recorded with their rationale, not only as a diagram.
-The gate is an architecture reviewed by the governance layer described in 5.8, independent of the team
-that authored it.
+The gate is a documented architecture decision reviewed explicitly against the requirements baseline
+before build begins, per the accountability model in 1.10 — a deliberate checkpoint, not an assumption
+that design flows into build unexamined.
 
 **Phase 6 — Experience design.** User interface and experience design proceed per the discipline in
 2.7 — research, wireframes, prototypes and usability testing before build, not after. The gate is a
@@ -51,5 +52,7 @@ the requirement. Both are reviewed on their own merits before Build begins.
   already state as tokenised — this page describes sequencing and gate logic only.
 - Cross-reference to 4.2 and 2.7 as live `REF` fields — do not restate their content, per the content
   reuse map, `02_Information-Architecture.md` §6.
-- Keep the "independent gate" argument consistent with 1.10's governance layer and 5.8 — the same
-  independence principle recurs across all three and must not be described differently in any of them.
+- **Corrected 2026-09-13, Stage 9.** This gate no longer claims independent governance review — see
+  1.10's correction note (headcount confirmed at 1 employee contradicts an independent-review claim)
+  and Claim Verification Register CVR-020. Keep this page's "deliberate checkpoint" framing consistent
+  with 1.10 and 5.8, both corrected the same way.

@@ -5,7 +5,7 @@ part: "One — The Company"
 pages: [16]
 archetype: C
 words_target: 420
-words_actual: 426
+words_actual: 445
 figures: ["fig-1.2-engagement-model"]
 tables: []
 icons: ["fa-lightbulb"]

@@ -62,15 +62,45 @@ valid and useful answer, and it changes how the section is written rather than l
 
 | # | Item | Token | Priority | Needed by |
 |---|---|---|---|---|
-| B1 | Year founded and founding circumstances | `[[FOUNDED_YEAR]]` | 🔴 | Stage 3 |
-| B2 | Founding rationale — the problem the founders set out to address | — | 🟠 | Stage 3 |
-| B3 | Existing vision and mission statements | `[[VISION]]` `[[MISSION]]` | 🟠 | Stage 3 |
-| B4 | Core values — 5 or 6, with what each means in practice | `[[VALUES]]` | 🟠 | Stage 3 |
-| B5 | Milestones for the timeline — 6 to 8, with dates | — | 🟡 | Stage 3 |
-| B6 | Ownership structure and shareholding | `[[OWNERSHIP]]` | 🔴 | Stage 3 |
-| B7 | Head office | ✅ **Johannesburg, Gauteng** — street address still required as `[[HEAD_OFFICE_ADDRESS]]` | 🟠 | Stage 9 |
+| B1 | Year founded and founding circumstances | ✅ **July 2026** — owner-confirmed, Stage 9 | — | Resolved |
+| B2 | Founding rationale — the problem the founders set out to address | ✅ **Owner-supplied founding story, Stage 9** — see 1.3 | — | Resolved |
+| B3 | Existing vision and mission statements | ✅ **Owner-approved wording supplied, Stage 9** — see 1.4 | — | Resolved |
+| B4 | Core values — 5 or 6, with what each means in practice | ✅ **Owner-approved six values supplied, Stage 9** — see 1.5 | — | Resolved |
+| B5 | Milestones for the timeline — 6 to 8, with dates | ✅ **Owner-supplied, four 2026 milestones, Stage 9** — see 1.3 | — | Resolved |
+| B6 | Ownership structure and shareholding | ✅ **100% owned**, owner-confirmed, Stage 9 | — | Resolved |
+| B7 | Head office | ✅ **140 Linden Street, Sandown, 2196, South Africa** — full address owner-confirmed, Stage 9 | — | Resolved |
 | B8 | Geographic operating footprint | `[[FOOTPRINT]]` | 🟠 | Stage 3 |
-| B9 | Current headcount, and split between permanent and contract | `[[HEADCOUNT]]` | 🟠 | Stage 3 |
+| B9 | Current headcount, and split between permanent and contract | ✅ **1 employee — the Founder.** No additional employees or contractors confirmed; do not represent contractors as employees or imply departments — owner-confirmed, Stage 9 | — | Resolved |
+
+> **Correction (2026-09-13, Stage 9) — Group B.** The owner supplied founding year, founding
+> story, ownership, headcount, full head-office address, and approved wording for vision, mission,
+> core values, brand promise, founding story and milestones directly in this session. These are
+> recorded here at the same evidentiary tier as **A1** (registered name) and **A3** (tagline) — a
+> company's statement of its own founding facts, structure and chosen self-description, not a
+> third-party-verifiable historical claim requiring documentary proof. This distinguishes them from
+> Group E credentials (CIPC, tax, B-BBEE), which are independently checkable and are recorded
+> separately below with their own evidentiary basis. **Strategic-identity wording (vision, mission,
+> values, brand promise, founding story, milestones, and the Operating Capability Structure) is
+> recorded as owner-authorized for publication, not as an externally evidenced historical fact** —
+> the distinction matters only for audit-trail purposes; both are equally publishable. See
+> `README.md` § Outstanding input for the corresponding update to the Strategic Identity Hold list,
+> and Claim Verification Register **CVR-006/007/020/027/030** for claims this resolution affects.
+
+> **Correction (2026-09-13, Stage 9) — Operating Capability Structure supersedes the original 1.10
+> proposal.** Strategic Identity Hold item 7 (`02_Content/part-1/1-10-operating-model.md`) was
+> originally drafted as a three-layer structure — capability units, delivery teams, and an
+> *independent governance layer distinct from the delivery team it reviews*. The owner has now
+> authorized a different, simpler structure for publication: **five capability areas** (Digital
+> Experience & Web Development; Custom Software Development; Business Systems & Automation; Data &
+> Technology Platforms; AI & Emerging Technology Integration), explicitly described as capability
+> areas, not departments, teams or business units. **This is not an approval of the original
+> proposal — it replaces it.** Critically, the owner-confirmed headcount of **1 employee (B9)**
+> directly contradicts the original proposal's independent-governance-layer claim: a single-person
+> company cannot have delivery staff and independent review staff be different people. That specific
+> claim (repeated in 1.10, 5.2, 5.4 and 5.8, and tracked at Claim Verification Register
+> **CVR-020/027/030**) is corrected in the copy, not merely re-gated — see those CVR rows for the
+> before/after. The five capability areas are recorded as owner-authorized positioning, per the note
+> above, and do not themselves require Fact Register resolution beyond this note.
 
 ---
 
@@ -176,22 +206,31 @@ eligibility, and each must be transcribed from the source document rather than r
 
 | # | Item | Token | Needed by |
 |---|---|---|---|
-| E1 | Company registration number (CIPC) | `[[REG_NO]]` | Stage 9 |
-| E2 | Date of incorporation; company type | `[[INCORP_DATE]]` | Stage 9 |
-| E3 | Directors — full names and identity-document status | `[[DIRECTORS]]` | Stage 9 |
-| E4 | Income tax reference number | `[[TAX_NO]]` | Stage 9 |
-| E5 | VAT registration number, if registered | `[[VAT_NO]]` | Stage 9 |
-| E6 | Tax Compliance Status PIN and validity period | `[[TCS_PIN]]` | Stage 9 |
-| E7 | B-BBEE level, verification agency, certificate number, expiry | `[[BBBEE_LEVEL]]` | Stage 9 |
-| E8 | Black ownership and black female ownership percentages | `[[OWNERSHIP_PCT]]` | Stage 9 |
-| E9 | EME / QSE status | `[[ENTERPRISE_SIZE]]` | Stage 9 |
-| E10 | CSD (Central Supplier Database) registration number | `[[CSD_NO]]` | Stage 9 |
-| E11 | UIF and COIDA registration and letter of good standing | `[[COIDA_NO]]` | Stage 9 |
-| E12 | Professional memberships — body, number, status | `[[MEMBERSHIPS]]` | Stage 9 |
-| E13 | Certifications **currently held** — ISO, CMMI, vendor | `[[CERTS_HELD]]` | Stage 9 |
-| E14 | Certifications **targeted**, with realistic dates | `[[CERTS_PLANNED]]` | Stage 9 |
-| E15 | Vendor and technology partnerships, with the tier actually held | `[[PARTNERS]]` | Stage 9 |
-| E16 | Professional indemnity and public liability cover, with values | `[[INSURANCE]]` | Stage 9 |
+| E1 | Company registration number (CIPC) | ✅ **K2026606690** — owner-confirmed, Stage 9 | Resolved |
+| E2 | Date of incorporation; company type | ✅ **July 2026; private company (Pty) Ltd** — owner-confirmed, Stage 9 | Resolved |
+| E3 | Directors — full names and identity-document status | ✅ **Sole director: Loyiso Ngcala (Founder & Managing Director)** — owner-confirmed, Stage 9. Identity-document status is not published in this document regardless (see **H4**'s analogous rule for banking details) | Resolved (name); not applicable (ID status) |
+| E4 | Income tax reference number | ✅ **9755014207** — owner-confirmed, Stage 9 | Resolved |
+| E5 | VAT registration number, if registered | ✅ **Not VAT registered** — owner-confirmed, Stage 9. Stated neutrally, not as a qualification or shortfall; VAT registration is a turnover-linked administrative status, not a maturity indicator | Resolved |
+| E6 | Tax Compliance Status PIN and validity period | `[[TCS_PIN]]` — **the existence of a tax reference number (E4) is not evidence of TCS status; do not infer one from the other** | Stage 9+ (owner verification required) |
+| E7 | B-BBEE level, verification agency, certificate number, expiry | ✅ **Level 1** — owner-confirmed, Stage 9. Verification agency, certificate number and expiry date not yet supplied — do not invent | Partially resolved |
+| E8 | Black ownership and black female ownership percentages | `[[OWNERSHIP_PCT]]` — not to be inferred from B6 (100% ownership) or E7 (B-BBEE level); a distinct, formally-verified figure | Stage 9+ (owner verification required) |
+| E9 | EME / QSE status | `[[ENTERPRISE_SIZE]]` — not to be inferred from headcount or B-BBEE level; a distinct, formally-classified status | Stage 9+ (owner verification required) |
+| E10 | CSD (Central Supplier Database) registration number | `[[CSD_NO]]` | Stage 9+ (owner verification required) |
+| E11 | UIF and COIDA registration and letter of good standing | `[[COIDA_NO]]` | Stage 9+ (owner verification required) |
+| E12 | Professional memberships — body, number, status | `[[MEMBERSHIPS]]` | Stage 9+ (owner verification required) |
+| E13 | Certifications **currently held** — ISO, CMMI, vendor | `[[CERTS_HELD]]` | Stage 9+ (owner verification required) |
+| E14 | Certifications **targeted**, with realistic dates | `[[CERTS_PLANNED]]` | Stage 9+ (owner verification required) |
+| E15 | Vendor and technology partnerships, with the tier actually held | `[[PARTNERS]]` — none confirmed; do not imply a partner network exists | Stage 9+ (owner verification required) |
+| E16 | Professional indemnity and public liability cover, with values | `[[INSURANCE]]` | Stage 9+ (owner verification required) |
+
+> **Correction (2026-09-13, Stage 9) — Group E.** The owner directly confirmed E1 (CIPC number),
+> E2 (incorporation date and company type), E3 (sole director's name), E4 (tax reference number),
+> E5 (VAT status — not registered), and the level component of E7 (B-BBEE Level 1). These five and a
+> half items move from open token to resolved fact in this correction. **E6 (TCS PIN/status), E8
+> through E16 remain open and are explicitly not inferred from the resolved items** — a tax reference
+> number is not a Tax Compliance Status certificate; 100% ownership is not a black-ownership
+> percentage; a one-employee headcount is not an EME/QSE classification; none of these substitutions
+> is made anywhere in this profile.
 
 > **Correction (2026-08-02, Claim Verification audit).** Sections 1.1 and 1.2 originally stated
 > "registered and tax compliant" / "holds a valid Tax Compliance Status" as established fact, with
@@ -226,7 +265,7 @@ eligibility, and each must be transcribed from the source document rather than r
 | F2 | For each case study: is the client named with **written** permission, or anonymised? | ✅ **Resolved for the two case studies currently named** (Jo Jackson Dance Company, Pro Energy Solutions) — see correction note below. Remains open for any case study added later | 🔴 | Stage 9 |
 | F3 | Testimonials — full text, with name, role, organisation and consent | `[[TESTIMONIALS]]` | 🟡 | Stage 9 |
 | F4 | Awards or recognition, with awarding body and year | `[[AWARDS]]` | 🟡 | Stage 9 |
-| F5 | Executive team — 4 to 6. Name, role, qualifications, tenure, short biography | `[[EXEC_TEAM]]` | 🟠 | Stage 9 |
+| F5 | Executive team — 4 to 6. Name, role, qualifications, tenure, short biography | ✅ **Resolved as one leader, Stage 9: Loyiso Ngcala, Founder & Managing Director.** No additional directors or executives have been confirmed. The original "4 to 6" framing assumed a larger organisation; per owner direction this is not padded with invented roles — see 7.8 | 🟠 | Resolved (as one) |
 | F6 | Reference clients contactable by prospective buyers | — | 🟡 | Stage 9 |
 | F7 | Verifiable statistics — projects delivered, uptime achieved, clients retained. **Measured figures only** | `[[STATISTICS]]` | 🟠 | Stage 9 |
 | F8 | **CIT LMS** — investigated as a candidate case study, 2026-09-13; re-inspected 2026-09-13, Stage 8B | **Excluded as a named case study, unchanged.** A real, substantially-built HR/workforce system exists in the source repository (re-confirmed at Stage 8B: employee records, attendance, leave, HR-request workflows, multi-site posting/deployment, contracts, reporting and an audit trail), but it is built for a real, named third-party client and its own seed/reference data names that client's own clients in turn. No evidence of written consent to reference either the commissioning client or its clients exists anywhere in that repository. Do not add to the profile as a *named* case study without a specific, written release covering exactly what may be named. **Stage 8B addition: a fully anonymised capability description — no client name, no sub-client name, no sector-identifying detail — was added to 2.2 Custom Software Development, on the reasoning that a naming-consent requirement governs *identification*, not the fact that Auris does this kind of work at all; see Claim Verification Register CVR-047** | 🔴 | Stage 9 |
@@ -315,7 +354,7 @@ A `[[TOKEN]]` count is reported at the close of every stage from Stage 3 onward.
 
 ---
 
-## Status at close of Stage 3
+## Status at close of Stage 3 (superseded — see Stage 9 status below)
 
 **Resolved:** A1 registered name · A3 tagline · A6 logo (rebuild commissioned) · B7 head office
 (city) · C1 service list · primary markets.
@@ -335,3 +374,32 @@ A `[[TOKEN]]` count is reported at the close of every stage from Stage 3 onward.
 4. **F5** executive team — blocks the 7.8 spread
 5. **E7** `[[BBBEE_LEVEL]]` — a mandatory tender returnable
 6. **B3/B4** — approve or amend the proposed vision, mission and values in `02_Content/part-1/`
+
+---
+
+## Status at close of Stage 9 (2026-09-13)
+
+**Newly resolved this stage, by direct owner confirmation:** B1 `[[FOUNDED_YEAR]]` (July 2026) · B2
+founding rationale · B3 vision/mission wording · B4 core values · B5 milestones · B6 `[[OWNERSHIP]]`
+(100%) · B7 `[[HEAD_OFFICE_ADDRESS]]` (140 Linden Street, Sandown, 2196) · B9 `[[HEADCOUNT]]` (1,
+the Founder) · E1 `[[REG_NO]]` (K2026606690) · E2 `[[INCORP_DATE]]` (July 2026, Pty Ltd) · E3
+`[[DIRECTORS]]` (Loyiso Ngcala, sole director) · E4 `[[TAX_NO]]` (9755014207) · E5 `[[VAT_NO]]` (not
+registered) · E7 `[[BBBEE_LEVEL]]` (Level 1, level only) · F5 executive team (resolved as one:
+Loyiso Ngcala, Founder & MD) · `[[MD_NAME]]`/`[[MD_ROLE]]` (Loyiso Ngcala, Founder & Managing
+Director) · `[[TEAM_STRUCTURE]]` (resolved as one capability holder across five stated capability
+areas, not multiple units) · `[[OPERATING_MODEL_APPROVED]]` (superseded — see the Operating
+Capability Structure correction note under Group B).
+
+**Still open, owner verification required, per explicit Stage 9 direction not to infer them:**
+E6 `[[TCS_PIN]]` · E8 `[[OWNERSHIP_PCT]]` · E9 `[[ENTERPRISE_SIZE]]` · E10 `[[CSD_NO]]` ·
+E11 `[[COIDA_NO]]` · E12 `[[MEMBERSHIPS]]` · E13 `[[CERTS_HELD]]` · E14 `[[CERTS_PLANNED]]` ·
+E15 `[[PARTNERS]]` · E16 `[[INSURANCE]]` · all of Group D (SLA, support model, security-testing
+regime, PM certifications) · C4 (technologies not worked in) · five of eight Part Two `[[PROOF_*]]`
+tokens (2.1, 2.4, 2.6, 2.7, 2.8) plus the HR/employee-management half of 2.3 · `[[SECTORS_DELIVERED]]`
+· `[[PLATFORM_DEPLOYMENTS]]` · `[[CLIENT_COUNT]]` · G1–G9 in full (POPIA, business continuity, health
+and safety, environmental, CSR, skills development, risk, code of conduct) · CVR-046 (LOGIOS/Logistics
+App naming).
+
+**Highest-value remaining inputs:** approval of the CVR-046 naming question (owner or public-website
+correction); any of the Group E items still open (each is an independent tender-eligibility
+returnable); Group D operational facts, if any genuinely exist to disclose.

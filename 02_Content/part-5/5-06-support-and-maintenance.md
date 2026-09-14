@@ -18,9 +18,9 @@ status: draft
 
 **Standfirst**
 
-> Phases 13–14 of the lifecycle in 5.0. The brand promise in 1.7 is tested here more than anywhere
-> else in the lifecycle — production character shows up in the incident nobody planned for, not in the
-> plan.
+> Phases 13–14 of the lifecycle in 5.0. Technology built around how an organisation works, per the
+> brand promise in 1.7, is tested here more than anywhere else in the lifecycle — a system's fit shows
+> up in the incident nobody planned for, not in the plan.
 
 ---
 

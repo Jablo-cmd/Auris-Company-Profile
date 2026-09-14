@@ -5,12 +5,12 @@ part: "One — The Company"
 pages: [10]
 archetype: C
 words_target: 420
-words_actual: 431
+words_actual: 448
 figures: []
 tables: []
 icons: ["fa-file-lines"]
 images: []
-tokens: ["[[FOUNDED_YEAR]]", "[[HEADCOUNT]]", "[[BBBEE_LEVEL]]", "[[TAX_COMPLIANCE_STATUS]]", "[[PLATFORM_OPERATING_MODEL]]"]
+tokens: ["[[TAX_COMPLIANCE_STATUS]]", "[[PLATFORM_OPERATING_MODEL]]"]
 status: draft
 ---
 
@@ -54,9 +54,10 @@ documentation, source access and handover as contractual deliverables rather tha
 courtesies. And we **remain accountable after go-live**, because a system's real character emerges
 under sustained load with real users, not in acceptance testing.
 
-The company was founded in [[FOUNDED_YEAR]] and employs [[HEADCOUNT]] people. We are
-[[BBBEE_LEVEL]] B-BBEE contributors. Tax compliance status: [[TAX_COMPLIANCE_STATUS]]. We are able to
-contract through open tender, quotation, panel appointment and framework agreement.
+The company was established in July 2026 and operates as a lean, founder-led team of one — the
+founder, Loyiso Ngcala, is directly involved in every engagement. We are a Level 1 B-BBEE contributor.
+We hold a SARS tax reference number; formal Tax Compliance Status is [[TAX_COMPLIANCE_STATUS]]. We are
+able to contract through open tender, quotation, panel appointment and framework agreement.
 
 What follows is organised to be read in any order. Each section stands alone. If you have come to
 this document to verify a specific credential, the Company at a Glance panel on page 8 and the
@@ -73,7 +74,13 @@ Credentials section from page 95 will answer you directly.
 - Cross-references to p. 8 and p. 95 are live `REF` fields, never typed.
 - The "unusual at our scale" claim in paragraph two is defensible from the confirmed service list and
   is the document's central differentiation. It recurs in 1.8 and 1.9 and must stay consistent in all
-  three.
+  three. **Strengthened by the Stage 9 headcount confirmation**, not undermined by it: a one-person
+  company genuinely spanning three disciplines is more unusual, not less, than a larger firm doing the
+  same.
+- **Resolved 2026-09-13, Stage 9.** Founding year, headcount and B-BBEE level are owner-confirmed —
+  Fact Register B1, B9, E7. Tax registration (a reference number exists) is confirmed; Tax Compliance
+  Status specifically remains open — see Fact Register E4/E6 and Claim Verification Register
+  CVR-003/004/005.
 - **`[[PLATFORM_OPERATING_MODEL]]`** — added at Stage 7 audit. The confirmed service list evidences
   that HR/employee management and school management systems are offered services; it does not
   evidence that Auris self-operates them as its own ongoing platforms distinct from client-commissioned

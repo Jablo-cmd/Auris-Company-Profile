@@ -39,9 +39,12 @@ reading better without them.
    procurement, audit, legal review, due diligence or enterprise vendor onboarding gets an entry:
    Claim ID, section reference, exact claim, required evidence, evidence owner, verification status,
    risk rating, verification date. Nothing leaves draft status until claims are evidenced.
-4. **Strategic Identity Hold.** Vision, Mission, Core Values, Brand Promise, Founding Story, Company
-   Milestones and Operating Structure remain intentionally tokenized until developed collaboratively
-   with the client at the Brand Strategy Workshop. Never invent or finalise them.
+4. **Strategic Identity Hold — resolved 2026-09-13, Stage 9.** Vision, Mission, Core Values, Brand
+   Promise, Founding Story, Company Milestones and Operating Structure were held under this rule until
+   the owner supplied and approved wording for all seven directly. They are no longer tokenized as
+   unapproved proposals — see `README.md` § Outstanding input for the resolution record. The
+   *principle* behind this rule still applies to anything genuinely not yet supplied: never invent or
+   finalise a strategic-identity statement the owner has not actually provided.
 5. **Print-first philosophy.** Design for CMYK-safe colour, offset printing, bleed, crop marks, safe
    margins, professional typography, 300 dpi imagery, print-safe contrast, binding gutter, premium
    stock. The Word version is derived from the print design, never the reverse.
@@ -63,11 +66,13 @@ reading better without them.
 |---|---|---|---|
 | 1 | Planning | — | ✅ Completed, approved |
 | 2 | Brand identity, design language, typography, colour system, components, grid, spacing, production rules | ~20 000 words | ✅ Completed, approved and frozen |
-| 3 | Part One — The Company | ~7 700 words | ✅ Draft complete. Strategic items intentionally held |
+| 3 | Part One — The Company | ~4 900 words (recounted 2026-09-13, Stage 9 against the same methodology used elsewhere; the previous ~7,700 figure was never put through that recount and is superseded, not confirmed) | ✅ Draft complete. Strategic items owner-approved at Stage 9, see §2 rule 4 |
 | 4 | Part Two — Services | ~4 600 words (corrected 2026-09-13, Stage 8A, from a misstated ~5 700; grew to ~4 600 at Stage 8B with the 2.2/2.3 evidence-backed fact callouts — see README.md ‡/§ notes) | ✅ No fabricated client examples; three of eight services now have a resolved, evidence-scoped proof point; the rest remain tokenized |
 | 5 | Part Three — Industries | ~2 700 words (corrected 2026-09-13, Stage 8A; previously misstated as ~5 100) | ✅ Sector knowledge only; no false delivery claims; delivered-sector claims tokenized |
 | 6 | Part Four — Technical Capabilities | ~2 400 words (corrected 2026-09-13, Stage 8A, from a misstated ~4 600; grew to ~2 400 at Stage 8B when 4.1/4.6 were corrected for accuracy and expanded evidence) | ✅ Three-tier Current/Capable/Planned model applied; no certifications, cloud partnerships or technology claims invented; Fact Register items C8–C13 added |
-| 7 | Part Five — Project Delivery | ~1 700 words (corrected 2026-09-13; previously misstated as ~3 600 — see below) | ✅ Lifecycle, discovery, planning, architecture, development, testing, deployment, support, continuous improvement, governance, SLA framework. No PMO/ITIL/DevSecOps/ISO system implied; every operational metric tokenized; SLA table intentionally unpopulated |
+| 7 | Part Five — Project Delivery | ~1 700 words (corrected 2026-09-13; previously misstated as ~3 600 — see below) | ✅ Lifecycle, discovery, planning, architecture, development, testing, deployment, support, continuous improvement, governance, SLA framework. No PMO/ITIL/DevSecOps/ISO system implied; every operational metric tokenized; SLA table intentionally unpopulated. **Corrected 2026-09-13, Stage 9:** the independent-governance-layer claim in 5.2, 5.4 and 5.8 is removed — see the Stage 9 note below |
+| 8 | Part Six — Business Excellence | ~1 900 words, first drafted 2026-09-13, Stage 9 | ✅ Nine sections (6.0–6.8), drafted at the company's actual scale — no ISO certification, formal policy, CSR programme or business-continuity plan claimed beyond what is owner-confirmed |
+| 9 | Part Seven — Credentials, plus Closing | ~1 800 words, first drafted 2026-09-13, Stage 9 | ✅ Ten of eleven Part Seven sections plus the Closing section (8.1/8.2) drafted for the first time (7.10 was early-drafted at Stage 7); executive team resolved as one leader; no partnership, membership, certification or testimonial invented |
 
 **Quality improvement introduced this stage:** the Claim Verification Register was created. Its audit
 depth differs by part and this brief states it precisely, because the two are not interchangeable:
@@ -173,43 +178,90 @@ Unverified Claim Verification Register row was reviewed against that access. Fin
    evidence was found to close any of them, and none was manufactured. See the Claim Verification
    Register's own §5/§6 for the row-by-row basis.
 
-The Claim Verification Register now stands at **44 rows: 13 Verified, 15 Gated, 16 Unverified,
-0 Rejected** — see §8 below, which restates the verification-completeness assessment against these
+The Claim Verification Register stood at **44 rows: 13 Verified, 15 Gated, 16 Unverified,
+0 Rejected** at the close of Stage 8B — see the Stage 9 note immediately below for the current figures.
+
+**2026-09-13, Stage 9 — owner-information reconciliation and master profile assembly.** The company
+owner supplied authoritative corporate information and approved strategic-identity wording directly in
+this session. Findings and actions:
+
+1. **Corporate facts resolved.** Founding date (July 2026), CIPC number (K2026606690), tax reference
+   number, VAT status (not registered), B-BBEE level (Level 1), ownership (100%), headcount (1
+   employee, the Founder), full head-office address (140 Linden Street, Sandown, 2196), and the
+   Founder & Managing Director's name (Loyiso Ngcala) are now recorded in the Fact Register and
+   incorporated into 0-06, 1.1, 1.2, 7.1, 7.2, 7.3, 7.4 and 8.2. **E6 (TCS PIN), E8–E16, and all of
+   Group G remain open** — none is inferred from what was supplied.
+2. **Strategic identity resolved, not merely proposed.** Vision, mission, six core values, brand
+   promise, founding story, four milestones, and a five-capability-area Operating Capability Structure
+   were supplied by the owner and now replace the previously drafted proposals in 1.3, 1.4, 1.5, 1.7
+   and 1.10 entirely — see Fact Register Group B correction note.
+3. **A claim actively contradicted by the new headcount fact, not merely superseded.** 1.10's original
+   proposal claimed an "independent governance layer distinct from the delivery team," carried into
+   5.2, 5.4 and 5.8. A one-person company cannot have delivery staff and independent review staff be
+   different people — the confirmed headcount directly contradicts this claim. All four pages are
+   corrected to describe direct, undistributed accountability at the company's current size, with
+   formal independent review stated as future intent. This produced the Claim Verification Register's
+   **first three Rejected rows** (CVR-020, CVR-027, CVR-030) — a claim corrected because evidence
+   actively disproved it, not merely left unproven.
+4. **Twenty new files drafted**, none previously existing in this repository: Part Six in full
+   (6.0–6.8, Business Excellence) and the remainder of Part Seven (7.1–7.9, 7.11 — 7.10 already
+   existed) plus the Closing section (8.1, 8.2). Each states genuinely confirmed facts as fact,
+   genuinely intended future steps as intent, and everything else as an open token or an explicit
+   "not yet confirmed" — no certification, membership, partnership, CSR activity, formal policy or
+   testimonial is invented anywhere in these twenty files.
+5. **Company-size honesty pass across Part One.** Language implying a multi-person team where none
+   exists was corrected: 1.8 §3 ("the senior people who attend the pitch") and 1.9's "Senior-only
+   engagement" advantage (reframed as "Founder-led engagement") both previously read oddly against a
+   confirmed headcount of one. CVR-006 (the "named principal" claim) moved to Verified for a different
+   reason than usual — not a contract template, but because the claim is a direct logical consequence
+   of the confirmed headcount.
+6. **A README/front-matter table update was required across the whole content table** to add the
+   twenty new files and recount Part One (see `README.md`'s ¶ note) — this is a routine table update,
+   not a further bookkeeping error of the kind found at Stage 7/8A.
+
+The Claim Verification Register now stands at **44 rows: 16 Verified, 13 Gated, 12 Unverified,
+3 Rejected** — see §8 below, which restates the verification-completeness assessment against these
 figures.
 
-**Current word count:** approximately **17 400** words drafted — revised three times since the
-original ~24 500 figure: first to ~23 200 (Part Five's word-count correction, plus the 7.10 addition),
-then to ~16 900 at Stage 8A once the same bookkeeping error was confirmed and corrected across all 30
-files in Parts Two, Three and Four, and now to ~17 400 at Stage 8B once four files (2.2, 2.3, 4.1, 4.6)
-grew with the newly-added, evidence-backed content above **and** a README table/front-matter sync bug
-was found and fixed (the README table for 4.1/4.6 had not been updated after Stage 8A's own content
-additions to those two files — see README.md's § note). See `README.md`'s †/‡/§ notes and
-`06_Production-Conventions.md` for the related open item: most sections in Parts Two–Five now measure
-below their archetype's binding word band, expected to close as Group C/D tokens resolve rather than by
-padding.
+**Current word count:** approximately **20 100** words drafted — revised four times since the
+original ~24 500 figure: ~23 200 after Part Five's correction plus the 7.10 addition; ~16 900 at Stage
+8A once the Part Two–Four bookkeeping error was corrected; ~17 400 at Stage 8B; now ~20 100 at Stage 9
+with Part One's recount against owner-supplied content (net **down** within Part One itself, since the
+owner's actual wording is more concise than the proposals it replaced) plus twenty new files across
+Parts Six, Seven and the Closing section. See `README.md`'s †/‡/§/¶ notes and
+`06_Production-Conventions.md` for the related open item: most sections in Parts Two–Five, and several
+of the new Part Six/Seven sections, measure below their archetype's binding word band, deliberately —
+a newly established, one-person company has genuinely little to say in some of these sections, and
+padding them would reintroduce overclaiming.
 
 ---
 
 ## 4. Next stage
 
-**Stage 8 — Business Excellence.** High-assurance section; extreme care required. Never imply ISO
-certification, POPIA compliance, Information Officer appointment, governance framework, security
-programme, policies, risk framework, CSR programme, business continuity, disaster recovery, or
-environmental policy unless documentary evidence exists. Professional practice may be described only
-as **recommended practice**, never presented as existing organisational capability, until verified.
+**Stages 8 and 9 (Business Excellence, Credentials) were drafted at Stage 9** — see the Stage 9 note
+in §3 above. The high-assurance standard originally set for this stage was maintained: no ISO
+certification, POPIA Information Officer registration, governance framework, security programme,
+CSR programme, business continuity plan, or environmental policy is claimed anywhere in Parts Six or
+Seven beyond what the owner has confirmed. Professional practice not yet formalised is stated as
+intent ("the intended next step") or left as an open Fact Register item, never presented as existing
+organisational capability.
+
+**Next stage: 10 — Visual content.** Not started. Depends on final sign-off of the twenty new Part
+Six/Seven/Closing files and on the still-open Group E/G items in §8 below before any of them can be
+treated as final for layout.
 
 ---
 
 ## 5. Remaining stages
 
-| Stage | Deliverable |
-|---|---|
-| 8 | Business Excellence |
-| 9 | Credentials |
-| 10 | Closing Matter |
-| 11 | Word Production |
-| 12 | Quality Assurance |
-| 13 | Final Print Production |
+| Stage | Deliverable | Status |
+|---|---|---|
+| 8 | Business Excellence | ✅ Drafted, Stage 9 |
+| 9 | Credentials | ✅ Drafted, Stage 9 (7.10 was early-drafted at Stage 7) |
+| 10 | Closing Matter | ✅ Drafted, Stage 9 (8.1/8.2) |
+| 11 | Word Production | Not started |
+| 12 | Quality Assurance | Not started |
+| 13 | Final Print Production | Not started |
 
 See §7 for how this list reconciles with the stage table in `06_Production-Conventions.md` §1.
 
@@ -258,18 +310,19 @@ Verification Register with no gaps remaining as of this re-audit. The register i
 Register, this brief and `06_Production-Conventions.md` are cross-consistent after the corrections
 listed in §3 above.
 
-**B. Claim verification completeness — INCOMPLETE, and not close.** *(Figures below corrected
-2026-09-13, Stage 8B — the tally has moved three times: 30 rows/2 Verified at the original re-audit;
-36 rows/8 Verified the same day, on adding CVR-035–040; 42 rows/11 Verified at Stage 8A; now 44
-rows/13 Verified at Stage 8B.)* Of **44 rows** in the Claim Verification Register: **13 Verified**,
-**15 Gated** (openly disclosed as unresolved via a Fact Register token), **16 Unverified** (stated as
-fact in the copy, no token, no evidence yet). Zero Rejected. The highest-risk open items — none of
-which may be presented to an evaluator as settled — remain:
+**B. Claim verification completeness — INCOMPLETE, and not close.** *(Figures corrected 2026-09-13,
+Stage 9 — the tally has moved five times: 30 rows/2 Verified at the original re-audit; 36 rows/8
+Verified the same day; 42 rows/11 Verified at Stage 8A; 44 rows/13 Verified at Stage 8B; now 44
+rows/16 Verified at Stage 9, with the register's first three Rejected rows.)* Of **44 rows** in the
+Claim Verification Register: **16 Verified**, **13 Gated** (openly disclosed as unresolved via a Fact
+Register token), **12 Unverified** (stated as fact in the copy, no token, no evidence yet), **3
+Rejected** (a claim actively contradicted by evidence, corrected in the copy). The highest-risk open
+items — none of which may be presented to an evaluator as settled — remain:
 
 - **CVR-011 (High)** — the HR/school platform operating-model claim (six locations). Stage 8B's 2.3
   fact callout (Funda360) deliberately does not touch this — it argues against the claim, not for it.
 - **CVR-023 (High)** — "security testing is a mandatory gate before deployment."
-- **CVR-010 (High)** — per-service proof points — now partially resolved for **3 of 8 services**: 2.5
+- **CVR-010 (High)** — per-service proof points — partially resolved for **3 of 8 services**: 2.5
   (Pro Energy Solutions, Stage 8A), 2.2 (anonymised, Stage 8B), and 2.3's school-management half
   (Funda360, Stage 8B). The remaining five services, plus 2.3's HR & employee-management half, stay
   fully Gated.
@@ -280,28 +333,38 @@ which may be presented to an evaluator as settled — remain:
   10 domains (4.1, 4.6 — see CVR-043–045, corrected for accuracy at Stage 8B); "capable of supporting,"
   "planned," and all of Fact Register **C4** remain fully open, as does "currently used" for the
   remaining eight domains.
-- **CVR-003/004/005 (High)** — tax compliance and SARS registration — Gated, not fabricated, but
-  unresolved.
-- **CVR-020, CVR-027, CVR-030 (Medium, but structurally significant)** — the independent-governance-
-  layer claim repeated in 5.2, 5.4 and 5.8, all tracing to the Operating Capability Structure (1.10),
-  which is under Strategic Identity Hold and not approved.
+- **CVR-003/004 (High)** — Tax Compliance Status specifically — Gated, not fabricated, but unresolved.
+  The underlying tax registration (CVR-005) resolved at Stage 9; the compliance-status PIN did not,
+  and is not inferred from the registration.
+- **CVR-020, CVR-027, CVR-030 — no longer open; RESOLVED BY REJECTION at Stage 9.** The
+  independent-governance-layer claim repeated in 5.2, 5.4 and 5.8 is not merely unapproved — the
+  owner-confirmed headcount of 1 employee directly contradicts it, so it has been corrected out of the
+  copy rather than left pending. Listed here as a status change, not an open item.
 - **CVR-041, CVR-042 (Medium, added at Stage 8A)** — two business-benefit claims in 2.1 and 2.8 found
-  during the Part Two line-by-line audit, not previously carried by any register row. Reviewed again at
-  Stage 8B; no new evidence exists for either, correctly still open.
+  during the Part Two line-by-line audit. Reviewed again at Stage 8B and Stage 9; no evidence exists
+  for either, correctly still open.
 - **CVR-046 (Medium, added at Stage 8A)** — an unresolved naming discrepancy between this profile's
   Logistics App case study and "LOGIOS OS" as named on the public Auris Nexus Technologies website.
-  Reconciled, not closed, at Stage 8B: this profile's own copy is confirmed clean; the residual action
-  is a correction to the public website, outside this task's scope.
+  Reconciled, not closed, at Stage 8B and re-confirmed at Stage 9: this profile's own copy is confirmed
+  clean; the residual action is a correction to the public website, outside this task's scope.
 
-**C. Overall profile readiness for procurement/evaluator use — NOT READY.** The Strategic Identity
-Hold (rule 4 above) alone means Part One cannot be frozen, and the 16 Unverified and 15 Gated claims
-above (current as of 2026-09-13, Stage 8B) mean the document as it stands must not be represented to a
-client, bank or tender panel as a finished, evidenced account of the company. It is ready as a
-**structured draft awaiting fact input** — exactly what Stages 1–7 were scoped to produce — not as a
-submission-ready credential.
+**C. Overall profile readiness for procurement/evaluator use — NOT READY, closer than before.** The
+Strategic Identity Hold is resolved (§2 rule 4), and the company's core corporate registration facts
+are now confirmed (§3, Stage 9). What remains is genuinely factual, not strategic: the 12 Unverified
+and 13 Gated claims above — chiefly Tax Compliance Status, sector delivery experience, technology
+inventory completeness, security/certification credentials, and SLA/support-model detail — mean the
+document as it stands still must not be represented to a client, bank or tender panel as a finished,
+evidenced account of the company. It is ready as a **structured draft with its strategic identity and
+core registration settled, awaiting the remaining factual and credential inputs** — a meaningfully
+further stage than "awaiting fact input" described at Stage 7.
 
-**Do not, under any circumstance before these close:** state that Auris holds a specific B-BBEE
-level, tax compliance status, security or quality certification, cloud partner tier, or SLA
-commitment; state that any named sector has genuine prior delivery experience; state that the HR/school
-platforms are self-operated products rather than offered services; or state that the operating model,
-vision, mission, values, brand promise, founding story or milestones are approved rather than proposed.
+**Do not, under any circumstance before these close:** state that Auris holds a Tax Compliance Status,
+a security or quality certification, a cloud partner tier, an SLA commitment, a CSD number, UIF/COIDA
+registration, or a professional membership beyond what Group E of the Fact Register confirms; state
+that any named sector has genuine prior delivery experience; state that the HR/school platforms are
+self-operated products rather than offered services; or state that an independent governance layer,
+distinct from the founder, exists. **The following are now resolved and may be stated as fact**:
+founding date, CIPC registration number, tax registration (not compliance status), VAT status,
+B-BBEE level (not the supporting certificate detail), ownership, headcount, head office address, and
+the vision, mission, values, brand promise, founding story, milestones and Operating Capability
+Structure as approved, owner-supplied wording.

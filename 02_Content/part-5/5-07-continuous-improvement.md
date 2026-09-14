@@ -31,7 +31,7 @@ doing in production against what it was built to do — usage patterns, support 
 performance against the service level framework in 5.9 — and turns that examination into a
 recommendation, not just a report.
 
-This is the phase in which the restraint principle from 1.5 and 1.6 is applied in reverse: as much
+This is the phase in which the subtraction principle from 1.6 is applied in reverse: as much
 attention goes into identifying what should be simplified or removed as into what should be added.
 Complexity accumulated during Build (5.3–5.4) is a legitimate candidate for review here, not something
 reviewed only when it becomes a visible problem.
@@ -50,5 +50,7 @@ universal schedule
   dashboard is named until confirmed.
 - Do not imply a formal continuous-improvement certification (e.g. a specific quality-management
   standard) is held — that belongs to 6.1 and Part Seven, and only if genuinely held.
-- Keep the "restraint applied in reverse" argument consistent with 1.5 (Restraint) and 1.6 (prefer
-  subtraction) — this page is their operational expression at the end of the lifecycle.
+- Keep the "restraint applied in reverse" argument consistent with 1.5 (Continuous Learning, the
+  closest of the current six values to this page's theme — corrected 2026-09-13, Stage 9, when the
+  values set changed and "Restraint" no longer exists under that name) and 1.6 (prefer subtraction) —
+  this page is their operational expression at the end of the lifecycle.

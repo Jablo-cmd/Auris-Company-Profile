@@ -3,7 +3,7 @@
 Production repository for the flagship corporate publication: a 112-page A4 company profile for
 tenders, procurement, enterprise sales, investor and partner engagement.
 
-**Current stage:** 7 — Project Delivery · *drafted, awaiting approval*
+**Current stage:** 9 — Credentials · *drafted, awaiting approval and owner verification*
 
 > **Note on sequencing.** Per the client's standing rule (confirmed 2026-08-02): the Stage 3 approval
 > gate remains open **only** for the seven strategic identity items (see below) — it does not block
@@ -44,6 +44,20 @@ tenders, procurement, enterprise sales, investor and partner engagement.
 > "Logistics App," confirmed clean by a repository-wide check; the residual action is a correction to
 > the public website, which this task does not touch. See Claim Verification Register **CVR-043**
 > through **CVR-048**.
+>
+> **Note on Stage 9 (2026-09-13) — master profile assembly and owner-information reconciliation.**
+> The owner supplied authoritative corporate information (founding date, CIPC number, tax reference
+> number, VAT status, B-BBEE level, ownership, headcount, full head-office address, and the founder's
+> name and title) and approved wording for vision, mission, core values, brand promise, founding story,
+> milestones and a five-capability-area Operating Capability Structure — all now incorporated. The
+> confirmed headcount of **1 employee** directly contradicted an independent-governance-layer claim
+> carried since Stage 7 in 1.10, 5.2, 5.4 and 5.8; that claim is corrected, not merely re-gated, and is
+> this register's first three **Rejected** rows (CVR-020/027/030). Parts Six (6.0–6.8) and the
+> remainder of Part Seven (7.1–7.9, 7.11) and the Closing section (8.1–8.2) are drafted for the first
+> time, at the company's actual, honestly-stated scale — a newly established, lean, founder-led
+> company — rather than with language borrowed from a larger organisation. See §¶ note in the Content
+> table below for the Part One recount, and the Claim Verification Register for the full correction
+> record.
 
 ---
 
@@ -67,23 +81,23 @@ tenders, procurement, enterprise sales, investor and partner engagement.
 
 | File | Section | Words |
 |---|---|---|
-| [0-06-md-message.md](02_Content/part-1/0-06-md-message.md) | Managing Director's message | 683 |
-| [1-01-executive-summary.md](02_Content/part-1/1-01-executive-summary.md) | 1.1 Executive summary | 424 |
-| [1-02-company-overview.md](02_Content/part-1/1-02-company-overview.md) | 1.2 Company overview | 380 |
-| [1-03-our-story.md](02_Content/part-1/1-03-our-story.md) | 1.3 Our story | 404 |
-| [1-04-vision-and-mission.md](02_Content/part-1/1-04-vision-and-mission.md) | 1.4 Vision and mission — **proposed** | 414 |
-| [1-05-core-values.md](02_Content/part-1/1-05-core-values.md) | 1.5 Core values — **proposed** | 529 |
-| [1-06-business-philosophy.md](02_Content/part-1/1-06-business-philosophy.md) | 1.6 Business philosophy | 450 |
-| [1-07-corporate-identity-and-brand-promise.md](02_Content/part-1/1-07-corporate-identity-and-brand-promise.md) | 1.7 Corporate identity and brand promise | 416 |
-| [1-08-why-auris-nexus.md](02_Content/part-1/1-08-why-auris-nexus.md) | 1.8 Why Auris Nexus Technologies | 838 |
-| [1-09-competitive-advantages.md](02_Content/part-1/1-09-competitive-advantages.md) | 1.9 Competitive advantages | 598 |
-| [1-10-operating-model.md](02_Content/part-1/1-10-operating-model.md) | 1.10 Our operating model | 376 |
+| [0-06-md-message.md](02_Content/part-1/0-06-md-message.md) | Managing Director's message | 647¶ |
+| [1-01-executive-summary.md](02_Content/part-1/1-01-executive-summary.md) | 1.1 Executive summary | 448¶ |
+| [1-02-company-overview.md](02_Content/part-1/1-02-company-overview.md) | 1.2 Company overview | 392¶ |
+| [1-03-our-story.md](02_Content/part-1/1-03-our-story.md) | 1.3 Our story — founding story and milestones owner-supplied | 333¶ |
+| [1-04-vision-and-mission.md](02_Content/part-1/1-04-vision-and-mission.md) | 1.4 Vision and mission — **owner-approved** | 162¶ |
+| [1-05-core-values.md](02_Content/part-1/1-05-core-values.md) | 1.5 Core values — **owner-approved** | 216¶ |
+| [1-06-business-philosophy.md](02_Content/part-1/1-06-business-philosophy.md) | 1.6 Business philosophy | 445¶ |
+| [1-07-corporate-identity-and-brand-promise.md](02_Content/part-1/1-07-corporate-identity-and-brand-promise.md) | 1.7 Corporate identity and brand promise — **owner-approved** | 427¶ |
+| [1-08-why-auris-nexus.md](02_Content/part-1/1-08-why-auris-nexus.md) | 1.8 Why Auris Nexus Technologies | 824¶ |
+| [1-09-competitive-advantages.md](02_Content/part-1/1-09-competitive-advantages.md) | 1.9 Competitive advantages | 611¶ |
+| [1-10-operating-model.md](02_Content/part-1/1-10-operating-model.md) | 1.10 Our operating model — **Operating Capability Structure owner-approved** | 419¶ |
 | [2-00-service-portfolio.md](02_Content/part-2/2-00-service-portfolio.md) | 2.0 Service portfolio and taxonomy | 229‡ |
 | [2-01-ict-advisory-and-digital-transformation.md](02_Content/part-2/2-01-ict-advisory-and-digital-transformation.md) | 2.1 ICT Advisory and Digital Transformation | 570‡ |
 | [2-02-custom-software-development.md](02_Content/part-2/2-02-custom-software-development.md) | 2.2 Custom Software Development | 582‡§ |
 | [2-03-enterprise-management-systems.md](02_Content/part-2/2-03-enterprise-management-systems.md) | 2.3 Enterprise Management Systems | 619‡§ |
 | [2-04-business-process-automation.md](02_Content/part-2/2-04-business-process-automation.md) | 2.4 Business Process Automation | 464‡ |
-| [2-05-web-design-and-development.md](02_Content/part-2/2-05-web-design-and-development.md) | 2.5 Web Design and Development | 486‡ |
+| [2-05-web-design-and-development.md](02_Content/part-2/2-05-web-design-and-development.md) | 2.5 Web Design and Development — [[PROOF_WEB]] resolved, Stage 8A | 537‡§ |
 | [2-06-mobile-application-development.md](02_Content/part-2/2-06-mobile-application-development.md) | 2.6 Mobile Application Development | 457‡ |
 | [2-07-experience-design.md](02_Content/part-2/2-07-experience-design.md) | 2.7 Experience Design | 494‡ |
 | [2-08-cloud-integration-and-managed-support.md](02_Content/part-2/2-08-cloud-integration-and-managed-support.md) | 2.8 Cloud, Integration and Managed Support | 525‡ |
@@ -96,7 +110,7 @@ tenders, procurement, enterprise sales, investor and partner engagement.
 | [3-05-commerce-and-movement.md](02_Content/part-3/3-05-commerce-and-movement.md) | 3.5 Commerce and movement | 343‡ |
 | [3-06-property-security-professional-services.md](02_Content/part-3/3-06-property-security-professional-services.md) | 3.6 Property, security and professional services | 490‡ |
 | [3-07-sector-engagement-and-procurement-routes.md](02_Content/part-3/3-07-sector-engagement-and-procurement-routes.md) | 3.7 Sector engagement and procurement routes | 96‡ |
-| [4-00-technology-stack.md](02_Content/part-4/4-00-technology-stack.md) | 4.0 Technology stack | 214‡ |
+| [4-00-technology-stack.md](02_Content/part-4/4-00-technology-stack.md) | 4.0 Technology stack | 258‡§ |
 | [4-01-software-engineering.md](02_Content/part-4/4-01-software-engineering.md) | 4.1 Software engineering | 401‡§ |
 | [4-02-solution-and-enterprise-architecture.md](02_Content/part-4/4-02-solution-and-enterprise-architecture.md) | 4.2 Solution and enterprise architecture | 178‡ |
 | [4-03-cloud-and-infrastructure.md](02_Content/part-4/4-03-cloud-and-infrastructure.md) | 4.3 Cloud and infrastructure | 174‡ |
@@ -118,7 +132,28 @@ tenders, procurement, enterprise sales, investor and partner engagement.
 | [5-07-continuous-improvement.md](02_Content/part-5/5-07-continuous-improvement.md) | 5.7 Continuous improvement | 166† |
 | [5-08-delivery-governance-and-assurance.md](02_Content/part-5/5-08-delivery-governance-and-assurance.md) | 5.8 Delivery governance and assurance | 167† |
 | [5-09-service-level-framework.md](02_Content/part-5/5-09-service-level-framework.md) | 5.9 Service level framework | 87† |
+| [6-00-excellence-framework.md](02_Content/part-6/6-00-excellence-framework.md) | 6.0 The excellence framework — **first drafted, Stage 9** | 214¶ |
+| [6-01-quality-management.md](02_Content/part-6/6-01-quality-management.md) | 6.1 Quality management — **first drafted, Stage 9** | 227¶ |
+| [6-02-risk-and-business-continuity.md](02_Content/part-6/6-02-risk-and-business-continuity.md) | 6.2 Risk management and business continuity — **first drafted, Stage 9** | 212¶ |
+| [6-03-governance-and-compliance.md](02_Content/part-6/6-03-governance-and-compliance.md) | 6.3 Corporate governance and compliance — **first drafted, Stage 9** | 203¶ |
+| [6-04-popia-and-information-security.md](02_Content/part-6/6-04-popia-and-information-security.md) | 6.4 POPIA and information security — **first drafted, Stage 9** | 211¶ |
+| [6-05-occupational-health-and-safety.md](02_Content/part-6/6-05-occupational-health-and-safety.md) | 6.5 Occupational health and safety — **first drafted, Stage 9** | 200¶ |
+| [6-06-environmental-responsibility.md](02_Content/part-6/6-06-environmental-responsibility.md) | 6.6 Environmental responsibility — **first drafted, Stage 9** | 162¶ |
+| [6-07-csr-and-transformation.md](02_Content/part-6/6-07-csr-and-transformation.md) | 6.7 CSR and transformation — **first drafted, Stage 9** | 182¶ |
+| [6-08-innovation.md](02_Content/part-6/6-08-innovation.md) | 6.8 Innovation — **first drafted, Stage 9** | 256¶ |
+| [7-01-capability-statement.md](02_Content/part-7/7-01-capability-statement.md) | 7.1 Capability statement — **first drafted, Stage 9** | 131¶ |
+| [7-02-registration-and-legal-status.md](02_Content/part-7/7-02-registration-and-legal-status.md) | 7.2 Registration and legal status — **first drafted, Stage 9** | 94¶ |
+| [7-03-tax-compliance.md](02_Content/part-7/7-03-tax-compliance.md) | 7.3 Tax compliance — **first drafted, Stage 9** | 135¶ |
+| [7-04-bbbee-and-transformation.md](02_Content/part-7/7-04-bbbee-and-transformation.md) | 7.4 B-BBEE and transformation credentials — **first drafted, Stage 9** | 121¶ |
+| [7-05-professional-memberships.md](02_Content/part-7/7-05-professional-memberships.md) | 7.5 Professional memberships — **first drafted, Stage 9** | 101¶ |
+| [7-06-certification-roadmap.md](02_Content/part-7/7-06-certification-roadmap.md) | 7.6 Certification roadmap — **first drafted, Stage 9** | 139¶ |
+| [7-07-company-statistics.md](02_Content/part-7/7-07-company-statistics.md) | 7.7 Company statistics — **first drafted, Stage 9** | 86¶ |
+| [7-08-executive-team.md](02_Content/part-7/7-08-executive-team.md) | 7.8 Executive team — **first drafted, Stage 9, resolved as one leader** | 70¶ |
+| [7-09-partners-and-alliances.md](02_Content/part-7/7-09-partners-and-alliances.md) | 7.9 Partners and alliances — **first drafted, Stage 9, none confirmed** | 117¶ |
 | [7-10-case-studies.md](02_Content/part-7/7-10-case-studies.md) | 7.10 Case studies — **early-drafted 2026-09-13, Logistics App added at Stage 8A**, see note above | 504 |
+| [7-11-client-recognition.md](02_Content/part-7/7-11-client-recognition.md) | 7.11 Client recognition — **first drafted, Stage 9, none confirmed** | 153¶ |
+| [8-01-how-to-engage-us.md](02_Content/part-8/8-01-how-to-engage-us.md) | 8.1 How to engage us — **first drafted, Stage 9** | 151¶ |
+| [8-02-contact-directory.md](02_Content/part-8/8-02-contact-directory.md) | 8.2 Contact directory — **first drafted, Stage 9** | 31¶ |
 
 † **Corrected 2026-09-13.** Part Five's declared `words_actual` front matter was found at the Stage 7
 re-audit to be roughly double the true prose count in every section (a bookkeeping error, not a
@@ -153,6 +188,28 @@ front-matter miscount. Both files' front matter was independently re-verified co
 before this table was brought back into agreement with it. All four figures above are the current,
 verified front-matter values.
 
+**Addendum, 2026-09-13, Stage 9.** The same README/front-matter sync check, run again as part of
+Stage 9's validation pass, found two further pre-existing instances of the identical copy-forward
+omission, both older than Stage 8B: **2.5** (table showed 486; front matter has read 537 since its
+Stage 8A `[[PROOF_WEB]]` resolution) and **4.0** (table showed 214; front matter has read 258 since an
+earlier Stage 8A edit). Both are now corrected to match their front matter, which was independently
+re-verified correct before the table was updated. A full README-vs-front-matter check across all 73
+content rows found no further mismatches.
+
+¶ **2026-09-13, Stage 9.** Two distinct things happened, marked together for brevity. First, every
+Part One file was recounted using the same methodology as †/‡/§ above, after owner-supplied strategic
+identity content (vision, mission, core values, brand promise, founding story, milestones, Operating
+Capability Structure) replaced the previously drafted proposals — 1.4 and 1.5 in particular are now
+substantially shorter, because the owner's actual wording is more concise than the analytical drafts
+it replaced; 0-06, 1.1, 1.2, 1.8, 1.9 and 1.10 changed by smaller amounts to incorporate resolved
+corporate facts (founding date, registration, address, headcount) and the governance-claim correction
+(see Claim Verification Register CVR-020/027/030). Second, Part Six (6.0–6.8), the remainder of Part
+Seven (7.1–7.9, 7.11) and the Closing section (8.1–8.2) — 20 files — are drafted for the first time;
+none previously existed in this repository. Several run below their archetype's word-budget band,
+deliberately: a one-person, newly established company has genuinely little to say in sections like
+7.5 (professional memberships) or 7.9 (partners and alliances), and padding them to hit a target word
+count would reintroduce exactly the overclaiming this project's method exists to prevent.
+
 ### Design system — [07_Branding/](07_Branding/)
 
 | File | Contents |
@@ -185,7 +242,7 @@ verified front-matter values.
 | Governing angle | 3 : 5 (31°) — measured from the logo apex |
 | Type | Saira · Source Sans 3 · Source Serif 4 |
 | Components | 24 |
-| Drafted extent | ~34 000 words · **~17 400 written** (Parts One–Five plus 7.10, recounted 2026-09-13 — see †/‡/§ notes in the Content table above; revised down from ~23 200 at Stage 8A once Parts Two–Four's word counts were corrected on top of Part Five's, then up to ~17 400 at Stage 8B once four files' evidence-scoped content additions were made and a README/front-matter sync bug was fixed) |
+| Drafted extent | ~34 000 words · **~20 100 written** (Parts One through Eight, recounted/drafted 2026-09-13 — see †/‡/§/¶ notes in the Content table above; ~17 400 at the close of Stage 8B, then up to ~20 100 at Stage 9 with Part One's recount against owner-supplied strategic content and 20 new files across Parts Six, Seven and the Closing section) |
 | Diagrams | 14, all editable |
 | Tables | 21, all editable |
 | Photography | 16 positions |
@@ -198,7 +255,7 @@ verified front-matter values.
 | Folder | Contents | Populated at |
 |---|---|---|
 | [01_Project/](01_Project/) | Charter, strategy, IA, page plan, fact register, conventions | Stage 1 ✅ |
-| [02_Content/](02_Content/) | Written copy, one file per section | Stages 3–9 · **Parts One–Five ✅**, Part Seven §7.10 early-drafted |
+| [02_Content/](02_Content/) | Written copy, one file per section | Stages 3–9 · **Parts One–Seven and Closing drafted** (Six and the remainder of Seven first drafted at Stage 9) |
 | [03_Images/](03_Images/) | Art direction, shot lists, licensed and commissioned assets | Stage 10 |
 | [04_Icons/](04_Icons/) | Icon register and SVG assets | Stages 2, 10 |
 | [05_Diagrams/](05_Diagrams/) | Diagram specifications and editable sources | Stages 6, 7, 10 |
@@ -216,13 +273,13 @@ verified front-matter values.
 |---|---|---|
 | 1 | Project planning and publication blueprint | ✅ Approved |
 | 2 | Document design system — 24 components, identity, print production | ✅ Frozen |
-| 3 | Company foundation — Part One + MD message | ⏳ Awaiting approval — 7 strategic items held, see below |
+| 3 | Company foundation — Part One + MD message | ⏳ Drafted; strategic identity wording owner-approved at Stage 9 — see below for what remains |
 | 4 | Services — Part Two, 10 sections | ⏳ Drafted, awaiting approval |
 | 5 | Industries — Part Three, 8 sections, 15 industries in 6 clusters | ⏳ Drafted, awaiting approval |
 | 6 | Technical capabilities — Part Four, 12 sections | ⏳ Drafted, awaiting approval |
 | 7 | Project delivery — Part Five, 10 sections | ⏳ Drafted, awaiting approval |
-| 8 | Business excellence | Not started |
-| 9 | Credentials | Not started |
+| 8 | Business excellence — Part Six, 9 sections | ⏳ Drafted at Stage 9, awaiting approval |
+| 9 | Credentials — Part Seven, 11 sections, plus Closing | ⏳ Drafted at Stage 9, awaiting approval |
 | 10 | Visual content | Not started |
 | 11 | Final document assembly | Not started |
 | 12 | Quality review and audit | Not started |
@@ -231,19 +288,33 @@ verified front-matter values.
 
 ## Outstanding input
 
-### Strategic identity — held for collaborative development, not client input alone
+### Strategic identity — resolved 2026-09-13, Stage 9
 
-Per client direction (2026-08-02), the following are **not approved** and must not be treated as
-final. They are drafted as proposals only, each marked with a `[[TOKEN]]` and a ⚠ warning block in
-its source file, and will be developed jointly before freezing:
+The seven items below were held per client direction (2026-08-02) as proposals awaiting approval,
+each marked with a `[[TOKEN]]` and a ⚠ warning block. **The owner has now supplied and approved
+wording for all seven**, directly, in this session. Each is recorded in the Fact Register at the same
+evidentiary tier as the company's other self-descriptive facts (A1, A3) — an owner's own chosen
+self-description, not a third-party-verifiable historical claim — and the previously drafted
+proposals are superseded, not merely amended, in every case:
 
-1. Vision Statement — [1-04-vision-and-mission.md](02_Content/part-1/1-04-vision-and-mission.md)
-2. Mission Statement — [1-04-vision-and-mission.md](02_Content/part-1/1-04-vision-and-mission.md)
-3. Core Values — [1-05-core-values.md](02_Content/part-1/1-05-core-values.md)
-4. Brand Promise — [1-07-corporate-identity-and-brand-promise.md](02_Content/part-1/1-07-corporate-identity-and-brand-promise.md)
-5. Founding Story — [1-03-our-story.md](02_Content/part-1/1-03-our-story.md)
-6. Company Milestones — [1-03-our-story.md](02_Content/part-1/1-03-our-story.md)
-7. Operating Capability Structure — [1-10-operating-model.md](02_Content/part-1/1-10-operating-model.md)
+1. Vision Statement — [1-04-vision-and-mission.md](02_Content/part-1/1-04-vision-and-mission.md) ✅
+2. Mission Statement — [1-04-vision-and-mission.md](02_Content/part-1/1-04-vision-and-mission.md) ✅
+3. Core Values — [1-05-core-values.md](02_Content/part-1/1-05-core-values.md) ✅ (six values; the
+   previous "operational test" structure, written for a different value set, is dropped rather than
+   improvised anew)
+4. Brand Promise — [1-07-corporate-identity-and-brand-promise.md](02_Content/part-1/1-07-corporate-identity-and-brand-promise.md) ✅
+5. Founding Story — [1-03-our-story.md](02_Content/part-1/1-03-our-story.md) ✅
+6. Company Milestones — [1-03-our-story.md](02_Content/part-1/1-03-our-story.md) ✅ (four milestones,
+   all 2026 — the company's actual age, not stretched across a false multi-year span)
+7. Operating Capability Structure — [1-10-operating-model.md](02_Content/part-1/1-10-operating-model.md) ✅
+   (five capability areas, explicitly not departments or teams — **this approval replaces, rather than
+   ratifies, the original three-layer proposal**, whose independent-governance-layer claim is directly
+   contradicted by the confirmed headcount of 1 employee; see Claim Verification Register
+   **CVR-020/027/030**)
+
+No further Stage 3 approval is outstanding for these seven items. What remains open in Part One is
+factual, not strategic: Group D operational facts (SLA, support model), the sector delivered-vs-target
+split (C7), and the remaining Group E/F credentials — none of which is a strategic-identity question.
 
 ### Factual input
 
@@ -268,6 +339,14 @@ Stage 7 content depended only on the fixed 15-phase/5-stage lifecycle structure
 support hours, escalation path, or SLA severity/response/restoration/availability figure is stated —
 each remains an open token pending **D1–D10**, four of which (D7–D10) were added at this stage.
 
+Stages 8 (Part Six) and 9 (the remainder of Part Seven, plus Closing) were first drafted at Stage 9,
+against the fixed section structure in `02_Information-Architecture.md` and against owner-confirmed
+corporate information (Fact Register Groups B and E, resolved 2026-09-13) rather than invented
+detail. No certification, professional membership, partnership, CSR programme, formal policy or
+statistic beyond what is genuinely confirmed is stated in any of the 20 new files — each open item
+(Group E6/E8–E16, Group G in full) is carried as an explicit token or an honest "not yet confirmed"
+statement, consistent with the method used throughout.
+
 ### Claim verification
 
 A **Claim Verification Register** — [07_Claim-Verification-Register.md](01_Project/07_Claim-Verification-Register.md)
@@ -281,18 +360,21 @@ no token: 1.1 and 1.2 originally stated tax compliance as fact (Fact Register **
 note), and six sections (MD message, 1.1, 1.3, 1.8, 1.9, 2.3) stated that Auris operates its own
 HR/school-management platforms as ongoing products (Fact Register **C14**'s correction note; Claim
 Verification Register **CVR-011**), plus two narrower claims found in the Stage 8A line-by-line pass of
-Part Two (**CVR-041**, **CVR-042**). The register currently stands at **44 rows: 13 Verified, 15
-Gated, 16 Unverified, 0 Rejected** — see its §5 tally for the full breakdown. Of the thirteen Verified
-rows: four (CVR-035–038) came from direct source-code inspection for the early-drafted 7.10 Case
-studies section; two (CVR-039–040) record the client's personal confirmation that written consent
-exists to name Jo Jackson Dance Company and Pro Energy Solutions in that section — the consent document
-itself is not held in this repository; three (CVR-043–045) came from direct source-code inspection
-confirming the "technologies currently used" claims in 4.1 and 4.6, **corrected for accuracy at Stage
-8B** after re-inspection found a confidentially-held third system runs a different, newer toolchain
-than Stage 8A's wording implied; and two more (**CVR-047–048**, added at Stage 8B) resolve fact
-callouts in 2.2 (a fully anonymised description of the real system behind Fact Register **F8**) and
-2.3 (Funda360, reusing CVR-036's evidence, without resolving the separate Platform Operating Model
-question). A further row (**CVR-046**) flags an unresolved naming discrepancy between this profile's
+Part Two (**CVR-041**, **CVR-042**). The register currently stands at **44 rows: 16 Verified, 13
+Gated, 12 Unverified, 3 Rejected** — see its §5 tally for the full breakdown. The three Rejected rows
+(**CVR-020, 027, 030**, new at Stage 9) are the register's first: the confirmed headcount of 1 employee
+directly contradicts an independent-governance-layer claim carried since Stage 7, and the claim is
+corrected in the copy (1.10, 5.2, 5.4, 5.8), not merely re-gated. Three rows moved to Verified at
+Stage 9 on owner-confirmed corporate information (**CVR-001** head office, **CVR-005** SARS
+registration, **CVR-006** — verified not by a contract template but as a direct logical consequence of
+the confirmed headcount). Of the sixteen Verified rows overall: four (CVR-035–038) came from direct
+source-code inspection for the early-drafted 7.10 Case studies section; two (CVR-039–040) record the
+client's personal confirmation that written consent exists to name Jo Jackson Dance Company and Pro
+Energy Solutions in that section — the consent document itself is not held in this repository; three
+(CVR-043–045) came from direct source-code inspection confirming the "technologies currently used"
+claims in 4.1 and 4.6, corrected for accuracy at Stage 8B; and two more (CVR-047–048, added at Stage
+8B) resolve fact callouts in 2.2 and 2.3 without resolving the separate Platform Operating Model
+question. A further row (**CVR-046**) flags an unresolved naming discrepancy between this profile's
 Logistics App case study and the public website's "LOGIOS OS" portfolio entry — reconciled at Stage 8B
 to confirm this profile's own copy is clean; the residual action is external — see the Fact Register
 **F9/F10** correction notes.

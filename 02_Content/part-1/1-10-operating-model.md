@@ -5,25 +5,16 @@ part: "One — The Company"
 pages: [22]
 archetype: F
 words_target: 420
-words_actual: 414
+words_actual: 419
 figures: ["fig-1.5-operating-model"]
 tables: []
 icons: ["fa-diagram-project"]
 images: []
-tokens: ["[[TEAM_STRUCTURE]]", "[[HEADCOUNT]]", "[[PARTNERS]]", "[[OPERATING_MODEL_APPROVED]]"]
-status: draft — operating structure PROPOSED, awaiting approval
+tokens: ["[[PLATFORM_OPERATING_MODEL]]"]
+status: approved — Operating Capability Structure owner-authorized, 2026-09-13, Stage 9 (supersedes the original three-layer proposal)
 ---
 
 # 1.10 Our operating model
-
-> ⚠ **PROPOSED, not recorded.** This is item 7 of the Strategic Identity Hold (client direction,
-> 2026-08-02; see `README.md` § Outstanding input and `01_Project/08_Project-Handover-Brief.md` §2,
-> rule 4). The three-layer structure below — capability units, delivery teams, governance, partner
-> network — is drafted as a proposal for collaborative development, not a confirmed organisational
-> fact. It must not be read, quoted or presented as an approved operating structure until
-> `[[OPERATING_MODEL_APPROVED]]` resolves. Every downstream section that treats this page's governance
-> or structural claims as settled (including 5.2, 5.4 and 5.8) inherits this hold — see
-> `01_Project/07_Claim-Verification-Register.md`, CVR-020/CVR-027/CVR-030.
 
 **Standfirst**
 
@@ -35,70 +26,74 @@ status: draft — operating structure PROPOSED, awaiting approval
 ## Copy
 
 Most profiles describe what a company does and omit how it is arranged to do it. The omission
-matters: an organisation's structure is what actually constrains its delivery, and it is a better
-predictor of performance than any statement of commitment.
+matters: structure constrains delivery more reliably than any statement of commitment. Auris Nexus is
+a newly established, one-person company, and what follows describes that structure honestly rather
+than borrowing language suited to a larger organisation.
 
-We operate on three layers.
+### Capability areas
 
-### Capability units
+Work is organised around five capability areas, not departments, teams or business units — at the
+company's current size, they describe what the founder is positioned to deliver, not separate groups
+of staff:
 
-Our people are organised by discipline rather than by account — engineering, platform operations,
-experience design, and advisory. A specialist belongs to their capability, not to a client, so the
-right person can be assigned to a problem regardless of which engagement it arrived through.
+- **Digital Experience & Web Development** — websites, responsive interfaces and web applications.
+- **Custom Software Development** — business applications addressing specific organisational
+  requirements.
+- **Business Systems & Automation** — workflow systems, operational platforms and process digitisation.
+- **Data & Technology Platforms** — information systems, databases, authentication and integrations.
+- **AI & Emerging Technology Integration** — applying AI and emerging technologies where they provide
+  an appropriate business benefit.
 
-This avoids the failure mode where the strongest engineer is unavailable because they are nominally
-allocated to an account that does not currently need them. [[TEAM_STRUCTURE]]
+These describe positioning, not a delivery track record in each area — completed work is stated,
+evidence-scoped, in Part Four and 7.10, and a capability area can be genuinely offered before it has a
+named delivery example behind it.
 
-### Delivery teams
+### A single point of accountability
 
-Each engagement is staffed as a small, stable, cross-capability team with a **named accountable
-principal** who stays from discovery through to support. Teams are deliberately small — adding people
-to a delivery increases coordination cost faster than it increases output, and beyond a certain size
-the additional communication overhead exceeds the additional capacity.
+Every engagement is led directly by the founder, from discovery through to support — a direct
+description of who does the work, not a service commitment that could lapse under demand pressure,
+because there is one person to do it. As the company grows, this page will be revised to describe
+continuity across a larger team; it is not described that way now, because it would not be true.
 
-The principal is the client's single point of accountability and does not change without the client's
-agreement. This is stated in our contracts, not merely in our proposals.
+### Governance, at the current scale
 
-### Governance
-
-Sitting across both layers: quality assurance, security review, and commercial and delivery
-governance. This layer is deliberately independent of the delivery teams it reviews — a team that
-assures its own work is not assuring it. Escalation paths, review cadence and the responsibility
-matrix are set out in section 5.8.
-
-### Partner network
-
-We contract specialist capacity where a client's requirement exceeds what we hold internally, and we
-say so rather than presenting subcontracted work as our own. Partners are named, their scope is
-declared, and accountability for the outcome remains with us. [[PARTNERS]]
+A governance layer independent of the people delivering the work — separate review or sign-off
+performed by someone other than the founder — does not exist at a one-person company, and this profile
+does not claim otherwise. What exists instead is direct, undistributed accountability: the founder
+answers for every decision and deliverable, with no handover to lose it at. Formal, independent
+governance is intended as the company and its team grow, not claimed today.
 
 ### What this structure means for a client
 
-Three practical consequences, and they are the reason this page exists:
+Two practical consequences, stated at the size the company actually is:
 
-- **The specialist you need is assignable**, because they are not locked to another account.
-- **Your principal does not rotate**, because continuity is structural rather than a service promise.
-- **Assurance is independent**, because the people reviewing quality do not report to the people
-  under delivery pressure.
+- **You are working directly with the person doing the work**, at every stage from discovery to
+  support, not a rotating account team.
+- **There is no delivery chain for accountability to dissipate across** — a consequence of the
+  company's current size, not a policy that could be discontinued.
 
 ---
 
 ## Production notes
 
-- **Figure 1.5** — three-tier operating model diagram, component C12. Governance as a container
-  spanning capability units and delivery teams; partner network as a bounded adjacent block with a
-  dashed boundary (the C12 `Boundary` primitive), signalling it is outside the organisation. Eleven
-  nodes maximum, within the 12-node ceiling.
-- Cross-reference to 5.8 (p. 83) as a live `REF` field.
-- **`[[TEAM_STRUCTURE]]`** — confirm the actual capability units. The four named above are inferred
-  from the service list and must be corrected to the real structure. If the company is currently too
-  small for four distinct units, say so plainly: an accurate small structure is more credible than an
-  aspirational large one, and an evaluator can read headcount against the organogram in three seconds.
-- **`[[PARTNERS]]`** — if no formal partner arrangements exist, delete the subsection entirely rather
-  than implying a network. See Charter principle **P2**.
+- **Figure 1.5** — capability-area diagram, component C12. Five capability nodes around a single
+  central "Founder" node, not a multi-tier organisational chart — the diagram must not imply
+  organisational depth the company does not have. No governance-layer container and no partner-network
+  block, both removed in this revision.
+- Cross-reference to 5.8 (p. 83) as a live `REF` field — 5.8 has been corrected to match this page; see
+  its own production notes.
+- **Corrected 2026-09-13, Stage 9.** This page previously proposed a three-layer structure (capability
+  units, delivery teams, an independent governance layer, a partner network), drafted before headcount
+  was confirmed. The owner has since authorized a five-capability-area structure for publication
+  (Fact Register, Group B correction note) and confirmed headcount as **1 employee** (Fact Register
+  **B9**). The original governance-independence claim is not merely superseded by more current
+  information — it is **directly contradicted** by the confirmed headcount, since a one-person company
+  cannot have delivery staff and independent review staff be different people. That claim has been
+  removed from this page and from 5.2, 5.4 and 5.8, which cross-referenced it — see Claim Verification
+  Register **CVR-020/CVR-027/CVR-030** for the correction record. The partner-network subsection is
+  removed outright, per the pre-existing instruction on this page to delete it rather than imply a
+  network where none is confirmed (Fact Register **E15**).
 - This page closes Part One and is the last thing read before the Services divider. It should leave
   the reader with structure, not sentiment — no closing flourish.
-- **On approval:** delete the warning block once `[[OPERATING_MODEL_APPROVED]]` resolves. Until then,
-  do not let 5.2, 5.4, 5.8 or any other section state the governance-independence claim as settled
-  fact — each cross-references this page rather than asserting it independently, per the content
-  reuse map, so the hold applies wherever those references appear.
+- `[[PLATFORM_OPERATING_MODEL]]` is retained from 1.3/1.1/1.8/1.9/2.3/2.9/MD message — this page does
+  not itself make that claim and does not need to resolve it.

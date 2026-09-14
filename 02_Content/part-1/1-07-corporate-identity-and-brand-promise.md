@@ -5,13 +5,13 @@ part: "One — The Company"
 pages: [17]
 archetype: C
 words_target: 420
-words_actual: 431
+words_actual: 427
 figures: ["fig-1.3-mark-construction"]
 tables: []
 icons: ["fa-fingerprint"]
 images: []
-tokens: ["[[BRAND_PROMISE_APPROVED]]"]
-status: draft — brand promise PROPOSED
+tokens: []
+status: approved — brand promise owner-authorized, 2026-09-13, Stage 9
 ---
 
 # 1.7 Corporate identity and brand promise
@@ -62,16 +62,18 @@ failures occur in the gap between the two.
 
 ### Our brand promise
 
-> **We deliver systems that work in production, not just in demonstration.**
+> **Technology built around the way your organisation works.**
 
-This is the whole commitment, and it is chosen because it is falsifiable. A demonstration proves that
-software can work under conditions the supplier selected. Production proves it works under conditions
-nobody selected — real data, real load, staff who did not attend the training, and the ordinary
-Tuesday on which the system has to hold.
+Auris Nexus seeks to understand the underlying business or operational problem before recommending
+technology, delivering solutions that are practical, scalable and appropriate to the organisation's
+needs. That order — understanding, then recommending — is the promise, and it excludes a specific
+failure mode: the vendor who has already decided which product to sell before the discovery meeting
+ends.
 
-Everything else in this publication — the delivery methodology from page 74, the support model, the
-governance and security posture from page 85 — exists to make that promise keepable. A promise a
-company has not organised itself around is a slogan.
+Everything else in this publication — the delivery lifecycle from page 74, the way each service in
+Part Two is scoped to what it actually solves, and the honest account of what has and has not yet been
+built in Part Seven — exists to make that promise keepable. A promise a company has not organised
+itself around is a slogan.
 
 ---
 
@@ -82,9 +84,11 @@ company has not organised itself around is a slogan.
   `07_Branding/08_Logo-and-Identity.md` §1.2.
 - **This is the only page in the publication that discusses the identity.** Keep it here; brand
   self-description elsewhere reads as self-absorption to a procurement reader.
-- **`[[BRAND_PROMISE_APPROVED]]`** — the promise is proposed. It must be approved by the company
-  because sections 5.6, 5.9 and 6.1 are written to substantiate it, and changing it later invalidates
-  their framing.
+- **Resolved 2026-09-13, Stage 9.** The brand promise and its supporting statement are owner-authorized
+  wording, supplied directly by the founder — see Fact Register **B3/B4** correction note. The
+  previously drafted proposal ("we deliver systems that work in production, not just in demonstration")
+  is superseded entirely — its cross-references in 5.4 and 5.6 have been adjusted to the new promise's
+  understanding-first framing rather than left pointing at retired wording.
 - The claim about the orbit gradient forming the part-navigation is factually true of this design
   system (`07_Branding/02_Colour-Palette.md` §5) and is worth stating — it demonstrates the identity
   is applied structurally rather than decoratively.
