@@ -10,8 +10,12 @@ figures: ["fig-1.3-mark-construction"]
 tables: []
 icons: ["fa-fingerprint"]
 images: []
-tokens: ["[[BRAND_PROMISE_APPROVED]]"]
-status: draft — brand promise PROPOSED
+tokens: []
+status: draft — Stage 9A: brand promise replaced with owner-supplied wording (Level 3,
+  owner-confirmed), no longer AI-proposed. Downstream sections (5.6, 5.9, 6.1) were written to
+  substantiate the previous ("works in production, not demonstration") promise — check and re-point
+  their framing against the new promise before Stage 12; not corrected in this pass, scope was
+  Part One.
 ---
 
 # 1.7 Corporate identity and brand promise
@@ -62,16 +66,13 @@ failures occur in the gap between the two.
 
 ### Our brand promise
 
-> **We deliver systems that work in production, not just in demonstration.**
+> **Technology built around the way your organisation works.**
 
-This is the whole commitment, and it is chosen because it is falsifiable. A demonstration proves that
-software can work under conditions the supplier selected. Production proves it works under conditions
-nobody selected — real data, real load, staff who did not attend the training, and the ordinary
-Tuesday on which the system has to hold.
-
-Everything else in this publication — the delivery methodology from page 74, the support model, the
-governance and security posture from page 85 — exists to make that promise keepable. A promise a
-company has not organised itself around is a slogan.
+Auris Nexus seeks to understand the underlying business or operational problem before recommending
+technology, delivering solutions that are practical, scalable and appropriate to the organisation's
+needs. The promise is deliberately about fit rather than scale — it commits to starting from how a
+client's organisation actually operates, not to a specific delivery methodology or team size the
+company does not yet have a track record to claim.
 
 ---
 
@@ -82,9 +83,9 @@ company has not organised itself around is a slogan.
   `07_Branding/08_Logo-and-Identity.md` §1.2.
 - **This is the only page in the publication that discusses the identity.** Keep it here; brand
   self-description elsewhere reads as self-absorption to a procurement reader.
-- **`[[BRAND_PROMISE_APPROVED]]`** — the promise is proposed. It must be approved by the company
-  because sections 5.6, 5.9 and 6.1 are written to substantiate it, and changing it later invalidates
-  their framing.
+- Stage 9A: the promise is now owner-supplied rather than AI-proposed. Sections 5.6, 5.9 and 6.1 were
+  written to substantiate the previous promise — their framing needs to be re-pointed at the new one
+  before Stage 12 (see Fact Register / CVR note).
 - The claim about the orbit gradient forming the part-navigation is factually true of this design
   system (`07_Branding/02_Colour-Palette.md` §5) and is worth stating — it demonstrates the identity
   is applied structurally rather than decoratively.

@@ -18,8 +18,9 @@ status: draft
 
 **Standfirst**
 
-> A deployment that requires a specific person to be available is not a deployment process — it is a
-> dependency on that person. Platform engineering exists to remove that dependency.
+> A deployment that only works if one specific person remembers the right manual steps is not a
+> deployment process — it is a dependency on memory. Platform engineering exists to remove that risk,
+> which matters as much for a founder-led team today as it does for a larger one later.
 
 ---
 
@@ -29,7 +30,7 @@ Continuous integration and deployment, infrastructure as code, and observability
 apply to reduce the risk and effort of shipping change, not tooling adopted for its own sake. A
 release pipeline that reliably runs the same way every time — tested, repeatable, reversible — is what
 allows an engagement to ship frequently without accumulating deployment risk, which matters
-particularly for the platforms we operate ourselves under section 2.3.
+particularly for the platforms we are developing as our own products, described in section 2.3.
 
 Infrastructure as code extends the same discipline to environments themselves: an environment is
 reproducible from version-controlled definition, not assembled by hand and then guarded as
@@ -47,8 +48,12 @@ detected before a client notices it and one reported to us by the client first.
 
 - Per Fact Register **C3**/**C4**, no specific CI/CD, IaC or observability platform is named until
   confirmed.
-- This page's "reduce dependency on a specific person" framing connects directly to 1.10's operating
-  model (capability units, not individual dependency) — keep the argument consistent if either is
-  edited.
+- Stage 9A Phase 4: fixed a stale cross-reference to 1.10's old three-layer org model ("capability
+  units, not individual dependency") — 1.10 was rewritten in Stage 9A and no longer describes
+  redundant capability units; it now states plainly that the founder is currently the single point of
+  delivery. The standfirst and copy here were adjusted so the "remove dependency on a specific
+  person" argument doesn't imply that dependency has already been engineered away — the honest claim
+  is that automation reduces *memory-dependency risk*, which is valuable at any team size, not that
+  Auris currently has redundant staff to fall back on.
 - Cross-reference to 5.6 (support and maintenance) as a live `REF` field — this page states the
   engineering practice; 5.6 states the client-facing support commitment it enables.

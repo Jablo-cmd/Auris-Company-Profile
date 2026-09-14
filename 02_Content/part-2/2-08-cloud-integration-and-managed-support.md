@@ -70,7 +70,7 @@ and risk resides.
 - Infrastructure costed and sized against genuine usage, not worst-case assumption
 - Systems that share data automatically, removing manual reconciliation and its associated error
 - A maintained system that remains secure and performant well past its launch date
-- Continued accountability from the team with the deepest knowledge of the system, rather than a
+- Continued accountability from the person with the deepest knowledge of the system, rather than a
   handover to an unfamiliar support desk
 
 ---
@@ -108,7 +108,7 @@ us or by a prior vendor.
 - Infrastructure cost aligned to genuine usage rather than static over-provisioning
 - Elimination of manual data reconciliation between integrated systems
 - Reduced incidence of preventable downtime through active monitoring and maintenance
-- A support relationship carried by the team with direct knowledge of the system's history
+- A support relationship carried by the person with direct knowledge of the system's history
 
 ---
 
@@ -123,9 +123,14 @@ for any organisation running production systems.
 
 - **Fact callout, lower recto:** [[PROOF_CLOUD]] — real delivered example, per Fact Register **C2**
   (🔴 critical, unresolved). Left open.
-- **`[[SLA_TERMS]]`** — specific response and restoration targets belong to the Service Level
-  Framework, section 5.9, and are cross-referenced here rather than restated, per the content reuse
-  map (`02_Information-Architecture.md` §6). Do not invent numbers on this page.
+- Stage 9A Phase 2: "the team with the deepest knowledge" / "the team with direct knowledge" changed
+  to "the person," consistent with the 1-employee fact (Fact Register B9) — this file previously
+  wasn't caught in the team-language sweep. The "Managed Support" framing and deliverables (incident
+  response against severity targets, annual infrastructure review) read as an established MSP-style
+  offering; specific numbers/targets are already correctly gated via `[[SLA_TERMS]]` → 5.9, and
+  `[[TECH_STACK_CLOUD]]`/`[[PROOF_CLOUD]]` remain open. Do not invent numbers on this page. No
+  further claim in this file asserts an existing client base for this service beyond what those
+  gates already cover.
 - Image: operations dashboard or monitoring session, genuine data visible (or plausibly redacted),
   not a generic server-room stock image.
 - This spread compresses three named services into one ten-block template — confirm at layout that

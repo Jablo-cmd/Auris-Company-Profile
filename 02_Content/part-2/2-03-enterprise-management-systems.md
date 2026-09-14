@@ -11,7 +11,14 @@ tables: []
 icons: ["fa-building-user"]
 images: ["img-p030-platform-operations"]
 tokens: ["[[TECH_STACK_EMS]]", "[[PROOF_EMS]]", "[[PLATFORM_DEPLOYMENTS]]"]
-status: draft
+status: draft — Stage 9A Phase 2: this was the highest-risk file found in Part Two. The whole page
+  was written as if Funda360 and Sebetsa Operations were already in active client operation
+  ("platforms we operate ourselves," "already proven in operation," "daily operator") — but per the
+  owner-confirmed portfolio (Stage 9A), Funda360 is pilot-stage and Sebetsa Operations is still in
+  development; neither is commercially deployed. Standfirst, description, business benefits and
+  ideal-client-profile sections rewritten to describe genuine, currently-true platform-building work
+  without asserting deployment that hasn't happened. See Claim Verification Register CVR-011 (this
+  is now its fifth tracked location) and new row CVR-036.
 ---
 
 # 2.3 Enterprise Management Systems
@@ -29,9 +36,11 @@ Enterprise Management Systems
 
 ## ② Standfirst (40–55 words)
 
-> Our HR and school management systems are platforms we operate ourselves, not products we shipped
-> and moved on from. That distinction changes what a client can expect from support, because we carry
-> the same consequence they do when something goes wrong.
+> Our HR and school management systems are platforms we are building and operating ourselves, not
+> products we intend to ship once and move on from. Building them as our own products — including
+> before they reach their first client deployment — is already changing how we approach support and
+> reliability, because we carry the same consequence a client eventually will when something goes
+> wrong.
 
 ---
 
@@ -39,16 +48,20 @@ Enterprise Management Systems
 
 HR and Employee Management Systems cover the operational core of managing a workforce — records,
 leave, performance, payroll-adjacent processes and the reporting a regulator or a board will ask for.
-School Management Systems cover the equivalent core for an academic institution — learner records,
-registration, academic administration and the reporting a department of education will ask for. Both
-are built and maintained as our own platforms, configured to each client's structure rather than
-built from a blank page per engagement.
+This is the domain Sebetsa Operations, our own workforce and operations platform, is being built to
+address; it is currently in development, not yet in commercial deployment. School Management Systems
+cover the equivalent core for an academic institution — learner records, registration, academic
+administration and the reporting a department of education will ask for. This is the domain Funda360,
+our own school-management platform, addresses; it is currently at pilot stage, ahead of commercial
+deployment. Both platforms are built as our own products, intended to be configured to each client's
+structure rather than built from a blank page per engagement, once they reach that stage.
 
-Operating these platforms ourselves — not just having built them once — means we carry the same
-consequence our clients do when something breaks: a payroll-adjacent process failing is not an
-abstract defect ticket to us, and neither is a school unable to register its learners. That
-discipline shapes how the platforms are maintained, tested and supported, and it is the material
-difference between a productised platform and a custom build licensed once and left.
+Building these platforms as our own products — rather than a one-off client build — means we are
+already carrying the same consequence a client eventually will when something breaks: a
+payroll-adjacent process failing will not be an abstract defect ticket to us, and neither will a
+school unable to register its learners. That discipline is shaping how the platforms are built,
+tested and prepared for support ahead of their first commercial deployment, and it is what will
+distinguish a genuinely productised platform from a custom build licensed once and left.
 
 ---
 
@@ -67,13 +80,12 @@ difference between a productised platform and a custom build licensed once and l
 
 ## ⑤ Business benefits
 
-- A platform already proven in operation, configured rather than built from zero
-- Ongoing platform investment shared across the client base, rather than borne alone by a single
-  custom build
-- A vendor who operates the platform in production and therefore has direct incentive to keep it
-  reliable
+- A platform built with future configuration in mind, rather than a one-off build started from zero
+- A vendor developing the platform as its own product, with a direct, ongoing incentive to keep it
+  reliable rather than move on once an initial build is invoiced
 - Reporting structured for the compliance and governance obligations specific to HR and education
   administration
+- Direct access to the team building the platform, ahead of any wider client base sharing it
 
 ---
 
@@ -100,8 +112,9 @@ difference between a productised platform and a custom build licensed once and l
 ## ⑧ Ideal client profile
 
 An employer or educational institution whose HR or student-administration process is common enough
-to be well served by a configured platform, and that values a vendor who is also the platform's daily
-operator.
+to be well served by a configured platform, and that is comfortable being an early client of a
+platform still in pilot or development rather than one with an established deployment base — in
+exchange for direct access to the team building it.
 
 ---
 
@@ -110,7 +123,8 @@ operator.
 - Elimination of manual reconciliation between spreadsheets and the system of record
 - Compliance and management reports produced directly from the platform rather than reconstructed
 - Reduced administrative time spent on routine record-keeping tasks
-- A support relationship with a vendor who has direct, daily operational stake in platform reliability
+- A support relationship with a vendor who is building, not just reselling, the platform, and so has
+  a direct stake in its reliability
 
 ---
 

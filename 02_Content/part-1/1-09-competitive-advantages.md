@@ -11,7 +11,12 @@ tables: []
 icons: ["fa-layer-group", "fa-cubes", "fa-user-tie", "fa-location-dot", "fa-file-contract", "fa-arrows-rotate"]
 images: []
 tokens: []
-status: draft
+status: draft — Stage 9A: cards 3, 4, 5 and 6 rewritten. 3 and 6 previously implied an existing
+  multi-person team choosing not to scale/pool resources — reframed as direct consequences of a
+  1-employee company (Fact Register B9). 4 removed the SITA procurement reference per CVR-030
+  (implied an existing relationship with no evidence). 5 reframed from an asserted contractual fact
+  to a stated operating principle per CVR-029/CVR-031 (no contract evidence on file for the specific
+  acceptance-criteria claim).
 ---
 
 # 1.9 Competitive advantages
@@ -70,24 +75,27 @@ that cannot be hired in. A services firm cannot acquire it by announcing a produ
 
 ---
 
-**3. Senior-only engagement**
+**3. Direct, senior engagement**
 `fa-user-tie`
 
-**What.** The people who attend your discovery session are the people who do your work.
+**What.** As a founder-led company, the person who runs your discovery session is the person who does
+your work — there is no handoff to a junior team afterward.
 
-**Why it holds.** This is arithmetic, not policy. Firms above a certain size cannot staff engagements
-this way — their model depends on leveraging junior time against senior rates, and abandoning that
-changes their economics fundamentally.
+**Why it holds.** This is a structural fact of the company's current size, not a staffing policy a
+larger competitor could simply adopt. It is available to us because there is no leverage model to
+protect.
 
-**What it costs us.** We cannot scale by adding inexperienced capacity, which caps how fast we grow.
+**What it costs us.** Capacity is genuinely limited — we cannot take on unlimited concurrent
+engagements the way a firm with a bench of staff can, which caps how much we can run at once.
 
 ---
 
 **4. Local presence and local accountability**
 `fa-location-dot`
 
-**What.** Johannesburg-based, nationally delivering, contracting under South African law within South
-African regulatory reality — POPIA, PFMA, B-BBEE, SITA procurement.
+**What.** Johannesburg-based, nationally delivering, contracting under South African law and
+positioned to participate in the procurement frameworks that govern this market — POPIA, PFMA and
+B-BBEE among them — subject to each procuring organisation's own requirements.
 
 **Why it holds.** Offshore and multinational suppliers can open an office. They cannot easily
 relocate decision authority, and that is the part clients actually need when something goes wrong.
@@ -96,28 +104,33 @@ relocate decision authority, and that is the part clients actually need when som
 
 ---
 
-**5. Contractual transparency**
+**5. Transparency as an operating principle**
 `fa-file-contract`
 
-**What.** Exit provisions, documentation standards, source access and knowledge transfer are
-deliverables with acceptance criteria.
+**What.** Exit provisions, documentation standards, source access and knowledge transfer are treated
+as things a client should be able to expect and ask for, not professional courtesies extended at our
+discretion.
 
-**Why it holds.** Suppliers whose retention depends on client switching cost cannot offer this
-without undermining their own revenue model. We can, because we are not relying on it.
+**Why it holds.** Suppliers whose retention depends on client switching cost are structurally
+reluctant to offer this. We are not relying on switching cost, so it costs us nothing to commit to it
+as an approach — specific contractual terms are agreed per engagement.
 
 **What it costs us.** Genuinely easier to leave us. We consider that the correct trade.
 
 ---
 
-**6. Continuity of team**
+**6. Continuity by construction**
 `fa-arrows-rotate`
 
-**What.** The same named principal is accountable from discovery through to support.
+**What.** The same person is accountable from discovery through to support — there is no rotation to
+avoid, because there is no larger team to rotate from.
 
-**Why it holds.** Continuity conflicts with resource-pooling, which is how firms optimise utilisation
-at scale. It is available to us because we have chosen not to optimise that way.
+**Why it holds.** This isn't a policy chosen over an alternative; it's a direct consequence of the
+company's current size. A larger competitor optimising for utilisation across a resource pool cannot
+offer the same continuity without changing how it staffs engagements.
 
-**What it costs us.** Less flexibility in scheduling, and occasionally a slower start.
+**What it costs us.** Less flexibility in scheduling, and a hard ceiling on how many engagements can
+run in parallel.
 
 ---
 

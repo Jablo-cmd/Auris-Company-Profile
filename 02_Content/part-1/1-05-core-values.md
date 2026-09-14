@@ -8,16 +8,18 @@ words_target: 500
 words_actual: 512
 figures: []
 tables: []
-icons: ["fa-crosshairs", "fa-user-check", "fa-comment-check", "fa-arrows-to-circle", "fa-people-arrows", "fa-scissors"]
+icons: ["fa-crosshairs", "fa-user-check", "fa-lightbulb", "fa-gem", "fa-people-arrows", "fa-graduation-cap"]
 images: []
-tokens: ["[[VALUES_APPROVED]]"]
-status: draft — values PROPOSED, awaiting approval
+tokens: []
+status: draft — Stage 9A: replaced with owner-supplied values (Practicality, Integrity, Innovation,
+  Quality, Partnership, Continuous Learning; Level 3, owner-confirmed). Operational-test lines
+  rewritten to point at claims already evidenced elsewhere in the document rather than the
+  unverified contractual specifics (named-principal continuity, contractual handover clauses) that
+  were previously used as tests — see CVR-006/CVR-007, which now track those claims independently
+  wherever they still appear (1.9, 1.10).
 ---
 
 # 1.5 Core values
-
-> ⚠ **PROPOSED, not recorded.** No existing value set was supplied. Drafted for approval or
-> amendment. See `01_Project/05_Fact-Register.md` item **B4**.
 
 **Standfirst**
 
@@ -28,88 +30,82 @@ status: draft — values PROPOSED, awaiting approval
 
 ## Copy
 
-### Introduction (spread opener, 90 words)
+### Introduction (spread opener)
 
 Most corporate values are unfalsifiable. "Integrity", "excellence" and "innovation" appear on the
 walls of every company that has ever failed a client, because no behaviour could contradict them.
 
-We have written ours differently. Each value below is followed by an **operational test** — something
-observable in how we work, which a client can check and hold us to. If we are not doing the thing in
-the test, we are not holding the value, whatever the wall says.
+Ours are stated plainly below, each with a note on how it shows up in how we actually work — so a
+client has something to check us against, not just a word to take on faith.
 
 ---
 
 ### The six values
 
-Set as component C09 feature cards, 2 × 3 across the spread. The operational test is mandatory on
-every card.
+Set as component C09 feature cards, 2 × 3 across the spread.
 
 ---
 
-**1. Precision**
+**1. Practicality**
 `fa-crosshairs`
 
-We would rather be exact than quick. Ambiguity in a specification does not disappear — it is
-deferred, and it is paid for later at a higher rate by someone with less information.
+We focus on solutions that address real problems and create meaningful operational value.
 
-> **How you will see this:** our estimates state their assumptions, and our reports state their
-> method. Where a number is uncertain, we give the range rather than the midpoint.
+> **How you will see this:** we start from the operational problem, not the technology — Part Five
+> describes how discovery is run to test that a proposed system actually addresses what the client
+> needs.
 
 ---
 
-**2. Accountability**
+**2. Integrity**
 `fa-user-check`
 
-We own outcomes, not tasks. Delivering everything that was asked for and leaving the client worse off
-is a failure, and we treat it as one.
+We communicate honestly about our capabilities, experience, delivery status, and commitments.
 
-> **How you will see this:** one named principal is answerable for your engagement from discovery to
-> support. They do not change without your agreement.
-
----
-
-**3. Candour**
-`fa-comment-check`
-
-We say what we know, what we do not know, and what it will cost. This includes telling a client that
-the thing they have asked for is the wrong answer — at the point when saying so costs us revenue.
-
-> **How you will see this:** we decline work we are not equipped to do, in writing, with a reason. A
-> supplier who has never turned anything down is telling you about their judgement, not their
-> capability.
+> **How you will see this:** this document distinguishes proven, delivered work from capability we
+> can offer but have not yet proven in production, throughout — including here.
 
 ---
 
-**4. Continuity**
-`fa-arrows-to-circle`
+**3. Innovation**
+`fa-lightbulb`
 
-We build systems intended to outlive our involvement. A client who cannot leave us has not been
-served; they have been captured.
+We explore appropriate technologies and better ways of solving business problems.
 
-> **How you will see this:** documentation, source access and knowledge handover are contractual
-> deliverables with acceptance criteria — not professional courtesies extended at the end.
+> **How you will see this:** Part Four sets out current, capable and planned technology separately,
+> rather than presenting the full stack as equally proven.
 
 ---
 
-**5. Proximity**
+**4. Quality**
+`fa-gem`
+
+We aim for reliable, maintainable and user-focused solutions rather than technology for its own sake.
+
+> **How you will see this:** the testing and quality-gate approach described in section 5.4 applies
+> before any system is considered ready to deploy.
+
+---
+
+**5. Partnership**
 `fa-people-arrows`
 
-We work close to the people who use what we build. Requirements gathered only from management
-describe the process as it is believed to run, not as it runs.
+We work collaboratively with clients and stakeholders to understand their needs and build solutions
+around them.
 
-> **How you will see this:** every engagement includes direct contact between our engineers and the
-> people who will use the system daily. Not a proxy, and not a workshop summary.
+> **How you will see this:** as a founder-led company, you work directly with the person doing the
+> work, from discovery through to delivery — not through an account layer.
 
 ---
 
-**6. Restraint**
-`fa-scissors`
+**6. Continuous Learning**
+`fa-graduation-cap`
 
-We recommend the smallest change that solves the problem. Scope is easy to add and expensive to
-remove, and complexity is paid for every year the system runs, not once at build.
+We continually improve our technical capabilities, processes and understanding of the environments in
+which our clients operate.
 
-> **How you will see this:** our proposals include a section on what we advise you **not** to do,
-> and why.
+> **How you will see this:** the technology approach in Part Four is explicit about what is currently
+> in production versus what is being developed and added to the capability set.
 
 ---
 
@@ -123,6 +119,8 @@ remove, and complexity is paid for every year the system runs, not once at build
   it reads as subtraction, which is the value's substance. Confirm free-tier equivalents at Stage 10.
 - Six values is the ceiling. Beyond six, none is remembered; the spread also only holds six cards at
   legible size.
-- **On approval:** delete the warning block. If the company holds an existing value set, replace the
-  names and definitions but **retain the operational-test structure** — it is what makes this section
-  credible rather than ornamental, and no competitor profile does it.
+- Stage 9A (continued): icon-to-value pairing reassigned to fit the owner-supplied values —
+  Innovation now `fa-lightbulb`, Quality now `fa-gem`, Continuous Learning now `fa-graduation-cap`.
+  Practicality (`fa-crosshairs`), Integrity (`fa-user-check`) and Partnership (`fa-people-arrows`)
+  were judged to already fit their new values and were left as-is. Confirm free-tier Font Awesome
+  equivalents at Stage 10 per the icon-set note above.

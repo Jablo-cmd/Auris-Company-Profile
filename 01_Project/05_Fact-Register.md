@@ -62,15 +62,15 @@ valid and useful answer, and it changes how the section is written rather than l
 
 | # | Item | Token | Priority | Needed by |
 |---|---|---|---|---|
-| B1 | Year founded and founding circumstances | `[[FOUNDED_YEAR]]` | 🔴 | Stage 3 |
-| B2 | Founding rationale — the problem the founders set out to address | — | 🟠 | Stage 3 |
-| B3 | Existing vision and mission statements | `[[VISION]]` `[[MISSION]]` | 🟠 | Stage 3 |
-| B4 | Core values — 5 or 6, with what each means in practice | `[[VALUES]]` | 🟠 | Stage 3 |
-| B5 | Milestones for the timeline — 6 to 8, with dates | — | 🟡 | Stage 3 |
-| B6 | Ownership structure and shareholding | `[[OWNERSHIP]]` | 🔴 | Stage 3 |
-| B7 | Head office | ✅ **Johannesburg, Gauteng** — street address still required as `[[HEAD_OFFICE_ADDRESS]]` | 🟠 | Stage 9 |
-| B8 | Geographic operating footprint | `[[FOOTPRINT]]` | 🟠 | Stage 3 |
-| B9 | Current headcount, and split between permanent and contract | `[[HEADCOUNT]]` | 🟠 | Stage 3 |
+| B1 | Year founded and founding circumstances | ✅ **July 2026** — owner-confirmed (Stage 9A). No further founding-circumstance narrative beyond the supplied founding story. | 🔴 | Resolved |
+| B2 | Founding rationale — the problem the founders set out to address | ✅ Covered by the owner-supplied founding story (Stage 9A) — see 1.3 | 🟠 | Resolved |
+| B3 | Existing vision and mission statements | ✅ Owner-supplied verbatim (Stage 9A) — see 1.4 | 🟠 | Resolved |
+| B4 | Core values — 5 or 6, with what each means in practice | ✅ Owner-supplied, 6 values with practice statements (Stage 9A) — see 1.5 | 🟠 | Resolved |
+| B5 | Milestones for the timeline — 6 to 8, with dates | ✅ Owner-supplied, 4 milestones, all dated 2026 (Stage 9A) — see 1.3. Fewer than the 6–8 originally scoped; timeline visual should be sized to what was actually supplied, not padded. | 🟡 | Resolved (reduced scope) |
+| B6 | Ownership structure and shareholding | ✅ **100% owned** by the founder (Stage 9A) | 🔴 | Resolved |
+| B7 | Head office | ✅ **140 Linden Street, Sandown, 2196, South Africa** (Stage 9A) | 🟠 | Resolved |
+| B8 | Geographic operating footprint | ✅ **South Africa, with capability to support international clients/projects** (owner-confirmed, this session) — do not imply existing international clients or deployments; capability only | 🟠 | Resolved |
+| B9 | Current headcount, and split between permanent and contract | ✅ **1 — the founder** (Stage 9A). No permanent/contract split applies; see Claim Verification Register on how this is presented in copy. | 🟠 | Resolved |
 
 ---
 
@@ -115,7 +115,7 @@ valid and useful answer, and it changes how the section is written rather than l
 | D5 | Quality management approach and any internal standards | — | 🟡 | Stage 8 |
 | D6 | Tooling — project, source control, CI, ticketing, monitoring | — | 🟡 | Stage 7 |
 | D7 | Definition of done / quality gate criteria by engagement type | `[[DEFINITION_OF_DONE]]` | 🟡 | Stage 7 |
-| D8 | Delivery governance structure — RACI, escalation path, client reporting cadence | `[[RACI_MATRIX]]` `[[REPORTING_CADENCE]]` | 🟠 | Stage 7 |
+| D8 | Delivery governance structure — escalation path, client reporting cadence | `[[REPORTING_CADENCE]]` | 🟠 | Stage 7 — Stage 9A: `[[RACI_MATRIX]]` retired (see 5.8), a Responsible/Accountable/Consulted/Informed split presumes more than one person; re-add only if genuinely staffed later |
 | D9 | Continuous improvement / service review cadence | `[[REVIEW_CADENCE]]` | 🟡 | Stage 7 |
 | D10 | Operational metrics, if genuinely tracked — MTTR, defect rate, deployment frequency | `[[MTTR_TARGET]]` `[[DEFECT_RATE_TARGET]]` `[[DEPLOYMENT_FREQUENCY]]` | 🟡 | Stage 7 |
 
@@ -133,23 +133,23 @@ eligibility, and each must be transcribed from the source document rather than r
 
 | # | Item | Token | Needed by |
 |---|---|---|---|
-| E1 | Company registration number (CIPC) | `[[REG_NO]]` | Stage 9 |
-| E2 | Date of incorporation; company type | `[[INCORP_DATE]]` | Stage 9 |
-| E3 | Directors — full names and identity-document status | `[[DIRECTORS]]` | Stage 9 |
-| E4 | Income tax reference number | `[[TAX_NO]]` | Stage 9 |
-| E5 | VAT registration number, if registered | `[[VAT_NO]]` | Stage 9 |
-| E6 | Tax Compliance Status PIN and validity period | `[[TCS_PIN]]` | Stage 9 |
+| E1 | Company registration number (CIPC) | ✅ **2026/606690/07** (full registration number); CIPC enterprise-number format of the same number is **K2026606690** — the two are the same identifier, not a conflict, per owner confirmation (Stage 9A) | Resolved |
+| E2 | Date of incorporation; company type | ✅ **7 July 2026** (owner-confirmed, this session), superseding the previously stated "July 2026" founding month where exactness matters. Company type: Pty Ltd, confirmed by name. | Resolved |
+| E3 | Directors — full names and identity-document status | ✅ **Loyiso Ngcala**, sole director (Stage 9A); ID-document status not yet confirmed | Stage 9 (ID status only) |
+| E4 | Income tax reference number | ✅ **9755014207** (Stage 9A) — a SARS-issued tax number, commissioned upon company registration (owner-confirmed, final owner-input session). This confirms Auris is **tax registered**; it does NOT confirm or imply **tax compliance status** — those are distinct facts, kept on separate rows (E4 vs. E6) deliberately, and must not be conflated in copy. | Resolved |
+| E5 | VAT registration number, if registered | ✅ **Not VAT registered** (Stage 9A) — no VAT number applies; do not state a VAT number in copy | Resolved |
+| E6 | Tax Compliance Status PIN and validity period | `[[TCS_PIN]]` — remains open. Having a tax number (E4) is not the same as holding a valid TCS PIN; do not state or imply TCS compliance anywhere in copy until this resolves separately. | Stage 9 |
 
 > **Correction (2026-08-02, Claim Verification audit).** Sections 1.1 and 1.2 originally stated
 > "registered and tax compliant" / "holds a valid Tax Compliance Status" as established fact, with
 > only the PIN itself tokenized — asserting the underlying compliance status ahead of E6 resolving.
 > Both were corrected to `[[TAX_COMPLIANCE_STATUS]]`, gating the qualitative claim as well as the PIN.
 > See Claim Verification Register, `01_Project/07_Claim-Verification-Register.md`, CVR-003/CVR-004.
-| E7 | B-BBEE level, verification agency, certificate number, expiry | `[[BBBEE_LEVEL]]` | Stage 9 |
-| E8 | Black ownership and black female ownership percentages | `[[OWNERSHIP_PCT]]` | Stage 9 |
-| E9 | EME / QSE status | `[[ENTERPRISE_SIZE]]` | Stage 9 |
-| E10 | CSD (Central Supplier Database) registration number | `[[CSD_NO]]` | Stage 9 |
-| E11 | UIF and COIDA registration and letter of good standing | `[[COIDA_NO]]` | Stage 9 |
+| E7 | B-BBEE level, verification agency, certificate number, expiry | ✅ **Level 1** confirmed by owner (Stage 9A); verification agency, certificate number and expiry not yet supplied — under 51% Black ownership entities of this size typically qualify via an EME affidavit rather than third-party verification, but which route applies here is not yet confirmed. Do not name a verification agency or certificate number until supplied. | Partial — level only |
+| E8 | Black ownership and black female ownership percentages | ✅ **100% owned by the founder** (Stage 9A) resolves the ownership-percentage question at the level needed for the profile; race/gender ownership breakdown not separately stated and is not required for the EME-level claim already made | Resolved (for profile purposes) |
+| E9 | EME / QSE status | ⚠️ Owner-confirmed (this session): **no known EME/QSE certificate or classification currently exists to provide.** Not invented, not inferred from turnover/headcount. `[[ENTERPRISE_SIZE]]` remains open — leave unclaimed in copy rather than assuming EME status from headcount alone. | Confirmed absent — not a gap awaiting input |
+| E10 | CSD (Central Supplier Database) registration number | ⚠️ Owner-confirmed (this session): **not yet registered — registration is in progress.** Do not state or imply CSD registration is complete, and do not supply a supplier number. `[[CSD_NO]]` remains open until registration completes. | In progress |
+| E11 | UIF and COIDA registration and letter of good standing | ⚠️ Owner-confirmed (this session): **not currently registered for UIF or COIDA.** Do not state or imply registration exists. Keep out of client-facing copy where not required (per owner instruction not to unnecessarily advertise this), but this register must not suggest registration where none exists. `[[COIDA_NO]]` remains open. | Confirmed absent — not a gap awaiting input |
 | E12 | Professional memberships — body, number, status | `[[MEMBERSHIPS]]` | Stage 9 |
 | E13 | Certifications **currently held** — ISO, CMMI, vendor | `[[CERTS_HELD]]` | Stage 9 |
 | E14 | Certifications **targeted**, with realistic dates | `[[CERTS_PLANNED]]` | Stage 9 |
@@ -223,21 +223,27 @@ A `[[TOKEN]]` count is reported at the close of every stage from Stage 3 onward.
 
 ## Status at close of Stage 3
 
-**Resolved:** A1 registered name · A3 tagline · A6 logo (rebuild commissioned) · B7 head office
-(city) · C1 service list · primary markets.
+**Resolved (Stage 9A):** A1 registered name · A3 tagline · A6 logo (rebuild commissioned) ·
+B1 founded year · B3/B4 vision, mission, values (owner-supplied) · B5 milestones (owner-supplied,
+4 items) · B6 ownership · B7 head office (full street address) · B9 headcount · C1 service list ·
+E1 registration number · E4 tax reference number · E5 VAT status (not registered) · E7 B-BBEE
+level · E8 ownership percentage (resolved via 100% single-owner figure) · primary markets.
 
-**Open tokens carried into Part One copy — 14:**
+**Still open — carried into Part One copy:**
 
-`[[FOUNDED_YEAR]]` · `[[MD_NAME]]` · `[[MD_ROLE]]` · `[[HEADCOUNT]]` · `[[HEADCOUNT_SPLIT]]` ·
-`[[OWNERSHIP]]` · `[[BBBEE_LEVEL]]` · `[[REG_NO]]` · `[[HEAD_OFFICE_ADDRESS]]` ·
-`[[MILESTONES]]` · `[[CLIENT_COUNT]]` · `[[SECTORS_DELIVERED]]` · `[[PLATFORM_DEPLOYMENTS]]` ·
-`[[TEAM_STRUCTURE]]`
+`[[FOOTPRINT]]` · `[[TCS_PIN]]` (feeds `[[TAX_COMPLIANCE_STATUS]]`) · `[[CLIENT_COUNT]]` ·
+`[[SECTORS_DELIVERED]]` · `[[PLATFORM_DEPLOYMENTS]]` · `[[INCORP_DATE]]`
+
+`[[MD_NAME]]` and `[[MD_ROLE]]` resolve directly from owner-confirmed facts: **Loyiso Ngcala**,
+**Founder and Managing Director**. `[[HEADCOUNT_SPLIT]]` and `[[TEAM_STRUCTURE]]` are retired as
+tokens rather than resolved — with headcount at 1, a permanent/contract split and a multi-layer
+team structure do not apply; see Claim Verification Register CVR-032/CVR-033 for how 1.9 and 1.10
+were rewritten to remove implied team-scale language rather than populate it with a false split.
 
 **Highest-value next inputs**, in order of how much they unblock:
 
-1. **B1** `[[FOUNDED_YEAR]]` — blocks 1.3 Our Story and the milestone timeline entirely
+1. **E6** `[[TCS_PIN]]` — the one remaining compliance blocker on CVR-003/004/005's full closure
 2. **C7** — the *delivered vs. targeted* sector split; governs the honesty of Parts Two and Three
-3. **B9** `[[HEADCOUNT]]` — appears in five separate sections
-4. **F5** executive team — blocks the 7.8 spread
-5. **E7** `[[BBBEE_LEVEL]]` — a mandatory tender returnable
-6. **B3/B4** — approve or amend the proposed vision, mission and values in `02_Content/part-1/`
+3. **F5** executive team — blocks the 7.8 spread (now trivially: sole founder, per B9)
+4. **B8** `[[FOOTPRINT]]` — geographic operating footprint, not yet supplied
+5. **E9/E10/E11** — EME/QSE status, CSD number, UIF/COIDA — Stage 9 credentials group

@@ -11,7 +11,13 @@ tables: []
 icons: ["fa-circle-check"]
 images: ["img-p018-working-session"]
 tokens: ["[[SECTORS_DELIVERED]]", "[[PLATFORM_DEPLOYMENTS]]"]
-status: draft
+status: draft — Stage 9A: item 2 corrected — previously claimed Auris "operates" software other
+  organisations "depend on daily"; Funda360 is pilot-stage and Sebetsa Operations is still in
+  development (neither is in commercial deployment), so the claim was rewritten to describe building
+  and current stage rather than live operation. Item 3 de-pluralized ("senior people" → "the
+  person"), consistent with Fact Register B9 (headcount: 1). Item 5 reframed from an asserted
+  contract fact to a stated operating principle, matching 1.9 card 5. See Claim Verification
+  Register CVR-011 (tightened), CVR-031 (new).
 ---
 
 # 1.8 Why Auris Nexus Technologies
@@ -52,30 +58,31 @@ answerable for whether it worked.
 > **The mechanism:** ask any shortlisted supplier to name, in writing, the single party accountable
 > if the delivered system does not produce the stated outcome. Compare the answers.
 
-### 2. We operate our own platforms, not only client projects
+### 2. We build our own platforms, not only client projects
 
-Our HR and employee management and school management systems place us in the position of running
-software that other organisations depend on daily — where a fault is not a defect ticket but a
-disrupted payroll or a school unable to register learners.
+Alongside client engineering, Auris Nexus is developing proprietary platforms — including Funda360
+(school management) and Sebetsa Operations (workforce and operations management) — rather than
+operating purely as a project-based services firm. These are currently at pilot and development
+stage respectively, not in live commercial deployment; building them ourselves is what gives us
+first-hand experience of the operational discipline a production system demands, ahead of putting
+that discipline to work on client engagements.
 
-This is a different discipline from project delivery, and it changes how a company builds. It makes
-you conservative about complexity, rigorous about failure modes, and materially more honest about
-what a timeline contains, because you are the one who will be carrying the consequence at 02:00.
+> **The mechanism:** ask what the supplier has actually built and at what stage it stands today —
+> pilot, in development, or in production. A supplier who is specific about that distinction is
+> giving you a more useful answer than one who claims maturity across the board.
 
-> **The mechanism:** ask what the supplier operates, not what they have built. A firm that has never
-> run a production system through a bad month has not been tested in the way that matters.
-
-### 3. Our clients speak to the people doing the work
+### 3. Our clients speak to the person doing the work
 
 We are directly reachable, locally accountable and in the same time zone. Decisions are not referred
-elsewhere for approval, and the senior people who attend the pitch are the senior people who do the
-engagement.
+elsewhere for approval, and as a founder-led company, the person who attends the pitch is the person
+who does the engagement.
 
-This is a genuine consequence of our size rather than a policy we could abandon, which is what makes
-it durable. Large integrators cannot offer it; that is not a criticism of them, it is arithmetic.
+This is a genuine consequence of our current size rather than a policy we could abandon, which is
+what makes it durable for as long as it applies. Large integrators cannot offer it; that is not a
+criticism of them, it is arithmetic.
 
 > **The mechanism:** ask who will attend the discovery workshop, by name and role, and require that
-> those names appear in the contract. Note which suppliers resist.
+> name to appear in the contract. Note which suppliers resist.
 
 ### 4. We work in regulated, load-bearing environments
 
@@ -93,10 +100,11 @@ Our delivery methodology, security posture and support model are built for that 
 
 ### 5. We build systems you can leave
 
-Documentation, source access and knowledge transfer are contractual deliverables with acceptance
-criteria, not courtesies extended at the end of an engagement if time permits. A client who cannot
-leave a supplier has not been served; they have been captured, and the relationship that follows is
-maintained by switching cost rather than by performance.
+Documentation, source access and knowledge transfer are treated as an operating principle, not
+courtesies extended at the end of an engagement if time permits — and we are willing to agree the
+specific terms as contractual deliverables per engagement. A client who cannot leave a supplier has
+not been served; they have been captured, and the relationship that follows is maintained by
+switching cost rather than by performance.
 
 We would rather be retained because leaving is easy and staying is better.
 

@@ -69,8 +69,8 @@ phase is independently justifiable rather than dependent on a multi-year program
 - Investment decisions are tested against operational reality before capital is committed, not after
 - Technology and process change are sequenced together, reducing the rework that follows when they are
   planned separately
-- An independent advisory voice — not tied to downstream build revenue — on whether a proposed system
-  is the right answer
+- An advisory recommendation assessed on its own merits, independent of which vendor — including
+  Auris itself where we also offer the relevant build service — ends up delivering it
 - A prioritised, phased roadmap that produces value at each stage rather than only at completion
 
 ---

@@ -10,8 +10,10 @@ figures: []
 tables: []
 icons: ["fa-file-lines"]
 images: []
-tokens: ["[[FOUNDED_YEAR]]", "[[HEADCOUNT]]", "[[BBBEE_LEVEL]]", "[[TAX_COMPLIANCE_STATUS]]"]
-status: draft
+tokens: ["[[TAX_COMPLIANCE_STATUS]]"]
+status: draft — Stage 9A: founded year, headcount, B-BBEE level resolved (owner-confirmed); tax
+  compliance status remains gated on TCS PIN (Fact Register E6); procurement-mechanism language
+  reframed to capability wording, see CVR-030
 ---
 
 # 1.1 Executive summary
@@ -54,9 +56,11 @@ documentation, source access and handover as contractual deliverables rather tha
 courtesies. And we **remain accountable after go-live**, because a system's real character emerges
 under sustained load with real users, not in acceptance testing.
 
-The company was founded in [[FOUNDED_YEAR]] and employs [[HEADCOUNT]] people. We are
-[[BBBEE_LEVEL]] B-BBEE contributors. Tax compliance status: [[TAX_COMPLIANCE_STATUS]]. We are able to
-contract through open tender, quotation, panel appointment and framework agreement.
+The company was founded in July 2026 and operates as a lean, founder-led technology company, with
+the founder directly involved across solution design, software development and delivery. We are a
+Level 1 B-BBEE contributor. Tax compliance status: [[TAX_COMPLIANCE_STATUS]]. Auris Nexus is
+positioned to participate in applicable South African procurement processes, including quotation
+and tender-based opportunities, subject to the requirements of the procuring organisation.
 
 What follows is organised to be read in any order. Each section stands alone. If you have come to
 this document to verify a specific credential, the Company at a Glance panel on page 8 and the

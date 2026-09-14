@@ -10,8 +10,14 @@ figures: []
 tables: []
 icons: ["fa-quote-left"]
 images: ["img-p006-md-portrait"]
-tokens: ["[[MD_NAME]]", "[[MD_ROLE]]", "[[FOUNDED_YEAR]]"]
-status: draft
+tokens: ["[[PLATFORM_DEPLOYMENTS]]"]
+status: draft — Stage 9A: MD name/role resolved to Loyiso Ngcala, Founder and Managing Director.
+  Corrected two overclaims found on a full consistency pass: "operating software other organisations
+  depend on daily" (Funda360/Sebetsa are pilot-stage and in development, not commercially deployed —
+  see CVR-011) and "documentation... treated as contractual deliverables" (no contract evidence on
+  file — see CVR-029). Also de-pluralized "the people who will do the work" to match the founder-led,
+  1-employee reality (Fact Register B9) and the singular "the person accountable" later in the same
+  paragraph, which was previously inconsistent with it.
 ---
 
 # Managing Director's message
@@ -38,19 +44,20 @@ Our response was to build a company that stays.
 That word does a lot of work here, so I want to be precise about it. Staying means we begin with the
 work itself rather than the software: what your people actually do, in what order, under what
 constraints, and where the friction genuinely lies. It means we build systems intended to outlive our
-involvement, with documentation, source access and handover treated as contractual deliverables
-rather than professional courtesies. And it means we remain accountable after go-live, because a
-system's real character only shows itself under sustained load, with real users, on an ordinary
-Tuesday.
+involvement, treating documentation, source access and handover as things we agree with you upfront
+rather than professional courtesies extended at the end. And it means we remain accountable after
+go-live, because a system's real character only shows itself under sustained load, with real users,
+on an ordinary Tuesday.
 
 > **A system that works in a demonstration and fails in production has not been delivered. It has
 > been described.**
 
-This is also why we chose to develop our own platforms alongside our client engineering. Operating
-software that other organisations depend on daily — where an outage is not an inconvenience but a
-disrupted payroll or a school unable to register its learners — teaches a discipline that project
-work alone does not. It has made us more careful, more conservative about complexity, and
-considerably more honest in our estimates.
+This is also why we chose to develop our own platforms alongside our client engineering — Funda360
+for school management, and Sebetsa Operations for workforce and operations management. Building
+production-grade platforms, even ahead of their first commercial deployment, teaches a discipline
+that project work alone does not: what a system needs to survive real data, real load and an
+ordinary Tuesday, not just a demonstration. It has made us more careful, more conservative about
+complexity, and considerably more honest in our estimates.
 
 We work across government, financial services, education, healthcare, manufacturing, security,
 logistics, property, professional services and the small and medium enterprises that carry a
@@ -68,9 +75,9 @@ innovation, then delivering impact. In that order. Innovation that does not reac
 innovation; it is an expense.
 
 We are a South African company, based in Johannesburg, and we are direct about what that means
-commercially. Our clients speak to the people who will do the work. Decisions do not travel offshore
-for approval. When something goes wrong — and in this industry, something eventually goes wrong — the
-person accountable is reachable, and in the same time zone.
+commercially. Our clients speak directly to the person who will do the work. Decisions do not travel
+offshore, or up a management chain, for approval. When something goes wrong — and in this industry,
+something eventually goes wrong — the person accountable is reachable, and in the same time zone.
 
 We are also direct about our limits. We decline work we are not equipped to do, and we say so in
 writing. A company that has never turned anything down is telling you something about its judgement,
@@ -83,8 +90,8 @@ from ambitions, and where we are still building something, we say so.
 
 We would welcome the opportunity to be measured against it.
 
-**[[MD_NAME]]**
-[[MD_ROLE]]
+**Loyiso Ngcala**
+Founder and Managing Director
 Auris Nexus Technologies
 
 ---
@@ -97,8 +104,9 @@ Auris Nexus Technologies
   behind a desk with folded arms. See `07_Branding/06_Photography-and-Illustration.md` §3.
 - **Signature:** scan at 1200 dpi minimum, convert to vector, place at 100 K. A signature rendered as
   a low-resolution greyscale bitmap is a recognisable production tell.
-- `[[MD_ROLE]]` — confirm whether "Managing Director", "Chief Executive Officer" or "Founder". The
-  running head and contents entry follow from this.
-- The reference to developing "our own platforms" is supported by the confirmed service list
-  (HR & Employee Management Systems, School Management Systems). Any claim about **deployments,
-  client counts or uptime** requires `[[PLATFORM_DEPLOYMENTS]]` and is deliberately absent here.
+- Stage 9A: MD name/role resolved (Loyiso Ngcala, Founder and Managing Director) — running head and
+  contents entry can now be set from this directly.
+- The reference to developing "our own platforms" is supported by owner confirmation (Stage 9A) of
+  Funda360 and Sebetsa Operations, both real and substantially built. Any claim about **deployments,
+  client counts or uptime** requires `[[PLATFORM_DEPLOYMENTS]]` and remains deliberately absent here
+  — the copy above was corrected specifically to stop implying deployment that hasn't happened yet.

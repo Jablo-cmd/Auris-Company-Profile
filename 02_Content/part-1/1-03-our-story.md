@@ -10,8 +10,17 @@ figures: ["fig-1.1-milestone-timeline"]
 tables: []
 icons: ["fa-timeline"]
 images: ["img-p012-establishing"]
-tokens: ["[[FOUNDED_YEAR]]", "[[FOUNDING_CIRCUMSTANCES]]", "[[MILESTONES]]", "[[PLATFORM_ORIGIN]]"]
-status: draft — awaiting B1, B2, B5
+tokens: []
+status: draft — Stage 9A: founding story and 4 milestones owner-supplied and inserted verbatim
+  (Level 3, owner-confirmed evidence); "accumulated over time" narrative removed as inconsistent
+  with a July 2026 founding date. Continuation session: found and fixed a second occurrence of the
+  "operating software other organisations depend on daily" overclaim in this file (missed in the
+  first pass — see CVR-011) and a stray `[[PLATFORM_ORIGIN]]` token left inline in the body copy.
+  Final owner-input session: PLATFORM_ORIGIN resolved — Funda360 and Sebetsa Operations are both
+  confirmed Auris-originated proprietary products, not client-commissioned work retained afterward.
+  Establishment milestone updated to the exact incorporation date (7 July 2026); narrative-prose
+  founding references elsewhere in this file kept at month-level ("July 2026") deliberately, per the
+  distinction drawn in 1.2 (exact date) vs. narrative prose (month).
 ---
 
 # 1.3 Our story
@@ -24,7 +33,11 @@ status: draft — awaiting B1, B2, B5
 
 ## Copy
 
-Auris Nexus Technologies was founded in [[FOUNDED_YEAR]]. [[FOUNDING_CIRCUMSTANCES]]
+Auris Nexus Technologies was established in July 2026 with the aim of providing practical technology
+solutions to organisations seeking to improve their digital capabilities and operational efficiency.
+The company was founded around a hands-on approach to software development and digital
+problem-solving, with experience spanning websites, business applications, workflow systems,
+automation and sector-focused platforms.
 
 The problem we set out to address was not a shortage of technical skill in the South African market.
 There is a great deal of it. The shortage was in the connective work — the part that sits between an
@@ -39,42 +52,54 @@ involved from discovery through to support, rather than handing work across inte
 it has to be prepared to say that a proposed system is the wrong answer, at the point when saying so
 costs revenue.
 
-**Building our own products changed how we build everything else.**
+**Building our own products is changing how we build everything else.**
 
-The decision to develop platforms of our own — for human resources and employee management, and for
-school administration — was made for commercial reasons. Its most valuable effect was not commercial.
-Operating a system that other organisations depend on daily, where a fault is not a defect report but
-a disrupted payroll or a school unable to register learners, imposes a discipline that client project
-work does not. It taught us to be conservative about complexity, rigorous about failure modes, and
-considerably more honest about what a delivery timeline actually contains.
+The decision to develop platforms of our own — Funda360 for school management, and Sebetsa
+Operations for workforce and operations management — was made for commercial reasons. Building
+production-grade systems, even ahead of their first commercial deployment, is already imposing a
+discipline that client project work alone does not: it forces conservatism about complexity, rigour
+about failure modes, and honesty about what a delivery timeline actually contains, because we are the
+ones who will carry the consequence when something is wrong.
 
-[[PLATFORM_ORIGIN]]
+Both platforms are Auris-originated: Funda360 and Sebetsa Operations were conceived and built as our
+own proprietary products, not commissioned by a client and later retained as our own.
 
 **Where we are now.**
 
-The company today spans thirteen services across advisory, engineering and managed operation, working
-in ten sectors. That range was not planned in advance; it accumulated because clients who trusted us
-to build something asked us to advise on the next thing, and then to run it. Each extension was
-earned rather than announced.
+Auris Nexus operates as a lean technology company, allowing it to work closely with clients and adapt
+solutions to specific organisational requirements while developing its capability and portfolio over
+time. The service portfolio set out in Part Two describes what the company is positioned to deliver;
+the sections that follow are explicit about which of that portfolio is proven through delivered work
+and which is offered as capability.
 
-[[MILESTONES]]
+**Milestones — 2026.**
 
-We are candid about the stage we are at. We are not the largest supplier our clients could appoint,
-and we do not compete on scale. We compete on the two things scale tends to erode: direct access to
-the people doing the work, and accountability that does not dissipate across a delivery chain.
+- **Establishment.** Auris Nexus Technologies (Pty) Ltd established on 7 July 2026.
+- **Digital solutions portfolio.** Development and consolidation of Auris Nexus's software, web and
+  business-operations solutions.
+- **Product development.** Continued development of proprietary platforms including Funda360,
+  Sebetsa Operations and the Logistics App.
+- **Client delivery.** Delivery of selected digital projects, including websites for Jo Jackson
+  Dance Company and Pro Energy Solutions.
+
+We are candid about the stage we are at. Auris Nexus is a newly established, founder-led company; we
+do not compete on scale or on years in operation. We compete on the two things scale tends to erode:
+direct access to the person doing the work, and accountability that does not dissipate across a
+delivery chain.
 
 ---
 
 ## Production notes
 
-- **Figure 1.1** — milestone timeline, component C13, lower third. Six to eight milestones, 4 mm
-  apex markers, axis explicitly not to scale (stated in the caption). **Blocked on `[[MILESTONES]]`.**
-- **`[[FOUNDING_CIRCUMSTANCES]]`** is the highest-value outstanding input in Part One. Two or three
-  sentences on who founded the company and what they were doing immediately before. Founding stories
-  fail when they are abstract; they persuade when they are specific about a person and a moment.
-- **`[[PLATFORM_ORIGIN]]`** — was the HR or school system built for a specific client and then
-  productised, or built speculatively? The first is a much stronger story and is worth stating if true.
-- The final paragraph deliberately concedes scale. Per Charter principle **P1**, a document that
-  concedes nothing is believed on nothing — and every evaluator already knows the company's size from
-  the credentials section. Conceding it here converts a weakness into evidence of candour.
+- **Figure 1.1** — milestone timeline, component C13, lower third. Owner supplied 4 milestones, not
+  the 6–8 originally scoped; resize the component to 4 apex markers rather than padding with
+  invented entries. Axis explicitly not to scale (stated in the caption).
+- **PLATFORM_ORIGIN — resolved.** Both Funda360 and Sebetsa Operations are confirmed Auris-originated
+  (owner-confirmed, final owner-input session). Not client-commissioned-then-retained; no client-origin
+  story exists to tell, so none is implied elsewhere in the document.
+- The final paragraph deliberately concedes scale and recency rather than implying an accumulated
+  track record the company (founded July 2026) does not yet have. Per Charter principle **P1**, a
+  document that concedes nothing is believed on nothing — and every evaluator already knows the
+  company's size and age from the credentials section. Conceding it here converts it into evidence
+  of candour rather than a discoverable gap.
 - Image: establishing shot of the office or team, half-page, natural light, not a stock interior.

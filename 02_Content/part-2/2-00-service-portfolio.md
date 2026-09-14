@@ -38,11 +38,11 @@ our portfolio instead against the sequence a client actually experiences: an org
 **advised** on what to build, the thing is **built**, and it is then **run** — operated, integrated,
 maintained — for as long as it is depended on.
 
-Most of our engagements cross more than one stage. A client who commissions custom software
-frequently returns for the cloud and integration work that puts it into production, and stays for the
-maintenance that keeps it there. The families below are organised so that progression is visible
-rather than incidental — each is a complete engagement on its own, and each connects cleanly to its
-neighbours.
+Engagements are typically designed to cross more than one stage rather than stop at a single
+family: a client who commissions custom software often has a related need for the cloud and
+integration work that puts it into production, and for the maintenance that keeps it there
+afterward. The families below are organised so that progression is visible rather than incidental —
+each is a complete engagement on its own, and each connects cleanly to its neighbours.
 
 **The eight families:**
 

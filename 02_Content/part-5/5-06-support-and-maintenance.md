@@ -18,9 +18,9 @@ status: draft
 
 **Standfirst**
 
-> Phases 13–14 of the lifecycle in 5.0. The brand promise in 1.7 is tested here more than anywhere
-> else in the lifecycle — production character shows up in the incident nobody planned for, not in the
-> plan.
+> Phases 13–14 of the lifecycle in 5.0. The brand promise in 1.7 commits to technology built around
+> how a client's organisation actually works — and that fit is tested here more than anywhere else in
+> the lifecycle, because it shows up in the incident nobody planned for, not in the plan.
 
 ---
 
@@ -32,8 +32,8 @@ steady-state maintenance. Issues are triaged by severity, so that a critical fau
 do not compete for the same response.
 
 **Phase 14 — Maintenance.** Ongoing maintenance covers patching, monitoring response and the routine
-upkeep described in 2.8, sustained for as long as the client depends on the system — the continuity
-commitment described in 1.5 and 1.8 made operational.
+upkeep described in 2.8, sustained for as long as the client depends on the system — the direct,
+founder-led accountability described in 1.8 made operational for as long as the engagement continues.
 
 Severity tiers, response commitments and escalation are stated precisely in the service level
 framework, 5.9, rather than described qualitatively here — a support commitment that cannot be

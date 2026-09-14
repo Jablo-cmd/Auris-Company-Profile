@@ -26,7 +26,7 @@ status: draft
 ## Copy
 
 **Phase 1 — Discovery and stakeholder engagement.** We engage the people who will use the system, not
-only the people who commissioned it, per the proximity principle described in 1.5. The gate for this
+only the people who commissioned it, per the partnership value described in 1.5. The gate for this
 phase is a documented understanding of the current-state process, agreed with the client before
 requirements are drafted against it.
 
