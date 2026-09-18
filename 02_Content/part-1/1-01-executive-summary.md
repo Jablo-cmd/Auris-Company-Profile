@@ -55,7 +55,7 @@ courtesies. And we **remain accountable after go-live**, because a system's real
 under sustained load with real users, not in acceptance testing.
 
 The company was founded in [[FOUNDED_YEAR]] and employs [[HEADCOUNT]] people. We are
-[[BBBEE_LEVEL]] B-BBEE contributors. Tax compliance status: [[TAX_COMPLIANCE_STATUS]]. We are able to
+**Level 1** B-BBEE contributors. Tax compliance status: [[TAX_COMPLIANCE_STATUS]]. We are able to
 contract through open tender, quotation, panel appointment and framework agreement.
 
 What follows is organised to be read in any order. Each section stands alone. If you have come to
