@@ -56,9 +56,7 @@ operation:
 The full portfolio, with deliverables, technologies and expected outcomes for each family, begins on
 page 24.
 
-**Who we serve.** Government, financial services, education, healthcare, manufacturing, security,
-logistics and transport, property management, professional services, and small and medium
-enterprises. Sector-specific treatment begins on page 44.
+**Target and active markets.** Government, financial services, education, healthcare, manufacturing, security, logistics and transport, property management, professional services, and small and medium enterprises. Sector-specific treatment begins on page 44; inclusion does not by itself represent a named client reference in every sector.
 
 **How we contract.** Fixed price, time and materials, managed service, retained advisory and
 outcome-based engagement. We are able to be appointed through open tender, request for quotation,
