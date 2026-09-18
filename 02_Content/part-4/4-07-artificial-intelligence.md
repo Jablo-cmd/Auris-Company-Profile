@@ -39,9 +39,9 @@ its benefit. This is a governance philosophy we hold regardless of which specifi
 implements it, and the specific technologies in current use are stated below rather than implied by
 the philosophy alone.
 
-**Technologies currently used:** [[TECH_CURRENT_AI]]
-**Capable of supporting:** [[TECH_CAPABLE_AI]]
-**Planned / future roadmap:** [[TECH_PLANNED_AI]]
+**Technologies currently used:** no specific AI model or vendor is represented as a deployed standard stack in this profile.
+**Capable of supporting:** AI integration and applied AI solutions where the use case, data, risk controls and human-review requirements are appropriate.
+**Planned / future roadmap:** product- and engagement-specific; no fixed model/vendor roadmap is claimed.
 **Responsible-use / governance policy:** [[AI_GOVERNANCE_POLICY]] — a documented policy, once it
 exists, is referenced here rather than the philosophy paragraph above being treated as the policy
 itself.
