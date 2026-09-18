@@ -47,5 +47,4 @@ A person who discloses a genuine conflict in good faith will not be penalised me
 ## 11. Breach
 Failure to disclose a material conflict may result in corrective or disciplinary action and, where applicable, contractual or legal consequences.
 
-**Approved by:** Managing Director, Auris Nexus Technologies (Pty) Ltd  
-**Approval date:** 18 September 2026
+**Approval status:** Pending formal approval by the Managing Director
