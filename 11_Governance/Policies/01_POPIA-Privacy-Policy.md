@@ -52,5 +52,4 @@ Failure to comply may result in access restrictions, corrective action, contract
 ## 13. Legal note
 This policy is an internal governance document and does not replace legal advice, Auris's PAIA Manual, client contracts, privacy notices or applicable legislation.
 
-**Approved by:** Managing Director, Auris Nexus Technologies (Pty) Ltd  
-**Approval date:** 18 September 2026
+**Approval status:** Pending formal approval by the Managing Director
