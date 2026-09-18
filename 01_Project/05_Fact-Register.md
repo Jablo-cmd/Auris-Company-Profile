@@ -162,7 +162,7 @@ eligibility, and each must be transcribed from the source document rather than r
 
 | # | Item | Token | Priority | Needed by |
 |---|---|---|---|---|
-| F1 | Case studies — 2 or 3. Context, challenge, approach, measured outcome | `[[CASE_STUDIES]]` | 🟠 | Stage 9 |
+| F1 | Case studies — 2 or 3. Context, challenge, approach, measured outcome | ⚠ **Three evidence-based Auris project studies drafted (Funda360, Sebetsa, CIT Employee & Leave Management System); measured business outcomes are intentionally not claimed until separately evidenced** | 🟠 | Stage 9 |
 | F2 | For each case study: is the client named with **written** permission, or anonymised? | — | 🔴 | Stage 9 |
 | F3 | Testimonials — full text, with name, role, organisation and consent | ⚠ **Two testimonials supplied; first fully attributed to Jo Anne Hand, Owner and Director, Jo Jackson Dance Co and Promotions. Second testimonial text supplied but attribution/consent details are incomplete.** | Stage 9 |
 | F4 | Awards or recognition, with awarding body and year | `[[AWARDS]]` | 🟡 | Stage 9 |
@@ -176,15 +176,15 @@ eligibility, and each must be transcribed from the source document rather than r
 
 | # | Item | Token | Priority | Needed by |
 |---|---|---|---|---|
-| G1 | Information Security Policy — exists? | — | 🟠 | Stage 8 |
+| G1 | Information Security Policy — exists? | ⚠ **AUR-POL-002 drafted; pending Managing Director approval** | 🟠 | Stage 8 |
 | G2 | POPIA compliance status; Information Officer appointed and registered? | `[[INFO_OFFICER]]` | 🔴 | Stage 8 |
-| G3 | Business continuity and disaster recovery arrangements | — | 🟠 | Stage 8 |
-| G4 | Health and safety policy and appointed representative | — | 🟠 | Stage 8 |
+| G3 | Business continuity and disaster recovery arrangements | ⚠ **AUR-POL-007 drafted; pending Managing Director approval** | 🟠 | Stage 8 |
+| G4 | Health and safety policy and appointed representative | ⚠ **AUR-POL-004 drafted; pending Managing Director approval; representative not separately recorded** | 🟠 | Stage 8 |
 | G5 | Environmental policy or commitments | — | 🟡 | Stage 8 |
 | G6 | CSR activity — actual, not intended | — | 🟡 | Stage 8 |
 | G7 | Skills development, learnerships, internships | — | 🟡 | Stage 8 |
 | G8 | Risk management approach | — | 🟠 | Stage 8 |
-| G9 | Code of conduct, anti-corruption and conflict-of-interest policies | — | 🟠 | Stage 8 |
+| G9 | Code of conduct, anti-corruption and conflict-of-interest policies | ⚠ **AUR-POL-006, AUR-POL-008 and AUR-POL-010 drafted; pending Managing Director approval** | 🟠 | Stage 8 |
 
 ---
 
