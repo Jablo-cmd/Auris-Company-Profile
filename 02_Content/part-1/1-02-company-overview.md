@@ -10,7 +10,7 @@ figures: ["fig-1.0-footprint-map"]
 tables: []
 icons: ["fa-sitemap"]
 images: []
-tokens: ["[[REG_NO]]", "[[FOUNDED_YEAR]]", "[[OWNERSHIP]]", "[[HEADCOUNT]]", "[[HEADCOUNT_SPLIT]]", "[[HEAD_OFFICE_ADDRESS]]", "[[BBBEE_LEVEL]]", "[[TAX_COMPLIANCE_STATUS]]"]
+tokens: ["[[REG_NO]]", "[[FOUNDED_YEAR]]", "[[OWNERSHIP]]", "[[HEADCOUNT]]", "[[HEADCOUNT_SPLIT]]", "Johannesburg, Gauteng", "[[BBBEE_LEVEL]]", "[[TAX_COMPLIANCE_STATUS]]"]
 status: draft
 ---
 
@@ -26,8 +26,8 @@ status: draft
 ## Copy
 
 **Legal status.** Auris Nexus Technologies is a private company incorporated in the Republic of
-South Africa under registration number **2026/606690/07**, established in [[FOUNDED_YEAR]]. Ownership is
-**100% privately held**. The company is registered with the South African Revenue Service. Tax compliance
+South Africa under registration number **2026/606690/07**, registered as a South African private company in 2026. Ownership is
+**100% owned by Loyiso Ngcala**. The company is registered with the South African Revenue Service. Tax compliance
 status: [[TAX_COMPLIANCE_STATUS]]. **Level 1** B-BBEE contributor. Full credentials, with certificate
 references and validity dates, are set out from page 95.
 
@@ -39,7 +39,7 @@ recorded, and the ability to be present when something goes wrong. We are direct
 consequence — our clients meet the people who will do the work, and decisions are not referred
 offshore for approval.
 
-**People.** The company employs [[HEADCOUNT]] people, [[HEADCOUNT_SPLIT]]. Our teams are organised
+**People.** Auris operates with a lean core structure supported by specialist contractors where required; a fixed headcount figure is not used in this profile. Our teams are organised
 around capability rather than around clients, so that the specialist who is right for a problem is
 assigned to it regardless of which account it belongs to. The operating model is described in
 section 1.10.
