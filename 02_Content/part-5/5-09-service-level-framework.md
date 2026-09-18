@@ -28,10 +28,7 @@ status: draft
 > page is the single owner of every number this document uses for response, restoration and
 > availability.
 
-This framework, not the narrative in 5.6, is the owner reference for every severity, response,
-restoration and availability figure used anywhere in this publication — including the cross-references
-in 2.8 and 5.6. It is presented as an editable table specifically so it can be adapted per contract
-without requiring the surrounding narrative to be rewritten.
+This framework is the owner reference for any severity, response, restoration and availability commitments used in a client engagement. Auris does not claim one universal SLA across all services; applicable service levels are agreed per contract.
 
 ---
 
@@ -39,10 +36,10 @@ without requiring the surrounding narrative to be rewritten.
 
 | Severity | Definition | Response target | Restoration target | Availability target | Reporting cadence |
 |---|---|---|---|---|---|
-| Critical | [[SLA_SEVERITY_DEFINITIONS]] | [[SLA_RESPONSE_TARGETS]] | [[SLA_RESTORATION_TARGETS]] | [[SLA_AVAILABILITY_TARGET]] | [[SLA_REPORTING_CADENCE]] |
-| High | [[SLA_SEVERITY_DEFINITIONS]] | [[SLA_RESPONSE_TARGETS]] | [[SLA_RESTORATION_TARGETS]] | [[SLA_AVAILABILITY_TARGET]] | [[SLA_REPORTING_CADENCE]] |
-| Medium | [[SLA_SEVERITY_DEFINITIONS]] | [[SLA_RESPONSE_TARGETS]] | [[SLA_RESTORATION_TARGETS]] | [[SLA_AVAILABILITY_TARGET]] | [[SLA_REPORTING_CADENCE]] |
-| Low | [[SLA_SEVERITY_DEFINITIONS]] | [[SLA_RESPONSE_TARGETS]] | [[SLA_RESTORATION_TARGETS]] | [[SLA_AVAILABILITY_TARGET]] | [[SLA_REPORTING_CADENCE]] |
+| Critical | Service materially unavailable or a critical business function is blocked | Agreed per contract | Agreed per contract | Agreed per contract | Agreed per contract |
+| High | Significant degradation affecting an important business function | Agreed per contract | Agreed per contract | Agreed per contract | Agreed per contract |
+| Medium | Non-critical issue with a workaround or limited operational impact | Agreed per contract | Agreed per contract | Agreed per contract | Agreed per contract |
+| Low | Minor issue, request or cosmetic defect | Agreed per contract | Agreed per contract | Agreed per contract | Agreed per contract |
 
 ---
 
