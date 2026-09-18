@@ -44,5 +44,4 @@ Material business records should be maintained in a form that supports authentic
 ## 10. Review
 Management should periodically review storage locations and retention practices and remove obsolete information where appropriate.
 
-**Approved by:** Managing Director, Auris Nexus Technologies (Pty) Ltd  
-**Approval date:** 18 September 2026
+**Approval status:** Pending formal approval by the Managing Director
