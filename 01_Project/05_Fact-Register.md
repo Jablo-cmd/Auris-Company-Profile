@@ -67,7 +67,7 @@ valid and useful answer, and it changes how the section is written rather than l
 | B3 | Existing vision and mission statements | `[[VISION]]` `[[MISSION]]` | 🟠 | Stage 3 |
 | B4 | Core values — 5 or 6, with what each means in practice | `[[VALUES]]` | 🟠 | Stage 3 |
 | B5 | Milestones for the timeline — 6 to 8, with dates | — | 🟡 | Stage 3 |
-| B6 | Ownership structure and shareholding | `[[OWNERSHIP]]` | 🔴 | Stage 3 |
+| B6 | Ownership structure and shareholding | ✅ **100% owned by Loyiso Ngcala** | — | Resolved |
 | B7 | Head office | ✅ **Johannesburg, Gauteng** — street address still required as `[[HEAD_OFFICE_ADDRESS]]` | 🟠 | Stage 9 |
 | B8 | Geographic operating footprint | `[[FOOTPRINT]]` | 🟠 | Stage 3 |
 | B9 | Current headcount, and split between permanent and contract | `[[HEADCOUNT]]` | 🟠 | Stage 3 |
@@ -133,10 +133,10 @@ eligibility, and each must be transcribed from the source document rather than r
 
 | # | Item | Token | Needed by |
 |---|---|---|---|
-| E1 | Company registration number (CIPC) | `[[REG_NO]]` | Stage 9 |
+| E1 | Company registration number (CIPC) | ✅ **2026/606690/07** | — | Resolved |
 | E2 | Date of incorporation; company type | `[[INCORP_DATE]]` | Stage 9 |
 | E3 | Directors — full names and identity-document status | `[[DIRECTORS]]` | Stage 9 |
-| E4 | Income tax reference number | `[[TAX_NO]]` | Stage 9 |
+| E4 | Income tax reference number | ⚠ **9755014207 — held in company records; do not publish in public repository** | — | Resolved privately |
 | E5 | VAT registration number, if registered | `[[VAT_NO]]` | Stage 9 |
 | E6 | Tax Compliance Status PIN and validity period | `[[TCS_PIN]]` | Stage 9 |
 
@@ -145,16 +145,16 @@ eligibility, and each must be transcribed from the source document rather than r
 > only the PIN itself tokenized — asserting the underlying compliance status ahead of E6 resolving.
 > Both were corrected to `[[TAX_COMPLIANCE_STATUS]]`, gating the qualitative claim as well as the PIN.
 > See Claim Verification Register, `01_Project/07_Claim-Verification-Register.md`, CVR-003/CVR-004.
-| E7 | B-BBEE level, verification agency, certificate number, expiry | `[[BBBEE_LEVEL]]` | Stage 9 |
+| E7 | B-BBEE level, verification agency, certificate number, expiry | ⚠ **Level 1 confirmed; verification agency, certificate number and expiry still to be captured from certificate** | Stage 9 |
 | E8 | Black ownership and black female ownership percentages | `[[OWNERSHIP_PCT]]` | Stage 9 |
 | E9 | EME / QSE status | `[[ENTERPRISE_SIZE]]` | Stage 9 |
-| E10 | CSD (Central Supplier Database) registration number | `[[CSD_NO]]` | Stage 9 |
-| E11 | UIF and COIDA registration and letter of good standing | `[[COIDA_NO]]` | Stage 9 |
-| E12 | Professional memberships — body, number, status | `[[MEMBERSHIPS]]` | Stage 9 |
-| E13 | Certifications **currently held** — ISO, CMMI, vendor | `[[CERTS_HELD]]` | Stage 9 |
+| E10 | CSD (Central Supplier Database) registration number | ⚠ **Not yet registered; CSD registration planned for 2026-09-19** | Stage 9 |
+| E11 | UIF and COIDA registration and letter of good standing | ⚠ **No COIDA registration currently held**; UIF status not yet confirmed | Stage 9 |
+| E12 | Professional memberships — body, number, status | ✅ **None currently held** | — | Resolved |
+| E13 | Certifications **currently held** — ISO, CMMI, vendor | ✅ **None currently held** | — | Resolved |
 | E14 | Certifications **targeted**, with realistic dates | `[[CERTS_PLANNED]]` | Stage 9 |
 | E15 | Vendor and technology partnerships, with the tier actually held | `[[PARTNERS]]` | Stage 9 |
-| E16 | Professional indemnity and public liability cover, with values | `[[INSURANCE]]` | Stage 9 |
+| E16 | Professional indemnity and public liability cover, with values | `[[INSURANCE]]` — values still required | Stage 9 |
 
 ---
 
@@ -164,7 +164,7 @@ eligibility, and each must be transcribed from the source document rather than r
 |---|---|---|---|---|
 | F1 | Case studies — 2 or 3. Context, challenge, approach, measured outcome | `[[CASE_STUDIES]]` | 🟠 | Stage 9 |
 | F2 | For each case study: is the client named with **written** permission, or anonymised? | — | 🔴 | Stage 9 |
-| F3 | Testimonials — full text, with name, role, organisation and consent | `[[TESTIMONIALS]]` | 🟡 | Stage 9 |
+| F3 | Testimonials — full text, with name, role, organisation and consent | ⚠ **Two testimonials supplied; first fully attributed to Jo Anne Hand, Owner and Director, Jo Jackson Dance Co and Promotions. Second testimonial text supplied but attribution/consent details are incomplete.** | Stage 9 |
 | F4 | Awards or recognition, with awarding body and year | `[[AWARDS]]` | 🟡 | Stage 9 |
 | F5 | Executive team — 4 to 6. Name, role, qualifications, tenure, short biography | `[[EXEC_TEAM]]` | 🟠 | Stage 9 |
 | F6 | Reference clients contactable by prospective buyers | — | 🟡 | Stage 9 |
