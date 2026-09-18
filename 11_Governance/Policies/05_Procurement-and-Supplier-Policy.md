@@ -45,5 +45,4 @@ Transactions involving related parties or persons with a personal interest requi
 ## 10. Sustainability and transformation
 Where commercially appropriate, Auris may consider local capability, responsible sourcing, transformation and supplier-development objectives without compromising legal, technical, security or quality requirements.
 
-**Approved by:** Managing Director, Auris Nexus Technologies (Pty) Ltd  
-**Approval date:** 18 September 2026
+**Approval status:** Pending formal approval by the Managing Director
