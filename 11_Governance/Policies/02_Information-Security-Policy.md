@@ -55,5 +55,4 @@ Any material exception to this policy must be documented, risk-assessed and appr
 ## 14. Policy status
 This policy establishes Auris's internal security baseline. It does not represent certification against ISO 27001, NIST or another external standard unless Auris separately obtains and verifies such certification.
 
-**Approved by:** Managing Director, Auris Nexus Technologies (Pty) Ltd  
-**Approval date:** 18 September 2026
+**Approval status:** Pending formal approval by the Managing Director
