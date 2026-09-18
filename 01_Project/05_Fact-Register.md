@@ -80,7 +80,7 @@ valid and useful answer, and it changes how the section is written rather than l
 |---|---|---|---|---|
 | C1 | **Confirmed service list** | ✅ **13 services, organised into 8 families** — see `02_Information-Architecture.md` §4 | — | Resolved |
 | C2 | For each service: what it actually delivers, and one real example | — | 🔴 | Stage 4 |
-| C3 | Technologies genuinely worked in — languages, frameworks, platforms, clouds, databases | `[[TECH_STACK]]` | 🔴 | Stage 6 |
+| C3 | Technologies genuinely worked in — languages, frameworks, platforms, clouds, databases | ⚠ **Confirmed in current Auris-built platforms: React 18, TypeScript, Vite, Tailwind CSS, Supabase/PostgreSQL, Supabase Edge Functions (Deno), Git/GitHub and GitHub Pages. Full current/capable/planned inventory still to be finalised.** | Stage 6 |
 | C4 | Technologies **not** worked in, so the document does not overclaim | — | 🟠 | Stage 6 |
 | C5 | Engagement models offered — fixed price, T&M, managed service, retainer | — | 🟠 | Stage 4 |
 | C6 | Typical project size and duration | — | 🟡 | Stage 4 |
@@ -148,7 +148,7 @@ eligibility, and each must be transcribed from the source document rather than r
 | E7 | B-BBEE level, verification agency, certificate number, expiry | ⚠ **Level 1 confirmed; verification agency, certificate number and expiry still to be captured from certificate** | Stage 9 |
 | E8 | Black ownership and black female ownership percentages | `[[OWNERSHIP_PCT]]` | Stage 9 |
 | E9 | EME / QSE status | `[[ENTERPRISE_SIZE]]` | Stage 9 |
-| E10 | CSD (Central Supplier Database) registration number | ⚠ **Not yet registered; CSD registration planned for 2026-09-19** | Stage 9 |
+| E10 | CSD (Central Supplier Database) registration number | ⚠ **CSD registration confirmed; CSD registration number still to be captured from the company's records** | Stage 9 |
 | E11 | UIF and COIDA registration and letter of good standing | ⚠ **No COIDA registration currently held**; UIF status not yet confirmed | Stage 9 |
 | E12 | Professional memberships — body, number, status | ✅ **None currently held** | — | Resolved |
 | E13 | Certifications **currently held** — ISO, CMMI, vendor | ✅ **None currently held** | — | Resolved |
@@ -224,7 +224,7 @@ A `[[TOKEN]]` count is reported at the close of every stage from Stage 3 onward.
 ## Status at close of Stage 3
 
 **Resolved:** A1 registered name · A3 tagline · A6 logo (rebuild commissioned) · B7 head office
-(city) · C1 service list · primary markets.
+(city) · C1 service list · primary markets · E10 CSD registration (number still to be captured).
 
 **Open tokens carried into Part One copy — 14:**
 
