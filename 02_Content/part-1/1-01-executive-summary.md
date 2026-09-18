@@ -54,8 +54,8 @@ documentation, source access and handover as contractual deliverables rather tha
 courtesies. And we **remain accountable after go-live**, because a system's real character emerges
 under sustained load with real users, not in acceptance testing.
 
-The company was founded in [[FOUNDED_YEAR]] and employs [[HEADCOUNT]] people. We are
-**Level 1** B-BBEE contributors. Tax compliance status: [[TAX_COMPLIANCE_STATUS]]. We are able to
+The company was registered as a South African private company in 2026 and operate with a lean core structure supported by specialist contractors where required. We are
+**Level 1** B-BBEE contributors. SARS tax documentation is held in the company's records. We are able to
 contract through open tender, quotation, panel appointment and framework agreement.
 
 What follows is organised to be read in any order. Each section stands alone. If you have come to
