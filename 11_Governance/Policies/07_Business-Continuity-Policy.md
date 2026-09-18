@@ -2,7 +2,7 @@
 
 **Policy ID:** AUR-POL-007  
 **Version:** 1.0  
-**Effective date:** 18 September 2026  
+**Proposed effective date:** Upon formal approval  
 **Policy owner:** Managing Director  
 **Review cycle:** At least annually and after a material incident
 
