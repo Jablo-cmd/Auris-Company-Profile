@@ -192,8 +192,8 @@ eligibility, and each must be transcribed from the source document rather than r
 
 | # | Item | Token | Priority | Needed by |
 |---|---|---|---|---|
-| H1 | Switchboard, general email, website | `[[CONTACT_MAIN]]` | 🔴 | Stage 9 |
-| H2 | Tender and bid desk contact | `[[TENDER_CONTACT]]` | 🔴 | Stage 9 |
+| H1 | Switchboard, general email, website | ⚠ **General email: sales@aurisnexus.co.za · Website: aurisnexus.co.za; switchboard/telephone not yet recorded in the profile fact base** | 🔴 | Stage 9 |
+| H2 | Tender and bid desk contact | ⚠ **Use sales@aurisnexus.co.za as the tender/business contact unless a dedicated tender contact is later designated** | 🔴 | Stage 9 |
 | H3 | Named contacts by function — sales, delivery, support | — | 🟠 | Stage 9 |
 | H4 | Banking details for supplier onboarding — **stated as available on request, never printed** | — | 🟡 | Stage 9 |
 | H5 | Social and professional profiles | — | 🟡 | Stage 9 |
