@@ -42,5 +42,4 @@ Confirmed misconduct may lead to removal from an engagement, contractual remedie
 ## 10. Legal framework
 This policy is intended to support compliance with applicable South African law, including the Prevention and Combating of Corrupt Activities Act 12 of 2004. It does not replace legal advice.
 
-**Approved by:** Managing Director, Auris Nexus Technologies (Pty) Ltd  
-**Approval date:** 18 September 2026
+**Approval status:** Pending formal approval by the Managing Director
