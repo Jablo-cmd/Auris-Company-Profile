@@ -38,9 +38,9 @@ source. Self-service capability is scoped deliberately — giving operational us
 build their own reports reduces bottleneck on a central team, but only where the underlying data model
 is clean enough that self-service does not produce contradictory numbers across the organisation.
 
-**Technologies currently used:** [[TECH_CURRENT_BI]]
-**Capable of supporting:** [[TECH_CAPABLE_BI]]
-**Planned / future roadmap:** [[TECH_PLANNED_BI]]
+**Technologies currently evidenced:** reporting and data views within Auris-built business platforms; no specific third-party BI vendor is claimed as a standard stack.
+**Capable of supporting:** dashboards, operational reporting and analytics selected according to the client's data environment.
+**Planned / future roadmap:** determined by product and engagement requirements.
 
 ---
 
