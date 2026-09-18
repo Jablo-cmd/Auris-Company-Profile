@@ -38,9 +38,9 @@ well-modelled schema on a lesser database avoids, because the model is what ever
 to work with or around. We treat modelling as a deliverable reviewed on its own merits, not an
 implicit byproduct of development.
 
-**Technologies currently used:** [[TECH_CURRENT_DATA]]
-**Capable of supporting:** [[TECH_CAPABLE_DATA]]
-**Planned / future roadmap:** [[TECH_PLANNED_DATA]]
+**Technologies currently evidenced:** PostgreSQL through Supabase in Auris-built platforms.
+**Capable of supporting:** relational and other data architectures selected according to the workload; no exhaustive database catalogue is claimed.
+**Planned / future roadmap:** determined by product and client requirements.
 
 ---
 
