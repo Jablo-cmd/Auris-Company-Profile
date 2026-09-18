@@ -199,4 +199,4 @@ recorded in the document control table of the final publication.
 | Role | Name | Approval | Date |
 |---|---|---|---|
 | Client sponsor | `[[SPONSOR_NAME]]` | ☐ | |
-| Managing Director | `[[MD_NAME]]` | ☐ | |
+| Managing Director | Loyiso Ngcala | ☐ | |
