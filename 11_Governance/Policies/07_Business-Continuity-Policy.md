@@ -41,5 +41,4 @@ Critical third-party dependencies should be identified and alternative arrangeme
 ## 10. Limitations
 This policy does not claim that Auris currently maintains a certified business-continuity management system or guaranteed recovery time for every service. Client-specific recovery commitments must be stated in the applicable contract or SLA.
 
-**Approved by:** Managing Director, Auris Nexus Technologies (Pty) Ltd  
-**Approval date:** 18 September 2026
+**Approval status:** Pending formal approval by the Managing Director
