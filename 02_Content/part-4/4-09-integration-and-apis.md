@@ -39,9 +39,9 @@ requirement rather than applied by default. Across all integration work, the obj
 holds: systems that should share data do so automatically, removing the manual reconciliation that is
 the actual, lived cost of poor integration.
 
-**Technologies currently used:** [[TECH_CURRENT_INTEGRATION]]
-**Capable of supporting:** [[TECH_CAPABLE_INTEGRATION]]
-**Planned / future roadmap:** [[TECH_PLANNED_INTEGRATION]]
+**Technologies currently evidenced:** API and application integration patterns within Auris-built platforms, including Supabase services and Edge Functions.
+**Capable of supporting:** REST/API-based and other system-to-system integration approaches selected for the target systems.
+**Planned / future roadmap:** determined by product and client integration requirements.
 
 ---
 
