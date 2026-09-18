@@ -83,8 +83,8 @@ from ambitions, and where we are still building something, we say so.
 
 We would welcome the opportunity to be measured against it.
 
-**[[MD_NAME]]**
-[[MD_ROLE]]
+**Loyiso Ngcala**
+Managing Director
 Auris Nexus Technologies
 
 ---
@@ -97,8 +97,7 @@ Auris Nexus Technologies
   behind a desk with folded arms. See `07_Branding/06_Photography-and-Illustration.md` §3.
 - **Signature:** scan at 1200 dpi minimum, convert to vector, place at 100 K. A signature rendered as
   a low-resolution greyscale bitmap is a recognisable production tell.
-- `[[MD_ROLE]]` — confirm whether "Managing Director", "Chief Executive Officer" or "Founder". The
-  running head and contents entry follow from this.
+- The Managing Director role is confirmed as **Managing Director**; the running head and contents entry should use that title.
 - The reference to developing "our own platforms" is supported by the confirmed service list
   (HR & Employee Management Systems, School Management Systems). Any claim about **deployments,
   client counts or uptime** requires `[[PLATFORM_DEPLOYMENTS]]` and is deliberately absent here.
