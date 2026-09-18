@@ -39,9 +39,9 @@ plainly is our resistance to unnecessary technical novelty: a well-understood, w
 technology chosen for its fit to the problem outperforms a fashionable one chosen for its resume
 value, and we design engagements around the former.
 
-**Technologies currently used:** [[TECH_CURRENT_ENGINEERING]]
-**Capable of supporting:** [[TECH_CAPABLE_ENGINEERING]]
-**Planned / future roadmap:** [[TECH_PLANNED_ENGINEERING]]
+**Technologies currently evidenced:** React 18, TypeScript, Vite and Tailwind CSS, alongside Git/GitHub-based source control.
+**Capable of supporting:** additional languages and frameworks selected against project requirements; no exhaustive fixed list is claimed.
+**Planned / future roadmap:** determined per product and client requirements rather than presented as a fixed technology roadmap.
 
 **Code quality regime:** [[CODE_QUALITY_REGIME]] — specific practices (review gates, test coverage
 thresholds, static analysis tooling) are stated here once confirmed, rather than assumed from
