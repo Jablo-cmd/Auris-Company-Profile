@@ -26,6 +26,10 @@ These documents are **internal policies, not certifications**. Their existence m
 | AUR-POL-009 | [Data Retention & Records Management](./Policies/09_Data-Retention-and-Records-Management-Policy.md) | Controlled retention, protection and disposal of records |
 | AUR-POL-010 | [Conflict of Interest](./Policies/10_Conflict-of-Interest-Policy.md) | Identification and management of personal interests affecting decisions |
 
+## Approval record
+
+The one-page [Policy Approval & Adoption Record](./Policy-Approval-Adoption-Record.md) is the formal sign-off document for the complete ten-policy pack. It remains pending signature until the Managing Director executes it.
+
 ## Adoption process
 
 Before these policies are represented externally as **adopted Auris policies**, the Managing Director should:
