@@ -39,5 +39,4 @@ Positive feedback may be recorded and, with appropriate permission, used as a te
 ## 11. Serious matters
 Allegations involving fraud, corruption, discrimination, harassment, security compromise, unlawful conduct or significant safety risk must be escalated immediately.
 
-**Approved by:** Managing Director, Auris Nexus Technologies (Pty) Ltd  
-**Approval date:** 18 September 2026
+**Approval status:** Pending formal approval by the Managing Director
