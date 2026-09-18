@@ -42,9 +42,7 @@ further in Part Six.
 **Security testing regime:** [[SECURITY_TESTING_REGIME]] — penetration testing cadence, tooling and
 provider, once confirmed
 **Incident response process:** [[INCIDENT_RESPONSE_PROCESS]]
-**Certifications held:** [[CERTS_HELD]] — no security certification (ISO 27001 or otherwise) is
-implied until documentary evidence is supplied; this token is intentionally left visible rather than
-populated with an unverified claim
+**Certifications held:** None currently held. No security certification (ISO 27001 or otherwise) is implied.
 
 ---
 
@@ -53,9 +51,7 @@ populated with an unverified claim
 - This is a **high-assurance section** per the client's explicit instruction — the strictest evidence
   standard in the document applies here and is reinforced at 6.4 (POPIA and information security).
   No control, certification or testing claim is stated as fact without verification.
-- `[[CERTS_HELD]]` deliberately duplicates the token used in Part Seven's credentials register — see
-  the content reuse map, `02_Information-Architecture.md` §6, for the owner-section rule once C-level
-  certification facts are confirmed.
+- The certification statement is intentionally explicit: Auris currently holds no security certification.
 - Cross-reference to 6.2 (risk management and business continuity) and 6.4 (POPIA and information
   security) as live `REF` fields — this page states engineering-level security discipline; Part Six
   states organisational governance and compliance posture. Neither repeats the other.
