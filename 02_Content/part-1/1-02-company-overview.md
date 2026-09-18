@@ -26,10 +26,10 @@ status: draft
 ## Copy
 
 **Legal status.** Auris Nexus Technologies is a private company incorporated in the Republic of
-South Africa under registration number [[REG_NO]], established in [[FOUNDED_YEAR]]. Ownership is
-[[OWNERSHIP]]. The company is registered with the South African Revenue Service. Tax compliance
-status: [[TAX_COMPLIANCE_STATUS]]. [[BBBEE_LEVEL]] B-BBEE contributor. Full credentials, with
-certificate references and validity dates, are set out from page 95.
+South Africa under registration number **2026/606690/07**, established in [[FOUNDED_YEAR]]. Ownership is
+**100% privately held**. The company is registered with the South African Revenue Service. Tax compliance
+status: [[TAX_COMPLIANCE_STATUS]]. **Level 1** B-BBEE contributor. Full credentials, with certificate
+references and validity dates, are set out from page 95.
 
 **Location and reach.** Our head office is in Johannesburg, Gauteng — [[HEAD_OFFICE_ADDRESS]]. We
 deliver nationally. Physical proximity matters less than it once did for the engineering itself, but
