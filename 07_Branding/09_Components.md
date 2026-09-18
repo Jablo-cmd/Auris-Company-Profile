@@ -583,8 +583,8 @@ word-processor default, not a design decision.
 │                                       │
 │                                       │
 │  Auris Nexus Technologies (Pty) Ltd   │  Source Sans 3 8.5 pt, Mist
-│  Registration [[REG_NO]]              │
-│  [[HEAD_OFFICE]]                      │
+│  Registration 2026/606690/07              │
+│  Johannesburg, Gauteng                      │
 │  +27 …  ·  …@…  ·  www…               │
 │                                       │
 │  © 2026. Edition 1.                   │  Source Sans 3 7.5 pt, Slate
