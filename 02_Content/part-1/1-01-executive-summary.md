@@ -42,9 +42,7 @@ organisations rely on daily. That responsibility informs how we build everything
 conservatively about complexity, more carefully about failure modes, and more honestly about what a
 timeline actually contains.
 
-We work in ten sectors: government, financial services, education, healthcare, manufacturing,
-security, logistics and transport, property management, professional services, and small and medium
-enterprises. These are regulated, load-bearing environments where systems are not discretionary and
+Our target and active-market sectors include government, financial services, education, healthcare, manufacturing, security, logistics and transport, property management, professional services, and small and medium enterprises. The profile does not treat every sector as a verified historical client reference. These are regulated, load-bearing environments where systems are not discretionary and
 the cost of failure is borne by people who never selected the software. Our delivery methodology,
 our security posture and our support model are shaped by that reality rather than by convenience.
 
