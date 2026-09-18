@@ -39,11 +39,10 @@ Severity tiers, response commitments and escalation are stated precisely in the 
 framework, 5.9, rather than described qualitatively here — a support commitment that cannot be
 checked against a stated number is not a commitment an evaluator can hold us to.
 
-**Support model and tiers:** [[SUPPORT_MODEL]]
-**Hours of cover:** [[SUPPORT_HOURS]] — no "24/7" or business-hours claim is made without
-confirmation
-**Escalation path:** [[ESCALATION_PATH]]
-**Mean time to resolution, by severity:** [[MTTR_TARGET]]
+**Support model and tiers:** Support arrangements are defined according to the engagement and client requirements.
+**Hours of cover:** Agreed per engagement or support contract; no universal 24/7 commitment is claimed.
+**Escalation path:** Defined per engagement, with escalation to the Managing Director where required.
+**Mean time to resolution, by severity:** Agreed per applicable support contract; no universal MTTR target is claimed.
 
 ---
 
