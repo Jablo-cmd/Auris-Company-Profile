@@ -37,9 +37,9 @@ should not resolve alone is a liability, not a capability. Monitoring and audit 
 processes are treated as a build requirement, consistent with the observability discipline described
 in 4.5.
 
-**Technologies currently used:** [[TECH_CURRENT_AUTOMATION]]
-**Capable of supporting:** [[TECH_CAPABLE_AUTOMATION]]
-**Planned / future roadmap:** [[TECH_PLANNED_AUTOMATION]]
+**Technologies currently evidenced:** application workflows and Supabase Edge Functions using Deno in Auris-built platforms; specific RPA products are not claimed.
+**Capable of supporting:** API-driven workflow and business-process automation selected against the client's systems and process requirements.
+**Planned / future roadmap:** determined per product and engagement requirements.
 
 ---
 
