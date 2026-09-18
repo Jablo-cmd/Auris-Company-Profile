@@ -38,5 +38,4 @@ Auris will comply with applicable South African occupational health and safety r
 
 **Important:** This policy does not state that Auris is registered with COIDA or holds any health-and-safety certification. Those credentials will only be stated if separately verified.
 
-**Approved by:** Managing Director, Auris Nexus Technologies (Pty) Ltd  
-**Approval date:** 18 September 2026
+**Approval status:** Pending formal approval by the Managing Director
