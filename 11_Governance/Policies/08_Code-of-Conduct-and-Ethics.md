@@ -40,5 +40,4 @@ Concerns about misconduct should be reported to management. Serious concerns may
 ## 9. Consequences
 Breaches may lead to corrective action, removal from duties, contractual remedies or disciplinary action, subject to applicable law.
 
-**Approved by:** Managing Director, Auris Nexus Technologies (Pty) Ltd  
-**Approval date:** 18 September 2026
+**Approval status:** Pending formal approval by the Managing Director
