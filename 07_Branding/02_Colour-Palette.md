@@ -153,7 +153,7 @@ Measured WCAG 2.1 ratios, computed from the sampled values rather than estimated
 
 The seven part colours are **resampled from the logo's orbit gradient** at intervals chosen to give
 exactly **10 greyscale points of separation** between adjacent parts. The document's navigation
-system is therefore literally the logo's own gradient, unrolled across 112 pages.
+system is therefore literally the logo's own gradient, unrolled across the final assembled profile.
 
 | Part | Name | Hex | On white | On navy | Greyscale |
 |---|---|---|---|---|---|
