@@ -69,7 +69,7 @@ without a second grid.
 | **Two equal** | 6 + 6 | 83 mm each | Comparison layouts |
 | **Three equal** | 4 + 4 + 4 | 54 mm each | Card rows, statistics panels |
 | **Four equal** | 3 + 3 + 3 + 3 | 39.5 mm each | Icon rows, contents grid, chip rows |
-| **Wide + narrow** | 8 + 4 | 112 / 54 mm | Diagram with legend |
+| **Wide + narrow** | 8 + 4 | 55–65 / 54 mm | Diagram with legend |
 | **Offset editorial** | 2 + 10 | Indent 29 mm | Pull-quote and opening spreads |
 
 The 7 + 4 default gives a 61-character primary measure — inside the 55–75 optimum — and a sidebar
