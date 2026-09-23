@@ -19,7 +19,7 @@ portable to InDesign or Affinity Publisher without redesign.
 ```
                     ┌─────────────────────────────┐
                     │   WORD master document      │  ← authoring + design
-                    │   112 pp · A4 · design-grid │
+                    │   55–65 pp · A4 · design-grid │
                     └──────────────┬──────────────┘
                                    │
           ┌────────────────┬───────┴────────┬────────────────┐
@@ -85,7 +85,7 @@ the master itself. The earlier dual-build cost no longer applies.
 | **Safety margin** | **8 mm** inside trim. No critical content, type or logo outside |
 | **Spine allowance** | **10 mm** either side of the spine. No critical content, no faces, no type |
 | **Registration marks** | Crop, bleed, registration, colour bars, page information |
-| **Extent** | 112 pp text + 4 pp cover = 116 pp total, divisible by 4 |
+| **Extent** | 55–65 pp text + 4 pp cover = 116 pp total, divisible by 4 |
 
 ### 2.1 Safety margin raised from 5 mm to 8 mm
 
@@ -148,7 +148,7 @@ Three options:
 
 | Option | Effect | Recommendation |
 |---|---|---|
-| **Accept** | Slight flattening on the Part Seven divider and thumb tab only, on 2 pages of 112 | ✅ **Recommended** — negligible impact |
+| **Accept** | Slight flattening on the Part Seven divider and thumb tab only, on 2 pages of 55–65 | ✅ **Recommended** — negligible impact |
 | Darken to `#00BDC0` | L\* 70, fully in gamut, keeps 10-point greyscale separation | Acceptable if the proof disappoints |
 | Spot ink | Pantone 3252 C as a fifth colour | Not justified for two pages |
 
@@ -417,7 +417,7 @@ Run before every press submission. A failure at any point stops the submission.
 - [ ] 3 mm bleed on every bleeding element — no element stopping at trim
 - [ ] No critical content inside the 8 mm safety margin
 - [ ] No critical content within 10 mm of the spine
-- [ ] Page count 112, divisible by 4
+- [ ] Page count 55–65, divisible by 4
 - [ ] Exported as single pages, not spreads
 
 **Images**
@@ -438,7 +438,7 @@ Run before every press submission. A failure at any point stops the submission.
 - [ ] Scrims composited into images, not applied in the layout
 
 **Document**
-- [ ] Zero `[[TOKENS]]` remaining
+- [ ] Zero `To be confirmed during final production` remaining
 - [ ] All cross-references resolve
 - [ ] Contents matches final pagination
 - [ ] Spine width confirmed against the printer's paper caliper
