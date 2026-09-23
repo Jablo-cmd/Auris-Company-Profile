@@ -339,7 +339,7 @@ requirements:
 | CMYK conversion control | ❌ **Fails** — no control over how the gradient separates |
 
 **The vector rebuild moves from "recommended" to a blocker.** The logo cannot go to press in its
-current form. It appears on 11 of 112 pages including both covers — the two most scrutinised
+current form. It appears on the final assembled profile including both covers — the two most scrutinised
 surfaces in the publication.
 
 Specification for the rebuild is `08_Logo-and-Identity.md` §1: the 3 : 5 apex slope, the 1 u modular
