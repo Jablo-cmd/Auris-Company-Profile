@@ -87,7 +87,7 @@ It is not required before Stage 8 opens, but must close before Stage 12 (quality
 | Claim ID | Section | Claim text | Required supporting evidence | Evidence owner | Status | Risk | Date verified |
 |---|---|---|---|---|---|---|---|
 | CVR-001 | Front matter, MD message | "We are a South African company, based in Johannesburg" | CIPC registration extract; lease or property record for head office | Auris Nexus Technologies | Gated ([[HEAD_OFFICE_ADDRESS]]) | Medium | — |
-| CVR-002 | 1.1 Executive summary | "Auris Nexus Technologies... provides thirteen services across three connected disciplines" | Confirmed service list (already resolved, Fact Register C1) | Auris Nexus Technologies | Verified | Low | 2026-08-02 |
+| CVR-002 | 1.1 Executive summary | "Auris Nexus Technologies... provides the current consolidated solution architecture" | Confirmed service list (already resolved, Fact Register C1) | Auris Nexus Technologies | Verified | Low | 2026-08-02 |
 | CVR-003 | 1.1 Executive summary | Tax compliance status (originally stated as fact; corrected to `[[TAX_COMPLIANCE_STATUS]]`) | Current SARS Tax Compliance Status PIN and validity | Finance / company secretary | Gated ([[TAX_COMPLIANCE_STATUS]], Fact Register E6) | High | — |
 | CVR-004 | 1.2 Company overview | Tax compliance status (same correction as CVR-003) | Current SARS Tax Compliance Status PIN and validity | Finance / company secretary | Gated ([[TAX_COMPLIANCE_STATUS]], Fact Register E6) | High | — |
 | CVR-005 | 1.2 Company overview | "The company is registered with the South African Revenue Service" | Income tax reference number / SARS registration confirmation | Finance / company secretary | Gated ([[TAX_NO]], E4) | High | — |
@@ -96,8 +96,8 @@ It is not required before Stage 8 opens, but must close before Stage 12 (quality
 | CVR-008 | 1.8 Why Auris Nexus | "We are directly reachable, locally accountable and in the same time zone" | Organisational structure confirming no offshore approval layer | Auris Nexus Technologies | Unverified | Low | — |
 | CVR-009 | 1.9 Competitive advantages #4 | "We forgo the cost advantage of offshore delivery" | Delivery location/staffing record | Auris Nexus Technologies | Unverified | Low | — |
 | CVR-010 | 2.1–2.8 (all service spreads) | "Fact callout" proof point per service | A real, named or anonymised delivered example per service | Delivery leadership | Gated ([[PROOF_*]] per service, Fact Register C2) | High | — |
-| CVR-011 | 2.3 Enterprise Management Systems | "We operate our own HR and school management platforms" | Evidence the platforms exist and are in active operation (screenshot, deployment record) | Product/platform owner | Unverified | High | — |
-| CVR-012 | 2.9 Engagement models | Five named commercial models genuinely offered | Sample contracts or rate cards evidencing each of the five models in actual use | Commercial/finance | Unverified | Medium | — |
+| CVR-011 | legacy Enterprise Management Systems section | "We operate our own HR and school management platforms" | Evidence the platforms exist and are in active operation (screenshot, deployment record) | Product/platform owner | Unverified | High | — |
+| CVR-012 | 2.9 Engagement models | Current engagement models in the consolidated master profile genuinely offered | Sample contracts or rate cards evidencing each of the five models in actual use | Commercial/finance | Unverified | Medium | — |
 | CVR-013 | 3.0–3.6 (all industry sections) | Sector challenge/solution/value narrative, general | None required — written as domain knowledge, not a delivery claim | — | Verified as non-claim | Low | 2026-08-02 |
 | CVR-014 | 3.1–3.6 (all industry sections) | Blanket delivery-experience gate | Client references or case studies per sector, once consented | Delivery leadership | Gated ([[SECTORS_DELIVERED]], Fact Register C7) | High | — |
 | CVR-015 | 4.0–4.10 (all technical domains) | Current/capable/planned technology claims | Confirmed technology inventory per domain | Engineering leadership | Gated ([[TECH_CURRENT_*]] etc., Fact Register C3/C4) | High | — |
@@ -128,3 +128,8 @@ in the copy (as with CVR-003/004) and the register keeps the record of that corr
 This register closes — meaning every row reaches **Verified** or the underlying claim is removed from
 the copy — before Stage 12 (quality audit) sign-off, per
 `06_Production-Conventions.md` §9's stage close-out format.
+
+
+## Reconciliation note — 2026-09-23
+
+The former token-driven Parts 1–5 draft set has been superseded. Verification items tied solely to retired sections are historical controls and must not block the consolidated publication. Current publication claims are governed by the master profile, Fact Register and selected-work evidence. No unresolved token may appear in the final Word/PDF output.
