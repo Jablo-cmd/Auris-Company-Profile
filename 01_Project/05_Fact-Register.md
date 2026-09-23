@@ -68,7 +68,7 @@ valid and useful answer, and it changes how the section is written rather than l
 | B4 | Core values — 5 or 6, with what each means in practice | `[[VALUES]]` | 🟠 | Stage 3 |
 | B5 | Milestones for the timeline — 6 to 8, with dates | — | 🟡 | Stage 3 |
 | B6 | Ownership structure and shareholding | ✅ **100% owned by Loyiso Ngcala** | — | Resolved |
-| B7 | Head office | ✅ **Johannesburg, Gauteng** — street address still required as `[[HEAD_OFFICE_ADDRESS]]` | 🟠 | Stage 9 |
+| B7 | Head office | ✅ **Johannesburg, Gauteng** — street address still required as `[[HEAD_OFFICE_ADDRESS]]` | 🟠 | current credentials review |
 | B8 | Geographic operating footprint | `[[FOOTPRINT]]` | 🟠 | Stage 3 |
 | B9 | Current headcount, and split between permanent and contract | `[[HEADCOUNT]]` | 🟠 | Stage 3 |
 
@@ -134,27 +134,27 @@ eligibility, and each must be transcribed from the source document rather than r
 | # | Item | Token | Needed by |
 |---|---|---|---|
 | E1 | Company registration number (CIPC) | ✅ **2026/606690/07** | — | Resolved |
-| E2 | Date of incorporation; company type | `[[INCORP_DATE]]` | Stage 9 |
-| E3 | Directors — full names and identity-document status | `[[DIRECTORS]]` | Stage 9 |
+| E2 | Date of incorporation; company type | `[[INCORP_DATE]]` | current credentials review |
+| E3 | Directors — full names and identity-document status | `[[DIRECTORS]]` | current credentials review |
 | E4 | Income tax reference number | ⚠ **9755014207 — held in company records; do not publish in public repository** | — | Resolved privately |
-| E5 | VAT registration number, if registered | `[[VAT_NO]]` | Stage 9 |
-| E6 | Tax Compliance Status PIN and validity period | `[[TCS_PIN]]` | Stage 9 |
+| E5 | VAT registration number, if registered | `[[VAT_NO]]` | current credentials review |
+| E6 | Tax Compliance Status PIN and validity period | `[[TCS_PIN]]` | current credentials review |
 
 > **Correction (2026-08-02, Claim Verification audit).** Sections 1.1 and 1.2 originally stated
 > "registered and tax compliant" / "holds a valid Tax Compliance Status" as established fact, with
 > only the PIN itself tokenized — asserting the underlying compliance status ahead of E6 resolving.
 > Both were corrected to `[[TAX_COMPLIANCE_STATUS]]`, gating the qualitative claim as well as the PIN.
 > See Claim Verification Register, `01_Project/07_Claim-Verification-Register.md`, CVR-003/CVR-004.
-| E7 | B-BBEE level, verification agency, certificate number, expiry | ⚠ **Level 1 confirmed; verification agency, certificate number and expiry still to be captured from certificate** | Stage 9 |
-| E8 | Black ownership and black female ownership percentages | `[[OWNERSHIP_PCT]]` | Stage 9 |
-| E9 | EME / QSE status | `[[ENTERPRISE_SIZE]]` | Stage 9 |
-| E10 | CSD (Central Supplier Database) registration number | ⚠ **CSD registration confirmed; CSD registration number still to be captured from the company's records** | Stage 9 |
-| E11 | UIF and COIDA registration and letter of good standing | ⚠ **No COIDA registration currently held**; UIF status not yet confirmed | Stage 9 |
+| E7 | B-BBEE level, verification agency, certificate number, expiry | ⚠ **Level 1 confirmed; verification agency, certificate number and expiry still to be captured from certificate** | current credentials review |
+| E8 | Black ownership and black female ownership percentages | `[[OWNERSHIP_PCT]]` | current credentials review |
+| E9 | EME / QSE status | `[[ENTERPRISE_SIZE]]` | current credentials review |
+| E10 | CSD (Central Supplier Database) registration number | ⚠ **CSD registration confirmed; CSD registration number still to be captured from the company's records** | current credentials review |
+| E11 | UIF and COIDA registration and letter of good standing | ⚠ **No COIDA registration currently held**; UIF status not yet confirmed | current credentials review |
 | E12 | Professional memberships — body, number, status | ✅ **None currently held** | — | Resolved |
 | E13 | Certifications **currently held** — ISO, CMMI, vendor | ✅ **None currently held** | — | Resolved |
-| E14 | Certifications **targeted**, with realistic dates | `[[CERTS_PLANNED]]` | Stage 9 |
-| E15 | Vendor and technology partnerships, with the tier actually held | `[[PARTNERS]]` | Stage 9 |
-| E16 | Professional indemnity and public liability cover, with values | `[[INSURANCE]]` — values still required | Stage 9 |
+| E14 | Certifications **targeted**, with realistic dates | `[[CERTS_PLANNED]]` | current credentials review |
+| E15 | Vendor and technology partnerships, with the tier actually held | `[[PARTNERS]]` | current credentials review |
+| E16 | Professional indemnity and public liability cover, with values | `[[INSURANCE]]` — values still required | current credentials review |
 
 ---
 
@@ -162,13 +162,13 @@ eligibility, and each must be transcribed from the source document rather than r
 
 | # | Item | Token | Priority | Needed by |
 |---|---|---|---|---|
-| F1 | Case studies — 2 or 3. Context, challenge, approach, measured outcome | ⚠ **Three evidence-based Auris project studies drafted (Funda360, Sebetsa, CIT Employee & Leave Management System); measured business outcomes are intentionally not claimed until separately evidenced** | 🟠 | Stage 9 |
-| F2 | For each case study: is the client named with **written** permission, or anonymised? | — | 🔴 | Stage 9 |
-| F3 | Testimonials — full text, with name, role, organisation and consent | ⚠ **Two testimonials supplied; first fully attributed to Jo Anne Hand, Owner and Director, Jo Jackson Dance Co and Promotions. Second testimonial text supplied but attribution/consent details are incomplete.** | Stage 9 |
-| F4 | Awards or recognition, with awarding body and year | `[[AWARDS]]` | 🟡 | Stage 9 |
-| F5 | Executive team — 4 to 6. Name, role, qualifications, tenure, short biography | `[[EXEC_TEAM]]` | 🟠 | Stage 9 |
-| F6 | Reference clients contactable by prospective buyers | — | 🟡 | Stage 9 |
-| F7 | Verifiable statistics — projects delivered, uptime achieved, clients retained. **Measured figures only** | `[[STATISTICS]]` | 🟠 | Stage 9 |
+| F1 | Case studies — 2 or 3. Context, challenge, approach, measured outcome | ⚠ **Three evidence-based Auris project studies drafted (Funda360, Sebetsa, CIT Employee & Leave Management System); measured business outcomes are intentionally not claimed until separately evidenced** | 🟠 | current credentials review |
+| F2 | For each case study: is the client named with **written** permission, or anonymised? | — | 🔴 | current credentials review |
+| F3 | Testimonials — full text, with name, role, organisation and consent | ⚠ **Two testimonials supplied; first fully attributed to Jo Anne Hand, Owner and Director, Jo Jackson Dance Co and Promotions. Second testimonial text supplied but attribution/consent details are incomplete.** | current credentials review |
+| F4 | Awards or recognition, with awarding body and year | `[[AWARDS]]` | 🟡 | current credentials review |
+| F5 | Executive team — 4 to 6. Name, role, qualifications, tenure, short biography | `[[EXEC_TEAM]]` | 🟠 | current credentials review |
+| F6 | Reference clients contactable by prospective buyers | — | 🟡 | current credentials review |
+| F7 | Verifiable statistics — projects delivered, uptime achieved, clients retained. **Measured figures only** | `[[STATISTICS]]` | 🟠 | current credentials review |
 
 ---
 
@@ -192,11 +192,11 @@ eligibility, and each must be transcribed from the source document rather than r
 
 | # | Item | Token | Priority | Needed by |
 |---|---|---|---|---|
-| H1 | Switchboard, general email, website | ⚠ **General email: **info@aurisnexus.co.za** · Website: aurisnexus.co.za; switchboard/telephone not yet recorded in the profile fact base** | 🔴 | Stage 9 |
-| H2 | Tender and bid desk contact | ⚠ **Use **info@aurisnexus.co.za** as the tender/business contact unless a dedicated tender contact is later designated** | 🔴 | Stage 9 |
-| H3 | Named contacts by function — sales, delivery, support | — | 🟠 | Stage 9 |
-| H4 | Banking details for supplier onboarding — **stated as available on request, never printed** | — | 🟡 | Stage 9 |
-| H5 | Social and professional profiles | — | 🟡 | Stage 9 |
+| H1 | Switchboard, general email, website | ⚠ **General email: **info@aurisnexus.co.za** · Website: aurisnexus.co.za; switchboard/telephone not yet recorded in the profile fact base** | 🔴 | current credentials review |
+| H2 | Tender and bid desk contact | ⚠ **Use **info@aurisnexus.co.za** as the tender/business contact unless a dedicated tender contact is later designated** | 🔴 | current credentials review |
+| H3 | Named contacts by function — sales, delivery, support | — | 🟠 | current credentials review |
+| H4 | Banking details for supplier onboarding — **stated as available on request, never printed** | — | 🟡 | current credentials review |
+| H5 | Social and professional profiles | — | 🟡 | current credentials review |
 
 > **On H4.** Banking details are never printed in a company profile. The document states that they
 > are available on request, on the company's letterhead, through a verified channel. Printed
@@ -214,7 +214,7 @@ eligibility, and each must be transcribed from the source document rather than r
 | Stage 4 | Group C resolved |
 | Stage 7 | Group D resolved |
 | Stage 8 | Group G resolved |
-| Stage 9 | Groups E, F, H resolved |
+| current credentials review | Groups E, F, H resolved |
 | Stage 12 | **Zero** |
 
 A `[[TOKEN]]` count is reported at the close of every stage from Stage 3 onward.
@@ -241,3 +241,8 @@ A `[[TOKEN]]` count is reported at the close of every stage from Stage 3 onward.
 4. **F5** executive team — blocks the 7.8 spread
 5. **E7** `[[BBBEE_LEVEL]]` — a mandatory tender returnable
 6. **B3/B4** — approve or amend the proposed vision, mission and values in `02_Content/part-1/`
+
+
+## Consolidated-profile rule — 2026-09-23
+
+The current profile uses evidence classes: **Delivered**, **Current capability**, **Available capability**, and **Planned**. Missing documentary credentials remain unclaimed. The public profile does not publish tax numbers, personal identity information, private PINs or unverified compliance status.
