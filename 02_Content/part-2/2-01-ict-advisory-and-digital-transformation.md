@@ -1,132 +1,83 @@
 ---
 section: "2.1"
-title: "ICT Advisory and Digital Transformation"
-part: "Two — Services"
-pages: [26, 27]
+title: "Custom Business Software"
+part: "Two — Solutions"
+pages: [20, 21]
 archetype: H
-words_target: 660
-words_actual: 668
+words_target: 650
+words_actual: 0
 figures: []
 tables: []
-icons: ["fa-compass-drafting"]
-images: ["img-p026-advisory-session"]
-tokens: ["[[TECH_STACK_ADVISORY]]", "[[PROOF_ADVISORY]]"]
-status: draft
+icons: ["fa-code"]
+images: []
+tokens: []
+status: strategic rewrite
 ---
 
-# 2.1 ICT Advisory and Digital Transformation
+# 2.1 Custom Business Software
 
-**Layout:** Archetype H, the fixed ten-block service template. See
-`01_Project/04_Page-by-Page-Outline.md` §4 for block positions.
+## Build the system around the way the organisation actually works.
 
----
+When an important business process lives across spreadsheets, email, paper, WhatsApp and disconnected applications, the problem is usually bigger than the individual tools. Information becomes duplicated, approvals become difficult to trace and management loses a reliable operational view.
 
-## ① Service title
+Auris Nexus designs and builds custom business software around the actual workflow.
 
-ICT Advisory and Digital Transformation
-*Services covered: IT consulting · digital transformation consulting*
+### What we build
 
----
+- HR and employee management systems
+- Leave and approval platforms
+- CRM and customer-management systems
+- School and learner-management platforms
+- Operations management systems
+- Internal administration tools
+- Client and customer portals
+- Management dashboards
+- Workflow-driven business applications
 
-## ② Standfirst (40–55 words)
+### How we approach it
 
-> Before a system is built, a decision has to be right. We advise on that decision — what an
-> organisation should build, in what order, and whether software is the correct answer at all —
-> independently of who ends up building it.
+We first map the people, process, records, permissions and decisions involved. We then design the system around those realities.
 
----
+This can include:
 
-## ③ Description
+1. **Process mapping** — understand how the work happens today.
+2. **Role definition** — establish who can view, create, approve and manage information.
+3. **Data design** — define the records and relationships the system needs.
+4. **Experience design** — create interfaces that make the workflow understandable.
+5. **Engineering** — build the application, integrations and supporting services.
+6. **Testing and release** — validate the system before production use.
+7. **Support and enhancement** — keep the platform useful as requirements evolve.
 
-Most technology failures are decided before a single line of code is written. A specification gets
-built from an assumption rather than an observation, a vendor is selected before the requirement is
-understood, or a transformation programme is scoped around a target operating model nobody has
-tested against how the organisation actually works. ICT Advisory exists to catch that failure at the
-point it is cheapest to fix — before commitment, not after.
+### Why organisations choose custom software
 
-Digital Transformation Consulting extends the same discipline to a larger unit of change: not a
-single system but how an organisation's processes, structures and technology need to move together.
-We assess current-state operations against what the organisation is trying to achieve, identify where
-technology is genuinely the constraint and where it is not, and sequence the change so that each
-phase is independently justifiable rather than dependent on a multi-year programme landing intact.
+Custom software is appropriate when the organisation's process is important enough to justify a system designed around it, or when available off-the-shelf products create more compromises than value.
 
----
+The goal is not to make a system more complicated. It is to make the important work more controlled, visible and repeatable.
 
-## ④ Problems this solves
+### Demonstrated capability
 
-- A technology decision is being made under pressure, without independent scrutiny of the assumptions
-  behind it
-- A previous system or vendor selection did not deliver the outcome its business case promised
-- Digital transformation has stalled, or is proceeding as a technology programme with no clear
-  operating-model target
-- Leadership needs a defensible, evidence-based case for a technology investment before it goes to a
-  board or a funder
+**Funda360** demonstrates multi-tenant school-management software, role-based access and data-layer controls. **LOGIOS OS** demonstrates modular logistics operations software. **CIT Employee & Leave Management System** demonstrates business software built around a single organisation's HR workflow.
 
----
+These are development and project records; they are not presented as independent certifications or guaranteed business outcomes.
 
-## ⑤ Business benefits
+### Business value
 
-- Investment decisions are tested against operational reality before capital is committed, not after
-- Technology and process change are sequenced together, reducing the rework that follows when they are
-  planned separately
-- An independent advisory voice — not tied to downstream build revenue — on whether a proposed system
-  is the right answer
-- A prioritised, phased roadmap that produces value at each stage rather than only at completion
+A well-designed business system can give an organisation:
 
----
+- One structured source of operational information
+- Better visibility into work and approvals
+- Clearer accountability
+- Reduced duplication
+- More consistent processes
+- Better reporting
+- A platform that can evolve with the organisation
 
-## ⑥ Typical deliverables
-
-- Current-state assessment and capability gap analysis
-- Options appraisal with an explicit recommendation and its rejected alternatives
-- Business case, including assumptions stated rather than embedded
-- Digital transformation roadmap, phased and independently justifiable per phase
-- Technology and vendor selection support, run independently of build engagements
-- Operating-model target definition
-- Executive and steering-committee briefing materials
-- Benefits realisation framework, defined before the programme starts
-
----
-
-## ⑦ Technologies used
-
-[[TECH_STACK_ADVISORY]] — advisory is methodology-led rather than platform-led; where a specific
-enterprise architecture or assessment framework is used, it draws from the confirmed stack in
-`04_Technical Capabilities`, section 4.0.
-
----
-
-## ⑧ Ideal client profile
-
-An organisation facing a technology or transformation decision with material cost of being wrong —
-a board-level investment, a multi-year programme, or a decision made under regulatory or funder
-scrutiny — that wants the recommendation tested independently of who will eventually build it.
-
----
-
-## ⑨ Expected outcomes
-
-- A documented, evidence-based rationale for the chosen direction, defensible to a board or auditor
-- Fewer downstream change requests, because assumptions were tested before build began
-- A phased roadmap in which each stage delivers standalone value
-- Reduced exposure to a single vendor's framing of the problem
-
----
-
-## ⑩ Industries served
-
-Relevant across all ten sectors we serve — government, financial services, education, healthcare,
-manufacturing, security, logistics and transport, property management, professional services, and
-small and medium enterprises — since the advisory discipline precedes the system, not the sector.
+**The question is not “Can Auris build software?” The question is “What should the software make easier for your organisation?”**
 
 ---
 
 ## Production notes
 
-- **Fact callout, lower recto:** [[PROOF_ADVISORY]] — a specific, real advisory engagement outcome.
-  Per Fact Register **C2** (🔴 critical, unresolved), no illustrative example is invented here; the
-  callout remains an open token until supplied.
-- Image: unposed advisory working session — whiteboard or process-mapping in progress, not a
-  boardroom stock photograph.
-- Bold-lead discipline (Layer 2) is not used on this template; the ten-block structure itself carries
-  the skim layer. Do not add bold sentences inside blocks — it competes with the block headings.
+- Use Funda360, LOGIOS OS and CIT as evidence panels.
+- Avoid generic “enterprise platform” language unless the engagement genuinely requires it.
+- Keep measurable outcomes out unless separately evidenced.
