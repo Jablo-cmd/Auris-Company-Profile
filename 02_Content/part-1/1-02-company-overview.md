@@ -1,76 +1,66 @@
 ---
 section: "1.2"
-title: "Company overview"
+title: "Company Overview"
 part: "One — The Company"
-pages: [11]
-archetype: C
-words_target: 420
-words_actual: 424
-figures: ["fig-1.0-footprint-map"]
-tables: []
-icons: ["fa-sitemap"]
-images: []
-tokens: ["[[REG_NO]]", "[[FOUNDED_YEAR]]", "[[OWNERSHIP]]", "[[HEADCOUNT]]", "[[HEADCOUNT_SPLIT]]", "Johannesburg, Gauteng", "[[BBBEE_LEVEL]]", "[[TAX_COMPLIANCE_STATUS]]"]
-status: draft
+status: approved master draft
 ---
 
-# 1.2 Company overview
+# 1.2 Company Overview
 
-**Standfirst**
+## Who we are
 
-> A private company incorporated in South Africa, operating nationally from Johannesburg across
-> thirteen service lines and ten sectors.
+**Auris Nexus Technologies (Pty) Ltd** is a South African-owned technology business focused on designing and building digital systems that help organisations operate, serve customers and manage information more effectively.
 
----
+Our work spans software, digital experiences, automation and data. We can work on a focused business website, a workflow that needs automation, an internal business system, a customer or stakeholder portal, or a broader platform that connects several operational functions.
 
-## Copy
+## Company at a glance
 
-**Legal status.** Auris Nexus Technologies is a private company incorporated in the Republic of
-South Africa under registration number **2026/606690/07**, registered as a South African private company in 2026. Ownership is
-**100% owned by Loyiso Ngcala**. The company is registered with the South African Revenue Service. Tax compliance
-status: [[TAX_COMPLIANCE_STATUS]]. **Level 1** B-BBEE contributor. Full credentials, with certificate
-references and validity dates, are set out from page 95.
+| Item | Detail |
+|---|---|
+| Legal name | Auris Nexus Technologies (Pty) Ltd |
+| CIPC registration | 2026/606690/07 |
+| Ownership | 100% South African-owned |
+| B-BBEE | Level 1 |
+| CSD | Registered; number to be inserted after record verification |
+| Head office | 140 Linden Road, Sandown, Sandton, Gauteng, South Africa |
+| Email | info@aurisnexus.co.za |
+| Phone / WhatsApp | 063 122 6552 |
+| Website | aurisnexus.co.za |
+| Positioning | Transforming Businesses Through Technology |
 
-**Location and reach.** Our head office is in Johannesburg, Gauteng — [[HEAD_OFFICE_ADDRESS]]. We
-deliver nationally. Physical proximity matters less than it once did for the engineering itself, but
-it matters considerably for the parts of the work that determine whether a system succeeds:
-discovery sessions with the people who will actually use it, training that is attended rather than
-recorded, and the ability to be present when something goes wrong. We are direct about the practical
-consequence — our clients meet the people who will do the work, and decisions are not referred
-offshore for approval.
+## What we do
 
-**People.** Auris operates with a lean core structure supported by specialist contractors where required; a fixed headcount figure is not used in this profile. Our teams are organised
-around capability rather than around clients, so that the specialist who is right for a problem is
-assigned to it regardless of which account it belongs to. The operating model is described in
-section 1.10.
+Our current solution portfolio is organised around eight connected areas:
 
-**What we do.** Thirteen services in eight families, spanning advisory, engineering and managed
-operation:
+1. **Custom Business Software** — systems, portals, workflows and operational platforms built around a real business process.
+2. **Business Automation** — approvals, notifications, repetitive administration, document workflows and system hand-offs.
+3. **Web Development** — business websites, web applications, portals and digital products.
+4. **Web Design & UX** — responsive, mobile-first and conversion-aware user experiences.
+5. **Mobile Applications** — customer, field and operational mobile applications.
+6. **AI Solutions** — practical AI applied to real workflows, information and decision-support use cases.
+7. **Data & Business Intelligence** — dashboards, reporting, analytics and operational visibility.
+8. **Data, Integration and Ongoing Support** — APIs, data exchange, migrations, maintenance and continued improvement.
 
-- **Advise** — ICT consulting; digital transformation consulting
-- **Build** — custom software development; HR and employee management systems; school management
-  systems; business process automation; web design and development; search engine optimisation;
-  mobile application development; UI/UX design
-- **Run** — cloud solutions; API integration; website maintenance and support
+A single engagement may combine several of these capabilities. The solution is shaped around the organisation's needs rather than around a fixed service package.
 
-The full portfolio, with deliverables, technologies and expected outcomes for each family, begins on
-page 24.
+## How we operate
 
-**Target and active markets.** Government, financial services, education, healthcare, manufacturing, security, logistics and transport, property management, professional services, and small and medium enterprises. Sector-specific treatment begins on page 44; inclusion does not by itself represent a named client reference in every sector.
+Auris maintains a lean core operating model and can bring in specialist capability when a project requires it. This allows the business to stay close to the client while matching the engineering capability to the problem at hand.
 
-**How we contract.** Fixed price, time and materials, managed service, retained advisory and
-outcome-based engagement. We are able to be appointed through open tender, request for quotation,
-panel and framework arrangements, and direct appointment where regulations permit. Procurement routes
-by sector are set out on page 58.
+Our delivery principle is straightforward:
 
----
+**Understand → Define → Design → Build → Test → Deploy → Support & Improve**
 
-## Production notes
+We use version-controlled development, structured data controls, testing and documented engineering practices appropriate to the solution. Where a client requires specific contractual service levels, support arrangements and governance controls, these are defined in the engagement rather than implied by the company profile.
 
-- **Figure 1.0** — South African outline with Johannesburg marked, national coverage indicated. Flat
-  vector, Orbit Deep fill, Auris Cyan marker, no drop shadow. Placed in the 4-column sidebar.
-- Every fact on this page is owned by a section in Part Seven. This page **cross-references** those
-  owners; it does not restate them independently. See `02_Information-Architecture.md` §6.
-- The service list is the owner reference for the Advise/Build/Run taxonomy used on p. 24.
-- Do not add a founding narrative here — that is 1.3, and duplication between the two is the most
-  common redundancy in company profiles.
+## Business contexts
+
+Our strongest current evidence is in education, logistics and transport, professional and corporate services, energy and technical services, and facilities and operational services. We also target opportunities in government, healthcare, manufacturing, retail, construction, financial and advisory services, renewable energy, hospitality and property/facilities. Target-market coverage should not be read as a claim of historical delivery in every listed sector.
+
+## What makes the model useful
+
+The value of working with Auris is not a long list of technologies. It is the connection between business understanding and engineering execution.
+
+We can help an organisation move from a manual process to a digital workflow, from fragmented information to a system of record, from a static website to a useful digital channel, or from an existing system that has become restrictive to a platform that better reflects the organisation's current needs.
+
+That is the role Auris is built to play: **understand the work, build the technology around it and stay close enough to improve it.**
