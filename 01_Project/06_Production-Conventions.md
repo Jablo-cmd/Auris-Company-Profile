@@ -77,7 +77,7 @@ figures: []
 tables: []
 icons: ["fa-shield-halved"]
 images: []
-tokens: ["[[CERTS_HELD]]"]
+tokens: ["To be confirmed during final production"]
 status: draft | review | approved
 ---
 ```
@@ -219,4 +219,4 @@ Every stage closes with the same four-part report:
 3. **Recommendations** — improvements identified, ranked by impact
 4. **Approval checklist** — explicit items to confirm before the next stage opens
 
-Plus, from Stage 3 onward: an open `[[TOKEN]]` count against the Fact Register.
+Plus, from Stage 3 onward: an open `To be confirmed during final production` count against the Fact Register.
