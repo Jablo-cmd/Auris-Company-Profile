@@ -1,223 +1,237 @@
-# Auris Nexus Technologies (Pty) Ltd — Corporate Profile
+# Auris Nexus Technologies (Pty) Ltd — Company Profile
 
-Production repository for the flagship corporate publication: a 112-page A4 company profile for
-tenders, procurement, enterprise sales, investor and partner engagement.
+Production repository for Auris Nexus Technologies' corporate company profile, capability material and evidence-controlled publication assets.
 
-**Current stage:** 7 — Project Delivery · *drafted, awaiting approval*
+**Current strategic direction:** a commercially focused, evidence-led company profile that positions Auris Nexus as a practical South African technology partner — not as a large multinational consultancy.
 
-> **Note on sequencing.** Per the client's standing rule (confirmed 2026-08-02): the Stage 3 approval
-> gate remains open **only** for the seven strategic identity items (see below) — it does not block
-> later stages. Content production continues in parallel wherever a stage depends only on verified
-> facts or clearly marked `[[TOKENS]]`. Stages 4–7 were all drafted on this basis.
->
-> **Note on Stage 6.** Every technology and capability claim in Part Four is split into three
-> explicit states — **currently used**, **capable of supporting**, **planned / future roadmap** —
-> rather than resolved as one undifferentiated stack. No specific language, framework, cloud
-> platform, certification or maturity rating is named until Fact Register **C3/C4/C8–C13** resolve.
->
-> **Note on Stage 7.** No formal PMO, ITIL service desk, DevSecOps pipeline, ISO-certified quality
-> system or SLA catalogue is implied. The 15-phase delivery lifecycle (5.0) describes structure and
-> gate logic, not a claimed methodology — agile/waterfall/hybrid, PM certifications, support model and
-> every SLA figure remain open tokens (Fact Register **D1–D10**). A **Claim Verification Register**
-> was introduced this stage — see below.
+**Primary positioning:** **Transforming Businesses Through Technology**
+
+**Current master content source:** [02_Content/00_Master-Company-Profile.md](02_Content/00_Master-Company-Profile.md)
 
 ---
 
-## Deliverables
+## What this profile is designed to do
 
-### Project planning — [01_Project/](01_Project/)
+The profile must help a prospective client, procurement team, corporate partner, funder or institutional stakeholder answer five questions quickly:
 
-| File | Contents |
-|---|---|
-| [00_Project-Charter.md](01_Project/00_Project-Charter.md) | Purpose, objectives, audiences, scope, governing principles, risks, method |
-| [01_Publication-Strategy.md](01_Project/01_Publication-Strategy.md) | Positioning, competitive frame, three-layer reading model, voice and register, evidence policy |
-| [02_Information-Architecture.md](01_Project/02_Information-Architecture.md) | Part structure, section architecture, pagination rules, navigation, content reuse map |
-| [03_Table-of-Contents.md](01_Project/03_Table-of-Contents.md) | The published contents spread and reader-routing panel |
-| [04_Page-by-Page-Outline.md](01_Project/04_Page-by-Page-Outline.md) | All 112 pages: archetype, payload, visuals, icons, editable objects |
-| [05_Fact-Register.md](01_Project/05_Fact-Register.md) | **Input required from the company** — 60 items across eight groups |
-| [06_Production-Conventions.md](01_Project/06_Production-Conventions.md) | Stage gates, naming, word budgets, terminology, Word and PDF standards |
-| [07_Claim-Verification-Register.md](01_Project/07_Claim-Verification-Register.md) | **Introduced Stage 7** — every challengeable claim in the copy, traced to required evidence, owner, status and risk rating |
-| [08_Project-Handover-Brief.md](01_Project/08_Project-Handover-Brief.md) | **Client-issued checkpoint** — non-negotiable rules, progress to date, remaining stages and quality target in one self-contained brief |
+1. **Who is Auris Nexus?**
+2. **What can Auris Nexus actually build and deliver?**
+3. **What evidence demonstrates that capability?**
+4. **How does Auris Nexus work with clients?**
+5. **What is the next commercial step?**
 
-### Content — [02_Content/](02_Content/)
+The governing narrative is:
 
-| File | Section | Words |
-|---|---|---|
-| [0-06-md-message.md](02_Content/part-1/0-06-md-message.md) | Managing Director's message | 683 |
-| [1-01-executive-summary.md](02_Content/part-1/1-01-executive-summary.md) | 1.1 Executive summary | 424 |
-| [1-02-company-overview.md](02_Content/part-1/1-02-company-overview.md) | 1.2 Company overview | 380 |
-| [1-03-our-story.md](02_Content/part-1/1-03-our-story.md) | 1.3 Our story | 404 |
-| [1-04-vision-and-mission.md](02_Content/part-1/1-04-vision-and-mission.md) | 1.4 Vision and mission — **proposed** | 414 |
-| [1-05-core-values.md](02_Content/part-1/1-05-core-values.md) | 1.5 Core values — **proposed** | 529 |
-| [1-06-business-philosophy.md](02_Content/part-1/1-06-business-philosophy.md) | 1.6 Business philosophy | 450 |
-| [1-07-corporate-identity-and-brand-promise.md](02_Content/part-1/1-07-corporate-identity-and-brand-promise.md) | 1.7 Corporate identity and brand promise | 416 |
-| [1-08-why-auris-nexus.md](02_Content/part-1/1-08-why-auris-nexus.md) | 1.8 Why Auris Nexus Technologies | 838 |
-| [1-09-competitive-advantages.md](02_Content/part-1/1-09-competitive-advantages.md) | 1.9 Competitive advantages | 598 |
-| [1-10-operating-model.md](02_Content/part-1/1-10-operating-model.md) | 1.10 Our operating model | 376 |
-| [2-00-service-portfolio.md](02_Content/part-2/2-00-service-portfolio.md) | 2.0 Service portfolio and taxonomy | 384 |
-| [2-01-ict-advisory-and-digital-transformation.md](02_Content/part-2/2-01-ict-advisory-and-digital-transformation.md) | 2.1 ICT Advisory and Digital Transformation | 668 |
-| [2-02-custom-software-development.md](02_Content/part-2/2-02-custom-software-development.md) | 2.2 Custom Software Development | 651 |
-| [2-03-enterprise-management-systems.md](02_Content/part-2/2-03-enterprise-management-systems.md) | 2.3 Enterprise Management Systems | 655 |
-| [2-04-business-process-automation.md](02_Content/part-2/2-04-business-process-automation.md) | 2.4 Business Process Automation | 647 |
-| [2-05-web-design-and-development.md](02_Content/part-2/2-05-web-design-and-development.md) | 2.5 Web Design and Development | 642 |
-| [2-06-mobile-application-development.md](02_Content/part-2/2-06-mobile-application-development.md) | 2.6 Mobile Application Development | 638 |
-| [2-07-experience-design.md](02_Content/part-2/2-07-experience-design.md) | 2.7 Experience Design | 634 |
-| [2-08-cloud-integration-and-managed-support.md](02_Content/part-2/2-08-cloud-integration-and-managed-support.md) | 2.8 Cloud, Integration and Managed Support | 662 |
-| [2-09-engagement-models.md](02_Content/part-2/2-09-engagement-models.md) | 2.9 Engagement and commercial models | 158 |
-| [3-00-sector-coverage.md](02_Content/part-3/3-00-sector-coverage.md) | 3.0 Sector coverage | 371 |
-| [3-01-public-sector.md](02_Content/part-3/3-01-public-sector.md) | 3.1 Public sector | 792 |
-| [3-02-knowledge-and-human-services.md](02_Content/part-3/3-02-knowledge-and-human-services.md) | 3.2 Knowledge and human services | 761 |
-| [3-03-financial-services.md](02_Content/part-3/3-03-financial-services.md) | 3.3 Financial services | 758 |
-| [3-04-industrial-and-resources.md](02_Content/part-3/3-04-industrial-and-resources.md) | 3.4 Industrial and resources | 774 |
-| [3-05-commerce-and-movement.md](02_Content/part-3/3-05-commerce-and-movement.md) | 3.5 Commerce and movement | 748 |
-| [3-06-property-security-professional-services.md](02_Content/part-3/3-06-property-security-professional-services.md) | 3.6 Property, security and professional services | 779 |
-| [3-07-sector-engagement-and-procurement-routes.md](02_Content/part-3/3-07-sector-engagement-and-procurement-routes.md) | 3.7 Sector engagement and procurement routes | 152 |
-| [4-00-technology-stack.md](02_Content/part-4/4-00-technology-stack.md) | 4.0 Technology stack | 366 |
-| [4-01-software-engineering.md](02_Content/part-4/4-01-software-engineering.md) | 4.1 Software engineering | 417 |
-| [4-02-solution-and-enterprise-architecture.md](02_Content/part-4/4-02-solution-and-enterprise-architecture.md) | 4.2 Solution and enterprise architecture | 411 |
-| [4-03-cloud-and-infrastructure.md](02_Content/part-4/4-03-cloud-and-infrastructure.md) | 4.3 Cloud and infrastructure | 408 |
-| [4-04-cybersecurity.md](02_Content/part-4/4-04-cybersecurity.md) | 4.4 Cybersecurity | 414 |
-| [4-05-devops-and-platform-engineering.md](02_Content/part-4/4-05-devops-and-platform-engineering.md) | 4.5 DevOps and platform engineering | 405 |
-| [4-06-data-platforms-and-databases.md](02_Content/part-4/4-06-data-platforms-and-databases.md) | 4.6 Data platforms and databases | 402 |
-| [4-07-artificial-intelligence.md](02_Content/part-4/4-07-artificial-intelligence.md) | 4.7 Artificial intelligence | 419 |
-| [4-08-automation.md](02_Content/part-4/4-08-automation.md) | 4.8 Automation | 396 |
-| [4-09-integration-and-apis.md](02_Content/part-4/4-09-integration-and-apis.md) | 4.9 Integration and APIs | 401 |
-| [4-10-bi-analytics-and-reporting.md](02_Content/part-4/4-10-bi-analytics-and-reporting.md) | 4.10 BI, analytics and reporting | 403 |
-| [4-11-capability-and-technology-comparison.md](02_Content/part-4/4-11-capability-and-technology-comparison.md) | 4.11 Capability and technology comparison | 149 |
-| [5-00-delivery-lifecycle.md](02_Content/part-5/5-00-delivery-lifecycle.md) | 5.0 The delivery lifecycle | 388 |
-| [5-01-discovery-requirements-and-planning.md](02_Content/part-5/5-01-discovery-requirements-and-planning.md) | 5.1 Discovery, requirements and planning | 411 |
-| [5-02-analysis-architecture-and-uiux.md](02_Content/part-5/5-02-analysis-architecture-and-uiux.md) | 5.2 Analysis, architecture and UI/UX | 405 |
-| [5-03-development.md](02_Content/part-5/5-03-development.md) | 5.3 Development | 402 |
-| [5-04-testing-qa-and-security-testing.md](02_Content/part-5/5-04-testing-qa-and-security-testing.md) | 5.4 Testing, QA and security testing | 413 |
-| [5-05-deployment-and-training.md](02_Content/part-5/5-05-deployment-and-training.md) | 5.5 Deployment and training | 398 |
-| [5-06-support-and-maintenance.md](02_Content/part-5/5-06-support-and-maintenance.md) | 5.6 Support and maintenance | 407 |
-| [5-07-continuous-improvement.md](02_Content/part-5/5-07-continuous-improvement.md) | 5.7 Continuous improvement | 389 |
-| [5-08-delivery-governance-and-assurance.md](02_Content/part-5/5-08-delivery-governance-and-assurance.md) | 5.8 Delivery governance and assurance | 251 |
-| [5-09-service-level-framework.md](02_Content/part-5/5-09-service-level-framework.md) | 5.9 Service level framework | 154 |
+**Business problem → Solution → Engineering → Evidence → Business value → Partnership**
 
-### Design system — [07_Branding/](07_Branding/)
-
-| File | Contents |
-|---|---|
-| [08_Logo-and-Identity.md](07_Branding/08_Logo-and-Identity.md) | **Analysis of the supplied mark** — geometry, colour sampling, lockups, clear space, minimum sizes, misuse, production gaps |
-| [01_Design-Language.md](07_Branding/01_Design-Language.md) | "Ascent and Orbit" — principles, the two logo-derived motifs, prohibitions, watermark, greyscale behaviour |
-| [02_Colour-Palette.md](07_Branding/02_Colour-Palette.md) | Palette sampled from the logo, measured contrast ratios, part ramp, documented deviations, print specification |
-| [03_Typography.md](07_Branding/03_Typography.md) | Wordmark analysis, typefaces, fallback matrix, 25-level type scale, detail rules, Word styles |
-| [04_Grid-and-Spacing.md](07_Branding/04_Grid-and-Spacing.md) | A4 format, margins, 12-column grid, 5 mm baseline, spacing scale, white-space budget |
-| [05_Iconography.md](07_Branding/05_Iconography.md) | Font Awesome 6 Sharp Regular system, sizes, semantic register, production |
-| [06_Photography-and-Illustration.md](07_Branding/06_Photography-and-Illustration.md) | Art direction, subject matter, consent and rights, 16 photographic positions |
-| [07_Diagram-Style.md](07_Branding/07_Diagram-Style.md) | Diagram vocabulary, construction rules, 14 diagrams, charts, tables, editability |
-| [09_Components.md](07_Branding/09_Components.md) | **24 components** — cover, dividers, headers, callouts, cards, tables, panels, footers, back cover |
-| [10_Print-Production.md](07_Branding/10_Print-Production.md) | **Offset press specification** — production model, page geometry, CMYK gamut analysis, transparency policy, print-safe typography, image requirements, stock and finishing, preflight, proofing |
+The document should feel credible, capable and commercially useful. It should not rely on inflated corporate language, unsupported statistics, invented clients, unverified certifications or claims of scale that cannot be evidenced.
 
 ---
 
-## Publication at a glance
+## Company facts currently approved for publication
 
-| | |
+| Item | Current fact |
 |---|---|
-| **Primary output** | **Commercial sheet-fed offset** · PDF/X-4 · FOGRA39 |
-| Master tool | Microsoft Word, composed to publishing standards, InDesign-portable |
-| Format | A4 portrait, 210 × 297 mm · 3 mm bleed · 8 mm safety |
-| Extent | 112 pages, PUR perfect bound, ~8 mm spine |
-| Stock | 150 gsm matt coated text · 300 gsm cover, matt laminated, spot UV |
-| Structure | 7 parts, 78 sections |
-| Grid | 12 columns × 5 mm baseline |
-| Palette | Nexus Navy `#001A48` · Auris Cyan `#098FB4` — sampled from the logo |
-| Governing angle | 3 : 5 (31°) — measured from the logo apex |
-| Type | Saira · Source Sans 3 · Source Serif 4 |
-| Components | 24 |
-| Drafted extent | ~34 000 words · **~24 550 written** (Parts One–Five) |
-| Diagrams | 14, all editable |
-| Tables | 21, all editable |
-| Photography | 16 positions |
-| Editions | Master 112 pp · Tender short-form 24 pp · Executive brief 12 pp · Capability statement 2 pp |
+| Legal name | Auris Nexus Technologies (Pty) Ltd |
+| CIPC registration | 2026/606690/07 |
+| Ownership | 100% South African-owned |
+| B-BBEE | Level 1 |
+| CSD | Registered |
+| Head office | 140 Linden Road, Sandown, Sandton, Gauteng, South Africa |
+| General contact | info@aurisnexus.co.za |
+| Website | aurisnexus.co.za |
+| Phone / WhatsApp | 063 122 6552 |
+| Positioning | Transforming Businesses Through Technology |
+
+Credentials, certifications, statistics, client references and performance claims remain subject to the Fact Register and Claim Verification Register.
+
+---
+
+## Profile architecture
+
+The previous 112-page architecture was useful as a planning exercise but was too broad for the current commercial objective. The publication is now being consolidated around a more focused master profile.
+
+### Part 1 — Auris Nexus
+
+- Who we are
+- Executive overview
+- Company overview
+- Purpose and values
+- Why organisations engage Auris Nexus
+- Operating model
+
+### Part 2 — Solutions
+
+- Custom Business Software
+- Business Automation
+- Web Development
+- Web Design & UX
+- Mobile Applications
+- AI Solutions
+- Data & Business Intelligence
+- Data, Integration and Ongoing Support
+- Engineering foundations
+
+### Part 3 — Business Contexts
+
+- Education
+- Logistics and Transport
+- Professional and Corporate Services
+- Energy and Technical Services
+- Facilities and operational services
+- Government and public sector
+- Other target sectors, clearly labelled as target markets where direct evidence is not available
+
+### Part 4 — Engineering Capability
+
+- Software engineering
+- Architecture
+- Data and databases
+- Security and privacy
+- Integration and APIs
+- Automation
+- AI
+- Analytics and reporting
+- Deployment and maintainability
+
+### Part 5 — Delivery
+
+- Understand
+- Define
+- Design
+- Build
+- Test
+- Deploy
+- Support and improve
+
+### Part 6 — Business Excellence
+
+- Quality and delivery governance
+- Security and privacy
+- Client partnership
+- Evidence standards
+- Responsible engineering
+
+### Part 7 — Credentials and Evidence
+
+- Corporate credentials
+- Governance and policies
+- Case studies
+- Testimonials and references where formally attributable
+- Supporting evidence
+
+### Part 8 — Engage Auris Nexus
+
+- Engagement models
+- Partnership routes
+- Procurement readiness
+- Contact
+- Clear next step
+
+---
+
+## Evidence discipline
+
+Every material claim should be classed as one of:
+
+- **Delivered** — supported by a real project or client record.
+- **Current capability** — demonstrated by Auris-built systems or engineering work.
+- **Available capability** — can be scoped and delivered for an engagement.
+- **Planned** — future roadmap or product development.
+
+The profile must never blur these categories.
+
+Do not publish:
+
+- Unsupported project counts
+- Unsupported integration counts
+- Unsupported retention or uptime figures
+- Unverified client logos
+- Certifications that have not been earned
+- Formal SLA performance without contract evidence
+- “Market leader”, “world-class”, “best”, “largest” or similar claims without defensible evidence
+- Enterprise-scale staffing or delivery claims that do not match the actual operating structure
+
+---
+
+## Current evidence base
+
+The strongest current proof points are:
+
+### Funda360
+Auris-owned multi-tenant school-management SaaS platform demonstrating role-based access, structured data, school administration workflows and full-stack engineering.
+
+### Sebetsa
+Auris-owned facilities/workforce operations platform demonstrating the application of reusable software foundations to distributed operational workflows.
+
+### LOGIOS OS
+Auris-owned logistics operations platform demonstrating modular, multi-tenant operational software across scheduling, jobs, incidents, fleet, drivers, customers, compliance and reporting.
+
+### CIT Employee & Leave Management System
+Business-system development demonstrating employee records, leave workflows, approvals and role-based HR administration.
+
+### Pro Energy Solutions
+Corporate website delivery demonstrating responsive web development, information architecture, technical SEO and performance optimisation.
+
+Measured outcomes should only be published where evidence has been captured.
+
+---
+
+## Current solution architecture
+
+Auris Nexus' commercial service story is intentionally simpler than the previous 13-service taxonomy:
+
+1. **Custom Business Software**
+2. **Business Automation**
+3. **Web Development**
+4. **Web Design & UX**
+5. **Mobile Applications**
+6. **AI Solutions**
+7. **Data & Business Intelligence**
+8. **Data, Integration and Ongoing Support**
+
+Cloud, security, data architecture and infrastructure remain engineering foundations that are incorporated where the solution requires them.
+
+This reflects the current Auris website positioning, which describes the business around practical business problems rather than a long technology catalogue. urlCurrent Auris Nexus solutionshttps://aurisnexus.co.za/services.html
 
 ---
 
 ## Repository structure
 
-| Folder | Contents | Populated at |
-|---|---|---|
-| [01_Project/](01_Project/) | Charter, strategy, IA, page plan, fact register, conventions | Stage 1 ✅ |
-| [02_Content/](02_Content/) | Written copy, one file per section | Stages 3–9 · **Parts One–Five ✅** |
-| [03_Images/](03_Images/) | Art direction, shot lists, licensed and commissioned assets | Stage 10 |
-| [04_Icons/](04_Icons/) | Icon register and SVG assets | Stages 2, 10 |
-| [05_Diagrams/](05_Diagrams/) | Diagram specifications and editable sources | Stages 6, 7, 10 |
-| [06_Tables/](06_Tables/) | Table specifications and editable sources | Stages 6, 9, 10 |
-| [07_Branding/](07_Branding/) | The design system | Stage 1 ✅ |
-| [08_Word/](08_Word/) | Word master, template, style definitions | Stage 11 |
-| [09_PDF/](09_PDF/) | Press, screen and tender PDF variants | Stage 11 |
-| [10_Output/](10_Output/) | Final approved editions | Stage 12 |
+| Folder | Purpose |
+|---|---|
+| [01_Project](01_Project/) | Charter, strategy, information architecture, facts, production rules and claim verification |
+| [02_Content](02_Content/) | Master profile and publication copy |
+| [03_Images](03_Images/) | Photography, supplied imagery and image specifications |
+| [04_Icons](04_Icons/) | Icon register and assets |
+| [05_Diagrams](05_Diagrams/) | Editable diagram specifications and sources |
+| [06_Tables](06_Tables/) | Editable table specifications |
+| [07_Branding](07_Branding/) | Visual identity and document design system |
+| [08_Word](08_Word/) | Final Word master and styles |
+| [09_PDF](09_PDF/) | Screen, tender and print PDF outputs |
+| [10_Output](10_Output/) | Approved publication editions |
+| [11_Governance](11_Governance/) | Corporate policies and approval records |
 
 ---
 
-## Stage plan
+## Production sequence
 
-| Stage | Deliverable | Status |
-|---|---|---|
-| 1 | Project planning and publication blueprint | ✅ Approved |
-| 2 | Document design system — 24 components, identity, print production | ✅ Frozen |
-| 3 | Company foundation — Part One + MD message | ⏳ Awaiting approval — 7 strategic items held, see below |
-| 4 | Services — Part Two, 10 sections | ⏳ Drafted, awaiting approval |
-| 5 | Industries — Part Three, 8 sections, 15 industries in 6 clusters | ⏳ Drafted, awaiting approval |
-| 6 | Technical capabilities — Part Four, 12 sections | ⏳ Drafted, awaiting approval |
-| 7 | Project delivery — Part Five, 10 sections | ⏳ Drafted, awaiting approval |
-| 8 | Business excellence | Not started |
-| 9 | Credentials | Not started |
-| 10 | Visual content | Not started |
-| 11 | Final document assembly | Not started |
-| 12 | Quality review and audit | Not started |
+1. **Truth layer** — resolve facts, evidence and claim status.
+2. **Master content** — keep the master profile as the strategic source.
+3. **Section copy** — reconcile Part 1–8 content to the master.
+4. **Case studies** — strengthen evidence without inventing outcomes.
+5. **Visual system** — build diagrams, tables and page components from approved copy.
+6. **Word production** — compose the master publication.
+7. **PDF production** — generate screen/tender/print editions.
+8. **Quality audit** — perform content, factual, visual and procurement-readiness checks.
+9. **Short-form editions** — derive the executive profile and capability statement from the approved master.
 
 ---
 
-## Outstanding input
+## Quality target
 
-### Strategic identity — held for collaborative development, not client input alone
+The final company profile should leave a serious reader with a clear impression:
 
-Per client direction (2026-08-02), the following are **not approved** and must not be treated as
-final. They are drafted as proposals only, each marked with a `[[TOKEN]]` and a ⚠ warning block in
-its source file, and will be developed jointly before freezing:
+> **Auris Nexus understands business problems, can engineer practical technology around them, has real systems to demonstrate its capability, and is structured to work professionally with organisations that need technology to perform.**
 
-1. Vision Statement — [1-04-vision-and-mission.md](02_Content/part-1/1-04-vision-and-mission.md)
-2. Mission Statement — [1-04-vision-and-mission.md](02_Content/part-1/1-04-vision-and-mission.md)
-3. Core Values — [1-05-core-values.md](02_Content/part-1/1-05-core-values.md)
-4. Brand Promise — [1-07-corporate-identity-and-brand-promise.md](02_Content/part-1/1-07-corporate-identity-and-brand-promise.md)
-5. Founding Story — [1-03-our-story.md](02_Content/part-1/1-03-our-story.md)
-6. Company Milestones — [1-03-our-story.md](02_Content/part-1/1-03-our-story.md)
-7. Operating Capability Structure — [1-10-operating-model.md](02_Content/part-1/1-10-operating-model.md)
-
-### Factual input
-
-Stage 4 content depended only on the confirmed service list (Fact Register **C1**). Per-service real
-examples (**C2**, 🔴 critical), engagement-model duration norms (**C6**, 🟡 standard) and delivered-
-vs-targeted sector experience (**C7**, 🔴 critical) remain open tokens throughout Part Two.
-
-Stage 5 content depended only on the confirmed fifteen-industry structure
-(`02_Information-Architecture.md` §4, Part Three). Every sector cluster is written as general
-challenge/solution/value/technology context — **no specific delivery claim is made in any sector**
-until **C7** resolves; `[[SECTORS_DELIVERED]]` appears in every Part Three file for this reason.
-
-Stage 6 content depended only on the fixed technical-domain structure
-(`02_Information-Architecture.md` §4, Part Four). No specific language, framework, cloud platform,
-database, security control, certification, hyperscaler partner status or capability-maturity rating
-is named — each is split into **currently used / capable of supporting / planned** and left as an
-open token pending **C3, C4, C8–C13**. Six new Group C sub-items (C8–C13) were added at this stage;
-see the register for detail.
-
-Stage 7 content depended only on the fixed 15-phase/5-stage lifecycle structure
-(`02_Information-Architecture.md` §4, Part Five). No methodology, PM certification, support model,
-support hours, escalation path, or SLA severity/response/restoration/availability figure is stated —
-each remains an open token pending **D1–D10**, four of which (D7–D10) were added at this stage.
-
-### Claim verification
-
-A **Claim Verification Register** — [07_Claim-Verification-Register.md](01_Project/07_Claim-Verification-Register.md)
-— was introduced at Stage 7. It tracks every statement in the drafted copy that a procurement
-committee, auditor or evaluator could challenge, whether or not it is already tokenized, through to
-documentary evidence. Part Five is fully audited; Parts One–Four have a targeted pass only, with a
-full line-by-line audit still owed before Stage 12. The first pass already caught and corrected one
-real gap: 1.1 and 1.2 stated tax compliance as established fact with no token — see Fact Register
-**E6**'s correction note.
-
-Full register: [05_Fact-Register.md § Minimum viable input](01_Project/05_Fact-Register.md).
+That is more valuable than sounding larger than the company actually is.
