@@ -1,74 +1,36 @@
 ---
 section: "1.1"
-title: "Executive summary"
+title: "Executive Overview"
 part: "One — The Company"
-pages: [10]
-archetype: C
-words_target: 420
-words_actual: 431
-figures: []
-tables: []
-icons: ["fa-file-lines"]
-images: []
-tokens: ["[[FOUNDED_YEAR]]", "[[HEADCOUNT]]", "[[BBBEE_LEVEL]]", "[[TAX_COMPLIANCE_STATUS]]"]
-status: draft
+status: approved master draft
 ---
 
-# 1.1 Executive summary
+# 1.1 Executive Overview
 
-**Standfirst**
+**Technology should make the organisation work better.**
 
-> Auris Nexus Technologies designs, builds and operates the software systems that South African
-> organisations depend on to function. This document sets out what we do, how we deliver it, and the
-> evidence on which that account rests.
+Auris Nexus Technologies (Pty) Ltd is a South African technology company that designs and builds practical digital systems around the way organisations actually work.
 
----
+We work where business processes, people and technology meet: custom business software, web platforms, automation, mobile applications, AI integration, data and business intelligence, and the supporting engineering required to keep those solutions useful over time.
 
-## Copy
+Our approach is deliberately business-first. We do not begin with a technology stack and look for somewhere to use it. We begin by understanding the process, the people involved, the information that moves through it and the outcome the organisation needs. We then design the smallest practical solution that can solve the problem properly and give the organisation room to grow.
 
-Auris Nexus Technologies is a South African information and communications technology company based
-in Johannesburg. We provide thirteen services across three connected disciplines: **advising** on
-what an organisation should build, **building** it, and **running** it once it is live.
+Auris develops both client solutions and its own software platforms. Our evidence portfolio includes Funda360, a school-management platform; Sebetsa, a workforce and facilities-operations platform; LOGIOS OS, a logistics operations platform; CIT Employee & Leave Management; and corporate digital work such as the Pro Energy Solutions website.
 
-That span is deliberate, and it is unusual at our scale. Most firms of comparable size occupy one
-position — consultancies that advise without building, development houses that build without
-advising, or support providers that maintain systems they did not design. Each hands off at a
-boundary, and those boundaries are where accountability is lost. We hold all three, so that the
-organisation that recommended an approach is the organisation answerable for whether it worked.
+Our engineering foundation includes React, TypeScript, Vite, Tailwind CSS, PostgreSQL, Supabase, Deno Edge Functions, Git/GitHub and application capabilities such as authentication, role-based access control, multi-tenancy, dashboards, workflows and APIs. Technology is selected according to the solution rather than treated as the product itself.
 
-Alongside client engineering we develop our own platforms — **HR and employee management** and
-**school management systems** — which places us in the position of operating software that other
-organisations rely on daily. That responsibility informs how we build everything else: more
-conservatively about complexity, more carefully about failure modes, and more honestly about what a
-timeline actually contains.
+Auris is 100% South African-owned and operates from Sandown, Sandton, Gauteng. The company is registered with CIPC under **2026/606690/07** and holds **B-BBEE Level 1** status. CSD registration is confirmed; the registration number is maintained in the company's procurement records and will be inserted into the final profile once verified.
 
-Our target and active-market sectors include government, financial services, education, healthcare, manufacturing, security, logistics and transport, property management, professional services, and small and medium enterprises. The profile does not treat every sector as a verified historical client reference. These are regulated, load-bearing environments where systems are not discretionary and
-the cost of failure is borne by people who never selected the software. Our delivery methodology,
-our security posture and our support model are shaped by that reality rather than by convenience.
+We are particularly relevant to organisations with processes that have become difficult to manage manually: information spread across spreadsheets, repetitive administration, disconnected systems, approval bottlenecks, limited operational visibility, outdated internal tools or a need for a better digital experience for customers, staff, learners or other stakeholders.
 
-Our approach rests on three commitments. We **listen before specifying**, because most failed systems
-solved a problem that had been described rather than understood. We **build for continuity**, treating
-documentation, source access and handover as contractual deliverables rather than professional
-courtesies. And we **remain accountable after go-live**, because a system's real character emerges
-under sustained load with real users, not in acceptance testing.
+The commercial relationship can begin with a defined build, modernisation of an existing system, a focused pilot or a longer-term technology partnership. The objective is the same: understand the problem, build what is needed, deliver it responsibly and create a clear path for what comes next.
 
-The company was registered as a South African private company in 2026 and operate with a lean core structure supported by specialist contractors where required. We are
-**Level 1** B-BBEE contributors. SARS tax documentation is held in the company's records. We are able to
-contract through open tender, quotation, panel appointment and framework agreement.
+> **Transforming Businesses Through Technology**
 
-What follows is organised to be read in any order. Each section stands alone. If you have come to
-this document to verify a specific credential, the Company at a Glance panel on page 8 and the
-Credentials section from page 95 will answer you directly.
+Auris Nexus does not need to be the biggest technology company in the room. We need to be able to understand the problem, engineer the solution and remain accountable for the work.
 
 ---
 
-## Production notes
+## Evidence note
 
-- **This section is written last** and revised after every subsequent stage. It is the only page in
-  the publication that must remain accurate against all 111 others.
-- Three inline statistics sit in the outer margin as component C15 figures, drawn from 7.7. Do not
-  populate until `[[STATISTICS]]` resolves — an empty statistic is better than an invented one.
-- Cross-references to p. 8 and p. 95 are live `REF` fields, never typed.
-- The "unusual at our scale" claim in paragraph two is defensible from the confirmed service list and
-  is the document's central differentiation. It recurs in 1.8 and 1.9 and must stay consistent in all
-  three.
+This overview uses verified company facts and current capability statements. It does not claim project counts, client counts, measured ROI, uptime, certifications, formal SLA commitments or sector delivery experience where those items have not been independently recorded in the Fact Register.
