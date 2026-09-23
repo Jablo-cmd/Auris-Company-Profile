@@ -5,7 +5,7 @@
 **Stage:** 2 — Document Design System
 **Status:** Draft for approval · **freezes on approval**
 
-Twenty-four components cover all 112 pages. Every one is specified to the millimetre against the
+Twenty-four components cover the final assembled profile. Every one is specified to the millimetre against the
 12-column grid and the 5 mm baseline. Nothing in the publication is improvised.
 
 **Reference dimensions.** Column 10.5 mm · gutter 4 mm · live area 170 × 255 mm · baseline 5 mm ·
