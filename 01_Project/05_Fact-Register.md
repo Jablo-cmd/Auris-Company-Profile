@@ -46,7 +46,7 @@ valid and useful answer, and it changes how the section is written rather than l
 |---|---|---|---|---|
 | A1 | Full registered name | ✅ **Auris Nexus Technologies** | — | Resolved |
 | A2 | Trading name, if different | `[[TRADING_NAME]]` | 🟡 | Stage 3 |
-| A3 | Tagline / descriptor line | ✅ **Connecting Innovation. Delivering Impact.** | — | Resolved |
+| A3 | Tagline / descriptor line | ✅ **Transforming Businesses Through Technology** | — | Resolved |
 | A4 | Meaning intended by "Auris Nexus" — confirm or correct the *listen / connect* derivation used in §1.7 | `[[NAME_MEANING]]` | 🟠 | Stage 3 |
 | A5 | Does a brand or identity manual exist? | — | 🟠 | Stage 2 |
 | A6 | Logo files (SVG or AI preferred) and existing brand colour values | `[[BRAND_COLOURS]]` | 🔴 | Stage 2 |
@@ -192,8 +192,8 @@ eligibility, and each must be transcribed from the source document rather than r
 
 | # | Item | Token | Priority | Needed by |
 |---|---|---|---|---|
-| H1 | Switchboard, general email, website | ⚠ **General email: sales@aurisnexus.co.za · Website: aurisnexus.co.za; switchboard/telephone not yet recorded in the profile fact base** | 🔴 | Stage 9 |
-| H2 | Tender and bid desk contact | ⚠ **Use sales@aurisnexus.co.za as the tender/business contact unless a dedicated tender contact is later designated** | 🔴 | Stage 9 |
+| H1 | Switchboard, general email, website | ⚠ **General email: **info@aurisnexus.co.za** · Website: aurisnexus.co.za; switchboard/telephone not yet recorded in the profile fact base** | 🔴 | Stage 9 |
+| H2 | Tender and bid desk contact | ⚠ **Use **info@aurisnexus.co.za** as the tender/business contact unless a dedicated tender contact is later designated** | 🔴 | Stage 9 |
 | H3 | Named contacts by function — sales, delivery, support | — | 🟠 | Stage 9 |
 | H4 | Banking details for supplier onboarding — **stated as available on request, never printed** | — | 🟡 | Stage 9 |
 | H5 | Social and professional profiles | — | 🟡 | Stage 9 |
