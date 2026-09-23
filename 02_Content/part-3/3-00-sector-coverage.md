@@ -1,62 +1,53 @@
 ---
 section: "3.0"
-title: "Sector coverage"
-part: "Three — Industries"
-pages: [44, 45]
-archetype: F
-words_target: 380
-words_actual: 371
-figures: ["fig-3.0-sector-service-matrix"]
-tables: []
-icons: ["fa-layer-group"]
-images: []
-tokens: ["[[SECTORS_DELIVERED]]"]
-status: draft
+title: "Business Contexts"
+part: "Three — Business Contexts"
+status: strategic rewrite
 ---
 
-# 3.0 Sector coverage
+# 3.0 Business Contexts
 
-**Layout:** Archetype F, extended across the spread. Sector × service matrix dominant, framing copy
-in the sidebar, verso.
+Auris Nexus works across sectors because the operational problems behind technology projects are often similar: manual processes, fragmented information, disconnected systems, weak visibility and growing administrative load.
 
----
+Our sector positioning therefore combines **demonstrated relevance** with **target-market capability**.
 
-## Copy
+## Areas where our work already demonstrates relevance
 
-**Standfirst**
+### Education
+Funda360 provides direct evidence of Auris capability in school-management software, multi-tenant platforms, learner and staff workflows, portals, permissions and operational reporting.
 
-> Fifteen industries, six clusters, one question the matrix on this page is built to answer: where do
-> we operate, and at what depth.
+### Logistics & Transport
+LOGIOS OS demonstrates Auris capability in logistics-oriented operational software covering scheduling, jobs, incidents, fleet, drivers, customers, compliance and reporting.
 
----
+### Professional & Corporate Services
+The CIT Employee & Leave Management System demonstrates business software for employee records, leave workflows, approvals and internal administration.
 
-### Copy
+### Energy & Technical Services
+The Pro Energy Solutions website demonstrates corporate digital presence, responsive development, technical SEO, information architecture and performance optimisation.
 
-A sector list states presence. It does not state depth, and a supplier equally "present" in fifteen
-industries by having once sent a proposal to each is not a credible claim of fluency in any of them.
-The matrix on this spread maps our fifteen mandated industries against our eight service families, so
-a reader can see where genuine capability and sector context intersect, rather than reading a name
-and inferring depth that may not exist.
+### Facilities & Operational Services
+Sebetsa demonstrates Auris capability in workforce, site and operational management software.
 
-We group the fifteen industries into six clusters — public sector; knowledge and human services;
-financial services; industrial and resources; commerce and movement; and property, security and
-professional services — because these groupings reflect how the sectors actually share regulatory
-regimes, procurement mechanisms and system landscapes, not because grouping them is more convenient
-to write. Each cluster receives its own full treatment over the following pages: the challenges
-specific to it, the solutions we bring, the business value at stake, and the technology opportunities
-each presents.
+## Other target markets
 
-**[[SECTORS_DELIVERED]]** — this page distinguishes sectors we have delivered in from sectors we are
-positioned to serve. Until that split is confirmed, the matrix marks depth by service relevance only,
-not by delivery history.
+Auris Nexus can also support organisations in:
 
----
+- Government and public sector
+- Healthcare
+- Manufacturing
+- Retail and commerce
+- Construction
+- Financial and advisory services
+- Renewable energy
+- Hospitality
+- Property and facilities
 
-## Production notes
+Where a sector is not backed by a documented engagement in this profile, it is presented as a **target market**, not as an established client track record.
 
-- **Figure 3.0** — sector × service matrix, fifteen rows (industries) by eight columns (service
-  families), component G-derived grid. Cell marking is **relevance**, not delivery history, until
-  `[[SECTORS_DELIVERED]]` resolves — do not shade cells to imply prior delivery.
-- Sector and cluster names must match `02_Information-Architecture.md` §4, Part Three, exactly.
-- This page is the owner reference for "industries served" cross-references used throughout Part Two
-  service spreads — see the content reuse map, `02_Information-Architecture.md` §6.
+## The common thread
+
+We are strongest where an organisation needs technology to make an important process:
+
+**clearer → faster → more controlled → more visible → more scalable.**
+
+The sector provides the context. The business problem determines the solution.
