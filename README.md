@@ -235,3 +235,56 @@ The final company profile should leave a serious reader with a clear impression:
 > **Auris Nexus understands business problems, can engineer practical technology around them, has real systems to demonstrate its capability, and is structured to work professionally with organisations that need technology to perform.**
 
 That is more valuable than sounding larger than the company actually is.
+
+
+## Visual direction — Corporate flagship edition
+
+The finished profile must look like a serious boardroom publication, not a marketing brochure.
+
+### Design language
+
+**Auris Nexus = precision, confidence, restraint.**
+
+- A4 portrait, premium corporate report/editorial treatment.
+- Strong Nexus Navy foundation with controlled Auris Cyan accents.
+- Generous white space; never overcrowd a page.
+- Saira for display hierarchy; Source Sans 3 for readable corporate copy; Source Serif 4 only for selected editorial moments.
+- Large, disciplined headings and short paragraphs.
+- Fine rules, structured grids, restrained data panels and strong alignment.
+- Authentic contemporary business imagery; no generic “stock tech” clichés.
+- Engineered diagrams: clean nodes, consistent line weights, simple labels, no decorative 3D effects.
+- Procurement-friendly tables with clear hierarchy and generous spacing.
+- Case studies should feel like evidence dossiers: context → solution → engineering → significance → evidence status.
+- Part openers should create impact through scale, typography, navy fields and disciplined geometry.
+- Cyan is a signal, not a flood colour.
+- No gradients outside the approved logo artwork.
+- No glassmorphism, neon effects, excessive rounded cards, fake dashboards or startup-pitch aesthetics.
+- The visual treatment must never make Auris look like a freelancer, small design studio or generic IT reseller.
+
+### Premium finish
+
+The “million-dollar” impression comes from **craft, hierarchy and restraint**, not decoration.
+
+Every spread must pass:
+1. **Boardroom test** — executive-ready.
+2. **Procurement test** — facts are easy to find and trust.
+3. **Engineering test** — the visual language communicates real technical capability.
+
+### Cover direction
+
+The front cover is deliberately quiet:
+
+**AURIS NEXUS**  
+**Transforming Businesses Through Technology**
+
+Strong Nexus Navy, precise logo treatment, restrained cyan geometry and one carefully selected business/technology image or architectural crop.
+
+The back cover is a commercial close: concise value proposition, contact details, website and a clear invitation to engage.
+
+### Production hierarchy
+
+**Flagship:** polished PDF / print profile  
+**Editable derivative:** professionally styled Word document  
+**Short-form derivatives:** executive profile, capability statement, education profile, corporate/enterprise profile, government/institutional profile.
+
+The same visual system must carry across every derivative.
