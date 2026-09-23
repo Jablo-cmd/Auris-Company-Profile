@@ -51,7 +51,7 @@ Primary output is commercial sheet-fed offset. Full specification in `10_Print-P
 | C17 | Running header | all | p. 10 |
 | C18 | Footer and folio | all | p. 10 |
 | C19 | Watermark | B, I | p. 9 |
-| C20 | Back cover | A | p. 112 |
+| C20 | Back cover | A | p. 55–65 |
 | C21 | Thumb tab | B | p. 9 |
 | C22 | Contents block | I | p. 4 |
 | C23 | Portrait card | J | p. 104 |
@@ -281,12 +281,12 @@ procurement officer reaches first.
 │  ═══════════════════════════════════════════      │  1 pt Nexus Navy rule
 │                                                   │
 │  REGISTERED NAME        REGISTRATION NO.          │  labels: Saira Medium
-│  Auris Nexus …          [[REG_NO]]                │  8.5 pt +80 UPPER Slate
+│  Auris Nexus …          To be confirmed during final production                │  8.5 pt +80 UPPER Slate
 │                                                   │
 │  ─────────────────      ─────────────────         │  values: Source Sans 3
 │                                                   │  10 pt Graphite, tabular
 │  B-BBEE LEVEL           TAX STATUS                │
-│  [[BBBEE_LEVEL]]        [[TCS_STATUS]]            │  hairline 0.3 pt Slate
+│  To be confirmed during final production        To be confirmed during final production            │  hairline 0.3 pt Slate
 │                                                   │  between rows
 └───────────────────────────────────────────────────┘
 ```
@@ -298,7 +298,7 @@ procurement officer reaches first.
 | Value | Source Sans 3 Regular 10 pt, Graphite, **tabular figures** |
 | Row separator | 0.3 pt Slate hairline, full cell width |
 | Padding | `space-5` (15 mm) field padding, `space-2` (5 mm) between rows |
-| Unknowns | Rendered as the visible `[[TOKEN]]` until resolved. Never left blank, never guessed |
+| Unknowns | Rendered as the visible `To be confirmed during final production` until resolved. Never left blank, never guessed |
 
 ---
 
@@ -547,7 +547,7 @@ Auris Nexus Technologies · Corporate Profile 2026   42
 | Status line | Saira Regular 7.5 pt, Slate, flush **inner** |
 | Folio | Saira Medium 9 pt, +20, Nexus Navy, flush **outer**, baseline 258 mm |
 | Numbering | Continuous arabic from p. 1 |
-| Suppressed on | pp. 1, 2, 111, 112 and all part dividers |
+| Suppressed on | pp. 1, 2, 111, 55–65 and all part dividers |
 
 Folio flush **outer**, not centred: a thumbing reader sees the outer edge first. Centred folios are a
 word-processor default, not a design decision.
