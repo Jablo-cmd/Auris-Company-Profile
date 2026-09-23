@@ -74,7 +74,7 @@ targeted audit of Parts One–Five has begun and already identified and correcte
 claim (tax-compliance wording in 1.1/1.2 — see Fact Register **E6** correction note). Future stages
 continue auditing as drafting proceeds, per `07_Claim-Verification-Register.md` §7.
 
-**Current word count:** approximately 24 500+ words drafted.
+**Current word count:** approximately consolidated master content drafted.
 
 ---
 
@@ -121,7 +121,7 @@ compromises in quality are acceptable.
 
 This brief's remaining-stage list (§5) is more granular in places than the original Stage 1 stage
 table in `06_Production-Conventions.md` §1: it names **Closing Matter** as its own stage (the
-front-matter-equivalent closing pages, 109–112, not separately broken out in the original table) and
+front-matter-equivalent closing pages, 109–55–65, not separately broken out in the original table) and
 splits the original **Stage 11 — Assembly** into **Word Production** and **Final Print Production**,
 with **Quality Assurance** (originally Stage 12) sitting between them rather than last.
 
@@ -131,3 +131,8 @@ current statement of the remaining sequence, and `06_Production-Conventions.md` 
 cross-reference note to this section rather than a rewritten table. Confirm before Stage 11 whether
 Word Production and Final Print Production should formally become distinct Word-master gates, or
 whether this is descriptive shorthand for the same Stage 11 Assembly work.
+
+
+## Current publication rule
+
+The consolidated master profile is now the only publication source of truth. Retired legacy drafts in `02_Content/part-1` through `part-5` are not to be assembled into Word or PDF. Final production must contain no unresolved tokens, no superseded service taxonomy and no unsupported credentials or client claims.
