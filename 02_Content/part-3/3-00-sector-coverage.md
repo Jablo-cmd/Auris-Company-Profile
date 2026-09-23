@@ -1,53 +1,48 @@
 ---
 section: "3.0"
-title: "Business Contexts"
+title: "Industries We Serve"
 part: "Three — Business Contexts"
-status: strategic rewrite
+status: approved master draft
 ---
 
-# 3.0 Business Contexts
+# 3.0 Industries We Serve
 
-Auris Nexus works across sectors because the operational problems behind technology projects are often similar: manual processes, fragmented information, disconnected systems, weak visibility and growing administrative load.
+Different industries have different pressures. Our technology is therefore shaped around the organisation rather than forced into a generic model.
 
-Our sector positioning therefore combines **demonstrated relevance** with **target-market capability**.
+## Medical Practices & Healthcare
 
-## Areas where our work already demonstrates relevance
+Medical practices manage sensitive information, administration, communication and patient expectations every day.
 
-### Education
-Funda360 provides direct evidence of Auris capability in school-management software, multi-tenant platforms, learner and staff workflows, portals, permissions and operational reporting.
+Auris Nexus can support practices with professional websites, patient-facing digital experiences, secure portals, enquiry pathways, appointment-related workflows, dashboards, administrative automation and reporting.
 
-### Logistics & Transport
-LOGIOS OS demonstrates Auris capability in logistics-oriented operational software covering scheduling, jobs, incidents, fleet, drivers, customers, compliance and reporting.
+The objective is to reduce administrative friction while creating a clearer experience for patients and staff. Healthcare solutions involving patient information are scoped with appropriate privacy, security, access-control and regulatory requirements.
 
-### Professional & Corporate Services
-The CIT Employee & Leave Management System demonstrates business software for employee records, leave workflows, approvals and internal administration.
+## Schools & Educational Institutions
 
-### Energy & Technical Services
-The Pro Energy Solutions website demonstrates corporate digital presence, responsive development, technical SEO, information architecture and performance optimisation.
+Schools manage learners, guardians, educators, attendance, academics, finance, communication and administration across multiple processes.
 
-### Facilities & Operational Services
-Sebetsa demonstrates Auris capability in workforce, site and operational management software.
+**Funda360**, an Auris-owned school-management platform, provides direct evidence of capability in learner and guardian access, educator and staff management, attendance, academics, homework, finance, HR, leave, role-based access, reporting and multi-tenant architecture.
+
+The objective is a more connected school environment and clearer access for parents and guardians.
+
+## Small & Medium Enterprises
+
+SMEs often reach a point where spreadsheets, email, paper processes and disconnected applications begin to slow growth.
+
+Auris Nexus can build or improve corporate websites, customer portals, CRM systems, employee platforms, workflow automation, dashboards, internal systems, mobile applications, reporting environments and AI-enabled workflows.
+
+The approach is practical: solve the highest-value problem first, establish a sound foundation and expand as the organisation grows.
+
+## Professional & Corporate Services
+
+The CIT Employee & Leave Management System demonstrates capability in employee records, leave workflows, approvals, role-based access and HR administration.
+
+## Logistics, Facilities & Operations
+
+LOGIOS OS and Sebetsa demonstrate capability in logistics operations, workforce management, scheduling, jobs, incidents, fleet, drivers, site operations, reporting and role-aware workflows.
 
 ## Other target markets
 
-Auris Nexus can also support organisations in:
+Government and public sector, manufacturing, retail, construction, financial and advisory services, renewable energy, hospitality, energy and property/facilities.
 
-- Government and public sector
-- Healthcare
-- Manufacturing
-- Retail and commerce
-- Construction
-- Financial and advisory services
-- Renewable energy
-- Hospitality
-- Property and facilities
-
-Where a sector is not backed by a documented engagement in this profile, it is presented as a **target market**, not as an established client track record.
-
-## The common thread
-
-We are strongest where an organisation needs technology to make an important process:
-
-**clearer → faster → more controlled → more visible → more scalable.**
-
-The sector provides the context. The business problem determines the solution.
+Where direct engagement evidence is unavailable, the sector is presented as a target market rather than an established client track record.
