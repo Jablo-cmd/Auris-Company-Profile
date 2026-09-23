@@ -1,57 +1,45 @@
 ---
 section: "4.4"
-title: "Cybersecurity"
-part: "Four — Technical Capabilities"
-pages: [65]
-archetype: C
-words_target: 420
-words_actual: 414
-figures: []
-tables: []
-icons: ["fa-shield-halved"]
-images: []
-tokens: ["[[TECH_CURRENT_SECURITY]]", "[[TECH_CAPABLE_SECURITY]]", "[[SECURITY_TESTING_REGIME]]", "[[INCIDENT_RESPONSE_PROCESS]]", "[[CERTS_HELD]]"]
-status: draft
+title: "Security and Privacy Engineering"
+part: "Four — Engineering Capability"
+status: strategic rewrite
 ---
 
-# 4.4 Cybersecurity
+# 4.4 Security and Privacy Engineering
 
-**Standfirst**
+Security is built into relevant Auris Nexus solutions as an engineering responsibility.
 
-> A security posture stated without evidence is indistinguishable from no posture at all. Everything
-> on this page that cannot yet be evidenced is marked as such, deliberately.
+It is not positioned as a separate cybersecurity consultancy offering.
 
----
+## Controls we can incorporate according to the engagement
 
-## Copy
+- Authentication and secure access
+- Role-based permissions
+- Multi-tenant separation
+- Row-level/data-layer access policies
+- Secure handling of personal and business information
+- Audit and activity records where required
+- Dependency and configuration management
+- Backup and recovery considerations
+- Secure deployment practices
+- Privacy-conscious data design
 
-Security is treated as a property of every layer in section 4.0, not a bolt-on control layer applied
-at the end of a build. Defensive design begins at architecture — access control, data classification
-and threat modelling considered alongside functional requirements, not after them — and continues
-through testing and into how an incident, if one occurs, is actually handled.
+## POPIA-conscious design
 
-We distinguish deliberately between security as a design discipline, which governs how we build
-regardless of a specific client's testing requirements, and security as a verified, evidenced
-capability — specific controls implemented, specific testing regimes run, specific certifications
-held. The former is a statement of approach and is made here directly. The latter is stated only
-where it can be evidenced, per the high-assurance standard applied throughout this Part and reinforced
-further in Part Six.
+Where personal information is processed, Auris Nexus considers the requirements and principles of South Africa's Protection of Personal Information Act (POPIA) as part of solution design and governance.
 
-**Technologies and controls currently used:** [[TECH_CURRENT_SECURITY]]
-**Capable of supporting:** [[TECH_CAPABLE_SECURITY]]
-**Security testing regime:** [[SECURITY_TESTING_REGIME]] — penetration testing cadence, tooling and
-provider, once confirmed
-**Incident response process:** [[INCIDENT_RESPONSE_PROCESS]]
-**Certifications held:** None currently held. No security certification (ISO 27001 or otherwise) is implied.
+Specific compliance responsibilities remain dependent on the client's role, processing activities, contracts and legal requirements.
 
----
+## What we do not claim
 
-## Production notes
+Auris Nexus does not currently claim:
 
-- This is a **high-assurance section** per the client's explicit instruction — the strictest evidence
-  standard in the document applies here and is reinforced at 6.4 (POPIA and information security).
-  No control, certification or testing claim is stated as fact without verification.
-- The certification statement is intentionally explicit: Auris currently holds no security certification.
-- Cross-reference to 6.2 (risk management and business continuity) and 6.4 (POPIA and information
-  security) as live `REF` fields — this page states engineering-level security discipline; Part Six
-  states organisational governance and compliance posture. Neither repeats the other.
+- ISO 27001 certification
+- Independent cybersecurity certification
+- A dedicated SOC
+- Penetration-testing accreditation
+- Guaranteed compliance with a client's regulatory framework
+
+Where specialist assurance or certification is required, it should be scoped separately and supported by the appropriate qualified provider or credential.
+
+The objective is responsible engineering: protect information, control access and make security considerations visible from the beginning.
