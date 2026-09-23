@@ -49,7 +49,7 @@ Credentials, certifications, statistics, client references and performance claim
 
 ## Profile architecture
 
-The previous 112-page architecture was useful as a planning exercise but was too broad for the current commercial objective. The publication is now being consolidated around a more focused master profile.
+The previous 55–65-page architecture was useful as a planning exercise but was too broad for the current commercial objective. The publication is now being consolidated around a more focused master profile.
 
 ### Part 1 — Auris Nexus
 
