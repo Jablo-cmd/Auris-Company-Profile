@@ -20,9 +20,9 @@ full production detail in `10_Print-Production.md`.
 | **Safety margin** | **8 mm** inside trim. No critical content, type or logo outside |
 | **Spine allowance** | **10 mm** either side of the spine. No critical content, faces or type |
 | Slug | 6 mm at foot — job name, page, colour bar, date |
-| Binding | **PUR perfect bound.** Saddle-stitch is unsuitable above ~64 pp |
+| Binding | **PUR perfect bound.** Saddle-stitch is unsuitable publication extent is determined by final assembly |
 | Spine width | ≈ 8 mm — confirmed against the printer's paper caliper before the cover is finalised |
-| Extent | 112 pages text + 4 pp cover, divisible by 4 |
+| Extent | approximately 55–65 pages; final extent determined after assembly |
 | Reading direction | Left to right, spreads read as verso–recto pairs |
 
 **Safety margin raised from 5 mm to 8 mm.** Guillotine tolerance on a sheet-fed run is typically
