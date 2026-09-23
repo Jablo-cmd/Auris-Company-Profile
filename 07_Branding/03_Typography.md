@@ -88,7 +88,7 @@ fonts installed. Fallbacks are specified and tested, not left to the operating s
 | **`Auris-Profile-Brand.docx`** | Saira, Source Sans 3, Source Serif 4 — **embedded** (Options → Save → Embed fonts; "embed only characters used" **off**) | Primary distribution |
 | **`Auris-Profile-Safe.docx`** | Tahoma, Calibri, Georgia; metrics adjusted so pagination is identical | Tender portals that strip embedded fonts |
 
-Both variants **must paginate identically at 112 pages**. Verified at Stage 11, not assumed — a
+Both variants **must paginate identically at approximately 55–65 pages**. Verified at Stage 11, not assumed — a
 pagination mismatch silently breaks every page-number cross-reference in the document.
 
 PDF deliverables embed all fonts as subsets and are unaffected.
@@ -231,7 +231,7 @@ Character styles: `AN Emphasis`, `AN Term`, `AN Figure Ref`, `AN Link`.
 
 - [ ] No direct formatting anywhere (checked via Style Inspector)
 - [ ] Every paragraph carries a named style
-- [ ] Brand and Safe variants paginate identically at 112 pp
+- [ ] Brand and Safe variants paginate identically at 55–65 pp
 - [ ] No orphans, widows or single-word heading breaks
 - [ ] Tabular figures in every table and statistics panel
 - [ ] `en-ZA` set on every style, including tables, captions and footnotes
