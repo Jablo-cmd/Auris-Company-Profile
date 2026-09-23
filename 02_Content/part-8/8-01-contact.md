@@ -2,22 +2,19 @@
 section: "8.1"
 title: "Contact"
 part: "Eight — Engage Auris Nexus"
-pages: [102, 103]
 status: factual
 ---
 
-# 8.1 Contact Auris Nexus
+# Contact Auris Nexus
 
 **Auris Nexus Technologies (Pty) Ltd**  
 **Transforming Businesses Through Technology**
 
-140 Linden Road  
-Sandown, Sandton  
-Gauteng, South Africa
+**140 Linden Road, Sandown, Sandton, Gauteng, South Africa**
 
 **Email:** info@aurisnexus.co.za  
-**Web:** aurisnexus.co.za  
-**Phone / WhatsApp:** 063 122 6552
+**Phone / WhatsApp:** 063 122 6552  
+**Website:** aurisnexus.co.za
 
 ## Let's build what the business needs.
 
