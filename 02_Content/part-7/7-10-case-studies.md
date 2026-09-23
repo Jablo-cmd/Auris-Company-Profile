@@ -1,129 +1,174 @@
 ---
-section: "7.10"
-title: "Case Studies & Project Evidence"
-part: "Seven — Credentials & Evidence"
-pages: [107]
-archetype: K
-words_target: 900
-words_actual: 0
-figures: []
-tables: []
-icons: ["fa-folder-open"]
-images: []
-tokens: []
-status: draft — evidence-based project portfolio; no unverified client outcomes claimed
+section: "4.0"
+title: "Selected Work & Evidence Portfolio"
+part: "Four — Selected Work"
+status: approved master draft
 ---
 
-# 7.10 Case Studies & Project Evidence
+# Selected Work & Evidence Portfolio
 
-Auris's project evidence includes both client-facing work and platforms developed by Auris itself. The distinction matters: a platform can demonstrate engineering capability without being presented as a deployed client reference. Where a measured business outcome or client attribution has not been formally verified, this section does not invent one.
+The strongest evidence of a technology company's capability is the work it can explain clearly.
+
+Auris Nexus's portfolio includes software platforms developed by Auris and client-facing digital work. The studies below focus on **what was built, the engineering involved and why the work matters**. They do not manufacture ROI figures, deployment counts or testimonials where those have not been formally evidenced.
 
 ---
 
-## Case Study 01 — Funda360
+## 4.1 Funda360
 
-**Category:** School management platform · Auris-owned product development  
-**Development:** Commenced 2024  
-**Current status:** Development / demonstration platform
+**Education technology · Multi-tenant school management platform**  
+**Auris-owned product development · Development commenced 2024**
 
 ### Context
 
-Funda360 is a South African multi-tenant school-management SaaS platform developed by Auris. The platform is designed around the operational needs of schools and the different responsibilities of administrators, educators, finance teams, guardians and other authorised users.
+Schools manage a wide range of information and processes: learners, guardians, educators, attendance, academic administration, finance, communication and staff responsibilities. These functions become difficult to manage when information is fragmented or when different users need different levels of access.
 
-### What Auris built
+### The solution
 
-The platform covers a broad school-management domain including:
+Funda360 is an Auris-developed school-management SaaS platform designed around those operational requirements.
 
-- Student information management
-- Academic administration and gradebook workflows
-- Attendance
-- Behaviour management
-- Fees and finance
-- Report cards
-- Admissions
-- Messaging
-- Homework
-- Role-based portals
-- Role-based access control and audit functionality
+Its current product scope includes learner and guardian portals, academic administration, attendance, homework, finance, HR and employee functions, leave workflows, role-based access and reporting.
 
-The platform has been developed using **React 18, TypeScript, Vite, Tailwind CSS, Supabase/PostgreSQL and Supabase Edge Functions using Deno**, with Git/GitHub used for source control and deployment workflows.
+### Engineering
 
-### Engineering evidence
+The platform uses React 18, TypeScript, Vite and Tailwind CSS on the application side, with Supabase/PostgreSQL and Deno-based Edge Functions supporting the data and server-side requirements.
 
-The Funda360 codebase includes a structured migration history, row-level security controls, automated tests and end-to-end test coverage. These are engineering artefacts of the platform and are not presented as third-party certification or independent assurance.
+The architecture includes multi-tenant concepts, authentication, role-based access control and row-level security. The repository also contains structured migrations, automated tests and end-to-end testing.
 
-### Procurement relevance
+### Why it matters
 
-Funda360 demonstrates Auris's ability to design and build a multi-role, data-intensive business platform with security controls, workflow modules and a browser-based user experience.
+Funda360 demonstrates Auris's ability to design a data-intensive, multi-role business platform where different users need different workflows and controlled access to shared organisational information.
+
+**Evidence status:** Auris-owned platform; development and demonstration evidence available. External deployment scale and measured business outcomes are not claimed in this profile.
 
 ---
 
-## Case Study 02 — Sebetsa
+## 4.2 Sebetsa
 
-**Category:** Workforce, site operations and contract-workforce platform · Auris-owned product development  
-**Current status:** Development / production-readiness programme
+**Facilities, workforce and operational management platform**  
+**Auris-owned product development**
 
 ### Context
 
-Sebetsa is an Auris-owned workforce and operations platform developed for environments where organisations manage distributed personnel, sites, attendance, leave and operational tasks across multiple contracts or locations.
+Facilities and operational organisations need visibility across people, sites, tasks and service activity. As operations grow, spreadsheets and disconnected processes make it harder to know what has happened, what needs attention and who is responsible.
 
-### What Auris built
+### The solution
 
-The platform's development scope includes:
+Sebetsa is an Auris-developed platform for workforce and operational management.
 
-- Workforce and employee management
-- Leave management and leave balances
-- Attendance
-- Site operations
-- Operational tasks
-- Role-based access control
-- Multi-site operational workflows
-- Audit and security controls
-- Operational documentation
+The development scope includes employee and workforce records, leave, attendance, site operations, operational tasks, role-based access and multi-site workflows. The broader product direction includes operational visibility and workforce intelligence.
 
-Sebetsa was developed from the technical foundation of the Funda360 platform while adapting the architecture and workflows for workforce and facilities operations.
+### Engineering
 
-### Engineering evidence
+Sebetsa is built on a modern web application and data platform using React/Vite/Tailwind and Supabase/PostgreSQL, with structured database migrations, access controls, automated tests and end-to-end testing.
 
-The development programme includes database migrations, role and row-level security controls, automated testing, production builds and end-to-end testing. Current readiness is treated conservatively: engineering evidence is not represented as proof that the platform has completed an external certification or a live enterprise deployment.
+### Why it matters
 
-### Procurement relevance
+Sebetsa demonstrates Auris's ability to adapt software architecture to operational environments where information, people and tasks need to move together rather than remain in separate administrative systems.
 
-Sebetsa demonstrates Auris's ability to adapt a reusable software foundation to a materially different operational domain and to build systems around distributed workforce, site and task-management requirements.
+**Evidence status:** Auris-owned platform; development evidence available. Production scale, client count and measured operational outcomes are not claimed without supporting records.
 
 ---
 
-## Case Study 03 — CIT Employee & Leave Management System
+## 4.3 LOGIOS OS
 
-**Category:** Internal employee and leave management system · Business systems development  
-**Client environment:** CIT  
-**Current status:** Business-system development
+**Logistics operations platform**  
+**Auris-owned product development**
 
 ### Context
 
-Auris developed an employee and leave management system for a single-company operating environment rather than a multi-tenant SaaS model. The system is structured around the needs of an organisation managing a workforce of approximately 100 employees.
+Logistics organisations coordinate customers, jobs, vehicles, drivers, schedules, incidents and compliance information. The value of a digital operations platform is the ability to bring these activities into a clearer operational picture.
 
-### What Auris built
+### The solution
 
-The system focuses on:
+LOGIOS OS is an Auris-developed logistics operations platform covering areas such as job management, scheduling, fleet and driver information, customer records, incidents, compliance and operational reporting.
 
-- Employee records
-- Leave administration
-- Leave balances
-- Employee and HR workflows
-- Role-based access to employee information
-- Administrative records and reporting
+### Engineering
 
-The architecture is intentionally different from a multi-tenant school platform: it is designed for a single organisation and its internal HR operating model.
+The platform is being developed as a business operations system rather than a collection of disconnected tools. Its design centres on structured operational data, role-aware workflows and management visibility.
 
-### Procurement relevance
+### Why it matters
 
-This project demonstrates Auris's ability to design business software around a specific organisation's internal processes rather than forcing every client into a generic SaaS workflow.
+LOGIOS OS demonstrates Auris's ability to model a complex operational domain and translate it into a software platform that can support day-to-day coordination and management reporting.
+
+**Evidence status:** Auris-owned product development. Development status varies by module; the profile does not represent every listed capability as a completed production feature.
 
 ---
 
-## Evidence and attribution note
+## 4.4 CIT Employee & Leave Management
 
-These case studies describe Auris-built systems and project work based on the company's development records. They should not be interpreted as claims of independent certification, production scale, measured ROI, uptime, client retention or enterprise deployment unless separately evidenced.
+**HR and employee workflow system**  
+**Business-system development**
 
-Named client testimonials and references remain subject to the consent and attribution requirements recorded in the Company's Fact Register.
+### Context
+
+A single organisation may need a simple, controlled way to manage employee information and leave without adopting an unnecessarily large enterprise platform.
+
+### The solution
+
+Auris developed an employee and leave management system for CIT, structured around a single-company operating environment.
+
+The system focuses on employee records, leave administration, leave balances, HR workflows, role-based access and administrative reporting.
+
+### Engineering
+
+The system demonstrates Auris's ability to build purpose-specific internal business software rather than forcing every organisation into a generic multi-tenant product model.
+
+### Why it matters
+
+The project shows the practical end of custom software development: taking an organisation's existing process and turning it into a focused digital system with clear roles and information flows.
+
+**Evidence status:** Project development evidence available. Specific measured time savings or other business outcomes are not claimed without formal measurement.
+
+---
+
+## 4.5 Pro Energy Solutions
+
+**Corporate website and digital experience**  
+**Client-facing web development and optimisation**
+
+### Context
+
+A corporate website has to do more than exist online. It needs to communicate what the organisation does, present its services clearly and give prospective customers a straightforward route to engage.
+
+### The solution
+
+Auris delivered web and digital-experience work for Pro Energy Solutions, with attention to corporate presentation, performance and search visibility.
+
+The work included technical and on-page SEO considerations, performance optimisation and responsive digital presentation.
+
+### Engineering and evidence
+
+The work included image optimisation, lazy-loading and defined image dimensions as part of improving the site's technical performance. The image asset set was reduced substantially during optimisation.
+
+### Why it matters
+
+This engagement demonstrates Auris's ability to combine visual presentation with the engineering details that influence website performance, discoverability and usability.
+
+**Evidence status:** Client-facing digital work. The profile does not attribute sales growth, conversion uplift or other commercial outcomes without measured evidence.
+
+---
+
+## How to read this portfolio
+
+These projects demonstrate different parts of the Auris capability:
+
+| Evidence | Demonstrates |
+|---|---|
+| Funda360 | Education technology, multi-tenancy, role-based platforms, data-intensive application engineering |
+| Sebetsa | Workforce, facilities and operational software |
+| LOGIOS OS | Logistics workflows, operational data and management visibility |
+| CIT Employee & Leave Management | Focused internal business systems and HR workflows |
+| Pro Energy Solutions | Corporate web development, digital experience and technical optimisation |
+
+Together they show the breadth of the Auris engineering model without requiring unsupported claims about company size, project volume or market share.
+
+### Evidence discipline
+
+All case studies are subject to the Auris evidence standard:
+
+- **Delivered** — supported by identifiable project evidence.
+- **Current capability** — Auris can deliver the capability now.
+- **Available capability** — capability can be assembled or delivered where required.
+- **Planned** — future capability, clearly labelled.
+
+Where an outcome has not been measured, the profile does not invent one.
