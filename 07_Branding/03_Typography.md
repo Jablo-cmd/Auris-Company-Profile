@@ -102,10 +102,10 @@ carried by weight, colour, case and space rather than size.
 
 | Style | Face | Size | Leading | Tracking | Case | Colour |
 |---|---|---|---|---|---|---|
-| **Cover title** | Saira SemiBold, wdth 112 | 48 pt | 51 pt | −15 | Title | White |
-| **Cover descriptor** | Saira Regular, wdth 112 | 13 pt | 17 pt | +80 | UPPER | Signal Cyan |
-| **Part number** | Saira Medium, wdth 112 | 13 pt | 17 pt | +120 | UPPER | Signal Cyan |
-| **Part title** | Saira SemiBold, wdth 112 | 36 pt | 39.7 pt | −10 | Title | White |
+| **Cover title** | Saira SemiBold, wdth 55–65 | 48 pt | 51 pt | −15 | Title | White |
+| **Cover descriptor** | Saira Regular, wdth 55–65 | 13 pt | 17 pt | +80 | UPPER | Signal Cyan |
+| **Part number** | Saira Medium, wdth 55–65 | 13 pt | 17 pt | +120 | UPPER | Signal Cyan |
+| **Part title** | Saira SemiBold, wdth 55–65 | 36 pt | 39.7 pt | −10 | Title | White |
 | **Section title (H1)** | Saira SemiBold, wdth 100 | 22 pt | 28.3 pt | −5 | Title | Nexus Navy |
 | **Standfirst** | Source Serif 4 Regular | 13 pt | 19.8 pt | 0 | Sentence | Orbit Deep |
 | **Subsection (H2)** | Saira SemiBold, wdth 100 | 13 pt | 17 pt | +10 | Sentence | Orbit Deep |
