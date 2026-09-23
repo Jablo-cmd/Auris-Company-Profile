@@ -1,77 +1,66 @@
 ---
 section: "2.0"
-title: "Service portfolio and taxonomy"
-part: "Two — Services"
-pages: [24, 25]
+title: "What We Do"
+part: "Two — Solutions"
+pages: [18, 19]
 archetype: F
-words_target: 380
-words_actual: 384
-figures: ["fig-2.0-service-taxonomy"]
+words_target: 450
+words_actual: 0
+figures: ["fig-2.0-solution-architecture"]
 tables: []
 icons: ["fa-grid-2-plus"]
 images: []
 tokens: []
-status: draft
+status: strategic rewrite
 ---
 
-# 2.0 Service portfolio and taxonomy
-
-**Layout:** Archetype F, extended across the spread. Taxonomy diagram occupies the dominant field;
-framing copy sits in a 4-column sidebar, verso.
-
----
-
-## Copy
+# 2.0 What We Do
 
 **Standfirst**
 
-> Thirteen services, organised into eight families, mapped against a single value chain: advise,
-> build, run. The grouping is not a list of things we sell — it is how the work actually connects.
+> Auris Nexus builds technology around the business problem — combining the services required to move an organisation from a manual or fragmented process to a practical digital solution.
 
----
+Auris Nexus does not expect every client to know which technology service they need. A business may describe the problem as a website issue when the deeper need is a customer portal; as an admin problem when the answer is workflow automation; or as a reporting problem when the real issue is fragmented data.
 
-### Copy
+We therefore organise our offering around **outcomes**, not a catalogue of disconnected technical products.
 
-A services list answers "what do you offer." It does not answer the more useful question, which is
-where a given service sits relative to the others, and what happens at the join between them. We map
-our portfolio instead against the sequence a client actually experiences: an organisation is
-**advised** on what to build, the thing is **built**, and it is then **run** — operated, integrated,
-maintained — for as long as it is depended on.
+## Our core solution areas
 
-Most of our engagements cross more than one stage. A client who commissions custom software
-frequently returns for the cloud and integration work that puts it into production, and stays for the
-maintenance that keeps it there. The families below are organised so that progression is visible
-rather than incidental — each is a complete engagement on its own, and each connects cleanly to its
-neighbours.
+| Solution area | What it helps organisations achieve |
+|---|---|
+| **Custom Business Software** | Replace fragmented processes with systems built around the organisation's workflow |
+| **Business Automation** | Reduce repetitive administration, approvals, hand-offs and manual data processing |
+| **Web Development** | Build business websites, web applications, portals and internal platforms |
+| **Web Design & UX** | Make digital experiences clear, credible, usable and conversion-focused |
+| **Mobile Applications** | Put customer and field workflows into the hands of people on the move |
+| **AI Solutions** | Apply practical AI to real workflows, information and decision-support needs |
+| **Data & Business Intelligence** | Turn operational information into dashboards, reporting and management visibility |
 
-**The eight families:**
+### Engineering foundations
 
-| Stage | Family | Constituent services |
-|---|---|---|
-| Advise | 2.1 ICT Advisory and Digital Transformation | IT consulting · digital transformation consulting |
-| Build | 2.2 Custom Software Development | Custom software development |
-| Build | 2.3 Enterprise Management Systems | HR & employee management systems · school management systems |
-| Build | 2.4 Business Process Automation | Business process automation |
-| Build | 2.5 Web Design and Development | Website design & development · search engine optimisation |
-| Build | 2.6 Mobile Application Development | Mobile application development |
-| Build | 2.7 Experience Design | UI/UX design |
-| Run | 2.8 Cloud, Integration and Managed Support | Cloud solutions · API integration · website maintenance & support |
+Cloud, security, data architecture, integrations and infrastructure support these solution areas where required. They are part of responsible engineering rather than a reason to add unnecessary technical complexity.
 
-Each family spread that follows carries an identical structure — description, problems solved,
-benefits, deliverables, technologies, ideal client, expected outcomes, and the industries it applies
-to — so that no service reads as over-written relative to another, and a reader who understands one
-spread can navigate all eight.
+## One engagement can combine several capabilities
+
+A typical engagement may move through a combination such as:
+
+**Business problem → Process discovery → Solution design → Software → Automation → Data → Deployment → Support**
+
+That flexibility is important. Clients do not need to buy a large technology programme when a focused solution will do the job.
+
+## Our commercial principle
+
+We start by understanding the problem, define the right scope, then recommend the appropriate combination of services.
+
+The objective is straightforward:
+
+**Build what the organisation needs. Make it useful. Make it maintainable. Create a clear path for what comes next.**
 
 ---
 
 ## Production notes
 
-- **Figure 2.0** — value-chain taxonomy diagram, component C12/C13 hybrid. Three horizontal bands
-  (Advise · Build · Run), eight family nodes positioned by which band(s) they touch — several span
-  two, none is confined to a single box artificially. Auris Cyan connectors, no drop shadow.
-- The table above is the diagram's source data; do not let the two disagree if either is edited.
-- Family and constituent-service names must match `01_Project/02_Information-Architecture.md` §4
-  exactly — this is the owner reference per the content reuse map, `02_Information-Architecture.md`
-  §6.
-- No client-specific claims on this page. It is structural, not evidential; evidence belongs to the
-  family spreads themselves.
+- Replace the previous 13-service / eight-family taxonomy in the final publication.
+- Primary service names must match the current Auris website and Master Company Profile.
+- Advisory remains a delivery capability within discovery and solution definition, not a standalone flagship service unless a separately evidenced advisory engagement is added.
+- Do not introduce unsupported enterprise consulting, managed-service or certification claims.
