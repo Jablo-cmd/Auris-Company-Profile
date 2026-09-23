@@ -18,7 +18,7 @@ laptops, pointing at screens nobody is looking at. Every reader in the nine targ
 seen these images in a hundred profiles. They carry no information, and their presence signals that
 the company had nothing real to show.
 
-This publication uses photography as **evidence**. Sixteen photographic positions across 112 pages —
+This publication uses photography as **evidence**. A restrained set of photographic positions across the final assembled profile —
 deliberately restrained. Where there is nothing true to photograph, the page uses white space, a
 diagram or the apex motif instead. An honest empty page is stronger than a dishonest full one.
 
