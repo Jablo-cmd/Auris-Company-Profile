@@ -139,7 +139,7 @@ InDesign or Affinity Publisher without redesign. Commercial offset remains the p
 medium. Full specification in `07_Branding/10_Print-Production.md`.
 
 ```
-Word master (112 pp · A4 · 216×303 mm with bleed · design grid)
+Word master (approximately 55–65 pp · A4 · 216×303 mm with bleed · design grid)
    ├── Screen PDF (sRGB)       → distribution
    ├── Tender PDF (< 10 MB)    → procurement portals
    ├── Acrobat Pro → CMYK/X-4  → offset press
