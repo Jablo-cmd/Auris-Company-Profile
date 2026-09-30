@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Auris Nexus Technologies — Company Profile</title>
+<meta name="description" content="Auris Nexus Technologies (Pty) Ltd is a Sandton-based technology consulting and digital solutions company: technology consulting, custom software development, business automation, digital transformation and AI integration.">
+<meta name="author" content="Auris Nexus Technologies (Pty) Ltd">
+<meta name="theme-color" content="#001A48">
+<meta property="og:title" content="Auris Nexus Technologies — Company Profile">
+<meta property="og:description" content="Transforming Businesses Through Technology. Technology consulting and digital solutions from Sandton, South Africa.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="assets/auris-mark.png">
+<link rel="stylesheet" href="assets/fonts.css">
+<style>
+:root{
+  --navy:#001A48; --cyan:#098FB4; --signal:#00B3BF; --orbit-deep:#06488B; --orbit:#0B5E9A;
+  --graphite:#22282F; --slate:#5A646E; --mist:#E3E8EC; --paper:#F6F8FA; --white:#FFFFFF;
+  --verified:#17703F;
+  --display:'Saira','Tahoma','Arial',sans-serif;
+  --body:'Source Sans 3','Calibri','Segoe UI','Helvetica Neue',Arial,sans-serif;
+  --pad-x:17mm; --pad-top:15mm; --pad-bottom:14mm;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{font-size:14px;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{font-family:var(--body);color:var(--graphite);background:#D9DEE3;line-height:1.5;
+  -webkit-font-smoothing:antialiased;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--orbit);text-decoration:none}
+a:hover{text-decoration:underline}
+a:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.sr-only,.skip:not(:focus){position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip:focus{position:fixed;left:8px;top:8px;background:var(--navy);color:#fff;padding:8px 12px;z-index:10}
+
+/* ---------- Page frame ---------- */
+.page{position:relative;width:210mm;height:297mm;margin:10mm auto;background:var(--white);overflow:hidden;
+  padding:var(--pad-top) var(--pad-x) var(--pad-bottom);display:flex;flex-direction:column;
+  box-shadow:0 2px 14px rgba(0,26,72,.14);break-after:page;page-break-after:always}
+.page:last-child{break-after:auto;page-break-after:auto}
+.page-head{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:3.2mm;
+  border-bottom:0.6pt solid var(--mist);margin-bottom:9mm;font-family:var(--display);font-size:.72rem;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--slate)}
+.page-head .brand{display:flex;align-items:center;gap:8px;color:var(--navy);font-weight:600}
+.page-head img{width:18px;height:auto}
+.page-foot{margin-top:auto;padding-top:3.2mm;border-top:0.6pt solid var(--mist);display:flex;justify-content:space-between;gap:12px;
+  font-size:.72rem;color:var(--slate);letter-spacing:.04em}
+.page-foot .folio{font-family:var(--display);font-weight:600;color:var(--navy)}
+.content{flex:1 1 auto;display:flex;flex-direction:column;min-height:0}
+
+/* ---------- Typography ---------- */
+.kicker{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:600;font-size:.8rem;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--orbit);margin-bottom:3.5mm}
+.kicker::before{content:"";width:22px;height:3px;background:var(--cyan);transform:skewX(-31deg)}
+h1,h2,h3,h4{font-family:var(--display);color:var(--navy);line-height:1.15;font-weight:600}
+h2{font-size:2.05rem;letter-spacing:-.01em;max-width:24ch;margin-bottom:5mm}
+h3{font-size:1.14rem;margin-bottom:1.6mm}
+h4{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--orbit);font-weight:600;margin-bottom:1.6mm}
+p{margin-bottom:2.6mm;max-width:74ch}
+.lead{font-size:1.2rem;line-height:1.45;color:var(--navy);max-width:60ch;margin-bottom:4mm}
+.muted{color:var(--slate)}
+.small{font-size:.86rem}
+ul.list{list-style:none;margin:0 0 2mm}
+ul.list li{position:relative;padding-left:14px;margin-bottom:1mm}
+ul.list li::before{content:"";position:absolute;left:0;top:.62em;width:6px;height:2px;background:var(--cyan)}
+.rule{height:0;border-top:0.6pt solid var(--mist);margin:5mm 0}
+.grid{display:grid;gap:6mm}
+.g2{grid-template-columns:1fr 1fr}.g3{grid-template-columns:repeat(3,1fr)}
+.note{font-size:.84rem;color:var(--slate);border-left:3px solid var(--mist);padding:1mm 0 1mm 4mm;max-width:none}
+
+/* ---------- Cover ---------- */
+.cover{padding:0}
+.cover-top{flex:0 0 50%;display:flex;flex-direction:column;justify-content:space-between;padding:16mm var(--pad-x) 10mm}
+.cover-top .meta{display:flex;justify-content:space-between;font-family:var(--display);font-size:.78rem;letter-spacing:.18em;
+  text-transform:uppercase;color:var(--slate)}
+.cover-logo{width:64mm;margin:0 auto}
+.cover-band{flex:1 1 auto;background:var(--navy);color:var(--white);padding:16mm var(--pad-x) 14mm;display:flex;flex-direction:column;position:relative}
+.cover-band::before{content:"";position:absolute;top:0;left:var(--pad-x);width:38mm;height:4px;background:var(--signal)}
+.cover-band .label{font-family:var(--display);font-size:.84rem;letter-spacing:.2em;text-transform:uppercase;color:var(--signal);margin-bottom:5mm}
+.cover-band h1{color:var(--white);font-size:3.05rem;line-height:1.08;letter-spacing:-.015em;max-width:15ch;margin-bottom:6mm}
+.cover-band .desc{font-size:1.18rem;line-height:1.45;color:#D6E4EE;max-width:52ch}
+.cover-band .foot{margin-top:auto;display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap;
+  font-size:.9rem;color:#B9CCDA;border-top:0.6pt solid rgba(255,255,255,.18);padding-top:4mm}
+.cover-band .foot strong{color:var(--white);font-weight:600}
+.cover-band .foot a{color:var(--white)}
+
+/* ---------- Overview ---------- */
+.overview{display:grid;grid-template-columns:1fr 62mm;gap:9mm;align-items:start}
+.glance{background:var(--paper);border-top:3px solid var(--navy);padding:5mm 5mm 3mm}
+.glance h4{color:var(--navy);margin-bottom:3mm}
+.glance dl{display:grid;gap:2.6mm}
+.glance dt{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate)}
+.glance dd{font-size:.95rem;color:var(--navy);font-weight:600;line-height:1.3}
+.pillars3{margin-top:6mm;display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:0.6pt solid var(--mist)}
+.pillars3 > div{padding:5mm 5mm 0 0}
+.pillars3 > div + div{padding-left:5mm;border-left:0.6pt solid var(--mist)}
+.pillars3 .num{font-family:var(--display);font-size:.78rem;color:var(--cyan);font-weight:600;letter-spacing:.1em}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:6px 0;margin-top:6mm;font-family:var(--display);font-weight:600;
+  font-size:.86rem;letter-spacing:.12em;text-transform:uppercase;color:var(--navy)}
+.flow span{padding:2.2mm 4mm;background:var(--paper);border-left:3px solid var(--cyan)}
+.flow i{font-style:normal;color:var(--cyan);padding:0 2.5mm}
+
+/* ---------- Challenges ---------- */
+.challenges{display:grid;grid-template-columns:1fr 1fr;gap:0 9mm;margin-top:1mm}
+.challenge{padding:3.6mm 0 3.4mm;border-top:0.6pt solid var(--mist)}
+.challenge h3{font-size:1.04rem;display:flex;gap:8px;align-items:baseline}
+.challenge h3 .n{font-size:.76rem;color:var(--cyan);min-width:18px}
+.challenge p{margin:0 0 1.4mm 26px;font-size:.93rem}
+.challenge .resp{color:var(--navy)}
+.challenge .resp b{font-family:var(--display);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--orbit);font-weight:600;margin-right:4px}
+
+/* ---------- Solutions ---------- */
+.solution{display:grid;grid-template-columns:46mm 1fr;gap:8mm;padding:4.6mm 0;border-top:0.6pt solid var(--mist)}
+.solution:first-of-type{border-top:2px solid var(--navy)}
+.solution .sid{font-family:var(--display);font-weight:600;font-size:.78rem;letter-spacing:.14em;color:var(--cyan);margin-bottom:1.5mm}
+.solution h3{font-size:1.32rem;margin-bottom:2mm}
+.solution .def{font-size:.95rem;color:var(--navy);margin:0}
+.solution .body{display:grid;grid-template-columns:1fr 1fr;gap:6mm}
+.solution .body p{font-size:.93rem;margin:0}
+.solution ul.list li{font-size:.93rem;margin-bottom:.6mm}
+.support{display:grid;grid-template-columns:repeat(3,1fr);gap:4.5mm 6mm;margin-top:2mm}
+.support > div{border-top:2px solid var(--cyan);padding-top:2.6mm}
+.support h3{font-size:1rem}
+.support p{font-size:.9rem;margin:0}
+.section-sub{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:6mm 0 2mm}
+.section-sub h3{font-size:1.3rem}
+
+/* ---------- Approach ---------- */
+.stages{display:grid;grid-template-columns:repeat(5,1fr);gap:0;margin:2mm 0 6mm}
+.stage{position:relative;padding:0 3.5mm 0 0}
+.stage + .stage{padding-left:3.5mm;border-left:0.6pt solid var(--mist)}
+.stage .bar{height:9mm;background:var(--navy);color:var(--white);font-family:var(--display);font-weight:600;font-size:.8rem;
+  letter-spacing:.12em;text-transform:uppercase;display:flex;align-items:center;padding-left:3mm;margin-bottom:3.5mm;
+  clip-path:polygon(0 0,calc(100% - 3mm) 0,100% 50%,calc(100% - 3mm) 100%,0 100%)}
+.stage:nth-child(2) .bar{background:var(--orbit-deep)}.stage:nth-child(3) .bar{background:var(--orbit)}
+.stage:nth-child(4) .bar{background:var(--cyan)}.stage:nth-child(5) .bar{background:#077E8F}
+.stage p{font-size:.9rem;margin-bottom:2.5mm}
+.stage h4{font-size:.72rem;margin-bottom:1mm}
+.stage ul.list li{font-size:.86rem}
+.principles{display:grid;grid-template-columns:repeat(3,1fr);gap:5mm 7mm}
+.principles > div{border-top:0.6pt solid var(--mist);padding-top:3mm}
+.principles h3{font-size:1rem}
+.principles p{font-size:.9rem;margin:0}
+
+/* ---------- Capability ---------- */
+.caps{display:grid;grid-template-columns:repeat(3,1fr);gap:0 7mm}
+.caps li{font-size:.93rem}
+.tech{display:flex;flex-wrap:wrap;gap:2mm;margin:1mm 0 3mm}
+.tech span{border:0.6pt solid #C6D0D8;padding:1mm 3mm;font-size:.88rem;color:var(--navy);font-weight:600}
+.panel{background:var(--paper);padding:5mm 6mm;border-left:3px solid var(--navy)}
+.panel p{font-size:.93rem}
+
+/* ---------- Experience ---------- */
+.work{display:grid;grid-template-columns:52mm 1fr;gap:7mm;padding:3.3mm 0;border-top:0.6pt solid var(--mist)}
+.work:first-of-type{border-top:2px solid var(--navy)}
+.work h3{font-size:1.18rem;margin-bottom:1.2mm}
+.work .cat{font-size:.84rem;color:var(--slate);margin-bottom:2.2mm}
+.tag{display:inline-flex;align-items:center;gap:6px;font-family:var(--display);font-size:.72rem;font-weight:600;letter-spacing:.1em;
+  text-transform:uppercase;padding:.9mm 2.4mm;border:0.6pt solid currentColor;color:var(--orbit);line-height:1.3}
+.tag::before{content:"";width:6px;height:6px;background:currentColor;flex:0 0 auto}
+.tag.delivered{color:var(--verified)}
+.work p{font-size:.93rem;margin-bottom:1.6mm}
+.work .demo{font-size:.88rem;color:var(--slate);margin:0}
+.work .demo b{color:var(--navy);font-weight:600}
+
+/* ---------- Who / Why ---------- */
+.who{display:grid;grid-template-columns:1fr 1fr;gap:8mm;margin-bottom:5mm}
+.who > div{border-top:2px solid var(--navy);padding-top:3mm}
+.who dl{display:grid;grid-template-columns:auto 1fr;gap:1.4mm 4mm;font-size:.92rem}
+.who dt{font-weight:600;color:var(--navy)}
+.who dd{color:var(--slate)}
+.why{display:grid;grid-template-columns:1fr 1fr;gap:0 9mm}
+.why > div{padding:3.2mm 0;border-top:0.6pt solid var(--mist);display:grid;grid-template-columns:9mm 1fr;gap:2mm}
+.why .n{font-family:var(--display);font-weight:600;color:var(--cyan);font-size:1.05rem;line-height:1.2}
+.why h3{font-size:1.02rem;margin-bottom:.8mm}
+.why p{font-size:.9rem;margin:0}
+
+/* ---------- Credentials ---------- */
+table.cred{width:100%;border-collapse:collapse;font-size:.95rem;margin-bottom:6mm}
+table.cred caption{text-align:left;font-family:var(--display);font-weight:600;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--orbit);padding-bottom:2mm}
+table.cred th,table.cred td{text-align:left;padding:2.4mm 3mm;border-bottom:0.6pt solid var(--mist);vertical-align:top}
+table.cred th{width:38%;font-weight:600;color:var(--slate);font-size:.86rem;letter-spacing:.02em}
+table.cred td{color:var(--navy);font-weight:600}
+table.cred td .muted{font-weight:400}
+table.cred tr:nth-child(odd) th,table.cred tr:nth-child(odd) td{background:var(--paper)}
+.policy{columns:2;column-gap:8mm;font-size:.92rem}
+.policy li{break-inside:avoid}
+
+/* ---------- Contact ---------- */
+.engage{display:grid;grid-template-columns:repeat(3,1fr);gap:4mm 6mm;margin-bottom:5mm}
+.engage > div{border-top:2px solid var(--cyan);padding-top:2.6mm}
+.engage h3{font-size:1rem}
+.engage p{font-size:.9rem;margin:0}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-bottom:6mm;counter-reset:s}
+.steps > div{padding:0 3mm;border-left:0.6pt solid var(--mist)}
+.steps > div:first-child{border-left:0;padding-left:0}
+.steps b{display:block;font-family:var(--display);color:var(--navy);font-size:.95rem;margin-bottom:.6mm}
+.steps b::before{counter-increment:s;content:"0" counter(s) "  ";color:var(--cyan)}
+.steps span{font-size:.86rem;color:var(--slate)}
+.contact{background:var(--navy);color:var(--white);padding:8mm 8mm 7mm;margin:0 calc(-1 * var(--pad-x)) 0;display:grid;grid-template-columns:1.1fr 1fr;gap:8mm;position:relative}
+.contact::before{content:"";position:absolute;top:0;left:8mm;width:30mm;height:4px;background:var(--signal)}
+.contact h2{color:var(--white);font-size:1.75rem;margin-bottom:3mm}
+.contact p{color:#D6E4EE;font-size:.98rem}
+.contact dl{display:grid;gap:2.6mm}
+.contact dt{font-family:var(--display);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--signal)}
+.contact dd{font-size:1.02rem;color:var(--white);font-weight:600;line-height:1.35}
+.contact a{color:var(--white)}
+.contact .tagline{font-family:var(--display);font-weight:600;letter-spacing:.06em;color:var(--white);margin-top:4mm}
+.page.last{padding-bottom:0}
+.page.last .page-foot{margin:0 calc(-1 * var(--pad-x));padding:3mm var(--pad-x);background:var(--navy);color:#9FB6C8;border-top:0.6pt solid rgba(255,255,255,.14)}
+.page.last .page-foot .folio{color:var(--white)}
+
+/* ---------- Print ---------- */
+@page{size:A4;margin:0}
+@media print{
+  body{background:none}
+  .page{margin:0;box-shadow:none}
+  .skip{display:none}
+  a{color:inherit}
+}
+
+/* ---------- Screen: tablet and phone ---------- */
+@media screen and (max-width:900px){
+  html{font-size:15px}
+  :root{--pad-x:20px;--pad-top:20px;--pad-bottom:18px}
+  body{background:var(--white)}
+  .page{width:auto;height:auto;min-height:0;margin:0;box-shadow:none;overflow:visible;border-bottom:8px solid var(--paper)}
+  .page-head{margin-bottom:22px}
+  .page-foot{margin-top:24px}
+  .cover-top{padding:22px var(--pad-x) 28px;gap:28px}
+  .cover-logo{width:min(58vw,240px)}
+  .cover-band{padding:34px var(--pad-x) 24px}
+  .cover-band h1{font-size:2.3rem}
+  .cover-band .foot{margin-top:34px}
+  h2{font-size:1.7rem}
+  .overview{grid-template-columns:1fr;gap:22px}
+  .solution,.work{grid-template-columns:1fr;gap:10px}
+  .stages{grid-template-columns:1fr 1fr;gap:18px 12px}
+  .stage,.stage + .stage{padding:0;border-left:0}
+  .principles,.support,.engage,.caps{grid-template-columns:1fr 1fr}
+  .steps{grid-template-columns:1fr 1fr;gap:14px 0}
+  .steps > div:nth-child(3){border-left:0;padding-left:0}
+  .contact{grid-template-columns:1fr;margin:0 calc(-1 * var(--pad-x));padding:30px var(--pad-x) 26px}
+  .contact::before{left:var(--pad-x)}
+}
+@media screen and (max-width:600px){
+  html{font-size:15.5px}
+  .cover-band h1{font-size:2rem}
+  .page-head .section{display:none}
+  .pillars3,.challenges,.solution .body,.who,.why,.principles,.support,.engage,.caps,.stages,.g2{grid-template-columns:1fr}
+  .pillars3 > div,.pillars3 > div + div{padding:14px 0 0;border-left:0}
+  .pillars3 > div + div{border-top:0.6pt solid var(--mist);margin-top:14px}
+  .challenge p{margin-left:0}
+  .steps{grid-template-columns:1fr}
+  .steps > div{border-left:0;padding:0}
+  .policy{columns:1}
+  table.cred th{width:42%}
+  table.cred th,table.cred td{padding:9px 8px}
+  .flow{font-size:.78rem}
+  .flow span{padding:6px 10px}
+  .flow i{padding:0 5px}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#overview">Skip to company overview</a>
+<main>
+
+<!-- ============ COVER ============ -->
+<section class="page cover" aria-label="Cover">
+  <div class="cover-top">
+    <div class="meta"><span>Company Profile</span><span>2026</span></div>
+    <img class="cover-logo" src="assets/auris-logo.png" alt="Auris Nexus Technologies logo" width="987" height="798">
+    <div></div>
+  </div>
+  <div class="cover-band">
+    <p class="label">Technology Consulting &amp; Digital Solutions</p>
+    <h1>Transforming Businesses Through Technology.</h1>
+    <p class="desc">We help organisations understand, design, build, integrate and improve the technology that runs their operations — starting with the business problem, not the software.</p>
+    <div class="foot">
+      <span><strong>Auris Nexus Technologies (Pty) Ltd</strong><br>Sandton, South Africa</span>
+      <span><a href="https://aurisnexus.co.za">aurisnexus.co.za</a></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 01 OVERVIEW ============ -->
+<section class="page" id="overview" aria-labelledby="h-overview">
+  <header class="page-head"><span class="brand"><img src="assets/auris-mark.png" alt="" width="532" height="441">Auris Nexus Technologies</span><span class="section">Company Overview</span></header>
+  <div class="content">
+    <p class="kicker">01 &nbsp;Company Overview</p>
+    <h2 id="h-overview">A technology partner that starts with the business problem.</h2>
+    <div class="overview">
+      <div>
+        <p class="lead">Auris Nexus Technologies (Pty) Ltd is a South African technology consulting and digital solutions company based in Sandton, Gauteng.</p>
+        <p>We help organisations understand, design, build, integrate and improve the technology they depend on, so that systems, processes and information work together in support of clear business objectives.</p>
+        <p>Our work sits where business operations and technology meet. We work with leadership and operational teams to understand how work is actually done, identify where technology can remove friction or create new capability, and then engineer and implement the solution — whether that is custom software, workflow automation, systems integration, data and reporting, or a practical application of artificial intelligence.</p>
+        <p>We do not begin with a product to sell or a technology to promote. We begin with the organisation's objectives, processes, people and constraints, and then select the approach that fits. Where an existing platform is the right answer, we say so. Where a custom solution is justified, we build it with sound architecture, security and long-term maintainability in mind.</p>
+      </div>
+      <aside class="glance" aria-label="Company at a glance">
+        <h4>At a glance</h4>
+        <dl>
+          <div><dt>Company</dt><dd>Auris Nexus Technologies (Pty) Ltd</dd></div>
+          <div><dt>Focus</dt><dd>Technology consulting and digital solutions</dd></div>
+          <div><dt>Head office</dt><dd>Sandton, Gauteng, South Africa</dd></div>
+          <div><dt>B-BBEE</dt><dd>Level 1</dd></div>
+          <div><dt>Ownership</dt><dd>100% South African-owned</dd></div>
+          <div><dt>Registration</dt><dd>CIPC 2026/606690/07</dd></div>
+          <div><dt>Supplier registration</dt><dd>Central Supplier Database (CSD) registered</dd></div>
+          <div><dt>Website</dt><dd><a href="https://aurisnexus.co.za">aurisnexus.co.za</a></dd></div>
+        </dl>
+      </aside>
+    </div>
+    <div class="pillars3" aria-label="What we do">
+      <div><p class="num">ADVISE</p><h3>Technology consulting</h3><p class="small">Assessing needs and options, defining requirements and shaping technology and transformation roadmaps.</p></div>
+      <div><p class="num">ENGINEER</p><h3>Solution delivery</h3><p class="small">Designing and building custom software, automation, integrations, data solutions and AI capability.</p></div>
+      <div><p class="num">IMPLEMENT &amp; IMPROVE</p><h3>Adoption and support</h3><p class="small">Deploying into the operational environment, supporting users and improving the solution over time.</p></div>
+    </div>
+    <div class="flow" aria-label="Delivery approach">
+      <span>Discover</span><i aria-hidden="true">›</i><span>Design</span><i aria-hidden="true">›</i><span>Engineer</span><i aria-hidden="true">›</i><span>Implement</span><i aria-hidden="true">›</i><span>Improve</span>
+    </div>
+  </div>
+  <footer class="page-foot"><span>Company Profile 2026</span><span class="folio">02</span></footer>
+</section>
+
+<!-- ============ 02 CHALLENGES ============ -->
+<section class="page" aria-labelledby="h-challenges">
+  <header class="page-head"><span class="brand"><img src="assets/auris-mark.png" alt="" width="532" height="441">Auris Nexus Technologies</span><span class="section">Business Challenges</span></header>
+  <div class="content">
+    <p class="kicker">02 &nbsp;Business Challenges We Address</p>
+    <h2 id="h-challenges">Most technology requirements begin as operational problems.</h2>
+    <p class="lead">These are the challenges organisations typically bring to Auris Nexus, and how we respond to them.</p>
+    <div class="challenges">
+      <div class="challenge"><h3><span class="n">01</span>Manual and spreadsheet-driven processes</h3><p>Staff re-capture information, chase approvals by email and reconcile spreadsheets by hand.</p><p class="resp"><b>Response</b>Structured digital workflows with defined roles, approvals and audit trails.</p></div>
+      <div class="challenge"><h3><span class="n">02</span>Fragmented, disconnected systems</h3><p>Core applications do not share information, so teams work around the gaps.</p><p class="resp"><b>Response</b>Systems integration, APIs and controlled data exchange between applications.</p></div>
+      <div class="challenge"><h3><span class="n">03</span>Poor information visibility</h3><p>Management waits for month-end reports and cannot see operational status when it matters.</p><p class="resp"><b>Response</b>Dashboards, KPI reporting and automated reports drawn from operational data.</p></div>
+      <div class="challenge"><h3><span class="n">04</span>Workflow bottlenecks</h3><p>Requests stall between people, teams and departments, with no clear ownership or status.</p><p class="resp"><b>Response</b>Workflow redesign with routing, notifications, reminders and escalations.</p></div>
+      <div class="challenge"><h3><span class="n">05</span>Outdated or ill-fitting technology</h3><p>Legacy tools no longer reflect how the organisation operates and are difficult to extend.</p><p class="resp"><b>Response</b>Modernisation roadmaps, phased re-platforming and custom replacement where justified.</p></div>
+      <div class="challenge"><h3><span class="n">06</span>Inefficient data processes</h3><p>Data is duplicated, inconsistent or difficult to trust, and reporting depends on manual effort.</p><p class="resp"><b>Response</b>Sound data models, validation, migration and a single source of truth.</p></div>
+      <div class="challenge"><h3><span class="n">07</span>Unclear technology direction</h3><p>Investment decisions are made before requirements, options and risks are properly understood.</p><p class="resp"><b>Response</b>Technology assessments, solution options analysis and implementation roadmaps.</p></div>
+      <div class="challenge"><h3><span class="n">08</span>AI interest without a defined use case</h3><p>There is pressure to adopt AI, but no agreed use case, data position or governance approach.</p><p class="resp"><b>Response</b>Use-case identification, controlled pilots and integration into existing workflows.</p></div>
+    </div>
+  </div>
+  <footer class="page-foot"><span>Company Profile 2026</span><span class="folio">03</span></footer>
+</section>
+
+<!-- ============ 03 CORE SOLUTIONS (1–3) ============ -->
+<section class="page" aria-labelledby="h-solutions">
+  <header class="page-head"><span class="brand"><img src="assets/auris-mark.png" alt="" width="532" height="441">Auris Nexus Technologies</span><span class="section">Core Solutions</span></header>
+  <div class="content">
+    <p class="kicker">03 &nbsp;Core Solutions</p>
+    <h2 id="h-solutions">Five core solution areas.</h2>
+    <p class="lead">Each solution area starts with a defined business problem and ends with technology that is in use.</p>
+
+    <article class="solution">
+      <div><p class="sid">SOLUTION 01</p><h3>Technology Consulting</h3><p class="def">Practical, independent guidance on how technology should support the organisation's objectives.</p></div>
+      <div class="body">
+        <div><h4>The challenge</h4><p>Organisations are often asked to commit to systems, vendors or budgets before the underlying requirement, the available options and the risks are clearly understood.</p></div>
+        <div><h4>What we deliver</h4><ul class="list"><li>Technology and process assessments</li><li>Requirements definition and business analysis</li><li>Solution options and build-versus-buy evaluation</li><li>Solution architecture guidance</li><li>Technology roadmaps and implementation plans</li></ul></div>
+      </div>
+    </article>
+
+    <article class="solution">
+      <div><p class="sid">SOLUTION 02</p><h3>Custom Software Development</h3><p class="def">Software designed and engineered around specific operational and business requirements.</p></div>
+      <div class="body">
+        <div><h4>The challenge</h4><p>Off-the-shelf products can force an organisation to adapt its processes to the software, while spreadsheets, email and paper cannot scale with the business.</p></div>
+        <div><h4>What we deliver</h4><ul class="list"><li>Business applications and internal platforms</li><li>Client, staff and stakeholder portals</li><li>Multi-tenant and role-based systems</li><li>Secure web applications with authentication</li><li>Management and operational dashboards</li></ul></div>
+      </div>
+    </article>
+
+    <article class="solution">
+      <div><p class="sid">SOLUTION 03</p><h3>Business Automation</h3><p class="def">Replacing repetitive manual work with structured digital workflows and automated processes.</p></div>
+      <div class="body">
+        <div><h4>The challenge</h4><p>Approvals, notifications, data capture and reporting consume staff time and introduce delay and error. We automate where it creates real value and keep people in control where judgement is required.</p></div>
+        <div><h4>What we deliver</h4><ul class="list"><li>Approval and workflow routing</li><li>Notifications, reminders and escalations</li><li>Data validation and system-to-system transfer</li><li>Document processing</li><li>Scheduled and automated reporting</li></ul></div>
+      </div>
+    </article>
+  </div>
+  <footer class="page-foot"><span>Company Profile 2026</span><span class="folio">04</span></footer>
+</section>
+
+<!-- ============ 03 CORE SOLUTIONS (4–5) + SUPPORTING ============ -->
+<section class="page" aria-labelledby="h-solutions2">
+  <header class="page-head"><span class="brand"><img src="assets/auris-mark.png" alt="" width="532" height="441">Auris Nexus Technologies</span><span class="section">Core Solutions</span></header>
+  <div class="content">
+    <p class="kicker">03 &nbsp;Core Solutions — continued</p>
+    <h2 id="h-solutions2" class="sr-only">Core solutions continued and supporting capabilities</h2>
+
+    <article class="solution">
+      <div><p class="sid">SOLUTION 04</p><h3>Digital Transformation</h3><p class="def">Modernising processes, systems, data and technology capability in a structured, phased way.</p></div>
+      <div class="body">
+        <div><h4>The challenge</h4><p>Transformation initiatives stall when they are treated as a single large technology purchase rather than a sequence of well-defined, measurable business changes.</p></div>
+        <div><h4>What we deliver</h4><ul class="list"><li>Current-state process and systems review</li><li>Target-state design and phased roadmap</li><li>Process digitisation and system modernisation</li><li>Data migration and consolidation</li><li>Adoption support and user training</li></ul></div>
+      </div>
+    </article>
+
+    <article class="solution">
+      <div><p class="sid">SOLUTION 05</p><h3>AI Integration</h3><p class="def">Identifying and implementing practical applications of AI within existing workflows and systems.</p></div>
+      <div class="body">
+        <div><h4>The challenge</h4><p>AI initiatives often begin with the technology rather than a defined use case, the available data and a clear position on privacy, oversight and risk.</p></div>
+        <div><h4>What we deliver</h4><ul class="list"><li>Use-case identification and prioritisation</li><li>Knowledge assistants over organisational information</li><li>Document classification, extraction and summarisation</li><li>Intelligent routing and decision-support features</li><li>Controlled pilots with human oversight</li></ul></div>
+      </div>
+    </article>
+
+    <div class="section-sub"><h3>Supporting capabilities</h3><span class="small muted">Applied within engagements, or delivered on their own where required</span></div>
+    <div class="support">
+      <div><h3>Business Systems</h3><p>HR, leave, CRM, operations and administration platforms built around defined roles, records and approvals.</p></div>
+      <div><h3>Data &amp; Business Intelligence</h3><p>Data models, dashboards, KPI reporting and management information for timely decisions.</p></div>
+      <div><h3>Systems Integration</h3><p>APIs and integrations that connect business applications, websites and data sources.</p></div>
+      <div><h3>Web Development</h3><p>Corporate websites and web applications with sound information architecture, performance and search foundations.</p></div>
+      <div><h3>Mobile Applications</h3><p>Mobile solutions for field teams, service requests, inspections and data capture.</p></div>
+      <div><h3>Technology Support</h3><p>Maintenance, issue resolution and enhancement of delivered solutions under agreed support terms.</p></div>
+    </div>
+  </div>
+  <footer class="page-foot"><span>Company Profile 2026</span><span class="folio">05</span></footer>
+</section>
+
+<!-- ============ 04 APPROACH ============ -->
+<section class="page" aria-labelledby="h-approach">
+  <header class="page-head"><span class="brand"><img src="assets/auris-mark.png" alt="" width="532" height="441">Auris Nexus Technologies</span><span class="section">Our Approach</span></header>
+  <div class="content">
+    <p class="kicker">04 &nbsp;Our Approach</p>
+    <h2 id="h-approach">A structured path from business problem to working solution.</h2>
+    <p class="lead">Every engagement follows the same disciplined sequence, scaled to the size and risk of the work.</p>
+    <div class="stages">
+      <div class="stage"><div class="bar">Discover</div><p>Understand the organisation, objectives, users, current processes, systems and constraints.</p><h4>Typical outputs</h4><ul class="list"><li>Problem statement</li><li>Current-state view</li><li>Requirements and priorities</li></ul></div>
+      <div class="stage"><div class="bar">Design</div><p>Define the solution architecture, workflows, data, roles, user experience and delivery plan.</p><h4>Typical outputs</h4><ul class="list"><li>Solution design</li><li>Agreed scope</li><li>Delivery plan, risks and assumptions</li></ul></div>
+      <div class="stage"><div class="bar">Engineer</div><p>Build, configure and integrate in controlled increments, with regular client review.</p><h4>Typical outputs</h4><ul class="list"><li>Working increments</li><li>Test evidence</li><li>Technical documentation</li></ul></div>
+      <div class="stage"><div class="bar">Implement</div><p>Deploy into the operational environment, migrate data where required and support adoption.</p><h4>Typical outputs</h4><ul class="list"><li>Production release</li><li>User guidance and training</li><li>Handover</li></ul></div>
+      <div class="stage"><div class="bar">Improve</div><p>Support, maintain and enhance the solution as the organisation's needs evolve.</p><h4>Typical outputs</h4><ul class="list"><li>Maintenance and fixes</li><li>Enhancements</li><li>Next-phase recommendations</li></ul></div>
+    </div>
+
+    <div class="section-sub"><h3>How we manage delivery</h3></div>
+    <div class="principles">
+      <div><h3>Clear scope and change control</h3><p>Scope, priorities and assumptions are agreed up front; changes are assessed and approved before they are built.</p></div>
+      <div><h3>Visible progress</h3><p>Regular reviews and demonstrations show what is complete, what remains and what happens next.</p></div>
+      <div><h3>Quality built in</h3><p>Functionality, permissions, workflows and responsiveness are tested before each release.</p></div>
+      <div><h3>Security and privacy by design</h3><p>Access control, data protection and POPIA considerations are addressed from the design stage.</p></div>
+      <div><h3>Documentation and handover</h3><p>Solutions are documented so that they can be operated, supported and extended.</p></div>
+      <div><h3>Business outcome focus</h3><p>Success is judged by whether the organisation works better, not by the number of features delivered.</p></div>
+    </div>
+  </div>
+  <footer class="page-foot"><span>Company Profile 2026</span><span class="folio">06</span></footer>
+</section>
+
+<!-- ============ 05 TECHNOLOGY & DELIVERY CAPABILITY ============ -->
+<section class="page" aria-labelledby="h-capability">
+  <header class="page-head"><span class="brand"><img src="assets/auris-mark.png" alt="" width="532" height="441">Auris Nexus Technologies</span><span class="section">Technology Capability</span></header>
+  <div class="content">
+    <p class="kicker">05 &nbsp;Technology &amp; Delivery Capability</p>
+    <h2 id="h-capability">Modern engineering, applied with discipline.</h2>
+    <p class="lead">Technology is selected for the problem. We do not add complexity to make a solution sound sophisticated.</p>
+
+    <h4>Engineering capabilities</h4>
+    <ul class="list caps">
+      <li>Solution and data architecture</li><li>Multi-tenant platform design</li><li>Authentication and role-based access</li>
+      <li>Relational database design</li><li>API development and integration</li><li>Workflow automation</li>
+      <li>Dashboards and reporting</li><li>AI integration</li><li>Responsive web and mobile interfaces</li>
+      <li>Automated and end-to-end testing</li><li>Version control and controlled release</li><li>Performance optimisation</li>
+    </ul>
+
+    <div class="rule"></div>
+    <h4>Technologies in current use across Auris-built platforms</h4>
+    <div class="tech"><span>React</span><span>TypeScript</span><span>Vite</span><span>Tailwind CSS</span><span>PostgreSQL</span><span>Supabase</span><span>Edge Functions (Deno)</span><span>Git &amp; GitHub</span></div>
+    <p class="small muted">Where a client has established platforms, standards or architecture guidelines, solutions are designed to fit within them.</p>
+
+    <div class="rule"></div>
+    <div class="grid g2">
+      <div class="panel">
+        <h3>Security, privacy and responsible engineering</h3>
+        <p>Security is part of the solution, not a feature added at the end. Depending on the engagement, this includes authentication, role-based access control, tenant-level data separation, database-level access policies, auditability, secure deployment practices and backup and recovery planning.</p>
+        <p style="margin:0">Solutions that process personal information are designed with the Protection of Personal Information Act (POPIA) in mind.</p>
+      </div>
+      <div class="panel">
+        <h3>Responsible use of AI</h3>
+        <p>AI is applied to defined use cases with a clear purpose, appropriate data, human oversight of consequential decisions and evaluation before wider rollout.</p>
+        <p style="margin:0">Organisational and personal information is handled according to the client's privacy and security requirements.</p>
+      </div>
+    </div>
+    <p class="note" style="margin-top:5mm">Auris Nexus does not currently hold ISO or other formal certifications and does not represent itself as a certified security provider. Security controls applied in a solution can be documented for due-diligence review.</p>
+  </div>
+  <footer class="page-foot"><span>Company Profile 2026</span><span class="folio">07</span></footer>
+</section>
+
+<!-- ============ 06 SELECTED EXPERIENCE ============ -->
+<section class="page" aria-labelledby="h-work">
+  <header class="page-head"><span class="brand"><img src="assets/auris-mark.png" alt="" width="532" height="441">Auris Nexus Technologies</span><span class="section">Selected Experience</span></header>
+  <div class="content">
+    <p class="kicker">06 &nbsp;Selected Experience</p>
+    <h2 id="h-work">Platforms and solutions engineered by Auris Nexus.</h2>
+    <p class="lead">Each item carries an evidence status, so that delivered client work is clearly distinguished from Auris-owned platforms under ongoing development.</p>
+
+    <article class="work">
+      <div><h3>Funda360</h3><p class="cat">Education · School management platform</p><span class="tag">Auris-owned platform · in development</span></div>
+      <div><p>A multi-tenant platform that brings school administration into one structured environment: learner and guardian portals, academics, attendance, homework, finance, staff and leave administration, and reporting.</p>
+      <p class="demo"><b>Demonstrates:</b> multi-tenant architecture, authentication, role-based access, PostgreSQL data design with row-level security, and automated and end-to-end testing.</p></div>
+    </article>
+
+    <article class="work">
+      <div><h3>LOGIOS OS</h3><p class="cat">Logistics &amp; transport · Operations platform</p><span class="tag">Auris-owned platform · in development</span></div>
+      <div><p>A modular, multi-tenant operations platform designed around scheduling, jobs, incidents, fleet, drivers, customers, compliance and operational reporting.</p>
+      <p class="demo"><b>Demonstrates:</b> bringing multiple operational domains into one system with structured data models and role-aware workflows.</p></div>
+    </article>
+
+    <article class="work">
+      <div><h3>Sebetsa</h3><p class="cat">Facilities &amp; operational services · Workforce platform</p><span class="tag">Auris-owned platform · in development</span></div>
+      <div><p>A platform for distributed workforce and site operations, covering workforce records, attendance, leave, site operations, tasks, multi-site workflows and reporting.</p>
+      <p class="demo"><b>Demonstrates:</b> reuse of proven software foundations for field-based and multi-site operational environments.</p></div>
+    </article>
+
+    <article class="work">
+      <div><h3>CIT Employee &amp; Leave Management</h3><p class="cat">Corporate services · HR and workforce administration</p><span class="tag">Business system development</span></div>
+      <div><p>A purpose-built internal business system covering employee records, leave administration, approval workflows, role-based access and HR reporting.</p>
+      <p class="demo"><b>Demonstrates:</b> the application of custom business software to internal organisational processes.</p></div>
+    </article>
+
+    <article class="work">
+      <div><h3>Pro Energy Solutions</h3><p class="cat">Energy · Corporate website</p><span class="tag delivered">Delivered client work</span></div>
+      <div><p>Design and development of a responsive corporate website with attention to information architecture, mobile experience, technical search foundations, performance and clear enquiry paths.</p>
+      <p class="demo"><b>Demonstrates:</b> client-facing web delivery from structure and design through to launch.</p></div>
+    </article>
+
+    <p class="note" style="margin-top:3mm">Client names, logos, testimonials and measured outcomes are published only where authorised and evidenced. Further detail on these platforms can be provided on request.</p>
+  </div>
+  <footer class="page-foot"><span>Company Profile 2026</span><span class="folio">08</span></footer>
+</section>
+
+<!-- ============ 07 WHO WE SERVE + WHY AURIS ============ -->
+<section class="page" aria-labelledby="h-why">
+  <header class="page-head"><span class="brand"><img src="assets/auris-mark.png" alt="" width="532" height="441">Auris Nexus Technologies</span><span class="section">Why Auris Nexus</span></header>
+  <div class="content">
+    <p class="kicker">07 &nbsp;Who We Work With</p>
+    <div class="who">
+      <div>
+        <h4>Where we have built</h4>
+        <dl>
+          <dt>Education</dt><dd>School management (Funda360)</dd>
+          <dt>Logistics &amp; transport</dt><dd>Operations platform (LOGIOS OS)</dd>
+          <dt>Facilities &amp; operations</dt><dd>Workforce platform (Sebetsa)</dd>
+          <dt>Corporate services</dt><dd>HR and leave system (CIT)</dd>
+          <dt>Energy</dt><dd>Corporate website (Pro Energy)</dd>
+        </dl>
+      </div>
+      <div>
+        <h4>Organisations we are structured to support</h4>
+        <ul class="list small">
+          <li>Corporate and enterprise organisations with operational, integration or reporting challenges</li>
+          <li>Operations-heavy organisations with distributed teams, field work or complex workflows</li>
+          <li>Organisations undertaking digital transformation or AI adoption initiatives</li>
+          <li>Small and medium enterprises moving from manual to structured digital operations</li>
+          <li>Education and institutional environments</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="kicker" style="margin-top:2mm">08 &nbsp;Why Organisations Engage Auris Nexus</p>
+    <h2 id="h-why" style="font-size:1.7rem;margin-bottom:3mm">Business understanding and engineering capability, in one partner.</h2>
+    <div class="why">
+      <div><span class="n">01</span><div><h3>Business-first thinking</h3><p>We define the problem, the process and the intended outcome before recommending technology.</p></div></div>
+      <div><span class="n">02</span><div><h3>Consulting and engineering together</h3><p>The same partner that assesses the requirement designs and builds the solution, reducing loss between advice and delivery.</p></div></div>
+      <div><span class="n">03</span><div><h3>Fit-for-purpose solutions</h3><p>Custom development where it is justified; existing platforms where they are the better answer.</p></div></div>
+      <div><span class="n">04</span><div><h3>Integration and automation focus</h3><p>We address the gaps between systems, teams and processes — not only individual applications.</p></div></div>
+      <div><span class="n">05</span><div><h3>Practical, governed AI</h3><p>AI applied to defined use cases, with human oversight and privacy safeguards.</p></div></div>
+      <div><span class="n">06</span><div><h3>End-to-end accountability</h3><p>From discovery to implementation and improvement, with transparent scope, progress and change control.</p></div></div>
+      <div><span class="n">07</span><div><h3>Evidence-led representation</h3><p>We keep what we have delivered, what we have built and what we can deliver clearly distinct.</p></div></div>
+      <div><span class="n">08</span><div><h3>Locally based</h3><p>A South African company, headquartered in Sandton, Gauteng.</p></div></div>
+    </div>
+  </div>
+  <footer class="page-foot"><span>Company Profile 2026</span><span class="folio">09</span></footer>
+</section>
+
+<!-- ============ 09 CREDENTIALS ============ -->
+<section class="page" aria-labelledby="h-cred">
+  <header class="page-head"><span class="brand"><img src="assets/auris-mark.png" alt="" width="532" height="441">Auris Nexus Technologies</span><span class="section">Corporate Credentials</span></header>
+  <div class="content">
+    <p class="kicker">09 &nbsp;Corporate Credentials</p>
+    <h2 id="h-cred">Corporate information for procurement and supplier onboarding.</h2>
+    <table class="cred">
+      <caption>Company details</caption>
+      <tbody>
+        <tr><th scope="row">Registered name</th><td>Auris Nexus Technologies (Pty) Ltd</td></tr>
+        <tr><th scope="row">Company registration (CIPC)</th><td>2026/606690/07</td></tr>
+        <tr><th scope="row">Head office</th><td>140 Linden Road, Sandown, Sandton, Gauteng, South Africa</td></tr>
+        <tr><th scope="row">B-BBEE status</th><td>Level 1</td></tr>
+        <tr><th scope="row">Ownership</th><td>100% South African-owned</td></tr>
+        <tr><th scope="row">Supplier registration</th><td>Registered on the National Treasury Central Supplier Database (CSD)</td></tr>
+        <tr><th scope="row">Managing Director</th><td>Loyiso Ngcala</td></tr>
+        <tr><th scope="row">Certifications and memberships</th><td><span class="muted">None currently claimed</span></td></tr>
+      </tbody>
+    </table>
+
+    <div class="grid g2">
+      <div>
+        <h3>Governance</h3>
+        <p class="small">Auris Nexus has prepared a Version 1.0 governance policy pack covering:</p>
+        <ul class="list policy">
+          <li>POPIA and privacy</li><li>Information security</li><li>Complaints and compliments</li><li>Health and safety</li><li>Procurement and supplier conduct</li>
+          <li>Anti-bribery and corruption</li><li>Business continuity</li><li>Code of conduct and ethics</li><li>Data retention and records</li><li>Conflict of interest</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Supporting documents on request</h3>
+        <ul class="list small">
+          <li>CIPC registration documents</li>
+          <li>B-BBEE verification document</li>
+          <li>CSD registration report</li>
+          <li>Governance policies</li>
+        </ul>
+        <p class="note">Banking details are provided only on company letterhead through a verified channel, never in circulated documents. Please verify any request to change banking details directly with Auris Nexus.</p>
+      </div>
+    </div>
+  </div>
+  <footer class="page-foot"><span>Company Profile 2026</span><span class="folio">10</span></footer>
+</section>
+
+<!-- ============ 10 ENGAGE / CONTACT ============ -->
+<section class="page last" aria-labelledby="h-engage">
+  <header class="page-head"><span class="brand"><img src="assets/auris-mark.png" alt="" width="532" height="441">Auris Nexus Technologies</span><span class="section">Next Steps</span></header>
+  <div class="content">
+    <p class="kicker">10 &nbsp;Engage Auris Nexus</p>
+    <h2 id="h-engage">Discuss your technology requirements.</h2>
+    <p class="lead">You do not need a finished specification to begin. Most engagements start with a conversation about a problem: a process that is too manual, systems that do not connect, information that is hard to see, or a transformation or AI initiative that needs structure.</p>
+
+    <h4>Ways to engage</h4>
+    <div class="engage">
+      <div><h3>Discovery &amp; advisory</h3><p>A focused assessment that defines the problem, the options and a recommended approach.</p></div>
+      <div><h3>Solution delivery</h3><p>Design, engineering and implementation of a defined solution.</p></div>
+      <div><h3>Pilot or proof of concept</h3><p>A scoped first phase that validates the approach before wider rollout.</p></div>
+      <div><h3>Support &amp; enhancement</h3><p>Maintenance and continued development of delivered solutions.</p></div>
+      <div><h3>Delivery partnership</h3><p>Working alongside internal IT teams, consultants or implementation partners.</p></div>
+      <div><h3>Modernisation</h3><p>Improving or replacing existing systems and processes that no longer fit.</p></div>
+    </div>
+
+    <h4>What happens next</h4>
+    <div class="steps">
+      <div><b>Conversation</b><span>An initial discussion of objectives and challenges.</span></div>
+      <div><b>Discovery</b><span>Clarifying requirements, constraints and priorities.</span></div>
+      <div><b>Proposal</b><span>Scope, approach, timeline and commercial terms.</span></div>
+      <div><b>Delivery</b><span>Structured delivery, implementation and support.</span></div>
+    </div>
+
+    <div class="contact" style="margin-top:auto">
+      <div>
+        <h2>Request a technology consultation.</h2>
+        <p>Contact Auris Nexus Technologies to discuss your requirements or to request a proposal.</p>
+        <p class="tagline">Transforming Businesses Through Technology.</p>
+      </div>
+      <dl>
+        <div><dt>Email</dt><dd><a href="mailto:info@aurisnexus.co.za">info@aurisnexus.co.za</a></dd></div>
+        <div><dt>Phone / WhatsApp</dt><dd><a href="tel:+27631226552">063 122 6552</a> <span style="font-weight:400;color:#B9CCDA">(+27 63 122 6552)</span></dd></div>
+        <div><dt>Website</dt><dd><a href="https://aurisnexus.co.za">aurisnexus.co.za</a></dd></div>
+        <div><dt>Head office</dt><dd>140 Linden Road, Sandown<br>Sandton, Gauteng, South Africa</dd></div>
+      </dl>
+    </div>
+  </div>
+  <footer class="page-foot"><span>Auris Nexus Technologies (Pty) Ltd · Company Profile 2026 · Version 1.0</span><span class="folio">11</span></footer>
+</section>
+
+</main>
+</body>
+</html>

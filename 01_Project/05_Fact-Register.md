@@ -246,3 +246,13 @@ A `[[TOKEN]]` count is reported at the close of every stage from Stage 3 onward.
 ## Consolidated-profile rule — 2026-09-23
 
 The current profile uses evidence classes: **Delivered**, **Current capability**, **Available capability**, and **Planned**. Missing documentary credentials remain unclaimed. The public profile does not publish tax numbers, personal identity information, private PINs or unverified compliance status.
+
+
+## Reconciliation note — 2026-09-30
+
+- **B7 Head office:** the approved publication fact is **140 Linden Road, Sandown, Sandton, Gauteng** (README approved-facts table and master profile). The earlier "Johannesburg" entry is superseded.
+- **H1 Telephone:** **063 122 6552** (Phone / WhatsApp) is approved for publication per the README approved-facts table.
+- **E8 / B6 Ownership:** the profile publishes "100% South African-owned". Black-ownership percentages remain unpublished until confirmed from the B-BBEE certificate or affidavit.
+- **E10 CSD:** registration is published. The supplier number remains open.
+- **G1–G9 Governance:** the policy pack is described as "prepared". The adoption record is unsigned.
+- See `01_Project/09_Profile-Readiness-Audit.md` for the full list of open items.
