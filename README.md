@@ -211,6 +211,7 @@ This reflects the current Auris website positioning, which describes the busines
 | [09_PDF](09_PDF/) | Screen, tender and print PDF outputs |
 | [10_Output](10_Output/) | Approved publication editions |
 | [11_Governance](11_Governance/) | Corporate policies and approval records |
+| [12_Letterhead](12_Letterhead/) | Corporate letterhead system — Word templates, PDFs, sample letters and letterhead brand assets |
 
 ---
 
