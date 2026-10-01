@@ -15,10 +15,11 @@ The letterheads use the identity defined in `07_Branding/`, which is the same id
 | `03_Sample-Letters/` | `AurisNexus_Sample_Standard_Supplier-Introduction-Letter.docx` | Letter introducing the company to a procurement department, filled with realistic content |
 | | `AurisNexus_Sample_Formal_Bid-Clarification-Letter.docx` | Bid clarification letter with a numbered structure, reference panel and tables |
 | `04_Brand-Assets/logo/` | `an-logo-*.png` | Transparent derivatives of the supplied logo: horizontal lockup (full colour, mono navy, mono black), symbol, and stacked lockup without tagline |
+| | `an-logo-*-onwhite.png` | Opaque copies (flattened on white) used inside the Word and PDF letterheads, so no transparency reaches a printer |
 | `04_Brand-Assets/fonts/` | `Saira-*.ttf`, `SourceSans3-*.ttf` | Brand fonts (SIL Open Font License) |
 | `05_Source/` | Build scripts | Regenerate everything with `./05_Source/publish.sh` |
 
-The sample letters exist to test the layout. Placeholders in square brackets (`[Organisation Name]`, `[Tender / RFQ reference]`, `[Full Name]`) are deliberate. The samples contain no client names, tender numbers, awards or certifications.
+The signatory in the templates and samples is **Loyiso Ngcala, Managing Director**; no personal contact details are included. The sample letters exist to test the layout. Placeholders in square brackets (`[Organisation Name]`, `[Tender / RFQ reference]`) are deliberate. The samples contain no client names, tender numbers, awards or certifications.
 
 ## The three versions
 
@@ -30,7 +31,9 @@ The sample letters exist to test the layout. Placeholders in square brackets (`[
 - **Every page is numbered "Page x of y"**, as most tender rules require.
 - The continuation header repeats *Our ref*, so separated pages can be matched back to the letter.
 
-It has no colour fills or decoration and photocopies cleanly in greyscale.
+It has no colour fills or decoration and photocopies cleanly in greyscale. Company information in its header and footer is set near-black (Graphite) at 8 pt, rather than grey at 7.5 pt, so the registration number, address and contact details survive repeated photocopying.
+
+The Formal version deliberately carries no tagline, no cyan accent and no credentials beyond the CIPC registration number and B-BBEE Level 1. CSD registration is not shown; add it only once documentary evidence is held and the company information is intentionally updated.
 
 **C. Digital.** This is the PDF export of A or B. It is not a separate Word file. The PDFs are PDF/A-2b (archival) and tagged, with all fonts embedded and lossless images. The telephone number, email address and website in the footer are live links. In print, the links look the same as the surrounding text.
 
@@ -88,7 +91,7 @@ No other registration numbers, accreditations, memberships or banking details ar
 
 The horizontal lockup is built from the supplied artwork itself, not redrawn. It follows the construction in `07_Branding/08_Logo-and-Identity.md` §2.1: the symbol is 3u high and set 0.75u from the wordmark stack, which is centred on the symbol. The white ground was removed so the logo sits cleanly on paper.
 
-At the 56 mm header width the logo prints at over 600 ppi. That figure is a raster resolution: the master is still a raster file (identity gaps G1 to G7). Once the recommended vector rebuild of the mark exists, replace the PNGs in `04_Brand-Assets/logo/` and run `05_Source/publish.sh`. Every document will pick up the new artwork.
+At the 56 mm header width the logo is placed at about 1270 ppi, and the PDF export keeps it at full resolution (image downsampling is turned off). That is still a raster: the master is a raster file (identity gaps G1 to G7). Once the recommended vector rebuild of the mark exists, replace the PNGs in `04_Brand-Assets/logo/` and run `05_Source/publish.sh`. Every document will pick up the new artwork.
 
 ## Rebuilding
 
@@ -99,10 +102,19 @@ The build needs Node.js with `docx`, Python 3 with `numpy` and `Pillow`, and Lib
 AN_QA=1 ./12_Letterhead/05_Source/render.sh /tmp/qa   # also build 6-page stress-test documents
 ```
 
-**Quality checks performed:**
-- All documents render to A4 (210.0 × 297.0 mm).
-- All fonts embed and are used without substitution, also when the brand fonts are *not* installed on the machine.
-- The `.docx` files pass schema validation.
-- A 6-page stress test showed no header or footer collisions, repeated table headers on new pages, and correct "Page x of y".
-- The signature block stays with its final paragraph.
-- The logo stays sharp at 600 dpi.
+## Production QA (final pass)
+
+| Check | Result |
+|---|---|
+| Page size and margins | A4, 11906 × 16838 twips (Word's own A4 definition; the PDF reads 210.01 × 297.00 mm). Margins 20 / 20 / 36 / 32 mm, header 12 mm and footer 10 mm from the page edge, all confirmed in the document XML |
+| Word compatibility | Saved in Word 2013+ layout mode (not Compatibility Mode). Different first page on. Fonts embedded with regular, bold and italic faces. All `.docx` files pass OOXML schema validation |
+| PDF/A | All PDFs pass **veraPDF PDF/A-2b** validation. Tagged, output intent present, every font embedded, no soft masks or transparency groups |
+| Glyphs and clipping | Every character is present in the embedded fonts. No text outside the side margins, and no body text in the header or footer zones |
+| Page numbering and continuation | "Page x of y" is correct on every page, including a 6-page stress test (`AN_QA=1`). The continuation header and footer appear from page 2, and table header rows repeat |
+| Links | Telephone (`tel:+27631226552`), email and website links are live in every PDF |
+| Print | Simulated at 100% scale (600 dpi): greyscale laser, a first-generation photocopy and a copy of a copy. All legal and contact information stays legible |
+| Content | No `[Full Name]` placeholder remains. No CSD, VAT, tax, banking or certification claims |
+
+**Limitations:**
+- The renders were made with LibreOffice; Microsoft Word itself was not available in the build environment. Open both templates once in Word on a Windows or Mac machine before roll-out to confirm pagination. Word's line breaking can differ by a line or so from LibreOffice.
+- On fax-grade (around 200 dpi) or very light copies, the 8 pt regular footer text degrades before the semibold company name does. Body text at 10.5 pt behaves the same way.

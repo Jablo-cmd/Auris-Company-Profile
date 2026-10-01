@@ -84,6 +84,14 @@ def main():
     save(sym, "an-logo-symbol-fullcolour.png", 2)
     save(mono(sym, NAVY), "an-logo-symbol-mono-navy.png", 2)
     save(stk, "an-logo-stacked-fullcolour.png")
+    # Opaque copies for the Word/PDF letterheads (white page ground): no soft mask in the PDF.
+    for name in ("an-logo-horizontal-fullcolour.png", "an-logo-symbol-fullcolour.png"):
+        im = Image.open(OUT / name)
+        flat = Image.new("RGB", im.size, (255, 255, 255))
+        flat.paste(im, mask=im.split()[3])
+        out = name.replace(".png", "-onwhite.png")
+        flat.save(OUT / out, optimize=True, dpi=(600, 600))
+        print(f"{out}: {flat.width} x {flat.height} (opaque)")
 
 
 if __name__ == "__main__":

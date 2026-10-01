@@ -31,6 +31,8 @@ const C = {
 };
 const F = { body: "Source Sans 3", display: "Saira SemiBold", displayReg: "Saira" };
 
+const SIGNATORY = { name: "Loyiso Ngcala", title: "Managing Director" };
+
 const COMPANY = {
   legal: "Auris Nexus Technologies (Pty) Ltd",
   reg: "2026/606690/07",
@@ -52,8 +54,9 @@ const PAGE = { w: 210, h: 297, left: 20, right: 20, top: 36, bottom: 32, header:
 const TEXT_W = PAGE.w - PAGE.left - PAGE.right;   // 170 mm
 
 const LOGO_DIR = path.join(__dirname, "..", "04_Brand-Assets", "logo");
-const logoHz = fs.readFileSync(path.join(LOGO_DIR, "an-logo-horizontal-fullcolour.png"));
-const logoSym = fs.readFileSync(path.join(LOGO_DIR, "an-logo-symbol-fullcolour.png"));
+// Documents use the logos flattened onto white: no alpha reaches the PDF, so nothing is left to flatten at print.
+const logoHz = fs.readFileSync(path.join(LOGO_DIR, "an-logo-horizontal-fullcolour-onwhite.png"));
+const logoSym = fs.readFileSync(path.join(LOGO_DIR, "an-logo-symbol-fullcolour-onwhite.png"));
 const HZ_RATIO = 638 / 2810;
 const SYM_RATIO = 902 / 1086;
 
@@ -91,8 +94,15 @@ function layoutTable(widthsMm, rows) {
 }
 
 // Header/footer text runs share a compact, fixed rhythm so nothing drifts between versions.
+// The Formal version sets company information near-black at 8 pt: grey 7.5 pt text drops out
+// on light-density photocopies, and tender packs are routinely copied.
+const INK = {
+  standard: { text: C.slate, size: pt(7.5), label: C.orbitBlue },
+  formal: { text: C.graphite, size: pt(8), label: C.navy },
+};
+let ink = INK.standard;
 const hf = (text, o = {}) =>
-  run(text, { font: F.body, size: pt(7.5), color: C.slate, ...o });
+  run(text, { font: F.body, size: ink.size, color: ink.text, ...o });
 const hfPara = (children, o = {}) =>
   new Paragraph({
     children,
@@ -212,12 +222,12 @@ function continuationHeader(version, reference) {
 
 // ---------------------------------------------------------------- footers
 const pageOf = (o = {}) => [
-  hf("Page ", o), new TextRun({ children: [PageNumber.CURRENT], font: F.body, size: pt(7.5), color: C.slate, ...o }),
-  hf(" of ", o), new TextRun({ children: [PageNumber.TOTAL_PAGES], font: F.body, size: pt(7.5), color: C.slate, ...o }),
+  hf("Page ", o), new TextRun({ children: [PageNumber.CURRENT], font: F.body, size: ink.size, color: ink.text, ...o }),
+  hf(" of ", o), new TextRun({ children: [PageNumber.TOTAL_PAGES], font: F.body, size: ink.size, color: ink.text, ...o }),
 ];
 
 function firstPageFooter(version) {
-  const label = (t) => hf(t, { font: F.display, color: C.orbitBlue, size: pt(7) });
+  const label = (t) => hf(t, { font: F.display, color: ink.label, size: pt(7) });
   const col1 = [
     hfPara([run(COMPANY.legal, { font: F.display, size: pt(7.5), color: C.navy })]),
     hfPara([hf(`Registration No. ${COMPANY.reg}`)]),
@@ -441,7 +451,7 @@ function templateContent(version) {
   out.push(bullet([ph("[Bulleted point — use the List Bullet style]")]));
   out.push(bullet([ph("[Bulleted point]")], true));
   out.push(finalPara([ph("[Closing paragraph with the requested action or next step.]")]));
-  out.push(...signature("[Full Name]", "[Position]", version === "formal" ? "Yours faithfully" : "Yours sincerely"));
+  out.push(...signature(SIGNATORY.name, SIGNATORY.title, version === "formal" ? "Yours faithfully" : "Yours sincerely"));
   out.push(styled("Enclosure", "Enclosure: [Document name]"));
   return out;
 }
@@ -480,7 +490,7 @@ function standardSample() {
     body("We would welcome the opportunity to complete your supplier registration requirements and to meet with your team to understand the technology priorities on which you anticipate going to market. We would also be pleased to respond to any request for information, request for quotation or tender in which our capabilities are relevant."),
     finalPara([run("Please direct any correspondence to "), run(COMPANY.email, { color: C.orbitBlue }),
       run(` or ${COMPANY.tel}. Thank you for your time and consideration.`)]),
-    ...signature("[Full Name]", "Managing Director"),
+    ...signature(SIGNATORY.name, SIGNATORY.title),
     styled("Enclosure", "Enclosure: Auris Nexus Technologies company profile"),
   ];
 }
@@ -529,7 +539,7 @@ function formalSample() {
     H1("Contact", true),
     finalPara([run("All correspondence regarding this bid may be directed to the undersigned at "),
       run(COMPANY.email, { color: C.orbitBlue }), run(` or ${COMPANY.tel}. We thank you for your assistance and look forward to your response.`)]),
-    ...signature("[Full Name]", "Managing Director"),
+    ...signature(SIGNATORY.name, SIGNATORY.title),
     styled("Enclosure", "Enclosures: Company registration documents; B-BBEE certificate or sworn affidavit, as applicable"),
   ];
 }
@@ -541,6 +551,7 @@ const TITLES = {
 };
 
 function buildDocument(version, mode) {
+  ink = INK[version];
   const content = {
     template: () => templateContent(version),
     blank: () => blankContent(),
