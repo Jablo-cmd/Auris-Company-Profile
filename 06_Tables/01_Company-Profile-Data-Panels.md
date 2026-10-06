@@ -1,7 +1,7 @@
 # Company Profile Data Panels
 
 ## Panel 01 — At a glance
-Legal name | CIPC | Ownership | B-BBEE | CSD | Head office
+Legal name | CIPC | Ownership | B-BBEE | CSD | CSD supplier number | Head office
 
 ## Panel 02 — Solution architecture
 Core: Technology Consulting | Custom Software Development | Business Automation | Digital Transformation | AI Integration

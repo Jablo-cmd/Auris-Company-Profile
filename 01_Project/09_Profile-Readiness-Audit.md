@@ -44,7 +44,7 @@
 1. **Proofread and sign-off by the Managing Director.** Confirm every fact in the Credentials table and on the contact page.
 2. **Ownership wording.** The profile says "100% South African-owned", which is the approved README fact. If a black-ownership percentage is to be stated, confirm it from the B-BBEE certificate or affidavit first. **MISSING — REQUIRES CONFIRMATION** (Fact Register E8).
 3. **B-BBEE document.** Have the current certificate or sworn affidavit, and its expiry date, ready to supply on request (E7).
-4. **CSD supplier number (MAAA…).** It is not recorded in the repository. Add it to the Credentials table if you want it published. **MISSING — REQUIRES CONFIRMATION** (E10).
+4. ~~**CSD supplier number.**~~ **Resolved 2026-10-06:** supplier number R0341462686 was supplied and is published in the Credentials table and the "At a glance" panel (E10).
 5. **Governance adoption.** `11_Governance/Policy-Approval-Adoption-Record.md` is unsigned. Until it is signed, the profile must keep saying "prepared". Once it is signed, the wording can change to "adopted".
 6. **CIT Employee & Leave Management.** Confirm whether this was built for a client (CIT) and whether that client may be named. The profile currently describes it only as "business system development".
 7. **Pro Energy Solutions.** Confirm that the client is happy to be named as delivered work.

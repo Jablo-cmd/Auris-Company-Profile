@@ -50,6 +50,7 @@ The document should feel credible, capable and commercially useful. It should no
 | Ownership | 100% South African-owned |
 | B-BBEE | Level 1 |
 | CSD | Registered |
+| CSD supplier number | R0341462686 |
 | Head office | 140 Linden Road, Sandown, Sandton, Gauteng, South Africa |
 | General contact | info@aurisnexus.co.za |
 | Website | aurisnexus.co.za |

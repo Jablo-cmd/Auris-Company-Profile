@@ -104,7 +104,7 @@ Where evidence is unavailable, the copy uses capability language rather than pre
 - **CIPC:** 2026/606690/07
 - **Ownership:** 100% South African-owned
 - **B-BBEE:** Level 1
-- **CSD:** Registered; CSD number to be inserted once confirmed
+- **CSD:** Registered; CSD supplier number R0341462686
 - **Head office:** 140 Linden Road, Sandown, Sandton, Gauteng, South Africa
 - **Website:** aurisnexus.co.za
 - **Email:** info@aurisnexus.co.za

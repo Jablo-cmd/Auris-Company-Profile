@@ -35,6 +35,7 @@ We do not begin with a product to sell or a technology to promote. We begin with
 | Ownership | 100% South African-owned |
 | Registration | CIPC 2026/606690/07 |
 | Supplier registration | Central Supplier Database (CSD) registered |
+| CSD supplier number | R0341462686 |
 | Website | aurisnexus.co.za |
 
 ### What we do
@@ -272,6 +273,7 @@ These are target client types. They are not claims of prior client delivery.
 | B-BBEE status | Level 1 |
 | Ownership | 100% South African-owned |
 | Supplier registration | Registered on the National Treasury Central Supplier Database (CSD) |
+| CSD supplier number | R0341462686 |
 | Managing Director | Loyiso Ngcala |
 | Certifications and memberships | None currently claimed |
 
