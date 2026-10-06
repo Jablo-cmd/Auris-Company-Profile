@@ -1,0 +1,4 @@
+/* Brand typefaces (SIL Open Font Licence 1.1), latin subset, variable weight */
+@font-face{font-family:'Saira';font-style:normal;font-weight:100 900;font-display:block;src:url('fonts/Saira-Variable.woff2') format('woff2');}
+@font-face{font-family:'Source Sans 3';font-style:normal;font-weight:200 900;font-display:block;src:url('fonts/SourceSans3-Variable.woff2') format('woff2');}
+@font-face{font-family:'Source Sans 3';font-style:italic;font-weight:400;font-display:block;src:url('fonts/SourceSans3-Italic.woff2') format('woff2');}

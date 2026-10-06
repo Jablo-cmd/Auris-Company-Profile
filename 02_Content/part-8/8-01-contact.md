@@ -16,8 +16,8 @@ status: factual
 **Phone / WhatsApp:** 063 122 6552  
 **Website:** aurisnexus.co.za
 
-## Let's build what the business needs.
+## Request a technology consultation.
 
-From a professional website to a custom operational platform, Auris Nexus works from the business problem outward.
+Contact Auris Nexus Technologies to discuss your technology requirements or to request a proposal. Auris Nexus works from the business problem outward.
 
-**Understand. Design. Build. Deploy. Improve.**
+**Discover. Design. Engineer. Implement. Improve.**

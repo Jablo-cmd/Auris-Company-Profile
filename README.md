@@ -8,6 +8,19 @@ Production repository for Auris Nexus Technologies' corporate company profile, c
 
 **Current master content source:** [02_Content/00_Master-Company-Profile.md](02_Content/00_Master-Company-Profile.md)
 
+**Designed edition (Version 1.0, September 2026):** [10_Output/Auris-Nexus-Company-Profile.html](10_Output/Auris-Nexus-Company-Profile.html) → rendered to [09_PDF/Auris-Nexus-Technologies-Company-Profile-2026.pdf](09_PDF/Auris-Nexus-Technologies-Company-Profile-2026.pdf)
+
+**Readiness audit and open items:** [01_Project/09_Profile-Readiness-Audit.md](01_Project/09_Profile-Readiness-Audit.md)
+
+### Building the PDF
+
+```bash
+node tools/build-profile.cjs          # render PDF
+node tools/build-profile.cjs --qa     # render PDF + layout, font, asset and responsive checks
+```
+
+Requires Node.js and Playwright (Chromium). Fonts and logo assets are local to `10_Output/assets/`.
+
 ---
 
 ## What this profile is designed to do
@@ -37,6 +50,7 @@ The document should feel credible, capable and commercially useful. It should no
 | Ownership | 100% South African-owned |
 | B-BBEE | Level 1 |
 | CSD | Registered |
+| CSD supplier number | R0341462686 |
 | Head office | 140 Linden Road, Sandown, Sandton, Gauteng, South Africa |
 | General contact | info@aurisnexus.co.za |
 | Website | aurisnexus.co.za |
@@ -179,20 +193,21 @@ Measured outcomes should only be published where evidence has been captured.
 
 ## Current solution architecture
 
-Auris Nexus' commercial service story is intentionally simpler than the previous 13-service taxonomy:
+Auris Nexus is positioned as a **technology consulting and digital solutions company**.
 
-1. **Custom Business Software**
-2. **Business Automation**
-3. **Web Development**
-4. **Web Design & UX**
-5. **Mobile Applications**
-6. **AI Solutions**
-7. **Data & Business Intelligence**
-8. **Data, Integration and Ongoing Support**
+**Core solutions**
+
+1. **Technology Consulting**
+2. **Custom Software Development**
+3. **Business Automation**
+4. **Digital Transformation**
+5. **AI Integration**
+
+**Supporting capabilities:** Business Systems · Data & Business Intelligence · Systems Integration · Web Development · Mobile Applications · Technology Support
+
+**Delivery approach:** Discover → Design → Engineer → Implement → Improve
 
 Cloud, security, data architecture and infrastructure remain engineering foundations that are incorporated where the solution requires them.
-
-This reflects the current Auris website positioning, which describes the business around practical business problems rather than a long technology catalogue. urlCurrent Auris Nexus solutionshttps://aurisnexus.co.za/services.html
 
 ---
 
@@ -209,7 +224,8 @@ This reflects the current Auris website positioning, which describes the busines
 | [07_Branding](07_Branding/) | Visual identity and document design system |
 | [08_Word](08_Word/) | Final Word master and styles |
 | [09_PDF](09_PDF/) | Screen, tender and print PDF outputs |
-| [10_Output](10_Output/) | Approved publication editions |
+| [10_Output](10_Output/) | Approved publication editions (designed HTML source and assets) |
+| [tools](tools/) | PDF build and layout QA script |
 | [11_Governance](11_Governance/) | Corporate policies and approval records |
 
 ---

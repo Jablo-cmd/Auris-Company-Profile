@@ -148,7 +148,7 @@ eligibility, and each must be transcribed from the source document rather than r
 | E7 | B-BBEE level, verification agency, certificate number, expiry | ⚠ **Level 1 confirmed; verification agency, certificate number and expiry still to be captured from certificate** | current credentials review |
 | E8 | Black ownership and black female ownership percentages | `[[OWNERSHIP_PCT]]` | current credentials review |
 | E9 | EME / QSE status | `[[ENTERPRISE_SIZE]]` | current credentials review |
-| E10 | CSD (Central Supplier Database) registration number | ⚠ **CSD registration confirmed; CSD registration number still to be captured from the company's records** | current credentials review |
+| E10 | CSD (Central Supplier Database) registration number | ✅ **CSD registration confirmed; CSD supplier number R0341462686** | — | Resolved 2026-10-06 |
 | E11 | UIF and COIDA registration and letter of good standing | ⚠ **No COIDA registration currently held**; UIF status not yet confirmed | current credentials review |
 | E12 | Professional memberships — body, number, status | ✅ **None currently held** | — | Resolved |
 | E13 | Certifications **currently held** — ISO, CMMI, vendor | ✅ **None currently held** | — | Resolved |
@@ -246,3 +246,13 @@ A `[[TOKEN]]` count is reported at the close of every stage from Stage 3 onward.
 ## Consolidated-profile rule — 2026-09-23
 
 The current profile uses evidence classes: **Delivered**, **Current capability**, **Available capability**, and **Planned**. Missing documentary credentials remain unclaimed. The public profile does not publish tax numbers, personal identity information, private PINs or unverified compliance status.
+
+
+## Reconciliation note — 2026-09-30
+
+- **B7 Head office:** the approved publication fact is **140 Linden Road, Sandown, Sandton, Gauteng** (README approved-facts table and master profile). The earlier "Johannesburg" entry is superseded.
+- **H1 Telephone:** **063 122 6552** (Phone / WhatsApp) is approved for publication per the README approved-facts table.
+- **E8 / B6 Ownership:** the profile publishes "100% South African-owned". Black-ownership percentages remain unpublished until confirmed from the B-BBEE certificate or affidavit.
+- **E10 CSD:** registration is published. Supplier number **R0341462686** was confirmed on 2026-10-06 and is published in the profile. Source: a National Treasury CSD system notification to the Managing Director (2026-10-06), which references the supplier record by this number. Bank account details from that notification are not recorded here and are never published.
+- **G1–G9 Governance:** the policy pack is described as "prepared". The adoption record is unsigned.
+- See `01_Project/09_Profile-Readiness-Audit.md` for the full list of open items.

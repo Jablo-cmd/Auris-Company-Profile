@@ -1,622 +1,329 @@
 # Auris Nexus Technologies (Pty) Ltd
 
-## Transforming Businesses Through Technology
+## Transforming Businesses Through Technology.
 
-**Technology that brings clarity to the way organisations work.**
+**Technology consulting and digital solutions**
 
-**140 Linden Road, Sandown, Sandton, Gauteng, South Africa**  
-**info@aurisnexus.co.za | 063 122 6552 | aurisnexus.co.za**
+We help organisations understand, design, build, integrate and improve the technology that runs their operations, starting with the business problem rather than the software.
+
+**Sandton, South Africa | info@aurisnexus.co.za | 063 122 6552 | aurisnexus.co.za**
+
+> **Source status:** Master content, Version 1.0, September 2026. This file is the text source for the designed edition in `10_Output/Auris-Nexus-Company-Profile.html`, which is rendered to `09_PDF/Auris-Nexus-Technologies-Company-Profile-2026.pdf`. Keep the two aligned. See `01_Project/09_Profile-Readiness-Audit.md` for evidence status and open items.
 
 ---
 
 # 01 — Company Overview
 
-## Technology should make business easier to run.
+## A technology partner that starts with the business problem.
 
-Auris Nexus Technologies is a South African technology company that designs and builds practical digital systems around the way organisations actually work.
+Auris Nexus Technologies (Pty) Ltd is a South African technology consulting and digital solutions company based in Sandton, Gauteng.
 
-We work with small and medium-sized businesses, professional organisations and educational institutions that need more than an off-the-shelf application, a basic website or disconnected IT services. We understand the operational problem, design the right digital response and build technology that improves how people work, communicate and make decisions.
+We help organisations understand, design, build, integrate and improve the technology they depend on, so that systems, processes and information work together to support clear business objectives.
 
-Our capabilities span **custom business software, client portals, dashboards, professional websites, workflow automation, mobile applications, AI integration and data & business intelligence**.
+Our work sits where business operations and technology meet. We work with leadership and operational teams to understand how work is actually done, find where technology can remove friction or create new capability, and then engineer and implement the solution. That may be custom software, workflow automation, systems integration, data and reporting, or a practical application of artificial intelligence.
 
-The objective is straightforward: help organisations replace fragmented processes, repetitive administration and disconnected information with technology that creates greater visibility, efficiency, trust and room for growth.
+We do not begin with a product to sell or a technology to promote. We begin with the organisation's objectives, processes, people and constraints, and then select the approach that fits. Where an existing platform is the right answer, we say so. Where a custom solution is justified, we build it with sound architecture, security and long-term maintainability in mind.
 
-## Our positioning
+### At a glance
 
-**Auris Nexus is a technology partner for organisations that want greater transparency, operational control and sustainable growth through technology.**
+| | |
+|---|---|
+| Company | Auris Nexus Technologies (Pty) Ltd |
+| Focus | Technology consulting and digital solutions |
+| Head office | Sandton, Gauteng, South Africa |
+| B-BBEE | Level 1 |
+| Ownership | 100% South African-owned |
+| Registration | CIPC 2026/606690/07 |
+| Supplier registration | Central Supplier Database (CSD) registered |
+| CSD supplier number | R0341462686 |
+| Website | aurisnexus.co.za |
 
-We believe technology should not become another source of complexity.
+### What we do
 
-It should make the organisation clearer.
+- **Advise:** Technology consulting. We assess needs and options, define requirements and shape technology and transformation roadmaps.
+- **Engineer:** Solution delivery. We design and build custom software, automation, integrations, data solutions and AI capability.
+- **Implement & improve:** Adoption and support. We deploy into the operational environment, support users and improve the solution over time.
 
-It should make information easier to access.
-
-It should make processes easier to manage.
-
-And it should give decision-makers greater confidence in what is happening inside the business.
-
-### Mission
-
-To design and deliver useful digital solutions that solve genuine business problems, improve the way people work and create a foundation for sustainable growth.
-
-### Vision
-
-To help organisations operate with greater clarity, efficiency and confidence through practical technology.
-
-### Our approach
-
-**Understand → Define → Design → Build → Test → Deploy → Improve**
-
-We do not begin with a technology stack and look for somewhere to use it. We begin with the organisation: the process, the people, the information, the bottlenecks, the risks and the desired outcome.
+**Discover → Design → Engineer → Implement → Improve**
 
 ---
 
-# 02 — What We Deliver
+# 02 — Business Challenges We Address
 
-## Digital solutions designed around business value
+## Most technology requirements begin as operational problems.
 
-Auris Nexus combines software engineering, digital design, automation and data capabilities to create solutions that support real organisational needs.
+These are the challenges organisations typically bring to Auris Nexus, and how we respond to them.
 
-### Professional Websites
+| # | Challenge | What it looks like | Our response |
+|---|---|---|---|
+| 01 | Manual and spreadsheet-driven processes | Staff re-capture information, chase approvals by email and reconcile spreadsheets by hand. | Structured digital workflows with defined roles, approvals and audit trails. |
+| 02 | Fragmented, disconnected systems | Core applications do not share information, so teams work around the gaps. | Systems integration, APIs and controlled data exchange between applications. |
+| 03 | Poor information visibility | Management waits for month-end reports and cannot see operational status when it matters. | Dashboards, KPI reporting and automated reports drawn from operational data. |
+| 04 | Workflow bottlenecks | Requests stall between people, teams and departments, with no clear owner or status. | Workflow redesign with routing, notifications, reminders and escalations. |
+| 05 | Outdated or ill-fitting technology | Legacy tools no longer reflect how the organisation operates and are hard to extend. | Modernisation roadmaps, phased re-platforming and custom replacement where justified. |
+| 06 | Inefficient data processes | Data is duplicated, inconsistent or hard to trust, and reporting depends on manual effort. | Sound data models, validation, migration and a single source of truth. |
+| 07 | Unclear technology direction | Investment decisions are made before requirements, options and risks are properly understood. | Technology assessments, analysis of solution options and implementation roadmaps. |
+| 08 | AI interest without a defined use case | There is pressure to adopt AI, but no agreed use case, data position or governance approach. | Use-case identification, controlled pilots and integration into existing workflows. |
 
-A professional website is often the first point of contact between an organisation and a prospective customer, patient, parent, learner or business partner.
+---
 
-We design and develop responsive websites focused on:
+# 03 — Core Solutions
 
-- Clear information architecture
-- Professional brand presentation
-- Mobile responsiveness
-- Strong user experience
-- Search-engine foundations
-- Performance
-- Clear calls to action
-- Enquiry and conversion pathways
+## Five core solution areas.
 
-The objective is a digital presence that reflects the quality of the organisation behind it.
+Each solution area starts with a defined business problem and ends with technology that is in use.
 
-### Client & Customer Portals
+### 01 Technology Consulting
 
-Give customers, clients, patients, parents or other stakeholders a structured digital environment to interact with the organisation.
+**What it is:** Practical, independent guidance on how technology should support the organisation's objectives.
 
-Portals can provide access to relevant information, requests, documents, communication, services and workflows without relying entirely on email, telephone calls and manual administration.
+**The challenge:** Organisations are often asked to commit to systems, vendors or budgets before the underlying requirement, the available options and the risks are clearly understood.
 
-For the organisation, this can create a more structured customer experience while improving internal visibility.
+**What we deliver:**
+- Technology and process assessments
+- Requirements definition and business analysis
+- Solution options and build-versus-buy evaluation
+- Solution architecture guidance
+- Technology roadmaps and implementation plans
 
-For the user, it creates something equally important:
+### 02 Custom Software Development
 
-**clarity and trust.**
+**What it is:** Software designed and engineered around specific operational and business requirements.
 
-### Real-Time Dashboards
+**The challenge:** Off-the-shelf products can force an organisation to adapt its processes to the software, while spreadsheets, email and paper cannot scale with the business.
 
-Management should not have to wait for a spreadsheet at the end of the month to understand what is happening.
+**What we deliver:**
+- Business applications and internal platforms
+- Client, staff and stakeholder portals
+- Multi-tenant and role-based systems
+- Secure web applications with authentication
+- Management and operational dashboards
 
-Auris Nexus can design dashboards that bring relevant operational information into one view, including:
+### 03 Business Automation
 
-- Operational activity
-- Financial or administrative information
-- Workforce activity
-- Customer activity
-- Key performance indicators
-- Workflow status
-- Trends and exceptions
+**What it is:** Replacing repetitive manual work with structured digital workflows and automated processes.
 
-The objective is not to create attractive charts. It is to put useful information in front of the people who need to make decisions.
+**The challenge:** Approvals, notifications, data capture and reporting take up staff time and introduce delay and error. We automate where it creates real value and keep people in control where judgement is required.
 
-### Custom Business Software
-
-When spreadsheets, email and disconnected systems begin to limit an organisation, custom software can provide a structured operating environment.
-
-We develop solutions including:
-
-- HR and employee management
-- Leave management
-- CRM and customer management
-- School management systems
-- Operations platforms
-- Approval workflows
-- Management dashboards
-- Client portals
-- Internal administration platforms
-
-We build around actual roles, processes, permissions, records and reporting requirements.
-
-### Business Automation
-
-Repetitive administration consumes time that could be spent on customers, patients, learners or higher-value business activities.
-
-Auris Nexus can automate appropriate processes such as:
-
-- Approvals
-- Notifications and reminders
-- Escalations
-- Data validation
-- Data transfer
+**What we deliver:**
+- Approval and workflow routing
+- Notifications, reminders and escalations
+- Data validation and system-to-system transfer
 - Document processing
-- Scheduled reporting
-- Workflow routing
-- System-to-system information transfer
+- Scheduled and automated reporting
 
-We do not automate for the sake of automation. We identify where automation creates meaningful operational value while keeping appropriate human control.
+### 04 Digital Transformation
 
-### Mobile Applications
+**What it is:** Modernising processes, systems, data and technology capability in a structured, phased way.
 
-Where work happens away from a desk, mobile technology can become an important part of the operating model.
+**The challenge:** Transformation initiatives stall when they are treated as one large technology purchase rather than a sequence of well-defined, measurable business changes.
 
-Applications may support field teams, customers, service requests, inspections, job management, deliveries and mobile data capture.
+**What we deliver:**
+- Current-state process and systems review
+- Target-state design and phased roadmap
+- Process digitisation and system modernisation
+- Data migration and consolidation
+- Adoption support and user training
 
-### AI & Intelligent Digital Solutions
+### 05 AI Integration
 
-AI should solve a business problem rather than exist as a technology demonstration.
+**What it is:** Identifying and implementing practical applications of AI within existing workflows and systems.
 
-Auris Nexus can integrate AI into appropriate workflows for:
+**The challenge:** AI initiatives often begin with the technology rather than a defined use case, the available data and a clear position on privacy, oversight and risk.
 
-- Knowledge assistants
-- Document classification
-- Information summarisation
-- Intelligent routing
-- Workflow assistance
-- Information extraction
-- Decision-support features
-- AI-enabled business platforms
+**What we deliver:**
+- Use-case identification and prioritisation
+- Knowledge assistants over organisational information
+- Document classification, extraction and summarisation
+- Intelligent routing and decision-support features
+- Controlled pilots with human oversight
 
-We start with the use case, the available information and the expected outcome.
+## Supporting capabilities
 
-### Data & Business Intelligence
+We apply these within engagements, or deliver them on their own where required.
 
-Data becomes valuable when management can use it to make better decisions.
-
-We develop management dashboards, operational dashboards, KPI reporting, automated reports, trend analysis, data integration and executive visibility tools.
-
-### Data, Integration & Ongoing Support
-
-Where organisations have multiple systems, the problem is often not the individual systems but the gaps between them.
-
-Auris Nexus can support appropriate:
-
-- API and system integration
-- Data exchange
-- Workflow hand-offs
-- Notification flows
-- Reporting flows
-- Website-to-business-system connections
-- Data migration
-- Maintenance and enhancement
-
-Support scope and service levels are agreed according to the engagement.
+- **Business Systems:** HR, leave, CRM, operations and administration platforms built around defined roles, records and approvals.
+- **Data & Business Intelligence:** Data models, dashboards, KPI reporting and management information for timely decisions.
+- **Systems Integration:** APIs and integrations that connect business applications, websites and data sources.
+- **Web Development:** Corporate websites and web applications with sound information architecture, performance and search foundations.
+- **Mobile Applications:** Mobile solutions for field teams, service requests, inspections and data capture.
+- **Technology Support:** Maintenance, issue resolution and enhancement of delivered solutions under agreed support terms.
 
 ---
 
-# 03 — Industries We Serve
+# 04 — Our Approach
 
-## Technology shaped around the organisation
+## A structured path from business problem to working solution.
 
-Different industries have different pressures. Our approach is therefore not to force every organisation into the same digital model.
+Every engagement follows the same disciplined sequence, scaled to the size and risk of the work.
 
-### Medical Practices & Healthcare
+| Stage | What happens | Typical outputs |
+|---|---|---|
+| **Discover** | Understand the organisation, objectives, users, current processes, systems and constraints. | Problem statement; current-state view; requirements and priorities |
+| **Design** | Define the solution architecture, workflows, data, roles, user experience and delivery plan. | Solution design; agreed scope; delivery plan, risks and assumptions |
+| **Engineer** | Build, configure and integrate in controlled increments, with regular client review. | Working increments; test evidence; technical documentation |
+| **Implement** | Deploy into the operational environment, migrate data where required and support adoption. | Production release; user guidance and training; handover |
+| **Improve** | Support, maintain and enhance the solution as the organisation's needs change. | Maintenance and fixes; enhancements; next-phase recommendations |
 
-## A more connected practice experience.
+### How we manage delivery
 
-Medical practices manage sensitive information, administration, communication and patient expectations every day.
-
-Auris Nexus can support practices with:
-
-- Professional practice websites
-- Patient-facing digital experiences
-- Secure portals
-- Online enquiry pathways
-- Appointment-related workflows
-- Internal dashboards
-- Administrative automation
-- Digital communication tools
-- Data and reporting solutions
-
-The opportunity is not simply to "go digital". It is to reduce unnecessary administrative friction while creating a clearer experience for patients and staff.
-
-**Important:** Any healthcare solution involving patient information is scoped with appropriate privacy, security, access-control and regulatory requirements in mind. Auris Nexus does not claim to provide clinical systems or regulatory certification unless specifically evidenced.
-
-### Schools & Educational Institutions
-
-## Give the school a connected digital environment.
-
-Schools often manage learners, guardians, educators, attendance, academics, finance, communication and administration across different processes and tools.
-
-Auris Nexus has direct product evidence in education through **Funda360**, an Auris-owned school management platform.
-
-Relevant capability includes:
-
-- School administration
-- Learner management
-- Guardian and parent access
-- Educator and staff management
-- Attendance
-- Academic workflows
-- Homework
-- Finance
-- Leave and HR
-- Role-based access
-- Reporting
-- Multi-tenant architecture
-- Digital communication
-
-The goal is to give the school a more connected operating environment while giving parents and guardians clearer access to relevant information.
-
-### Small & Medium Enterprises
-
-## Technology that grows with the business.
-
-SMEs frequently reach a point where spreadsheets, email, paper-based processes and disconnected applications begin to slow the business down.
-
-Auris Nexus helps SMEs move from fragmented administration towards structured digital operations.
-
-We can build or improve:
-
-- Corporate websites
-- Customer portals
-- CRM systems
-- Employee platforms
-- Workflow automation
-- Management dashboards
-- Internal business systems
-- Mobile applications
-- Data and reporting environments
-- AI-enabled workflows
-
-The approach is deliberately practical: solve the highest-value problem first, create a sound foundation and expand as the organisation grows.
-
-### Professional & Corporate Services
-
-HR, leave, internal approvals, client management and reporting are recurring examples of processes that benefit from structured digital systems.
-
-The **CIT Employee & Leave Management System** demonstrates Auris Nexus capability in employee records, leave workflows, approvals, role-based access and HR administration.
-
-### Logistics, Facilities & Operational Services
-
-Operational businesses depend on timely information, clear workflows and visibility across people, jobs and activity.
-
-Auris Nexus has developed technology in these contexts through **LOGIOS OS** and **Sebetsa**, demonstrating capability in logistics operations, workforce management, scheduling, jobs, incidents, fleet, drivers, site operations, reporting and role-aware workflows.
-
-### Other Target Markets
-
-Auris Nexus is also positioned to support organisations in energy, manufacturing, retail and commerce, construction, financial and advisory services, renewable energy, government and public sector, hospitality and other operational environments.
-
-Where direct engagement evidence is not yet available, these are treated as target markets or relevant capability areas rather than represented as established client track record.
+- **Clear scope and change control:** Scope, priorities and assumptions are agreed up front. Changes are assessed and approved before they are built.
+- **Visible progress:** Regular reviews and demonstrations show what is complete, what remains and what happens next.
+- **Quality built in:** Functionality, permissions, workflows and responsiveness are tested before each release.
+- **Security and privacy by design:** Access control, data protection and POPIA considerations are addressed from the design stage.
+- **Documentation and handover:** Solutions are documented so that they can be operated, supported and extended.
+- **Business outcome focus:** Success is judged by whether the organisation works better, not by the number of features delivered.
 
 ---
 
-# 04 — Competitive Advantage
+# 05 — Technology & Delivery Capability
 
-## Why organisations choose to work with Auris Nexus
+## Modern engineering, applied with discipline.
 
-### Transparency is part of the product.
-
-Technology projects become difficult when clients cannot clearly see what is being built, why it is being built or where the project stands.
-
-Auris Nexus favours visible requirements, clear scope, controlled development, regular review and straightforward communication.
-
-Clients should understand:
-
-**What are we solving?**  
-**What are we building?**  
-**What has been completed?**  
-**What remains?**  
-**What happens next?**
-
-### Modern capability without unnecessary complexity.
-
-Our engineering approach uses contemporary web, data and cloud technologies where they make sense.
-
-We work with technologies including React, TypeScript, Vite, Tailwind CSS, PostgreSQL, Supabase, Edge Functions/Deno and Git/GitHub across relevant solutions.
-
-Technology is selected according to the problem. We do not add complexity simply to make a solution sound sophisticated.
-
-### Solutions built around the client.
-
-Off-the-shelf software can be valuable, but it can also force organisations to adapt their processes around someone else's product.
-
-Where custom development is justified, Auris Nexus designs around the organisation's actual workflows, users, permissions, information and reporting needs.
-
-### Business value before technical theatre.
-
-A successful project is not measured by how many features can be placed on a screen.
-
-It is measured by whether the organisation can work more effectively, communicate more clearly, access better information or provide a better experience.
-
-### One relationship across the digital journey.
-
-Auris Nexus can support a progression from website to portal, from portal to business system, from business system to automation, and from operational data to management insight.
-
-The relationship can evolve as the organisation's needs evolve.
-
----
-
-# 05 — Selected Work & Evidence
-
-## Funda360 — School Management Platform
-
-**Sector:** Education  
-**Type:** Multi-tenant business software / SaaS  
-**Evidence status:** Auris-owned product; development and enhancement ongoing.
-
-Funda360 brings school administration and operational information into a structured digital environment.
-
-Capability demonstrated includes learner and school administration, guardians, educators, attendance, academics, homework, finance, staff and HR workflows, leave, role-based access, reporting, authentication and multi-tenant architecture.
-
-The platform demonstrates Auris Nexus capability in building a substantial education technology product rather than only delivering a marketing website.
-
----
-
-## Sebetsa — Facilities & Operations Technology
-
-**Sector:** Facilities / operational services  
-**Type:** Operations management platform  
-**Evidence status:** Auris-owned platform; development and enhancement ongoing.
-
-Sebetsa applies digital workflows to operational service environments where workforce activity, site operations, tasks and management visibility need to work together.
-
-The broader platform direction includes workforce records, leave, attendance, site operations, tasks, role-aware workflows, reporting, field operations and operational intelligence.
-
----
-
-## LOGIOS OS — Logistics Operations Platform
-
-**Sector:** Logistics & transport  
-**Type:** Multi-tenant operations platform  
-**Evidence status:** Auris-owned platform; development and enhancement ongoing.
-
-LOGIOS OS is designed around scheduling, jobs, incidents, fleet, drivers, customers, compliance and operational reporting.
-
-It demonstrates the ability to bring different operational domains into a structured software environment with role-aware workflows and management visibility.
-
----
-
-## CIT Employee & Leave Management
-
-**Sector:** Professional / corporate services  
-**Type:** HR and workforce management  
-**Evidence status:** System development evidence.
-
-The solution addresses employee records, leave workflows, approval processes, role-based access, HR administration and structured reporting.
-
-It demonstrates practical application of custom business software to internal organisational processes.
-
----
-
-## Pro Energy Solutions — Corporate Website
-
-**Sector:** Energy  
-**Type:** Corporate website / digital experience  
-**Evidence status:** Delivered website work.
-
-Auris Nexus designed and developed a responsive corporate website with emphasis on information architecture, mobile experience, technical SEO foundations, performance optimisation, service presentation and conversion-focused contact paths.
-
----
-
-## About testimonials and measured outcomes
-
-Auris Nexus will publish named client testimonials, logos, quantified outcomes and performance statistics only when they are authorised and supported by evidence.
-
-**The profile does not invent testimonials or claim measured business outcomes that have not been verified.**
-
----
-
-# 06 — Technology & Engineering Capability
-
-## Modern engineering. Practical application.
-
-Auris Nexus maintains an engineering approach appropriate to the solutions it develops.
-
-### Current technologies used across relevant Auris-built platforms
-
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- Supabase
-- PostgreSQL
-- Supabase Edge Functions / Deno
-- Git and GitHub
-- GitHub Pages where appropriate
+We choose technology to fit the problem. We do not add complexity to make a solution sound sophisticated.
 
 ### Engineering capabilities
 
-- Responsive web applications
-- Multi-tenant architecture
-- Role-based access control
-- Authentication
-- Data-layer access controls
-- PostgreSQL-backed systems
-- API and system integration
-- Workflow automation
-- Dashboards and reporting
-- AI integration
-- Mobile application development
-- Website performance optimisation
+Solution and data architecture · Multi-tenant platform design · Authentication and role-based access · Relational database design · API development and integration · Workflow automation · Dashboards and reporting · AI integration · Responsive web and mobile interfaces · Automated and end-to-end testing · Version control and controlled release · Performance optimisation
 
-Technology selection remains solution-dependent.
+### Technologies in current use across Auris-built platforms
 
----
+React · TypeScript · Vite · Tailwind CSS · PostgreSQL · Supabase · Edge Functions (Deno) · Git & GitHub
 
-# 07 — Security, Privacy & Responsible Engineering
+Where a client has established platforms, standards or architecture guidelines, we design solutions to fit within them.
 
-Security is considered part of the solution rather than an optional feature added at the end.
+### Security, privacy and responsible engineering
 
-Depending on the engagement, this can include authentication, role-based access control, tenant-level data separation, data-layer access policies, controlled permissions, auditability, secure deployment practices, backup and recovery considerations and privacy-conscious system design.
+Security is part of the solution, not a feature added at the end. Depending on the engagement, this includes authentication, role-based access control, tenant-level data separation, database-level access policies, auditability, secure deployment practices, and backup and recovery planning. Solutions that process personal information are designed with the Protection of Personal Information Act (POPIA) in mind.
 
-Auris Nexus recognises the importance of South African privacy requirements, including the Protection of Personal Information Act (POPIA), and incorporates privacy and access-control considerations into relevant solution design.
+### Responsible use of AI
 
-Auris Nexus does not currently represent itself as an ISO-certified organisation or standalone cybersecurity specialist unless a specific engagement and supporting credential establish otherwise.
+We apply AI to defined use cases with a clear purpose, appropriate data, human oversight of consequential decisions, and evaluation before wider rollout. We handle organisational and personal information according to the client's privacy and security requirements.
+
+> Auris Nexus does not currently hold ISO or other formal certifications and does not represent itself as a certified security provider. We can document the security controls applied in a solution for due-diligence review.
 
 ---
 
-# 08 — Delivery & Client Experience
+# 06 — Selected Experience
 
-## A clear path from problem to solution
+## Platforms and solutions engineered by Auris Nexus.
 
-### 01 — Understand
+Each item carries an evidence status, so that delivered client work is clearly distinguished from Auris-owned platforms that are still in development.
 
-We establish the business objective, users, current process, pain points, dependencies and desired outcome.
+| Work | Sector / type | Evidence status | Description | Demonstrates |
+|---|---|---|---|---|
+| **Funda360** | Education · School management platform | Auris-owned platform · in development | A multi-tenant platform that brings school administration into one structured environment: learner and guardian portals, academics, attendance, homework, finance, staff and leave administration, and reporting. | Multi-tenant architecture, authentication, role-based access, PostgreSQL data design with row-level security, and automated and end-to-end testing |
+| **LOGIOS OS** | Logistics & transport · Operations platform | Auris-owned platform · in development | A modular, multi-tenant operations platform designed around scheduling, jobs, incidents, fleet, drivers, customers, compliance and operational reporting. | Bringing several operational domains into one system with structured data models and role-aware workflows |
+| **Sebetsa** | Facilities & operational services · Workforce platform | Auris-owned platform · in development | A platform for distributed workforce and site operations, covering workforce records, attendance, leave, site operations, tasks, multi-site workflows and reporting. | Reuse of proven software foundations in field-based and multi-site operations |
+| **CIT Employee & Leave Management** | Corporate services · HR and workforce administration | Business system development | A purpose-built internal business system covering employee records, leave administration, approval workflows, role-based access and HR reporting. | Custom business software applied to internal organisational processes |
+| **Pro Energy Solutions** | Energy · Corporate website | Delivered client work | Design and development of a responsive corporate website, with attention to information architecture, mobile experience, technical search foundations, performance and clear enquiry paths. | Client-facing web delivery from structure and design through to launch |
 
-### 02 — Define
-
-We translate the requirement into practical scope, priorities, assumptions, risks and a delivery plan.
-
-### 03 — Design
-
-We define the experience, workflows, data structures, roles and technical approach.
-
-### 04 — Build
-
-Development proceeds in controlled increments, allowing review and refinement.
-
-### 05 — Test
-
-We validate functionality, permissions, workflows, responsiveness and relevant technical requirements.
-
-### 06 — Deploy
-
-We prepare the production environment, release the solution and support adoption.
-
-### 07 — Support & Improve
-
-Post-launch support can include maintenance, issue resolution, enhancements and future development.
-
-## What clients can expect
-
-**Clarity** — know what is being built and why.
-
-**Visibility** — see progress throughout delivery.
-
-**Control** — understand scope, priorities and changes.
-
-**Quality** — testing and review are part of development.
-
-**Responsibility** — security, privacy and maintainability are considered from the beginning.
-
-**Partnership** — the relationship can continue beyond launch.
+We publish client names, logos, testimonials and measured outcomes only where they are authorised and evidenced. We can provide further detail on these platforms on request.
 
 ---
 
-# 09 — Credentials & Business Integrity
+# 07 — Who We Work With
 
-## Corporate credentials
+### Where we have built
 
-| Credential | Current position |
+| Sector | Work |
 |---|---|
-| Legal name | Auris Nexus Technologies (Pty) Ltd |
-| CIPC registration | 2026/606690/07 |
+| Education | School management (Funda360) |
+| Logistics & transport | Operations platform (LOGIOS OS) |
+| Facilities & operations | Workforce platform (Sebetsa) |
+| Corporate services | HR and leave system (CIT) |
+| Energy | Corporate website (Pro Energy Solutions) |
+
+### Organisations we are structured to support
+
+- Corporate and enterprise organisations with operational, integration or reporting challenges
+- Operations-heavy organisations with distributed teams, field work or complex workflows
+- Organisations undertaking digital transformation or AI adoption initiatives
+- Small and medium enterprises moving from manual to structured digital operations
+- Education and institutional environments
+
+These are target client types. They are not claims of prior client delivery.
+
+---
+
+# 08 — Why Organisations Engage Auris Nexus
+
+## Business understanding and engineering capability, in one partner.
+
+1. **Business-first thinking:** We define the problem, the process and the intended outcome before recommending technology.
+2. **Consulting and engineering together:** The same partner that assesses the requirement also designs and builds the solution, so less is lost between advice and delivery.
+3. **Fit-for-purpose solutions:** We develop custom software where it is justified and recommend existing platforms where they are the better answer.
+4. **Integration and automation focus:** We address the gaps between systems, teams and processes, not only individual applications.
+5. **Practical, governed AI:** We apply AI to defined use cases, with human oversight and privacy safeguards.
+6. **End-to-end accountability:** From discovery to implementation and improvement, with transparent scope, progress and change control.
+7. **Evidence-led representation:** We keep what we have delivered, what we have built and what we can deliver clearly distinct.
+8. **Locally based:** A South African company, headquartered in Sandton, Gauteng.
+
+---
+
+# 09 — Corporate Credentials
+
+## Corporate information for procurement and supplier onboarding.
+
+| Item | Detail |
+|---|---|
+| Registered name | Auris Nexus Technologies (Pty) Ltd |
+| Company registration (CIPC) | 2026/606690/07 |
+| Head office | 140 Linden Road, Sandown, Sandton, Gauteng, South Africa |
+| B-BBEE status | Level 1 |
 | Ownership | 100% South African-owned |
-| B-BBEE | Level 1 |
-| CSD | Registered |
-| Head office | Sandown, Sandton, Gauteng |
-| Certifications | None currently claimed unless separately evidenced |
+| Supplier registration | Registered on the National Treasury Central Supplier Database (CSD) |
+| CSD supplier number | R0341462686 |
+| Managing Director | Loyiso Ngcala |
+| Certifications and memberships | None currently claimed |
 
-Auris Nexus maintains an evidence-led approach to credentials. Certifications, memberships and regulatory statuses are not presented unless supported by current documentation.
+### Governance
 
-## Governance
+Auris Nexus has prepared a Version 1.0 governance policy pack covering POPIA and privacy, information security, complaints and compliments, health and safety, procurement and supplier conduct, anti-bribery and corruption, business continuity, code of conduct and ethics, data retention and records, and conflict of interest.
 
-Auris Nexus has developed governance policy areas covering:
+> Do not describe the policies as "adopted" until `11_Governance/Policy-Approval-Adoption-Record.md` has been signed and dated.
 
-- Privacy and POPIA
-- Information security
-- Complaints and compliments
-- Health and safety
-- Procurement and supplier conduct
-- Anti-bribery and corruption
-- Business continuity
-- Code of conduct and ethics
-- Data retention
-- Conflict of interest
+### Supporting documents on request
 
-Policy status is represented according to the actual approval state. Draft policies are not presented as formally adopted until approval is complete.
+- CIPC registration documents
+- B-BBEE verification document
+- CSD registration report
+- Governance policies
+
+We provide banking details only on company letterhead through a verified channel, never in circulated documents. Please verify any request to change banking details directly with Auris Nexus.
 
 ---
 
 # 10 — Engage Auris Nexus
 
-## Start with the problem.
+## Discuss your technology requirements.
 
-You do not need to know exactly what software you need before contacting us.
+You do not need a finished specification to begin. Most engagements start with a conversation about a problem: a process that is too manual, systems that do not connect, information that is hard to see, or a transformation or AI initiative that needs structure.
 
-Bring us the problem.
+### Ways to engage
 
-Perhaps information is scattered across spreadsheets.
+- **Discovery & advisory:** A focused assessment that defines the problem, the options and a recommended approach.
+- **Solution delivery:** Design, engineering and implementation of a defined solution.
+- **Pilot or proof of concept:** A scoped first phase that tests the approach before wider rollout.
+- **Support & enhancement:** Maintenance and continued development of delivered solutions.
+- **Delivery partnership:** Working alongside internal IT teams, consultants or implementation partners.
+- **Modernisation:** Improving or replacing existing systems and processes that no longer fit.
 
-Perhaps your staff spend too much time on repetitive administration.
+### What happens next
 
-Perhaps customers, patients or parents need a better digital experience.
+1. **Conversation:** An initial discussion of objectives and challenges.
+2. **Discovery:** Clarifying requirements, constraints and priorities.
+3. **Proposal:** Scope, approach, timeline and commercial terms.
+4. **Delivery:** Structured delivery, implementation and support.
 
-Perhaps your existing system no longer fits the way the organisation operates.
+## Request a technology consultation.
 
-Perhaps management needs better visibility.
+**Auris Nexus Technologies (Pty) Ltd**
+**Transforming Businesses Through Technology.**
 
-Perhaps you have an idea for a new digital product.
-
-We can help define the problem, determine what should be built or automated and translate the requirement into a practical delivery plan.
-
-## Engagement routes
-
-**BUILD**  
-Create a new website, portal, business system, dashboard or application.
-
-**MODERNISE**  
-Improve an existing digital platform or replace processes that no longer serve the organisation.
-
-**AUTOMATE**  
-Remove repetitive administrative work and connect workflows.
-
-**PARTNER**  
-Work alongside an internal team, consultant, agency or implementation partner.
-
-**PILOT**  
-Start with a focused problem, prove the solution and expand from there.
-
-## The partnership path
-
-**MAINTAIN → IMPROVE → INTEGRATE → AUTOMATE → EXPAND**
-
-A focused project can become a long-term technology relationship when the foundation is sound and the next business problem is clearly understood.
-
----
-
-# 11 — Contact
-
-## Auris Nexus Technologies (Pty) Ltd
-
-**Transforming Businesses Through Technology**
-
-**Address**  
-140 Linden Road  
-Sandown, Sandton  
-Gauteng, South Africa
-
-**Email**  
-info@aurisnexus.co.za
-
-**Phone / WhatsApp**  
-063 122 6552
-
-**Website**  
-aurisnexus.co.za
-
-### Let's build what the business needs.
-
-**Understand. Design. Build. Deploy. Improve.**
-
----
-
-## Evidence & Publication Note
-
-This profile is intentionally persuasive without relying on unsupported claims.
-
-The following are only added to the final publication when verified:
-
-- Client testimonials
-- Client logos
-- Measured performance outcomes
-- Additional certifications
-- Memberships
-- Regulatory credentials
-- Project statistics
-- Commercial performance figures
-
-The distinction between **delivered work, current capability, available capability and planned capability** is deliberate. Auris Nexus believes credibility is strengthened when a technology partner is precise about what it can prove.
+| | |
+|---|---|
+| Email | info@aurisnexus.co.za |
+| Phone / WhatsApp | 063 122 6552 (+27 63 122 6552) |
+| Website | aurisnexus.co.za |
+| Head office | 140 Linden Road, Sandown, Sandton, Gauteng, South Africa |
