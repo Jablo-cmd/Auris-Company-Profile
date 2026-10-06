@@ -42,6 +42,8 @@ const COMPANY = {
   email: "info@aurisnexus.co.za",
   web: "aurisnexus.co.za",
   bbbee: "B-BBEE Level 1",
+  // Fact Register E10: National Treasury CSD notification, 2026-10-06. Formal version only.
+  csd: "R0341462686",
   positioning: "Technology Consulting & Digital Solutions",
   tagline: "Transforming Businesses Through Technology",
 };
@@ -232,6 +234,7 @@ function firstPageFooter(version) {
     hfPara([run(COMPANY.legal, { font: F.display, size: pt(7.5), color: C.navy })]),
     hfPara([hf(`Registration No. ${COMPANY.reg}`)]),
     hfPara([hf(COMPANY.bbbee)]),
+    ...(version === "formal" ? [hfPara([hf(`CSD Supplier No. ${COMPANY.csd}`)])] : []),
   ];
   const col2 = COMPANY.address.map((l) => hfPara([hf(l)]));
   const col3 = [
@@ -280,6 +283,14 @@ const styles = {
   default: {
     document: { run: { font: F.body, size: pt(10.5), color: C.graphite } },
     hyperlink: { run: { color: C.orbitBlue, underline: { type: "single", color: C.orbitBlue } } },
+    // Built-in headings are restyled here, not in paragraphStyles: docx-js always emits its own
+    // Heading 1/2, and a second definition with the same styleId is ignored by Word.
+    heading1: {
+      run: { font: F.display, size: pt(10.5), color: C.navy, characterSpacing: 4 },
+      paragraph: { spacing: { before: 260, after: 90, line: 270 }, keepNext: true, keepLines: true, outlineLevel: 0 } },
+    heading2: {
+      run: { font: F.body, size: pt(10.5), bold: true, color: C.navy },
+      paragraph: { spacing: { before: 180, after: 60 }, keepNext: true, keepLines: true, outlineLevel: 1 } },
   },
   paragraphStyles: [
     { id: "Normal", name: "Normal", quickFormat: true,
@@ -289,12 +300,6 @@ const styles = {
       run: { size: pt(7.5), color: C.slate }, paragraph: { spacing: { after: 0 } } },
     { id: "Footer", name: "footer", basedOn: "Normal",
       run: { size: pt(7.5), color: C.slate }, paragraph: { spacing: { after: 0 } } },
-    { id: "Heading1", name: "Heading 1", basedOn: "Normal", next: "Normal", quickFormat: true,
-      run: { font: F.display, size: pt(10.5), color: C.navy, characterSpacing: 4 },
-      paragraph: { spacing: { before: 260, after: 90, line: 270 }, keepNext: true, keepLines: true, outlineLevel: 0 } },
-    { id: "Heading2", name: "Heading 2", basedOn: "Normal", next: "Normal", quickFormat: true,
-      run: { font: F.body, size: pt(10.5), bold: true, color: C.navy },
-      paragraph: { spacing: { before: 180, after: 60 }, keepNext: true, keepLines: true, outlineLevel: 1 } },
     { id: "LetterDate", name: "Letter Date", basedOn: "Normal", next: "Normal", quickFormat: true,
       paragraph: { spacing: { after: 360 }, tabStops: [{ type: TabStopType.RIGHT, position: mm(TEXT_W) }] } },
     { id: "Recipient", name: "Recipient Address", basedOn: "Normal", next: "Recipient", quickFormat: true,
@@ -354,7 +359,7 @@ const numbering = {
 };
 
 // ---------------------------------------------------------------- content blocks
-const H1 = (t, numbered) => new Paragraph({ text: t, style: "Heading1",
+const H1 = (t, numbered) => new Paragraph({ text: t, style: "Heading1", keepNext: true, keepLines: true,
   ...(numbered ? { numbering: { reference: "an-headings", level: 0 } } : {}) });
 const body = (t, o = {}) => new Paragraph({ children: typeof t === "string" ? [run(t)] : t, ...o });
 const LAST = { spacing: { after: 150 } };
@@ -500,6 +505,7 @@ function formalSample() {
     ["Registered name", COMPANY.legal],
     ["CIPC registration number", COMPANY.reg],
     ["B-BBEE status", "Level 1"],
+    ["CSD supplier number", COMPANY.csd],
     ["Registered address", COMPANY.addressLine],
     ["Telephone", COMPANY.tel],
     ["Email", COMPANY.email],
@@ -520,7 +526,6 @@ function formalSample() {
     H1("Bidder details", true),
     body("The bidder details below correspond to the information that will be provided in the standard bidding documents and returnable schedules."),
     dataTable([62, 108], ["Item", "Detail"], facts),
-    spacer(120),
     H1("Clarifications requested", true),
     body("We request clarification on the following items. Where the response affects the pricing schedule or returnable documents, we would be grateful if it could be circulated to all prospective bidders by way of a formal addendum."),
     dataTable([12, 42, 116], ["No.", "Document reference", "Clarification requested"], [
@@ -530,7 +535,6 @@ function formalSample() {
       ["3.4", "Returnable documents", "Please confirm whether certified copies must be certified within a specific period prior to the closing date."],
       ["3.5", "Submission requirements", "Please confirm whether an electronic copy is required in addition to the original hard-copy submission, and the preferred file format."],
     ]),
-    spacer(120),
     H1("Undertakings", true),
     body("In submitting this request, Auris Nexus Technologies (Pty) Ltd confirms that:"),
     numbered("it has read and understood the bid documents as issued, including any addenda published to date;", 1),

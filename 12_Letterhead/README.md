@@ -33,7 +33,7 @@ The signatory in the templates and samples is **Loyiso Ngcala, Managing Director
 
 It has no colour fills or decoration and photocopies cleanly in greyscale. Company information in its header and footer is set near-black (Graphite) at 8 pt, rather than grey at 7.5 pt, so the registration number, address and contact details survive repeated photocopying.
 
-The Formal version deliberately carries no tagline, no cyan accent and no credentials beyond the CIPC registration number and B-BBEE Level 1. CSD registration is not shown; add it only once documentary evidence is held and the company information is intentionally updated.
+The Formal version deliberately carries no tagline, no cyan accent and no credentials beyond the CIPC registration number, B-BBEE Level 1 and the CSD supplier number. The CSD supplier number (R0341462686) appears on the first-page footer of the Formal version only, and in the Formal sample's bidder details table. Its source is recorded in `01_Project/05_Fact-Register.md` (item E10: National Treasury CSD notification, 6 October 2026).
 
 **C. Digital.** This is the PDF export of A or B. It is not a separate Word file. The PDFs are PDF/A-2b (archival) and tagged, with all fonts embedded and lossless images. The telephone number, email address and website in the footer are live links. In print, the links look the same as the surrounding text.
 
@@ -79,6 +79,7 @@ Only verified details appear:
 - Auris Nexus Technologies (Pty) Ltd
 - CIPC Registration No. 2026/606690/07
 - B-BBEE Level 1
+- CSD Supplier No. R0341462686 (Formal version only; Fact Register E10)
 - 140 Linden Road, Sandown, Sandton, Gauteng, South Africa
 - 063 122 6552
 - info@aurisnexus.co.za
@@ -113,7 +114,9 @@ AN_QA=1 ./12_Letterhead/05_Source/render.sh /tmp/qa   # also build 6-page stress
 | Page numbering and continuation | "Page x of y" is correct on every page, including a 6-page stress test (`AN_QA=1`). The continuation header and footer appear from page 2, and table header rows repeat |
 | Links | Telephone (`tel:+27631226552`), email and website links are live in every PDF |
 | Print | Simulated at 100% scale (600 dpi): greyscale laser, a first-generation photocopy and a copy of a copy. All legal and contact information stays legible |
-| Content | No `[Full Name]` placeholder remains. No CSD, VAT, tax, banking or certification claims |
+| Content | No `[Full Name]` placeholder remains. The only CSD detail is the evidenced supplier number (Formal version). No VAT, tax, banking or certification claims |
+| Word styles | Heading 1 and Heading 2 are each defined once. An earlier build defined them twice, which could have made Word show large blue default headings without keep-with-next |
+| Headings | Every heading stays on the same page as the text that follows it; in the Formal sample, section 3 moves to page 2 with its text |
 
 **Limitations:**
 - The renders were made with LibreOffice; Microsoft Word itself was not available in the build environment. Open both templates once in Word on a Windows or Mac machine before roll-out to confirm pagination. Word's line breaking can differ by a line or so from LibreOffice.
