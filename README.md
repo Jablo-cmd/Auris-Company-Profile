@@ -227,6 +227,7 @@ Cloud, security, data architecture and infrastructure remain engineering foundat
 | [10_Output](10_Output/) | Approved publication editions (designed HTML source and assets) |
 | [tools](tools/) | PDF build and layout QA script |
 | [11_Governance](11_Governance/) | Corporate policies and approval records |
+| [12_Letterhead](12_Letterhead/) | Corporate letterhead system — Word templates, PDFs, sample letters and letterhead brand assets |
 
 ---
 
