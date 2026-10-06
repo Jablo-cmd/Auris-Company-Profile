@@ -253,6 +253,6 @@ The current profile uses evidence classes: **Delivered**, **Current capability**
 - **B7 Head office:** the approved publication fact is **140 Linden Road, Sandown, Sandton, Gauteng** (README approved-facts table and master profile). The earlier "Johannesburg" entry is superseded.
 - **H1 Telephone:** **063 122 6552** (Phone / WhatsApp) is approved for publication per the README approved-facts table.
 - **E8 / B6 Ownership:** the profile publishes "100% South African-owned". Black-ownership percentages remain unpublished until confirmed from the B-BBEE certificate or affidavit.
-- **E10 CSD:** registration is published. Supplier number **R0341462686** was confirmed on 2026-10-06 and is published in the profile.
+- **E10 CSD:** registration is published. Supplier number **R0341462686** was confirmed on 2026-10-06 and is published in the profile. Source: a National Treasury CSD system notification to the Managing Director (2026-10-06), which references the supplier record by this number. Bank account details from that notification are not recorded here and are never published.
 - **G1–G9 Governance:** the policy pack is described as "prepared". The adoption record is unsigned.
 - See `01_Project/09_Profile-Readiness-Audit.md` for the full list of open items.
